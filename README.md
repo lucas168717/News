@@ -22,6 +22,12 @@ GitHub Actions（每周一至周五 22:15 UTC，即北京时间次日 06:15）
 
 每天打开同一个网址即可查看，不需要下载任何文件。页面不对搜索引擎开放收录（`noindex` + robots.txt），但知道网址的人都能打开。
 
+## 个股指引
+
+网页默认打开“📌 个股指引”栏目：针对六个板块约 60 只龙头/重要公司（清单和每只股票的关键变量见 `newsbot/config.py` 中的 `COVERAGE`），分析当日新事件对个股的影响，包括事实与来源、影响路径、量级与持续性、是否已定价、思考指引（条件化的判断框架，不是买卖指令）和后续验证点，并附机构观点、风险与机会、催化剂日历和自检清单。“📰 新闻速览”栏目是原来的新闻列表。
+
+分析由 Claude 会话按 `prompts/daily-analysis.md` 的指令完成：先运行 `python -m newsbot.analysis context <日期>` 取得覆盖清单、当日涨跌和新闻线索，联网检索核实后写入 `analysis/<日期>.json`，用 `python -m newsbot.analysis check` 检查格式，推送后网页自动更新。
+
 ## 部署步骤
 
 1. **（可选）添加 Claude API Key**：Settings → Secrets and variables → Actions → New repository secret，名称 `ANTHROPIC_API_KEY`。API 需要单独付费，用于生成 AI 中文摘要和要点；不配置也能正常使用，标题由免费机器翻译成中文。
