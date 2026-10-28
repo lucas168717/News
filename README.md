@@ -14,7 +14,9 @@ GitHub Actions（每周一至周五 22:15 UTC，即北京时间次日 06:15）
   ├─ 抓取 RSS：Google News 分板块检索、CNBC、MarketWatch、Yahoo Finance、Defense News、
   │           Breaking Defense、The Robot Report 等；按关键词归类、去重
   ├─ 抓取收盘行情（Yahoo Finance）
-  ├─ Claude（可选）：每个板块筛选 6–12 条重要新闻，生成中文标题、摘要、相关代码、利好/利空判断，以及板块要点和全市场要点
+  ├─ 按来源质量（Reuters、Bloomberg、CNBC、WSJ 等优先）和相关度排序，合并重复报道，每个板块取前 15 条
+  ├─ 默认：用免费的 Google 翻译把标题机器翻译成中文
+  ├─ 可选（付费 Claude API）：每个板块挑出 6–12 条重要新闻，生成中文摘要、相关股票代码、利好/利空判断，以及板块要点和全市场要点
   └─ 把结果保存到 site-data 分支（保留历史），并部署到 GitHub Pages
 ```
 
@@ -22,7 +24,7 @@ GitHub Actions（每周一至周五 22:15 UTC，即北京时间次日 06:15）
 
 ## 部署步骤
 
-1. **添加 Claude API Key（推荐）**：Settings → Secrets and variables → Actions → New repository secret，名称 `ANTHROPIC_API_KEY`。用于生成中文摘要和要点；不配置时只显示英文标题列表。
+1. **（可选）添加 Claude API Key**：Settings → Secrets and variables → Actions → New repository secret，名称 `ANTHROPIC_API_KEY`。API 需要单独付费，用于生成 AI 中文摘要和要点；不配置也能正常使用，标题由免费机器翻译成中文。
 2. **开启 GitHub Pages**：Settings → Pages → Source 选 **GitHub Actions**。
    - 免费账户的私有仓库不能使用 Pages，需要先把仓库设为 public（Settings → General → Danger Zone → Change visibility）。仓库里只有代码，API Key 保存在 Secrets 中，不会公开。
 3. **首次运行**：Actions → *Daily US market news* → Run workflow。完成后访问
@@ -45,7 +47,7 @@ GitHub Actions（每周一至周五 22:15 UTC，即北京时间次日 06:15）
 
 ```bash
 pip install -r requirements.txt
-ANTHROPIC_API_KEY=... python -m newsbot.build --site-dir site
+python -m newsbot.build --site-dir site   # 可选：先 export ANTHROPIC_API_KEY=...
 python -m http.server -d site 8000   # 打开 http://localhost:8000
 ```
 
