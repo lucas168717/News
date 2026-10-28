@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
+<title>美股每日简报</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1b1f24; --muted: #667085; --line: #e4e7ec;
+    --accent: #2f6fed; --accent-soft: #e8efff; --chip: #f0f2f5;
+    --up: #d92d20; --down: #079455; --flat: #667085;
+    --shadow: 0 1px 2px rgba(16, 24, 40, .06);
+  }
+  :root[data-colors="us"] { --up: #079455; --down: #d92d20; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1115; --card: #171a21; --text: #e6e8ec; --muted: #98a2b3; --line: #2a2f3a;
+      --accent: #6e9bff; --accent-soft: #1d2740; --chip: #232833;
+      --up: #f97066; --down: #32d583; --shadow: none;
+    }
+    :root:not([data-theme="light"])[data-colors="us"] { --up: #32d583; --down: #f97066; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+      "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  }
+  a { color: inherit; }
+  button, input, select { font: inherit; color: inherit; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+
+  .btn { border: 1px solid var(--line); background: var(--card); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+
+
+  /* Header */
+  header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .bar { display: flex; align-items: center; gap: 10px; padding: 10px 0; flex-wrap: wrap; }
+  .bar h1 { font-size: 17px; margin: 0; margin-right: auto; white-space: nowrap; }
+  .bar select { border: 1px solid var(--line); background: var(--card); border-radius: 8px; padding: 5px 8px; }
+  nav { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 10px; scrollbar-width: none; }
+  nav a {
+    flex: none; text-decoration: none; font-size: 13px; padding: 4px 10px; border-radius: 999px;
+    background: var(--chip); white-space: nowrap;
+  }
+  nav a .n { color: var(--muted); margin-left: 4px; }
+
+  main { padding: 18px 0 40px; }
+  section { margin-bottom: 26px; scroll-margin-top: 110px; }
+  h2 { font-size: 18px; margin: 0 0 10px; display: flex; align-items: baseline; gap: 8px; }
+  h2 small { font-size: 12px; font-weight: normal; color: var(--muted); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; box-shadow: var(--shadow); }
+
+  .digest .headline { font-size: 19px; font-weight: 600; margin: 0 0 8px; }
+  ul.points { margin: 0; padding-left: 20px; }
+  ul.points li { margin: 3px 0; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+  .tile { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; }
+  .tile .name { font-size: 12px; color: var(--muted); }
+  .tile .px { font-size: 17px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .tile .chg { font-size: 13px; font-variant-numeric: tabular-nums; }
+  .up { color: var(--up); } .down { color: var(--down); } .flat { color: var(--flat); }
+  .sub-label { font-size: 12px; color: var(--muted); margin: 10px 0 6px; }
+
+  .overview { margin-bottom: 10px; background: var(--accent-soft); border-color: transparent; }
+  .items { display: grid; gap: 8px; }
+  .item h3 { font-size: 15.5px; margin: 0 0 2px; line-height: 1.45; }
+  .item h3 a { text-decoration: none; }
+  .item h3 a:hover { text-decoration: underline; }
+  .item .orig { font-size: 12.5px; color: var(--muted); margin: 0 0 4px; }
+  .item .sum { margin: 4px 0 6px; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 12px; color: var(--muted); }
+  .tag { padding: 1px 7px; border-radius: 6px; background: var(--chip); font-size: 12px; color: var(--text); }
+  .tag.up, .tag.down { background: transparent; border: 1px solid currentColor; }
+  .tag.up { color: var(--up); } .tag.down { color: var(--down); }
+  .stars { color: #f79009; letter-spacing: -1px; }
+  .empty { color: var(--muted); font-size: 14px; }
+  .notice { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+  footer { color: var(--muted); font-size: 12px; padding: 0 0 30px; }
+  @media (max-width: 560px) {
+    .bar h1 { font-size: 16px; width: 100%; }
+    .tiles { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="bar">
+        <h1>📈 美股每日简报</h1>
+        <select id="day" aria-label="选择交易日"></select>
+        <button class="btn" id="colors" type="button" title="切换涨跌配色">红涨绿跌</button>
+      </div>
+      <nav id="nav"></nav>
+    </div>
+  </header>
+  <main class="wrap" id="content"></main>
+  <footer class="wrap" id="foot"></footer>
+
+<script>
+"use strict";
+const COLOR_KEY = "usnews.colors";
+const $ = (id) => document.getElementById(id);
+let manifest = [];
+
+const store = {
+  get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+  set(k, v) { try { localStorage.setItem(k, v); } catch {} },
+};
+
+async function getJSON(path) {
+  const res = await fetch(path, { cache: "no-store" });
+  if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
+  return res.json();
+}
+
+async function openApp() {
+  try {
+    manifest = await getJSON("data/manifest.json");
+  } catch {
+    manifest = [];
+  }
+  const sel = $("day");
+  sel.replaceChildren(...manifest.map((m) => new Option(`${m.date}（${weekday(m.date)}）`, m.date)));
+  const wanted = new URLSearchParams(location.hash.slice(1)).get("d");
+  await showDay(manifest.some((m) => m.date === wanted) ? wanted : manifest[0]?.date);
+}
+
+async function showDay(date) {
+  const content = $("content");
+  if (!date) { content.replaceChildren(el("p", "empty", "暂无数据，等待首次自动更新。")); return; }
+  $("day").value = date;
+  history.replaceState(null, "", "#d=" + date);
+  content.replaceChildren(el("p", "empty", "加载中…"));
+  const report = await getJSON(`data/${date}.json`);
+  render(report);
+  window.scrollTo(0, 0);
+}
+
+/* ---------- rendering (all text goes through textContent) ---------- */
+function el(tag, cls, text) {
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (text != null) n.textContent = text;
+  return n;
+}
+function link(url, text) {
+  const a = el("a", null, text);
+  if (/^https?:\/\//i.test(url)) { a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer"; }
+  return a;
+}
+function weekday(iso) {
+  return "周" + "日一二三四五六"[new Date(iso + "T12:00:00Z").getUTCDay()];
+}
+function dir(v) { return v > 0 ? "up" : v < 0 ? "down" : "flat"; }
+function fmtNum(v) {
+  return v.toLocaleString("en-US", { maximumFractionDigits: Math.abs(v) >= 1000 ? 2 : Math.abs(v) >= 10 ? 2 : 4 });
+}
+function fmtTime(iso) {
+  const d = new Date(iso);
+  const et = d.toLocaleString("zh-CN", { timeZone: "America/New_York", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false });
+  const bj = d.toLocaleString("zh-CN", { timeZone: "Asia/Shanghai", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false });
+  return { et: "美东 " + et, bj: "北京 " + bj };
+}
+
+function tiles(quotes) {
+  const grid = el("div", "tiles");
+  for (const q of quotes) {
+    const t = el("div", "tile");
+    t.append(el("div", "name", q.name), el("div", "px", fmtNum(q.close)));
+    if (q.change_pct != null) {
+      const sign = q.change > 0 ? "+" : "";
+      t.append(el("div", "chg " + dir(q.change), `${sign}${fmtNum(q.change)}  ${sign}${q.change_pct.toFixed(2)}%`));
+    }
+    grid.append(t);
+  }
+  return grid;
+}
+
+function itemCard(it) {
+  const card = el("article", "card item");
+  const h = el("h3");
+  h.append(link(it.url, it.title_zh || it.title));
+  card.append(h);
+  if (it.title_zh) card.append(el("p", "orig", it.title));
+  const summary = it.summary_zh || it.summary;
+  if (summary) card.append(el("p", "sum", summary));
+  const meta = el("div", "meta");
+  if (it.importance) meta.append(el("span", "stars", "★".repeat(it.importance) + "☆".repeat(5 - it.importance)));
+  if (it.impact) meta.append(el("span", "tag " + ({ "利好": "up", "利空": "down" }[it.impact] || ""), it.impact));
+  for (const t of it.tickers || []) meta.append(el("span", "tag", "$" + t));
+  const time = fmtTime(it.published);
+  const when = el("span", null, `${it.source} · ${time.et}`);
+  when.title = time.bj;
+  meta.append(when);
+  card.append(meta);
+  return card;
+}
+
+function render(r) {
+  const content = $("content");
+  const nav = $("nav");
+  const parts = [];
+  nav.replaceChildren();
+
+  const top = el("section");
+  top.id = "top";
+  const head = el("h2", null, `${r.date} ${weekday(r.date)} · 美股收盘简报`);
+  top.append(head);
+  if (r.headline || r.key_points.length) {
+    const d = el("div", "card digest");
+    if (r.headline) d.append(el("p", "headline", r.headline));
+    const ul = el("ul", "points");
+    for (const p of r.key_points) ul.append(el("li", null, p));
+    d.append(ul);
+    top.append(d);
+  } else if (!r.model) {
+    top.append(el("p", "notice", "未配置 Claude API，当前仅显示英文新闻标题。配置后将自动生成中文摘要与要点。"));
+  }
+  parts.push(top);
+  nav.append(navLink("top", "概览"));
+
+  if (r.market.length || r.sectors.length) {
+    const s = el("section");
+    s.id = "market";
+    s.append(el("h2", null, "📊 市场快照"));
+    if (r.market.length) s.append(tiles(r.market));
+    if (r.sectors.length) { s.append(el("div", "sub-label", "板块 ETF / 个股")); s.append(tiles(r.sectors)); }
+    parts.push(s);
+    nav.append(navLink("market", "行情"));
+  }
+
+  for (const sec of r.sections) {
+    const s = el("section");
+    s.id = sec.key;
+    const h = el("h2", null, `${sec.icon} ${sec.name}`);
+    h.append(el("small", null, `${sec.items.length} 条`));
+    s.append(h);
+    if (sec.overview.length) {
+      const ov = el("div", "card overview");
+      const ul = el("ul", "points");
+      for (const p of sec.overview) ul.append(el("li", null, p));
+      ov.append(ul);
+      s.append(ov);
+    }
+    const list = el("div", "items");
+    if (!sec.items.length) list.append(el("p", "empty", "本交易日暂无相关新闻。"));
+    for (const it of sec.items) list.append(itemCard(it));
+    s.append(list);
+    parts.push(s);
+    nav.append(navLink(sec.key, sec.name, sec.items.length));
+  }
+  content.replaceChildren(...parts);
+
+  const gen = fmtTime(r.generated_at);
+  $("foot").textContent =
+    `新闻窗口：${fmtTime(r.window.start).et} → ${fmtTime(r.window.end).et} · 生成于 ${gen.bj}` +
+    (r.model ? ` · 中文摘要由 Claude 生成，仅供参考，不构成投资建议` : "");
+}
+
+function navLink(id, text, n) {
+  const a = el("a", null, text);
+  a.href = "#" + id;
+  a.addEventListener("click", (e) => { e.preventDefault(); $(id).scrollIntoView({ behavior: "smooth" }); });
+  if (n != null) a.append(el("span", "n", n));
+  return a;
+}
+
+function applyColors(mode) {
+  document.documentElement.dataset.colors = mode;
+  $("colors").textContent = mode === "us" ? "绿涨红跌" : "红涨绿跌";
+}
+
+$("day").addEventListener("change", (e) => showDay(e.target.value).catch(showError));
+$("colors").addEventListener("click", () => {
+  const next = document.documentElement.dataset.colors === "us" ? "cn" : "us";
+  store.set(COLOR_KEY, next);
+  applyColors(next);
+});
+applyColors(store.get(COLOR_KEY) || "cn");
+
+function showError(err) {
+  $("content").replaceChildren(el("p", "empty", "加载失败：" + err.message));
+}
+openApp().catch(showError);
+</script>
+</body>
+</html>
