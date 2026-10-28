@@ -218,7 +218,9 @@ function render(r) {
     d.append(ul);
     top.append(d);
   } else if (!r.model) {
-    top.append(el("p", "notice", "未配置 Claude API，当前仅显示英文新闻标题。配置后将自动生成中文摘要与要点。"));
+    top.append(el("p", "notice", r.translated
+      ? "中文标题为机器翻译，灰色小字为英文原标题，点击标题可打开原文。"
+      : "当前显示英文新闻标题，点击可打开原文。"));
   }
   parts.push(top);
   nav.append(navLink("top", "概览"));
@@ -258,7 +260,7 @@ function render(r) {
   const gen = fmtTime(r.generated_at);
   $("foot").textContent =
     `新闻窗口：${fmtTime(r.window.start).et} → ${fmtTime(r.window.end).et} · 生成于 ${gen.bj}` +
-    (r.model ? ` · 中文摘要由 Claude 生成，仅供参考，不构成投资建议` : "");
+    (r.model ? " · 中文摘要由 Claude 生成" : r.translated ? " · 中文为机器翻译" : "") + " · 仅供参考，不构成投资建议";
 }
 
 function navLink(id, text, n) {
