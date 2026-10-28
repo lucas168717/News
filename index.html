@@ -365,33 +365,29 @@ function renderAnalysis(a, r) {
   nav.append(navLink("a-top", "总览"));
 
   for (const sec of a.sectors) {
+    if (!sec.events?.length && !sec.institutions?.length) continue;  // nothing worth showing today
     const s = el("section");
     s.id = "a-" + sec.key;
     const events = [...(sec.events || [])].sort((x, y) => y.importance - x.importance);
     const h = el("h2", null, `${ICONS[sec.key] || ""} ${NAMES[sec.key] || sec.key}`);
     h.append(el("small", null, `${events.length} 个事件`));
     s.append(h);
-    const tickers = [...new Set([...events.flatMap((e) => e.tickers), ...(sec.quiet || [])])];
+    const tickers = [...new Set(events.flatMap((e) => e.tickers))];
     const qs = el("div", "quotes");
     for (const t of tickers) qs.append(quoteTag(t, quotes));
-    s.append(qs, paragraphs(sec.overview, "card overview"));
+    s.append(qs);
+    if (sec.overview) s.append(paragraphs(sec.overview, "card overview"));
     const list = el("div", "items");
     for (const ev of events) list.append(eventCard(ev, quotes));
     s.append(list);
-    s.append(el("div", "sub-h", "机构观点"));
     if (sec.institutions?.length) {
+      s.append(el("div", "sub-h", "机构观点"));
       for (const i of sec.institutions) {
         const p = el("p", "inst");
         p.append(el("b", null, `${i.firm}${i.ticker ? " · " + i.ticker : ""}：${i.action}`), " " + i.detail + " ");
         p.append(link(i.url, "来源"));
         s.append(p);
       }
-    } else s.append(el("p", "inst", sec.institutions_note));
-    if (sec.quiet?.length) {
-      const q = el("div", "quotes");
-      q.append(el("span", "sub-h", "无重大新信息："));
-      for (const t of sec.quiet) q.append(quoteTag(t, quotes));
-      s.append(q);
     }
     parts.push(s);
     nav.append(navLink(s.id, NAMES[sec.key] || sec.key, events.length));
