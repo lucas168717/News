@@ -70,7 +70,6 @@
     }
    ],
    "institutions": [],
-   "institutions_note": "未发现窗口内可靠的公开机构观点更新（宏观层面仅有媒体对议息会议的前瞻）。",
    "quiet": [
     "GLD",
     "UUP"
@@ -160,7 +159,6 @@
      "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/10/62619153/this-broadcom-analyst-turns-bullish-here-are-top-4-upgrades-for-tuesday"
     }
    ],
-   "institutions_note": "",
    "quiet": [
     "MSFT",
     "AAPL",
@@ -270,7 +268,6 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-stock-edges-overnight-neutron-035945858.html"
     }
    ],
-   "institutions_note": "窗口内未发现对波音的评级变动；财报前大摩（$250→$225，平配）、RBC（$265→$235）、伯恩斯坦（$298→$278）、TD Cowen（$250→$240）已下调目标价（历史对比）。",
    "quiet": [
     "RTX",
     "NOC",
@@ -348,7 +345,6 @@
     }
    ],
    "institutions": [],
-   "institutions_note": "未发现窗口内可靠的公开评级更新（Piper Sandler 于 10-26 将可口可乐目标价从 $95 上调至 $102，属于历史对比）。",
    "quiet": [
     "COST",
     "PG",
@@ -429,7 +425,6 @@
     }
    ],
    "institutions": [],
-   "institutions_note": "未发现窗口内可靠的公开评级更新；买方机构（13F 等）在窗口内无可核实的新披露。",
    "quiet": [
     "BRK-B",
     "BLK",
@@ -496,7 +491,6 @@
     }
    ],
    "institutions": [],
-   "institutions_note": "未发现窗口内可靠的公开机构观点更新。",
    "quiet": [
     "NVDA",
     "MBLY",
@@ -584,7 +578,7 @@
   {
    "item": "是否逐一核查覆盖清单中每只股票？",
    "ok": true,
-   "note": "60 只覆盖股均已检索；未发现重大新信息的列入“无重大新信息”。"
+   "note": "60 只覆盖股均已检索；没有重要事件的股票只记录在 quiet 中，不在网页上显示。"
   },
   {
    "item": "是否覆盖当日市值较大或波动显著的公司？",

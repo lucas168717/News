@@ -1,5 +1,6 @@
 """Helpers for the daily stock-guidance analysis (written by a scheduled Claude session).
 
+    python -m newsbot.analysis date                 # report date (latest NYSE trading day)
     python -m newsbot.analysis context 2026-10-27   # coverage list, quotes and headline leads
     python -m newsbot.analysis check analysis/2026-10-27.json
 """
@@ -9,10 +10,11 @@ import json
 import re
 import subprocess
 import sys
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 from . import config
+from .trading_calendar import ET, latest_trading_day
 
 ROOT = Path(__file__).resolve().parent.parent
 VIEWS = {"利好", "利空", "中性", "分歧"}
@@ -87,7 +89,8 @@ def check(doc: dict) -> list[str]:
         if s is None:
             errors.append(f"缺少板块 {key}")
             continue
-        text(s, "overview", key)
+        if s.get("events"):
+            text(s, "overview", key)
         covered = set()
         for j, ev in enumerate(s.get("events", [])):
             where = f"{key}.events[{j}]"
@@ -104,8 +107,6 @@ def check(doc: dict) -> list[str]:
             for f in ("firm", "action", "detail"):
                 text(inst, f, f"{key}.institutions[{j}]")
             need(str(inst.get("url", "")).startswith("http"), f"{key}.institutions[{j}].url 必须是链接")
-        need(s.get("institutions") or (isinstance(s.get("institutions_note"), str) and s["institutions_note"]),
-             f"{key}: institutions 为空时须写 institutions_note（如“未发现可靠公开更新”）")
         covered.update(s.get("quiet", []))
         missing = [t for t, _, _ in config.COVERAGE[key] if t not in covered]
         need(not missing, f"{key}: 覆盖个股未出现在任何事件或 quiet 中：{', '.join(missing)}")
@@ -115,10 +116,14 @@ def check(doc: dict) -> list[str]:
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="cmd", required=True)
+    sub.add_parser("date")
     sub.add_parser("context").add_argument("date", type=date.fromisoformat)
     sub.add_parser("check").add_argument("file", type=Path)
     args = parser.parse_args(argv)
 
+    if args.cmd == "date":
+        print(latest_trading_day(datetime.now(ET)).isoformat())
+        return 0
     if args.cmd == "context":
         print(context(args.date.isoformat()))
         return 0
