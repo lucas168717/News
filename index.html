@@ -79,8 +79,27 @@
   .stars { color: #f79009; letter-spacing: -1px; }
   .empty { color: var(--muted); font-size: 14px; }
   .notice { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+  .tabs { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .tabs button { border: 0; background: var(--card); padding: 5px 12px; cursor: pointer; }
+  .tabs button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+  .summary p { margin: 6px 0 0; }
+  .event h3 { font-size: 16px; margin: 0 0 6px; line-height: 1.45; }
+  .event .facts { margin: 8px 0; }
+  .event dl { display: grid; grid-template-columns: 7.5em 1fr; gap: 4px 10px; margin: 8px 0; font-size: 14px; }
+  .event dt { color: var(--muted); }
+  .event dd { margin: 0; }
+  .guide { background: var(--accent-soft); border-radius: 8px; padding: 8px 12px; margin: 8px 0; }
+  .guide b { display: block; font-size: 13px; color: var(--accent); }
+  .sources { font-size: 12.5px; color: var(--muted); }
+  .sources a { margin-right: 10px; }
+  .quotes { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .inst { font-size: 14px; margin: 4px 0; }
+  .sub-h { font-size: 14px; margin: 14px 0 6px; color: var(--muted); }
+  details summary { cursor: pointer; color: var(--muted); font-size: 14px; }
   footer { color: var(--muted); font-size: 12px; padding: 0 0 30px; }
   @media (max-width: 560px) {
+    .event dl { grid-template-columns: 1fr; gap: 0; }
+    .event dt { margin-top: 6px; }
     .bar h1 { font-size: 16px; width: 100%; }
     .tiles { grid-template-columns: repeat(2, 1fr); }
   }
@@ -91,6 +110,10 @@
     <div class="wrap">
       <div class="bar">
         <h1>📈 美股每日简报</h1>
+        <div class="tabs" id="tabs">
+          <button type="button" data-view="analysis">📌 个股指引</button>
+          <button type="button" data-view="news">📰 新闻速览</button>
+        </div>
         <select id="day" aria-label="选择交易日"></select>
         <button class="btn" id="colors" type="button" title="切换涨跌配色">红涨绿跌</button>
       </div>
@@ -105,6 +128,8 @@
 const COLOR_KEY = "usnews.colors";
 const $ = (id) => document.getElementById(id);
 let manifest = [];
+let view = new URLSearchParams(location.hash.slice(1)).get("v") === "news" ? "news" : "analysis";
+let current = null;  // { report, analysis }
 
 const store = {
   get(k) { try { return localStorage.getItem(k); } catch { return null; } },
@@ -133,10 +158,28 @@ async function showDay(date) {
   const content = $("content");
   if (!date) { content.replaceChildren(el("p", "empty", "暂无数据，等待首次自动更新。")); return; }
   $("day").value = date;
-  history.replaceState(null, "", "#d=" + date);
   content.replaceChildren(el("p", "empty", "加载中…"));
-  const report = await getJSON(`data/${date}.json`);
-  render(report);
+  const [report, analysis] = await Promise.all([
+    getJSON(`data/${date}.json`),
+    getJSON(`analysis/${date}.json`).catch(() => null),
+  ]);
+  current = { report, analysis };
+  renderView();
+}
+
+function renderView() {
+  for (const b of $("tabs").children) b.setAttribute("aria-pressed", String(b.dataset.view === view));
+  if (!current) return;
+  history.replaceState(null, "", `#d=${current.report.date}` + (view === "news" ? "&v=news" : ""));
+  if (view === "analysis" && current.analysis) renderAnalysis(current.analysis, current.report);
+  else if (view === "analysis") {
+    $("nav").replaceChildren();
+    const p = el("p", "empty", "该交易日暂无个股指引（通常在北京时间早上 7 点前后生成）。");
+    const b = el("button", "btn", "查看新闻速览");
+    b.addEventListener("click", () => { view = "news"; renderView(); });
+    $("content").replaceChildren(p, b);
+    $("foot").textContent = "";
+  } else render(current.report);
   window.scrollTo(0, 0);
 }
 
@@ -263,6 +306,125 @@ function render(r) {
     (r.model ? " · 中文摘要由 Claude 生成" : r.translated ? " · 中文为机器翻译" : "") + " · 仅供参考，不构成投资建议";
 }
 
+const ICONS = { macro: "🌐", tech: "💻", defense: "🛡️", consumer: "🛒", financials: "🏦", autonomy: "🤖" };
+const NAMES = { macro: "宏观", tech: "科技", defense: "国防军工", consumer: "消费", financials: "金融", autonomy: "自动驾驶与人形机器人" };
+const VIEW_CLS = { "利好": "up", "利空": "down" };
+
+function quoteTag(ticker, quotes) {
+  const t = el("span", "tag", ticker);
+  const q = quotes[ticker];
+  if (q && q.change_pct != null) {
+    t.append(" ", el("span", dir(q.change_pct), `${q.change_pct > 0 ? "+" : ""}${q.change_pct.toFixed(2)}%`));
+  }
+  return t;
+}
+
+function paragraphs(text, cls) {
+  const box = el("div", cls);
+  for (const line of text.split(/\n+/).filter(Boolean)) box.append(el("p", null, line));
+  return box;
+}
+
+function eventCard(ev, quotes) {
+  const card = el("article", "card event");
+  card.append(el("h3", null, ev.title));
+  const meta = el("div", "meta");
+  meta.append(el("span", "stars", "★".repeat(ev.importance) + "☆".repeat(5 - ev.importance)));
+  meta.append(el("span", "tag " + (VIEW_CLS[ev.view] || ""), ev.view));
+  for (const t of ev.tickers) meta.append(quoteTag(t, quotes));
+  card.append(meta, el("p", "facts", ev.facts));
+  const dl = el("dl");
+  for (const [label, key] of [["影响路径", "impact_path"], ["量级与持续性", "magnitude"], ["是否已定价", "priced_in"], ["后续验证点", "watch"]]) {
+    dl.append(el("dt", null, label), el("dd", null, ev[key]));
+  }
+  card.append(dl);
+  const guide = el("div", "guide");
+  guide.append(el("b", null, "🧭 思考指引"), el("span", null, ev.guidance));
+  card.append(guide);
+  const src = el("div", "sources", "来源：");
+  for (const s of ev.sources) src.append(link(s.url, s.title));
+  card.append(src);
+  return card;
+}
+
+function renderAnalysis(a, r) {
+  const quotes = r.coverage_quotes || {};
+  const nav = $("nav");
+  const parts = [];
+  nav.replaceChildren();
+
+  const top = el("section");
+  top.id = "a-top";
+  top.append(el("h2", null, `${a.date} ${weekday(a.date)} · 个股指引`));
+  const d = el("div", "card digest summary");
+  d.append(el("p", "headline", a.headline), paragraphs(a.summary));
+  top.append(d);
+  parts.push(top);
+  nav.append(navLink("a-top", "总览"));
+
+  for (const sec of a.sectors) {
+    const s = el("section");
+    s.id = "a-" + sec.key;
+    const events = [...(sec.events || [])].sort((x, y) => y.importance - x.importance);
+    const h = el("h2", null, `${ICONS[sec.key] || ""} ${NAMES[sec.key] || sec.key}`);
+    h.append(el("small", null, `${events.length} 个事件`));
+    s.append(h);
+    const tickers = [...new Set([...events.flatMap((e) => e.tickers), ...(sec.quiet || [])])];
+    const qs = el("div", "quotes");
+    for (const t of tickers) qs.append(quoteTag(t, quotes));
+    s.append(qs, paragraphs(sec.overview, "card overview"));
+    const list = el("div", "items");
+    for (const ev of events) list.append(eventCard(ev, quotes));
+    s.append(list);
+    s.append(el("div", "sub-h", "机构观点"));
+    if (sec.institutions?.length) {
+      for (const i of sec.institutions) {
+        const p = el("p", "inst");
+        p.append(el("b", null, `${i.firm}${i.ticker ? " · " + i.ticker : ""}：${i.action}`), " " + i.detail + " ");
+        p.append(link(i.url, "来源"));
+        s.append(p);
+      }
+    } else s.append(el("p", "inst", sec.institutions_note));
+    if (sec.quiet?.length) {
+      const q = el("div", "quotes");
+      q.append(el("span", "sub-h", "无重大新信息："));
+      for (const t of sec.quiet) q.append(quoteTag(t, quotes));
+      s.append(q);
+    }
+    parts.push(s);
+    nav.append(navLink(s.id, NAMES[sec.key] || sec.key, events.length));
+  }
+
+  const risk = el("section");
+  risk.id = "a-risk";
+  risk.append(el("h2", null, "⚖️ 风险、机会与日程"));
+  const box = el("div", "card");
+  for (const [label, items] of [["风险", a.risks], ["机会", a.opportunities]]) {
+    box.append(el("div", "sub-h", label));
+    const ul = el("ul", "points");
+    for (const x of items) ul.append(el("li", null, x));
+    box.append(ul);
+  }
+  if (a.calendar?.length) {
+    box.append(el("div", "sub-h", "催化剂日历"));
+    const ul = el("ul", "points");
+    for (const c of a.calendar) ul.append(el("li", null, `${c.date}：${c.event}` + (c.tickers?.length ? `（${c.tickers.join("、")}）` : "")));
+    box.append(ul);
+  }
+  const det = el("details");
+  det.append(el("summary", null, "自检清单"));
+  const ul = el("ul", "points");
+  for (const c of a.self_check) ul.append(el("li", null, `${c.ok ? "✅" : "⚠️"} ${c.item}` + (c.note ? ` — ${c.note}` : "")));
+  det.append(ul);
+  box.append(det);
+  risk.append(box);
+  parts.push(risk);
+  nav.append(navLink("a-risk", "风险与日程"));
+
+  $("content").replaceChildren(...parts);
+  $("foot").textContent = `报告范围：${a.window} · 分析由 Claude 检索公开信息生成，事实以来源为准；思考指引为条件化分析框架，不构成投资建议`;
+}
+
 function navLink(id, text, n) {
   const a = el("a", null, text);
   a.href = "#" + id;
@@ -276,6 +438,10 @@ function applyColors(mode) {
   $("colors").textContent = mode === "us" ? "绿涨红跌" : "红涨绿跌";
 }
 
+$("tabs").addEventListener("click", (e) => {
+  const v = e.target.closest("button")?.dataset.view;
+  if (v && v !== view) { view = v; renderView(); }
+});
 $("day").addEventListener("change", (e) => showDay(e.target.value).catch(showError));
 $("colors").addEventListener("click", () => {
   const next = document.documentElement.dataset.colors === "us" ? "cn" : "us";
