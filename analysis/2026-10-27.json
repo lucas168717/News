@@ -1,0 +1,610 @@
+{
+ "date": "2026-10-27",
+ "window": "2026-10-26 16:00 ET（前一交易日收盘）→ 2026-10-27 收盘及盘后；10-26 盘中事件标注为“历史对比”",
+ "headline": "AI 融资链条加速（Meta 增发、博通 630 亿融资），波音再推迟 737 爬坡",
+ "summary": "当日主线是 AI 资本开支的“融资化”：Meta 启动近千亿美元股权融资并引入英伟达、AMD 作为认购方，博通牵头为 Anthropic 安排约 630 亿美元芯片融资，半导体（SMH +3.0%）和 AMD、博通领涨，纳指 +1.18%。\n同时防御板块走弱：必选消费 XLP −0.92%、军工 ITA −0.45%，波音因 737 交付目标落空单日跌 10.7%，是当日覆盖池中跌幅最大的个股。\n市场在 10-28 美联储决议前保持平静（VIX −4.7% 至 17.5，10 年期美债收益率 4.99%）。需要重新思考的是：AI 链条的需求越来越依赖供应商融资和股权增发，这提高了相关股票对融资环境（利率、IPO 窗口）的敏感度。",
+ "sectors": [
+  {
+   "key": "macro",
+   "overview": "标普 500 +0.60% 至 7722.6，纳指 +1.18%，罗素 2000 +1.16%，道指持平（+0.03%）。10 年期美债收益率 4.99%，美元指数 +0.35%，黄金 +0.90%，WTI 原油 −1.83% 至 99.9 美元。风险偏好回升，但资金集中于 AI 半导体链，必选消费与军工被减持。美联储 10-27 至 10-28 召开议息会议，市场普遍预期按兵不动，焦点是对 12 月是否加息的表态。",
+   "events": [
+    {
+     "title": "美联储议息会议开幕：市场押注 10 月按兵不动，12 月加息概率约 75%",
+     "tickers": [
+      "TLT",
+      "QQQ",
+      "IWM",
+      "SPY"
+     ],
+     "importance": 4,
+     "view": "分歧",
+     "facts": "联邦基金利率目标区间为 3.75%–4.00%（9 月加息 25 个基点，为 2023 年以来首次加息）。CNBC 报道期货市场对本周再加息的定价不足 10%，对年底前至少加息一次的定价接近 75%。本次会议不发布经济预测（点阵图），下一次在 12 月 8–9 日。主席 Warsh 已减少前瞻指引。",
+     "impact_path": "加息路径 → 长端利率与实际利率 → 高估值成长股（QQQ）的折现率和小盘股（IWM）的融资成本；对银行则通过净利息收入（NII）形成正面支撑。",
+     "magnitude": "10 月本身影响有限，属于预期内事件；真正的变量是 12 月加息概率能否从约 75% 进一步上升到“确定”。若 10 年期收益率有效突破 5%，对长久期资产是结构性压力，而非一次性冲击。",
+     "priced_in": "已基本定价：TLT 当日 −0.06%，VIX 回落 4.7%，说明市场对“按兵不动”没有分歧。尚未定价的是 Warsh 在发布会上对 12 月的措辞。",
+     "guidance": "若声明或发布会把 12 月加息作为基准情形（并伴随 10 年期收益率站上 5%），应重新审视高估值科技和小盘股的仓位弹性，银行股相对受益；若 Warsh 强调数据依赖、淡化 12 月加息，长久期资产（QQQ、TLT）有修复空间。不建议在决议前根据猜测调整仓位。",
+     "watch": "10-28 14:00 ET 政策声明与 14:30 Warsh 发布会；12 月 8–9 日议息会议（含点阵图）。",
+     "sources": [
+      {
+       "title": "CNBC：10 月议息会议前瞻",
+       "url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+      },
+      {
+       "title": "CNBC：美联储加息时点调查",
+       "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html"
+      },
+      {
+       "title": "Forbes：10 月会议看点",
+       "url": "https://www.forbes.com/sites/simonmoore/2026/10/19/what-to-look-for-from-the-feds-october-meeting/"
+      }
+     ]
+    },
+    {
+     "title": "股权供给冲击：Meta 约 950–980 亿美元增发计划 + Anthropic 已公开递交 S-1",
+     "tickers": [
+      "QQQ",
+      "SPY"
+     ],
+     "importance": 3,
+     "view": "分歧",
+     "facts": "Meta 宣布 350 亿美元包销股权融资（其中 250 亿美元普通股、125 亿美元强制可转换优先股），另有 600 亿美元按市价发行（ATM）计划，合计约 950–980 亿美元，普通股定价 625 美元，获约 5 倍认购。Anthropic 于 10-26 公开递交 S-1（历史对比：属于前一交易日事件），计划在纳斯达克以 ANT 代码上市，发行规模和价格区间尚未披露。",
+     "impact_path": "大规模新股供给 → 吸收增量资金 → 对大型科技股估值形成供需压力；同时 AI 资本开支能够持续融资，又支撑了半导体链的盈利预期。两股力量方向相反。",
+     "magnitude": "单家公司千亿美元级的股权融资在美股历史上罕见，ATM 部分将在 2027 年初持续释放，属于持续数月的结构性供给，而非一次性事件（推断）。",
+     "priced_in": "部分定价：纳指仍上涨 1.18%，但资金明显从 Meta（−1.64%，收于 620.19 美元，低于 625 美元的发行价）流向其供应商（AMD、博通）。",
+     "guidance": "把“AI 资本开支靠什么融资”作为跟踪指标：自由现金流 → 债务 → 股权 → 供应商融资，越往后越接近周期后段。若未来几个月更多大型科技公司转向股权或供应商融资，应降低对 AI 链估值扩张的假设。",
+     "watch": "Meta ATM 发行进度（2027 年初）；Anthropic 路演（据报道最早 11 月 9 日当周）及定价。",
+     "sources": [
+      {
+       "title": "Motley Fool：Meta 史上最大股权融资",
+       "url": "https://www.fool.com/coverage/stock-market-today/2026/10/27/stock-market-today-oct-27-meta-raises-largest-ever-equity-offering-to-nearly-usd98-billion-to-fund-ai-infrastructure-bet/"
+      },
+      {
+       "title": "TipRanks：Meta 增发获 5 倍认购",
+       "url": "https://www.tipranks.com/news/meta-draws-5-times-demand-for-25-billion-stock-sale-as-nvidia-and-amd-invest-4-billion"
+      },
+      {
+       "title": "Techloy：Anthropic S-1 要点",
+       "url": "https://www.techloy.com/anthropic-ipo-date-price-ticker/"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "institutions_note": "未发现窗口内可靠的公开机构观点更新（宏观层面仅有媒体对议息会议的前瞻）。",
+   "quiet": [
+    "GLD",
+    "UUP"
+   ]
+  },
+  {
+   "key": "tech",
+   "overview": "科技 XLK +1.70%，半导体 SMH +3.02%。AMD +5.45%、博通 +4.00%、甲骨文 +3.55%、台积电 +2.95% 领涨，Meta −1.64% 因增发承压。当日延续前一交易日由 Anthropic S-1 引发的反弹（WSJ）。本周关键是微软、Alphabet（10-28 盘后）和亚马逊（10-29 盘后）财报对 AI 资本开支和云增速的验证。",
+   "events": [
+    {
+     "title": "博通牵头为 Anthropic 安排约 630 亿美元芯片融资；S-1 披露数千亿美元算力承诺",
+     "tickers": [
+      "AVGO",
+      "AMD",
+      "TSM",
+      "NVDA",
+      "ORCL"
+     ],
+     "importance": 5,
+     "view": "利好",
+     "facts": "Bloomberg 报道博通安排约 630 亿美元交易，为 Anthropic 采购芯片融资（10-26 盘后）；另据 Bloomberg，多家银行计划为该融资发行约 210 亿美元债券。据二级来源，该融资通过 SPV 结构完成，参与方包括美银、花旗、大摩和 Blackstone，设备交付自 2027 年开始（单一来源，未获独立确认）。历史对比（10-26 披露的 S-1）：2026 年上半年收入约 163 亿美元，净亏损约 807 亿美元（其中约 724 亿美元为可转换工具的非现金费用），经营亏损约 6.93 亿美元，二季度首次实现经营利润；媒体统计的算力承诺总额约 6000 亿美元以上，其中 AMD 至少 200 亿美元（各方口径不一）。",
+     "impact_path": "博通/AMD：多年期订单可见度提高 → 2027 年起的收入与 EPS 预期上修；台积电：先进制程与封装产能利用率；甲骨文：缓解市场对 AI 债务融资的担忧。负面在于：博通通过融资结构承担了对一家仍在亏损的客户的信用敞口，形成客户集中度风险。",
+     "magnitude": "对博通和 AMD 属于结构性的多年订单，而非一次性收入，但收入确认节奏取决于 2027 年后的交付。具体对各公司 EPS 的贡献需等待公司在财报中披露订单和融资条款（目前无法可靠量化）。",
+     "priced_in": "两天累计涨幅已经较大（前一交易日已大涨，当日 AMD +5.45%、AVGO +4.00%），市场已经定价了“需求确认”。尚未定价的是融资结构带来的信用风险。",
+     "guidance": "区分“客户自有资金支撑的需求”和“供应商融资支撑的需求”：后者占比越高，周期越脆弱。若 Anthropic IPO 在 11 月顺利定价并募足资金，融资闭环成立，可视为 AI 半导体链需求的强验证；若 IPO 推迟或大幅折价，应警惕相关承诺的兑现风险，尤其是博通的融资敞口。对持有 AMD/AVGO 者，当前更适合把这两天的上涨视为验证事件，而不是追高的理由。",
+     "watch": "Anthropic 路演（据报道最早 11 月 9 日当周）及 S-1/A 中的价格区间；博通 12 月财报对 AI 订单和融资敞口的披露；微软、Alphabet（10-28）和亚马逊（10-29）的资本开支指引。",
+     "sources": [
+      {
+       "title": "Bloomberg：博通安排 630 亿美元融资",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVXpndWd4bS1VV1JIRTlnRll6aGd3WDFVSkZBWU0wT1VZQzd0ZTNCc2RZeXZaUV9TdWZxak1BRlB1NURvcU5wb0RTUE5Ec1d4NkVSRXJWc0o3RTcwUEplV1FHRHBRcG5aOEFoWHNGdEJ3V2RtcFVZUllZaE42TU9paGtIOEIyajVNb19mT1lSTGcxSEdhTVdDemVlTGptT3ZfZ3VpTmo0WTlJYzV0Tms1RUlFcw?oc=5"
+      },
+      {
+       "title": "Bloomberg：银行拟发 210 亿美元债券",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObENDd2ZaNmE1VUlBR0d6Q1YydGNyX1dNZUV1YVVoTlpfb1hJckdOV1VKTDJqLXZhbzNWdnpUOWNwc2huLVBXWUF5ZFZzUU1meXhPTzlGMmc4cUt5VzBCeEJwb0NLQ3p3d2xhc0NVb0tuOFRHS3JmbjRHMXp4UDd5WEZiUUJKbHBrTFNJLVVMSnFLZmU1ZHRhMzVVZnBFS2xjY05LQzdDSTFPSGMxVzVQNkFocw?oc=5"
+      },
+      {
+       "title": "CNBC：Anthropic S-1 实时报道",
+       "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+      },
+      {
+       "title": "Fortune：S-1 要点与疑问",
+       "url": "https://fortune.com/2026/10/27/the-big-takeaways-and-big-questions-from-anthropics-s-1/"
+      },
+      {
+       "title": "Technology.org：S-1 财务数据",
+       "url": "https://www.technology.org/2026/10/27/anthropic-s-1-ipo-nasdaq-ant-16-3-billion-revenue/"
+      }
+     ]
+    },
+    {
+     "title": "英伟达 30 亿、AMD 10 亿美元认购 Meta 增发；Meta 股价跌破 625 美元发行价",
+     "tickers": [
+      "META",
+      "NVDA",
+      "AMD"
+     ],
+     "importance": 4,
+     "view": "分歧",
+     "facts": "英伟达宣布向 Meta 股权融资投资 30 亿美元，AMD 投资 10 亿美元。英伟达表示 Meta 将扩大使用 Vera Rubin 与 Vera CPU，AMD 称其 Helios 机架已在 Meta 运行。Meta 预计 2026 年 AI 基础设施支出 1350–1450 亿美元（2025 年为 722 亿美元）。Meta 收于 620.19 美元（−1.64%），低于 625 美元的发行价。",
+     "impact_path": "Meta：资本开支从自由现金流支撑转为股权融资支撑 → 每股收益被摊薄，回购逻辑弱化 → 估值倍数承压。英伟达/AMD：锁定大客户需求，但资金在供应商与客户之间双向流动，市场可能质疑需求的“自我循环”。",
+     "magnitude": "按约 950 亿美元、约 620 美元测算，新增股份约 1.5 亿股，稀释幅度为中个位数百分比（推断，需以发行文件中的总股本为准）。对英伟达和 AMD 而言，40 亿美元投资相对其与 Meta 的采购协议（据报道 2 月分别签订约 500 亿和 600 亿美元）规模较小。",
+     "priced_in": "Meta 跌破发行价，说明市场对稀释和资本开支回报存疑，但跌幅（−1.64%）温和，尚未形成恐慌。AMD 当日涨幅主要来自 Anthropic 消息，本事件是叠加因素。",
+     "guidance": "对 Meta 持有者，持有逻辑从“广告现金牛 + 回购”转向“AI 资本开支的远期回报”，风险收益特征改变，应据此重新评估仓位上限。若下一份财报显示广告收入加速、足以覆盖资本开支增速，稀释可以接受；若广告增速放缓而资本开支继续上调，估值倍数可能进一步压缩。",
+     "watch": "Meta 下一份季报中的广告单价、展示量和 2027 年资本开支指引；ATM 发行节奏（2027 年初）。",
+     "sources": [
+      {
+       "title": "CNBC：英伟达、AMD 投资 Meta",
+       "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
+      },
+      {
+       "title": "SiliconANGLE：合作细节",
+       "url": "https://siliconangle.com/2026/10/27/nvidia-amd-to-buy-4b-in-meta-shares-as-part-of-expanded-chip-partnerships/"
+      },
+      {
+       "title": "TipRanks：增发需求与定价",
+       "url": "https://www.tipranks.com/news/meta-draws-5-times-demand-for-25-billion-stock-sale-as-nvidia-and-amd-invest-4-billion"
+      }
+     ]
+    }
+   ],
+   "institutions": [
+    {
+     "firm": "DA Davidson",
+     "ticker": "AVGO",
+     "action": "上调至买入，目标价 $350 → $400",
+     "detail": "Benzinga 当日评级汇总；同期汇总还列出花旗、瑞银、William Blair 对博通的下调，但未给出细节，观点存在分歧。",
+     "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/10/62619153/this-broadcom-analyst-turns-bullish-here-are-top-4-upgrades-for-tuesday"
+    }
+   ],
+   "institutions_note": "",
+   "quiet": [
+    "MSFT",
+    "AAPL",
+    "GOOGL",
+    "AMZN"
+   ]
+  },
+  {
+   "key": "defense",
+   "overview": "军工 ITA −0.45%，主承包商普遍回调：诺斯罗普 −2.51%、洛克希德 −1.92%、RTX −1.46%。当日没有找到单一的利空催化，更像是前期上涨后的获利了结（洛克希德前一交易日涨约 5%，历史对比）。波音因 737 交付目标落空大跌 10.69%，是板块最大拖累；Rocket Lab 因 Neutron 进展上涨 8.34%。预算与地缘方面，窗口内未检索到重大变化。",
+   "events": [
+    {
+     "title": "波音三季报：737 爬坡再推迟，2026 年约 500 架交付目标落空，股价跌 10.7%",
+     "tickers": [
+      "BA"
+     ],
+     "importance": 5,
+     "view": "利空",
+     "facts": "三季度收入 242 亿美元（同比 +4%），核心每股亏损 0.34 美元（预期亏损 0.24 美元）。交付 161 架商用飞机，为 2018 年以来单季最高。公司表示无法完成 2026 年约 500 架 737 的交付目标；月产 47 架推迟至 2027 年初（原计划 2026 年夏季），月产 52 架目标为 2027 年下半年。2026 年自由现金流收窄至约 20 亿美元，并提出 2029 年 100 亿美元的自由现金流目标。管理层表述：在 47 架月产率上证明稳定表现“比预期花了更长时间”。",
+     "impact_path": "737 产率 → 交付量与单位成本 → 自由现金流 → 估值。市场对波音的估值主要锚定远期自由现金流（2028–2029 年）。",
+     "magnitude": "结构性延迟约半年至一年。推断：若以 2029 年 100 亿美元自由现金流为估值锚，现金流整体后移一年、按约 10% 折现率计算，价值下降约 9–10%，与当日 10.7% 的跌幅大体相当。",
+     "priced_in": "基本充分定价：跌幅与“现金流后移一年”的理论影响接近。财报前大摩、RBC、伯恩斯坦、TD Cowen 已下调目标价（历史对比），预期已部分下修。",
+     "guidance": "持有逻辑现在取决于两点：2027 年初能否兑现月产 47 架，以及 2029 年 100 亿美元自由现金流目标的可信度。若接下来几个月的月度交付数据显示 737 交付稳定在 40 架以上，可视为执行力修复的信号；若再次推迟，100 亿美元目标本身将受到质疑，估值可能进一步下移。在没有新的执行证据前，不宜把单日大跌本身当作买入理由。",
+     "watch": "每月中旬发布的订单与交付数据；FAA 对产率提升的审批；四季度财报对 2027 年自由现金流的指引。",
+     "sources": [
+      {
+       "title": "CNBC：波音称 737 Max 产量到 2027 年底前不会大幅提升",
+       "url": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html"
+      },
+      {
+       "title": "Bloomberg：波音下调交付目标，股价创 18 个月新低",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNXVoUmN2UHBLWUxhNHVIWDI0UkFpbmxVcS1qcTV1T2RpaVlINDZ1LUk3R1dRb015bHAxbzhjZnRpaVhmQ0dxSzVrejc2dkNNZ3N4akJiWkdFRFB5UnAwWU5DVFpNaGZKd2Eyal83WlQ4N0hSdkRtRHpSaGQtTGo2RlBBaHdhTkpwZGNtZ0NnaUN5VHhHOHEwY0FjdTMtTGZEcE0tTW9hSXVfWTlvR1dmWE1rVjlsQQ?oc=5"
+      },
+      {
+       "title": "Investing.com：波音 Q3 电话会纪要",
+       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-boeing-q3-2026-misses-profit-view-as-shares-slide-93CH-4976410"
+      },
+      {
+       "title": "BigGo Finance：2029 年现金目标与产率推迟",
+       "url": "https://finance.biggo.com/news/US_BA_2026-10-27"
+      }
+     ]
+    },
+    {
+     "title": "洛克希德获 6.94 亿美元 ARRW 高超音速导弹生产合同，并将在波兰设立 PAC-3 维护中心",
+     "tickers": [
+      "LMT"
+     ],
+     "importance": 3,
+     "view": "利好",
+     "facts": "洛克希德 10-27 宣布获得美国空军 6.94 亿美元合同，空射快速反应武器（ARRW，速度超过 5 马赫，首先装备 B-52）从原型和试飞转入生产；Military Times 报道该合同实际于 9 月下旬授予。空军未披露采购数量与交付时间。另宣布在波兰设立面向欧洲的 PAC-3 导弹维护设施，并投资 6700 万美元扩建亚拉巴马州 Troy 工厂。",
+     "impact_path": "高超音速武器从研发转入量产 → 远期导弹收入；欧洲 PAC-3 维护设施 → 长期售后与服务收入，并加深欧洲防空需求的绑定。",
+     "magnitude": "量级小：以 2026 年一季度销售额 180 亿美元年化（约 720 亿美元）测算，6.94 亿美元约占年收入的 1%。意义更多在于 ARRW 项目的“复活”和欧洲售后布局，属于中长期结构性利好。",
+     "priced_in": "当日股价 −1.92%，说明市场认为该合同不改变整体预期，股价走势主要反映前一日大涨后的回吐。",
+     "guidance": "该事件不改变洛克希德的核心持有逻辑（F-35、导弹产能、机密项目成本超支风险）。若后续预算或补充拨款进一步增加弹药采购，洛克希德的 PAC-3 和导弹产能扩张最直接受益；若机密项目再次出现成本超支，单个合同的利好不足以抵消。",
+     "watch": "ARRW 采购数量与交付时间披露；国会 2027 财年拨款进度；PAC-3 产能爬坡数据。",
+     "sources": [
+      {
+       "title": "Lockheed Martin 新闻稿（PR Newswire）",
+       "url": "https://prnewswire.com/news-releases/lockheed-martin-to-add-air-launched-hypersonic-missile-to-the-american-arsenal-of-freedom-302921187.html"
+      },
+      {
+       "title": "Military Times：空军授予 6.94 亿美元合同",
+       "url": "https://www.militarytimes.com/industry/techwatch/2026/10/27/us-air-force-awards-lockheed-martin-694m-hypersonic-missile-production-contract/"
+      },
+      {
+       "title": "Seeking Alpha：合同与波兰设施",
+       "url": "https://seekingalpha.com/news/4658558-lockheed-wins-694m-us-air-force-contract-plans-patriot-facility-in-poland"
+      },
+      {
+       "title": "Defense News：波兰 PAC-3 维护中心",
+       "url": "https://www.defensenews.com/global/europe/2026/10/27/us-taps-poland-to-host-european-pac-3-missile-maintenance-facility/"
+      }
+     ]
+    },
+    {
+     "title": "Rocket Lab：Neutron 二级运往发射场，SDA 18 颗卫星中 8 颗已投产，股价 +8.3%",
+     "tickers": [
+      "RKLB"
+     ],
+     "importance": 3,
+     "view": "利好",
+     "facts": "公司表示 Neutron 火箭二级及其他部件已出厂运往发射场；为太空发展局（SDA）建造的 18 颗卫星中已有 8 颗进入生产（该项目价值 5.15 亿美元）。Cantor Fitzgerald 维持增持评级和 122 美元目标价。股价收于 58.31 美元，连续第三日上涨，但仍远低于 52 周高点。",
+     "impact_path": "Neutron 首飞 → 中型运载市场的收入与估值重估；SDA 卫星交付 → 国防航天收入的可见度。",
+     "magnitude": "股价对 Neutron 首飞时间高度敏感，属于“二元事件”：首飞成功与否对估值的影响远大于单个卫星合同。",
+     "priced_in": "部分定价：+8.3% 是在 10 月因 Neutron 推迟大跌后的修复，尚未回到推迟前的水平。",
+     "guidance": "把仓位大小与 Neutron 首飞风险匹配：在首飞前，股价会围绕进度消息大幅波动。若首飞时间表（分析师预期 2027 年二季度）再次推迟，前期跌幅可能重演；若测试节点按时完成，可逐步验证估值。",
+     "watch": "Neutron 静态点火与首飞日期公告；SDA 卫星交付节点。",
+     "sources": [
+      {
+       "title": "MarketBeat：Rocket Lab 上涨 8.3% 的原因",
+       "url": "https://www.marketbeat.com/instant-alerts/price-rocket-lab-nasdaq-rklb-shares-climb-83-heres-why-2026-10-27/"
+      },
+      {
+       "title": "Yahoo Finance：SDA 卫星进展",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-stock-climbs-overnight-rocket-041428375.html"
+      }
+     ]
+    }
+   ],
+   "institutions": [
+    {
+     "firm": "Cantor Fitzgerald",
+     "ticker": "RKLB",
+     "action": "维持增持，目标价 $122",
+     "detail": "基于 Neutron 进展，预计首飞在 2027 年二季度（据 Yahoo Finance 转述，发布日期未能精确核实）。",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-stock-edges-overnight-neutron-035945858.html"
+    }
+   ],
+   "institutions_note": "窗口内未发现对波音的评级变动；财报前大摩（$250→$225，平配）、RBC（$265→$235）、伯恩斯坦（$298→$278）、TD Cowen（$250→$240）已下调目标价（历史对比）。",
+   "quiet": [
+    "RTX",
+    "NOC",
+    "GD",
+    "LHX",
+    "HII",
+    "LDOS",
+    "PLTR",
+    "AVAV",
+    "KTOS"
+   ]
+  },
+  {
+   "key": "consumer",
+   "overview": "必选消费 XLP −0.92%，可选消费 XLY +1.04%（主要受亚马逊和特斯拉带动）。覆盖池中的零售与必选消费普遍下跌：TJX −2.44%、可口可乐 −1.64%、好市多 −1.30%。资金在风险偏好回升时流出防御板块。宏观数据偏正面：10 月消费者信心超预期回升，但支出意愿偏弱。",
+   "events": [
+    {
+     "title": "可口可乐三季报超预期并上调全年指引，但北美需求疲软，股价 −1.6%",
+     "tickers": [
+      "KO"
+     ],
+     "importance": 3,
+     "view": "分歧",
+     "facts": "单位箱量增长 5%，净收入和有机收入均增长 7%，价格/组合贡献约 1 个百分点；可比 EPS 0.91 美元（+11%，含 2 个百分点汇率收益）。全年指引上调为有机收入增长至少 5%、可比 EPS 增长至少 11%（此前为约 5% 和 9–10%）。CNBC 称北美需求“乏善可陈”，增长主要来自海外；路透称公司提示成本上升。非洲装瓶业务再特许经营将对 2026 年增长造成约 4 个百分点的拖累。",
+     "impact_path": "海外销量增长 → 收入与 EPS 上修；北美销量疲软 + 价格贡献仅约 1% → 对“定价权”逻辑的质疑；成本上升 → 2027 年利润率压力。",
+     "magnitude": "EPS 指引上调约 1–2 个百分点，属于温和的基本面改善；北美疲软如果持续，将是结构性信号（低收入消费者对提价的承受力下降）。",
+     "priced_in": "市场更关注北美疲软和成本，股价不升反跌。同日 XLP 整体 −0.92%，部分跌幅来自板块轮动，而非公司基本面。",
+     "guidance": "可口可乐的持有逻辑是“定价权 + 稳定增长”。若下季度北美销量转负、价格贡献仍仅约 1%，说明定价权减弱，防御性溢价可能收缩；若跌幅主要来自板块轮动、而基本面指引持续上调，则属于估值回落而非逻辑破坏，可结合股息率重新评估。",
+     "watch": "下季度北美销量与价格/组合；2027 年指引中的成本假设与再特许经营的影响。",
+     "sources": [
+      {
+       "title": "可口可乐 8-K 财报新闻稿（SEC）",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000021344/000162828026067403/a2026q3earningsreleaseex-9.htm"
+      },
+      {
+       "title": "CNBC：可口可乐上调指引，北美需求疲软",
+       "url": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html"
+      },
+      {
+       "title": "Reuters：可口可乐上调利润预期、提示成本上升",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeXVhS0lsd2Y2TWNoSkp5RFlXZ3Jxdmk3TXJOZTluVVhjTEVQekJYRlpUOWVTamdtQUJKWXg0M3NoR29yQnNWRE0yaGEtd0xqZkhTV2puTnpteE9TMFNfX3Z3am5zQkNJamhtRFlrVkFtcWNWell5empwLVdyU0hldklXc24tdkNjQXJBWlUtN3VJcktsalJZcGJ1T0Q1dw?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "10 月消费者信心升至 91.7（预期约 81），但预期指数 72.6 仍低于衰退警戒线",
+     "tickers": [
+      "HD",
+      "MCD",
+      "TGT",
+      "WMT"
+     ],
+     "importance": 3,
+     "view": "中性",
+     "facts": "世界大型企业联合会消费者信心指数上升 7.5 点至 91.7，为 6 月以来最高；9 月数据上修至 84.2。现状指数升至 120.4，预期指数升至 72.6，仍低于 80 的衰退信号线。该机构将回升归因于汽油价格从 9 月到 10 月回落。消费者对未来六个月的服务和耐用品支出意愿有所下降。另据 MarketWatch，2026 年仍可能是美国消费者有史以来汽油花费最高的一年。",
+     "impact_path": "信心回升 → 短期可选消费情绪改善；但支出意愿下降 → 耐用品（家得宝）和服务（餐饮）需求仍偏弱；油价 → 低收入消费者可支配收入（麦当劳、塔吉特、沃尔玛的客群）。",
+     "magnitude": "单月信心数据对盈利影响有限，属于情绪指标；真正决定业绩的是实际支出和就业。",
+     "priced_in": "市场反应平淡：家得宝 −0.28%、麦当劳 −0.54%、塔吉特 −0.35%，说明投资者没有把信心回升当作基本面拐点。",
+     "guidance": "不要过度解读“信心超预期”：支出意愿的下降比总指数更有参考价值。油价是关键变量，WTI 仍在约 100 美元。若油价维持高位导致汽油价格回升，低收入客群的消费压力会重新加大，对麦当劳、塔吉特不利，对沃尔玛相对有利（客群上移逻辑）。家得宝更多取决于利率和房屋成交。",
+     "watch": "11 月消费者信心与零售销售数据；感恩节和黑色星期五销售数据；汽油价格走势。",
+     "sources": [
+      {
+       "title": "Conference Board：消费者信心",
+       "url": "https://www.conference-board.org/topics/consumer-confidence/"
+      },
+      {
+       "title": "CFO Dive：汽油价格回落推动信心回升",
+       "url": "https://www.cfodive.com/news/consumer-confidence-edges-up-decline-gas-prices-conference-board-inflation-fed-federal-reserve-warsh/872949/"
+      },
+      {
+       "title": "MarketWatch：2026 年汽油花费创纪录",
+       "url": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "institutions_note": "未发现窗口内可靠的公开评级更新（Piper Sandler 于 10-26 将可口可乐目标价从 $95 上调至 $102，属于历史对比）。",
+   "quiet": [
+    "COST",
+    "PG",
+    "NKE",
+    "SBUX",
+    "TJX"
+   ]
+  },
+  {
+   "key": "financials",
+   "overview": "金融 XLF −0.25%，但投行明显走强：高盛 +2.07%、大摩 +1.86%、花旗 +1.36%，受 Anthropic IPO 承销和 AI 融资业务提振。Visa（−0.57%）、万事达（−0.59%）在 Visa 盘后发布财报前小幅走弱。美国银行管理层公开支持美联储加息，银行股对“更高更久”的利率环境整体受益。",
+   "events": [
+    {
+     "title": "AI 融资潮成为投行新的收入来源：高盛、大摩领衔 Anthropic IPO，摩根大通据报负责美国零售发售",
+     "tickers": [
+      "GS",
+      "MS",
+      "JPM",
+      "C",
+      "BAC",
+      "WFC"
+     ],
+     "importance": 4,
+     "view": "利好",
+     "facts": "Anthropic 的 IPO 由高盛和大摩牵头，承销团共 22 家银行；据 S-1 摘要，摩根大通、花旗、巴克莱、富国位列第二梯队。Bloomberg 报道 Anthropic 选择摩根大通牵头 IPO 的美国零售发售部分。博通为 Anthropic 安排的约 630 亿美元芯片融资据报有美银、花旗、大摩参与，银行计划为此发行约 210 亿美元债券。定价日期尚未确定，各方预测在 11 月中下旬。",
+     "impact_path": "IPO 承销费与债务融资费 → 投行收入；超大型 IPO 重启 → 股权资本市场（ECM）周期回暖 → 2027 年投行收入预期上修；参与供应商融资 → 贷款与信用敞口增加。",
+     "magnitude": "推断：单笔 IPO 的承销费对高盛、大摩是一次性的、季度级别的增量；更重要的是它可能打开超大型 AI 公司上市窗口，后者属于周期性而非一次性的影响。对摩根大通、美银等综合性银行，占比更小。",
+     "priced_in": "部分定价：高盛和大摩两日上涨，反映了市场对 ECM 回暖的预期；综合性银行（摩根大通 +0.52%、富国 +0.01%）几乎没有反应，符合其业务结构。",
+     "guidance": "高盛、大摩对资本市场周期最敏感。若 Anthropic 在 11 月顺利定价并上市后表现良好，可上调对 2027 年投行收入的假设；若 12 月加息引发风险偏好下降、IPO 推迟，近两日涨幅可能回吐。同时关注银行在 AI 供应商融资中的信用敞口，这是未来风险的来源。",
+     "watch": "Anthropic 路演（据报道最早 11 月 9 日当周）与定价；四季度投行业绩指引；12 月议息会议。",
+     "sources": [
+      {
+       "title": "FutureSearch：S-1 承销团摘要",
+       "url": "https://futuresearch.ai/anthropic-openai-ipo-dates-valuations/"
+      },
+      {
+       "title": "Bloomberg：Anthropic 选择摩根大通负责美国零售发售",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOWdYcFFPZlJNOVktU05PdTRoWVNxSVUyQ2l6ek9ibU13cnVTczNGNVZkLTNrZ0h3bGVSRFdnNTVaQVNGUExjVGVkRFNFOE1QbklFT3JyWmNiNDdycE96ZmZ1VDBLOGtOdmNYWkZMZHlxMTd2WENNTU1kWVFYOEgtXzgtUHBOcndzZlZOclNXWWMtR0FYT3JnR19TSEI5YUNmRG1xcTVPdWJqcjlCOWZXaFE0NkJ6QQ?oc=5"
+      },
+      {
+       "title": "Bloomberg：银行拟为博通融资发行 210 亿美元债券",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObENDd2ZaNmE1VUlBR0d6Q1YydGNyX1dNZUV1YVVoTlpfb1hJckdOV1VKTDJqLXZhbzNWdnpUOWNwc2huLVBXWUF5ZFZzUU1meXhPTzlGMmc4cUt5VzBCeEJwb0NLQ3p3d2xhc0NVb0tuOFRHS3JmbjRHMXp4UDd5WEZiUUJKbHBrTFNJLVVMSnFLZmU1ZHRhMzVVZnBFS2xjY05LQzdDSTFPSGMxVzVQNkFocw?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "Visa 财年四季度：净收入 +13%，支付量 +9% 至 4.08 万亿美元，调整后 EPS 3.48 美元略超预期",
+     "tickers": [
+      "V",
+      "MA"
+     ],
+     "importance": 4,
+     "view": "中性",
+     "facts": "Visa 于 10-27 盘后发布财报：净收入 121 亿美元（+13%），调整后 EPS 3.48 美元（+17%，Bloomberg 统计的预期为 3.44 美元）。按 GAAP 计 EPS 3.19 美元，包含 4.69 亿美元刷卡费集体诉讼拨备和 2.82 亿美元向 Visa 基金会捐赠投资的费用。处理交易笔数 742 亿笔（+10%）；据二级来源，跨境交易量按固定汇率增长 14%。全财年净收入约 459 亿美元（+15%）。有二级来源称股价因展望走弱，但未能核实 2027 财年指引的具体数字。同日 PayPal 三季度调整后 EPS 1.45 美元，超出预期，收入 85.8 亿美元，低于预期，并将全年 EPS 指引从 5.38 美元上调至约 5.60 美元。",
+     "impact_path": "支付量与跨境交易 → 收入增速；诉讼拨备与刷卡费监管 → 远期利润率风险；2027 财年指引 → 估值基础。",
+     "magnitude": "季度业绩属于小幅超预期，没有改变增长轨迹；监管和诉讼属于长期结构性风险，需要跟踪立法进展。",
+     "priced_in": "收盘价（−0.57%）发生在财报发布前，尚未反映财报；盘后反应需要在次日核实。",
+     "guidance": "Visa 和万事达的持有逻辑是“支付量稳定增长 + 跨境高利润”。若 2027 财年指引维持低双位数收入增长，基本面逻辑不变；若指引因费用投入或监管压力下修，应关注估值倍数的压缩风险。PayPal 收入低于预期说明品牌结账业务竞争激烈，对 Visa、万事达影响有限。",
+     "watch": "Visa 2027 财年指引细节（电话会纪要）；万事达本季财报；刷卡费相关立法与诉讼进展。",
+     "sources": [
+      {
+       "title": "Visa 8-K 财报新闻稿（SEC）",
+       "url": "https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000126/q42026earningsrelease.htm"
+      },
+      {
+       "title": "Bloomberg：Visa 业绩超预期",
+       "url": "https://www.bloomberg.com/news/articles/2026-10-27/visa-earnings-beats-estimates-as-payments-volume-rises-9"
+      },
+      {
+       "title": "Investing.com：Visa Q4 财报幻灯片",
+       "url": "https://www.investing.com/news/company-news/visa-q4-fy2026-slides-13-revenue-growth-shares-dip-on-outlook-93CH-4977178"
+      },
+      {
+       "title": "Yahoo Finance：PayPal Q3 财报",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/paypals-q3-earnings-beat-estimates-165600378.html"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "institutions_note": "未发现窗口内可靠的公开评级更新；买方机构（13F 等）在窗口内无可核实的新披露。",
+   "quiet": [
+    "BRK-B",
+    "BLK",
+    "SCHW",
+    "COIN"
+   ]
+  },
+  {
+   "key": "autonomy",
+   "overview": "特斯拉 +4.04% 至 407.46 美元，创三个月新高；机器人 ETF BOTZ +1.03%。Aurora +5.13%、泰瑞达 +4.75%、文远知行 +4.55%、Mobileye +3.15% 同步上涨，但未找到个股层面的具体催化，更可能是风险偏好回升下的板块联动。Waymo 宣布在 5 个城市扩大服务范围约 250 平方英里。",
+   "events": [
+    {
+     "title": "特斯拉德州 Robotaxi 注册车辆超过 1000 辆，Cybercab 数量首次超过 Model Y",
+     "tickers": [
+      "TSLA"
+     ],
+     "importance": 4,
+     "view": "利好",
+     "facts": "德州车管局数据显示，特斯拉获授权用于 Robotaxi 运营的车辆共 1051 辆，其中 Cybercab 544 辆、Model Y 507 辆，Cybercab 首次占多数（10 月初为 739 辆，其中 Cybercab 319 辆）。特斯拉在三季度财报电话会上表示，计划下个月在达拉斯投放 Cybercab，并在年底前向车队客户提供。注意：注册数据只代表获授权车辆，不代表实际上路运营数量；同期 Waymo 在德州约有 1207 辆。另据 Electrek，Waymo 在奥斯汀的行驶里程仍约为特斯拉的 7 倍。",
+     "impact_path": "Robotaxi 车队规模 → 自动驾驶商业化预期 → 特斯拉估值中的“期权价值”部分（而非当期汽车业务利润）。",
+     "magnitude": "对当期收入几乎没有影响，影响体现在估值叙事上，因此波动大、持续性取决于后续运营数据。",
+     "priced_in": "当日 +4.04%，股价创三个月新高，但仍比 52 周高点低约 18%。注册数据增长已被市场注意到，实际运营数据仍是空白。",
+     "guidance": "评估特斯拉 Robotaxi 进展时，应关注运营质量而不是注册数量：付费单量、无安全员比例、事故与监管调查。若 11 月达拉斯按时上线且没有出现安全事件，可视为规模化的验证；若注册数量增长但运营里程和单量没有同步增长，现在的估值溢价就缺乏支撑。",
+     "watch": "达拉斯 Cybercab 上线（计划 11 月）；德州车管局后续注册数据；NHTSA 相关调查动态。",
+     "sources": [
+      {
+       "title": "TeslaNorth：Cybercab 数量超过 Model Y",
+       "url": "https://teslanorth.com/2026/10/27/tesla-cybercab-outnumbers-model-y-texas/"
+      },
+      {
+       "title": "Yahoo Finance：TSLA 股价上涨",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-rises-cybercabs-overtake-223957703.html"
+      },
+      {
+       "title": "Electrek：Waymo 里程仍是特斯拉的 7 倍",
+       "url": "https://electrek.co/2026/10/27/musk-robotaxi-victory-waymo-austin-miles/"
+      }
+     ]
+    },
+    {
+     "title": "Waymo 一周内在 5 个城市扩大约 250 平方英里无人驾驶服务范围",
+     "tickers": [
+      "GOOGL",
+      "UBER"
+     ],
+     "importance": 3,
+     "view": "分歧",
+     "facts": "Waymo 10-27 宣布将在洛杉矶、纳什维尔、奥兰多、圣地亚哥和旧金山湾区扩大服务范围，合计约 250 平方英里：奥兰多新增 53 平方英里至 120 平方英里；圣地亚哥北扩至拉霍亚；湾区从旧金山沿半岛延伸至圣何塞和坎贝尔；洛杉矶沿海岸延伸至托伦斯。公司未披露各城市的面积细分和新增车辆数。",
+     "impact_path": "Alphabet：Waymo 的规模化提高其在“其他业务”中的估值贡献；Uber：自动驾驶既可能成为合作伙伴（车辆供给），也可能分流其核心出行业务。",
+     "magnitude": "对 Alphabet 整体收入影响很小，属于远期期权价值；对 Uber 属于长期结构性竞争变量，短期不影响业绩。",
+     "priced_in": "Alphabet +1.19%，主要受大盘和 10-28 财报预期驱动，Waymo 消息本身难以从股价中区分；Uber −0.53%，市场反应有限。",
+     "guidance": "对 Alphabet 持有者，Waymo 是加分项，但核心变量仍是搜索、云业务和 10-28 财报，不应因为 Waymo 消息调整仓位。对 Uber 持有者，关键是区分 Waymo 扩张的城市里 Uber 是合作方还是竞争对手：若 Waymo 在更多城市选择自营或与 Uber 竞争对手合作，应下调 Uber 在这些市场的长期份额假设。",
+     "watch": "Alphabet 10-28 盘后财报中对 Waymo 付费单量的披露；Waymo 在新城市的合作伙伴安排。",
+     "sources": [
+      {
+       "title": "Electrek：Waymo 扩大服务范围",
+       "url": "https://electrek.co/2026/10/27/waymo-expansion-250-square-miles-five-cities/"
+      },
+      {
+       "title": "CleanTechnica：Waymo 在 5 个城市扩张",
+       "url": "https://cleantechnica.com/2026/10/27/waymo-growing-more-in-5-places/"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "institutions_note": "未发现窗口内可靠的公开机构观点更新。",
+   "quiet": [
+    "NVDA",
+    "MBLY",
+    "AUR",
+    "PONY",
+    "WRD",
+    "TER",
+    "SYM"
+   ]
+  }
+ ],
+ "risks": [
+  "利率：若美联储 12 月加息成为定局、10 年期美债收益率站上 5%，高估值科技（QQQ）和小盘股（IWM）首当其冲。",
+  "AI 融资链条：需求越来越依赖供应商融资（博通）和股权增发（Meta），一旦 IPO 窗口关闭或融资成本上升，AMD、博通、台积电的订单兑现节奏可能受影响。",
+  "波音执行风险：737 月产 47 架若在 2027 年初再次推迟，2029 年 100 亿美元自由现金流目标的可信度将受质疑。",
+  "消费分化：油价接近 100 美元，低收入消费者压力未解除；可口可乐北美销量疲软可能是定价权减弱的早期信号。",
+  "监管：Visa 计提 4.69 亿美元刷卡费诉讼拨备，支付网络面临持续的诉讼与立法风险。"
+ ],
+ "opportunities": [
+  "若 Anthropic IPO 在 11 月顺利定价，可视为 AI 半导体链（AMD、博通）需求的强验证，同时利好高盛、大摩的投行业务。",
+  "若波音月度交付数据显示 737 交付稳定在 40 架以上，大跌后的估值可能出现执行力修复。",
+  "若微软、Alphabet、亚马逊财报显示云业务加速、资本开支回报清晰，可缓解市场对 AI 融资化的担忧。",
+  "必选消费的回落若主要来自板块轮动、而非基本面恶化（例如可口可乐上调指引），可结合股息率重新评估。"
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-28",
+   "event": "美联储利率决议（14:00 ET）及 Warsh 发布会",
+   "tickers": [
+    "TLT",
+    "QQQ",
+    "IWM"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "event": "微软、Alphabet 盘后发布财报",
+   "tickers": [
+    "MSFT",
+    "GOOGL"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "event": "亚马逊盘后发布财报",
+   "tickers": [
+    "AMZN"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "event": "苹果财报（据一份财报日历，以公司公告为准）",
+   "tickers": [
+    "AAPL"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "event": "Anthropic 路演最早可能在当周开始（据报道），定价预计在 11 月中下旬",
+   "tickers": [
+    "AVGO",
+    "AMD",
+    "GS",
+    "MS"
+   ]
+  },
+  {
+   "date": "2026-11",
+   "event": "特斯拉计划在达拉斯投放 Cybercab",
+   "tickers": [
+    "TSLA"
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "美联储议息会议（12 月 8–9 日，含点阵图）",
+   "tickers": [
+    "SPY",
+    "TLT",
+    "JPM"
+   ]
+  }
+ ],
+ "self_check": [
+  {
+   "item": "是否逐一核查覆盖清单中每只股票？",
+   "ok": true,
+   "note": "60 只覆盖股均已检索；未发现重大新信息的列入“无重大新信息”。"
+  },
+  {
+   "item": "是否覆盖当日市值较大或波动显著的公司？",
+   "ok": true,
+   "note": "已覆盖波音 −10.7%、AMD +5.5%、Rocket Lab +8.3%、特斯拉 +4.0%、Meta −1.6%。TJX −2.4%、Aurora +5.1%、泰瑞达 +4.8% 未找到具体催化，已在板块概览中说明。"
+  },
+  {
+   "item": "机构观点是否引用权威来源？",
+   "ok": false,
+   "note": "仅能通过 Benzinga、Yahoo Finance 等二级来源转述，未能取得券商原始报告；运行环境无法直接打开部分新闻网站，事实核实依赖检索结果摘要。"
+  },
+  {
+   "item": "是否严格限定在报告时间窗口内？",
+   "ok": true,
+   "note": "Anthropic S-1（10-26 递交）、诺斯罗普三季报（10-20）、波音财报前的目标价下调均已标注为历史对比。"
+  },
+  {
+   "item": "是否把事实与分析判断清楚分开？",
+   "ok": true,
+   "note": "事实写在 facts；推断写在影响路径、量级、是否已定价和思考指引中，量化估算已注明“推断”。"
+  }
+ ]
+}
