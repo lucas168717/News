@@ -4,6 +4,9 @@ on:
   schedule:
     # 22:15 UTC, Mon-Fri: after the US close in both EDT and EST (北京时间次日 06:15).
     - cron: "15 22 * * 1-5"
+  # Redeploy when the daily stock-guidance analysis is pushed.
+  push:
+    paths: ["analysis/**"]
   workflow_dispatch:
     inputs:
       date:

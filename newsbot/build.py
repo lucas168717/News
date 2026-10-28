@@ -17,6 +17,7 @@ from .trading_calendar import ET, is_trading_day, latest_trading_day, news_windo
 
 log = logging.getLogger("newsbot")
 WEB_DIR = Path(__file__).resolve().parent.parent / "web"
+ANALYSIS_DIR = WEB_DIR.parent / "analysis"
 
 
 class Site:
@@ -52,6 +53,10 @@ class Site:
         for name in ("index.html", "robots.txt"):
             shutil.copy(WEB_DIR / name, self.root / name)
         (self.root / ".nojekyll").touch()
+        out = self.root / "analysis"
+        out.mkdir(exist_ok=True)
+        for path in ANALYSIS_DIR.glob("*.json"):
+            shutil.copy(path, out / path.name)
 
 
 def build_report(day: date) -> dict:
@@ -60,6 +65,8 @@ def build_report(day: date) -> dict:
     buckets = fetch.collect(start, end)
     quotes = market.snapshot(config.MARKET_SYMBOLS, day)
     sectors = market.snapshot(config.SECTOR_SYMBOLS, day)
+    tickers = sorted({t for stocks in config.COVERAGE.values() for t, _, _ in stocks})
+    coverage_quotes = {q["symbol"]: q for q in market.snapshot([(t, t) for t in tickers], day)}
     sections, digest = summarize.summarize(day.isoformat(), buckets, quotes + sectors)
     translated = translate.translate_sections(sections)
     return {
@@ -72,6 +79,7 @@ def build_report(day: date) -> dict:
         "key_points": digest["key_points"] if digest else [],
         "market": quotes,
         "sectors": sectors,
+        "coverage_quotes": coverage_quotes,
         "sections": sections,
     }
 
