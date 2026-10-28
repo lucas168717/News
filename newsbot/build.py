@@ -12,7 +12,7 @@ import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from . import config, fetch, market, summarize
+from . import config, fetch, market, summarize, translate
 from .trading_calendar import ET, is_trading_day, latest_trading_day, news_window
 
 log = logging.getLogger("newsbot")
@@ -61,11 +61,13 @@ def build_report(day: date) -> dict:
     quotes = market.snapshot(config.MARKET_SYMBOLS, day)
     sectors = market.snapshot(config.SECTOR_SYMBOLS, day)
     sections, digest = summarize.summarize(day.isoformat(), buckets, quotes + sectors)
+    translated = translate.translate_sections(sections)
     return {
         "date": day.isoformat(),
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "window": {"start": start.isoformat(), "end": end.isoformat()},
         "model": summarize.MODEL if any(s["ai"] for s in sections) else None,
+        "translated": translated,
         "headline": digest["headline"] if digest else None,
         "key_points": digest["key_points"] if digest else [],
         "market": quotes,
@@ -93,7 +95,7 @@ def main(argv=None) -> int:
         log.info("%s already built; use --force to rebuild", day)
         return 0
     if not summarize.enabled():
-        log.warning("ANTHROPIC_API_KEY not set: publishing English headlines without Chinese summaries")
+        log.info("ANTHROPIC_API_KEY not set: using machine-translated headlines instead of Claude summaries")
     report = build_report(day)
     if not any(s["items"] for s in report["sections"]):
         log.error("no news fetched for %s; keeping the site unchanged", day)

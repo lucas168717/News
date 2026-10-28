@@ -20,6 +20,9 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 )
 TAG_RE = re.compile(r"<[^>]+>")
+WORD_RE = re.compile(r"[a-z0-9$&.]+")
+STOPWORDS = {"the", "and", "for", "with", "from", "after", "into", "over", "amid", "its", "says", "said",
+             "will", "has", "have", "are", "was", "new", "how", "why", "what", "this", "that", "stock", "stocks"}
 SPACE_RE = re.compile(r"\s+")
 
 
@@ -40,7 +43,8 @@ def fetch_feed(url: str, days: int) -> list[dict]:
         log.warning("feed failed: %s (%s)", urlparse(url).netloc, exc)
         return []
     parsed = feedparser.parse(resp.content)
-    feed_title = _clean(parsed.feed.get("title", "")) or urlparse(url).netloc
+    host = urlparse(url).netloc
+    feed_title = config.FEED_SOURCES.get(host) or _clean(parsed.feed.get("title", "")) or host
     items = []
     for entry in parsed.entries:
         stamp = entry.get("published_parsed") or entry.get("updated_parsed")
@@ -70,8 +74,35 @@ def _matches(text: str, keywords: list[str]) -> int:
     return sum(1 for kw in keywords if kw in text)
 
 
+def _source_weight(source: str) -> int:
+    source = source.lower()
+    return next((w for w, names in config.SOURCE_WEIGHTS.items() if any(n in source for n in names)), 0)
+
+
+def _words(title: str) -> set[str]:
+    return {w for w in WORD_RE.findall(title.lower()) if len(w) > 2 and w not in STOPWORDS}
+
+
+def rank(items: list[dict], keywords: list[str]) -> list[dict]:
+    """Order by publisher quality and relevance, dropping near-duplicate headlines."""
+    def score(it):
+        text = it["title"] + " " + it["summary"]
+        foreign = _matches(it["title"], config.FOREIGN_TERMS) and not _matches(text, config.US_TERMS)
+        return 3 * _source_weight(it["source"]) + min(3, _matches(text, keywords)) - (10 if foreign else 0)
+
+    ordered = sorted(items, key=lambda it: (score(it), it["published"]), reverse=True)
+    kept, kept_words = [], []
+    for it in ordered:
+        words = _words(it["title"])
+        if any(words and len(words & other) / len(words | other) >= 0.5 for other in kept_words):
+            continue
+        kept.append(it)
+        kept_words.append(words)
+    return kept
+
+
 def collect(window_start: datetime, window_end: datetime) -> dict[str, list[dict]]:
-    """Return {category_key: [items]} restricted to the window, newest first."""
+    """Return {category_key: [items]} restricted to the window, best first."""
     days = max(1, min(7, (datetime.now(timezone.utc) - window_start).days + 1))
     jobs = [(c["key"], url) for c in config.CATEGORIES for url in c["feeds"]]
     jobs += [(None, url) for url in config.GENERAL_FEEDS]
@@ -110,8 +141,7 @@ def collect(window_start: datetime, window_end: datetime) -> dict[str, list[dict
             if norm not in owner or score > owner[norm][0]:
                 owner[norm] = (score, c["key"])
     out = {}
-    for key, items in buckets.items():
-        kept = [it for norm, it in items.items() if owner[norm][1] == key]
-        kept.sort(key=lambda it: it["published"], reverse=True)
-        out[key] = kept
+    for c in config.CATEGORIES:
+        items = buckets[c["key"]]
+        out[c["key"]] = rank([it for norm, it in items.items() if owner[norm][1] == c["key"]], c["keywords"])
     return out

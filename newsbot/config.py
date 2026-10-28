@@ -62,11 +62,11 @@ CATEGORIES = [
         "feeds": [
             "https://www.defensenews.com/arc/outboundfeeds/rss/",
             "https://breakingdefense.com/feed/",
-            google_news('"Lockheed Martin" OR RTX OR Raytheon OR "Northrop Grumman" OR "General Dynamics"'),
+            google_news('"Lockheed Martin" OR "RTX Corp" OR Raytheon OR "Northrop Grumman" OR "General Dynamics"'),
             google_news('Pentagon contract OR "defense stocks" OR "defense budget" OR "L3Harris" OR Anduril'),
         ],
         "keywords": [
-            "defense", "defence", "pentagon", "military", "lockheed", "raytheon", "rtx",
+            "defense", "defence", "pentagon", "military", "lockheed", "raytheon", "rtx corp",
             "northrop", "general dynamics", "l3harris", "huntington ingalls", "boeing defense",
             "anduril", "missile", "drone", "army", "navy", "air force", "nato", "munitions",
             "f-35", "hypersonic", "contract award", "dod",
@@ -97,12 +97,12 @@ CATEGORIES = [
             cnbc(10000664),  # Finance
             google_news('JPMorgan OR "Goldman Sachs" OR "Morgan Stanley" OR "Bank of America" OR Citigroup OR "Wells Fargo"'),
             google_news("bank stocks OR \"regional banks\" OR \"private credit\" OR \"Berkshire Hathaway\" OR BlackRock"),
-            google_news("Visa OR Mastercard OR \"American Express\" OR PayPal OR Coinbase OR \"crypto stocks\""),
+            google_news("\"Visa Inc\" OR Mastercard OR \"American Express\" OR PayPal OR Coinbase OR \"crypto stocks\""),
         ],
         "keywords": [
             "bank", "jpmorgan", "goldman", "morgan stanley", "citigroup", "citi", "wells fargo",
             "bank of america", "berkshire", "blackrock", "private credit", "private equity",
-            "insurance", "insurer", "visa", "mastercard", "american express", "paypal",
+            "insurance", "insurer", "visa inc", "mastercard", "american express", "paypal",
             "coinbase", "bitcoin", "crypto", "fintech", "lending", "loan", "mortgage", "sec ",
             "capital requirements", "basel", "fdic", "brokerage", "asset manager",
         ],
@@ -135,6 +135,35 @@ GENERAL_FEEDS = [
     "https://feeds.content.dowjones.io/public/rss/mw_marketpulse",
     "https://finance.yahoo.com/news/rssindex",
 ]
+
+# Publisher names for feeds that don't name one per item.
+FEED_SOURCES = {
+    "search.cnbc.com": "CNBC",
+    "feeds.content.dowjones.io": "MarketWatch",
+    "finance.yahoo.com": "Yahoo Finance",
+    "www.defensenews.com": "Defense News",
+    "breakingdefense.com": "Breaking Defense",
+    "www.therobotreport.com": "The Robot Report",
+}
+
+# Ranking weight by publisher (substring match, lowercase). Unlisted sources get 0.
+SOURCE_WEIGHTS = {
+    3: ["reuters", "bloomberg", "wall street journal", "wsj", "financial times", "cnbc",
+        "associated press", "ap news", "barron", "marketwatch"],
+    2: ["yahoo finance", "investor's business daily", "new york times", "washington post", "axios",
+        "fortune", "business insider", "forbes", "techcrunch", "the verge", "the information",
+        "defense news", "breaking defense", "defense one", "the robot report", "electrek",
+        "insideevs", "coindesk", "morningstar", "politico", "the economist", "semafor"],
+    1: ["seeking alpha", "investopedia", "benzinga", "investing.com", "motley fool", "zacks",
+        "tradingview", "nasdaq", "teslarati", "fox business", "cnn", "abc news", "cbs news", "nbc news"],
+}
+
+# Headlines about other markets are demoted unless they also mention the US.
+FOREIGN_TERMS = ["australia", "rba", "canad", "india", "sensex", "nifty", "rbi", "nikkei", "japan's",
+                 "korea", "kospi", "ftse", "britain", "u.k.", "new zealand", "philippine", "vietnam",
+                 "indonesia", "malaysia", "pakistan", "nigeria", "south africa", "brazil", "mexico's"]
+US_TERMS = ["u.s.", " us ", "america", "wall street", "s&p", "nasdaq", "dow", "fed", "nyse", "washington",
+            "trump", "pentagon"]
 
 # Market snapshot (Yahoo Finance chart API symbols).
 MARKET_SYMBOLS = [

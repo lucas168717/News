@@ -49,3 +49,31 @@ def test_collect_routes_and_filters(monkeypatch):
     assert [it["title"] for it in out["macro"]] == ["Fed signals rate cut as inflation cools"]
     assert out["macro"][0]["summary"] == "Powell said inflation eased."
     assert [it["title"] for it in out["autonomy"]] == ["Waymo expands robotaxi service"]
+
+
+def _item(title, source, hour=12):
+    return {"title": title, "source": source, "summary": "", "url": "https://x",
+            "published": datetime(2026, 10, 27, hour, tzinfo=timezone.utc)}
+
+
+def test_rank_prefers_quality_and_drops_near_duplicates():
+    items = [
+        _item("Tiny blog reposts Fed news", "shattered.io", hour=20),
+        _item("Fed holds rates steady, signals patience", "Reuters", hour=10),
+        _item("Fed holds rates steady and signals patience", "Some Blog", hour=11),
+        _item("Treasury yields slip after Fed decision", "CNBC", hour=9),
+    ]
+    ranked = [it["title"] for it in fetch.rank(items, ["fed"])]
+    assert ranked == [
+        "Fed holds rates steady, signals patience",
+        "Treasury yields slip after Fed decision",
+        "Tiny blog reposts Fed news",
+    ]
+
+
+def test_rank_demotes_foreign_only_headlines():
+    items = [
+        _item("Australian inflation runs hot, RBA hike bets rise", "Reuters"),
+        _item("Fed seen cutting rates as US inflation cools", "Some Blog"),
+    ]
+    assert fetch.rank(items, ["inflation"])[0]["title"].startswith("Fed seen")
