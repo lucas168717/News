@@ -1,4 +1,4 @@
-"""Build the encrypted daily news site.
+"""Build the daily news site.
 
     python -m newsbot.build --site-dir site            # latest trading day
     python -m newsbot.build --site-dir site --date 2026-10-27 --force
@@ -7,13 +7,12 @@
 import argparse
 import json
 import logging
-import os
 import shutil
 import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from . import config, crypto, fetch, market, summarize
+from . import config, fetch, market, summarize
 from .trading_calendar import ET, is_trading_day, latest_trading_day, news_window
 
 log = logging.getLogger("newsbot")
@@ -21,32 +20,19 @@ WEB_DIR = Path(__file__).resolve().parent.parent / "web"
 
 
 class Site:
-    """Encrypted site directory: index.html, meta.json, data/manifest.json, data/<date>.json."""
+    """Site directory: index.html, data/manifest.json, data/<date>.json."""
 
-    def __init__(self, root: Path, password: str):
+    def __init__(self, root: Path):
         self.root = root
         self.data = root / "data"
-        meta_path = root / "meta.json"
-        key = None
-        if meta_path.exists():
-            self.meta = json.loads(meta_path.read_text())
-            key = crypto.key_for_meta(password, self.meta)
-            if key is None:
-                log.warning("PAGE_PASSWORD changed: old archive can't be decrypted and is discarded")
-                shutil.rmtree(self.data, ignore_errors=True)
-        if key is None:
-            self.meta, key = crypto.new_meta(password)
-            meta_path.parent.mkdir(parents=True, exist_ok=True)
-            meta_path.write_text(json.dumps(self.meta, indent=1))
-        self.key = key
         self.data.mkdir(parents=True, exist_ok=True)
 
     def _read(self, name: str):
         path = self.data / name
-        return crypto.decrypt(self.key, json.loads(path.read_text())) if path.exists() else None
+        return json.loads(path.read_text()) if path.exists() else None
 
     def _write(self, name: str, obj) -> None:
-        (self.data / name).write_text(json.dumps(crypto.encrypt(self.key, obj)))
+        (self.data / name).write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")))
 
     def has_day(self, day: date) -> bool:
         return (self.data / f"{day.isoformat()}.json").exists()
@@ -96,17 +82,12 @@ def main(argv=None) -> int:
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
-    password = os.environ.get("PAGE_PASSWORD", "")
-    if len(password) < 8:
-        log.error("set PAGE_PASSWORD (at least 8 characters)")
-        return 2
-
     day = args.date or latest_trading_day(datetime.now(ET))
     if not is_trading_day(day):
         log.error("%s is not an NYSE trading day", day)
         return 2
 
-    site = Site(args.site_dir, password)
+    site = Site(args.site_dir)
     site.write_static()
     if site.has_day(day) and not args.force:
         log.info("%s already built; use --force to rebuild", day)

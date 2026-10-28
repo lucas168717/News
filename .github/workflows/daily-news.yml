@@ -30,13 +30,10 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
-    env:
-      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - uses: actions/checkout@v4
 
-      # The encrypted site (all past days) lives on the `site-data` branch.
+      # The built site (all past days) lives on the `site-data` branch.
       - name: Restore site
         run: |
           if git ls-remote --exit-code --heads origin site-data >/dev/null; then
@@ -57,7 +54,6 @@ jobs:
 
       - name: Build
         env:
-          PAGE_PASSWORD: ${{ secrets.PAGE_PASSWORD }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NEWSBOT_MODEL: ${{ vars.NEWSBOT_MODEL }}
           DATE: ${{ inputs.date }}
@@ -81,17 +77,10 @@ jobs:
       - name: Prepare upload
         run: cp -a site public && rm -rf public/.git
 
-      - name: Upload Pages artifact
-        if: vars.DISABLE_GITHUB_PAGES != 'true'
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
       - name: Deploy to GitHub Pages
         id: deploy
-        if: vars.DISABLE_GITHUB_PAGES != 'true'
         uses: actions/deploy-pages@v4
-
-      - name: Deploy to Cloudflare Pages
-        if: env.CLOUDFLARE_API_TOKEN != ''
-        run: npx --yes wrangler@4.20.0 pages deploy public --project-name="${{ vars.CLOUDFLARE_PROJECT || 'us-market-news' }}" --branch=main
