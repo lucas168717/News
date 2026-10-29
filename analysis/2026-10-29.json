@@ -1,0 +1,541 @@
+{
+ "date": "2026-10-29",
+ "window": "2026-10-28 16:00 ET（前一交易日收盘）→ 2026-10-29 收盘及盘后（含亚马逊、英特尔、星巴克、Coinbase 盘后财报）",
+ "headline": "Alphabet 创上市最大跌幅、亚马逊盘后再跌；资金转向军工、消费和小盘股",
+ "summary": "当日市场明显轮动：纳指 −1.38%，Alphabet −12.6%（上市以来最大单日跌幅）拖累 AI 链条普跌；同时军工 ITA +3.16%、必选消费 XLP +1.54%、金融 XLF +1.44%、罗素 2000 +1.01%。\n盘后亚马逊 AWS 增速加快至 39%，但利润不及预期、资本开支继续上调，股价进一步下跌；英特尔因 PC 市场萎缩给出疲弱指引，盘后跌 16–22%。\n宏观上，三季度 GDP 增长 3.4%，9 月通胀加速，但 10 年期收益率回落至 4.99%，昨日“站稳 5%”的条件没有成立。市场正在把“AI 投入的回报”作为区分标准：资本开支在上升、回报尚未显现的公司（Alphabet、亚马逊）被抛售，资金流向订单可见度高的国防和防御性消费股。",
+ "sectors": [
+  {
+   "key": "macro",
+   "overview": "标普 500 −0.30%，纳指 −1.38%，罗素 2000 +1.01%：资金从大型科技股流向小盘股和防御板块。10 年期美债收益率回落至 4.989%（−1.11%），TLT +0.62%。欧洲央行维持 2.5% 利率不变。比特币 −3.03%。",
+   "events": [
+    {
+     "title": "三季度 GDP 年化增长 3.4%（二季度 2.2%），9 月 PCE 通胀加速；10 年期收益率反而回落至 5% 以下",
+     "tickers": [
+      "TLT",
+      "IWM",
+      "QQQ",
+      "SPY"
+     ],
+     "importance": 4,
+     "view": "分歧",
+     "facts": "BEA 初值显示，三季度实际 GDP 年化增长 3.4%，高于二季度的 2.2%，主要由消费支出和 AI 相关投资推动。按季度年化计算，PCE 价格指数上涨 2.1%（上季度 5.0%），核心 PCE 上涨 2.5%（上季度 3.3%）；但 9 月单月通胀加速（CNBC、WSJ）。有二级来源称 9 月核心 PCE 同比 3.1%，与预期一致，但未能从 BEA 原始数据核实。GDP 第二次估值于 11 月 25 日公布。10 年期收益率收于 4.989%。",
+     "impact_path": "增长强劲 + 月度通胀回升 → 支持美联储 12 月加息；但季度通胀放缓 → 债市解读偏温和，长端收益率回落。小盘股（IWM）受益于强劲的国内经济和收益率回落；大型科技股当日的下跌主要源于财报，而非利率。",
+     "magnitude": "单份数据不改变利率路径，但强增长降低了经济衰退的风险，这对周期性板块（小盘股、金融）是结构性支撑。",
+     "priced_in": "收益率回落、IWM 上涨，说明债市更看重季度通胀放缓，而不是 9 月单月加速。",
+     "guidance": "昨日的触发条件“10 年期站稳 5%”没有成立，长久期资产的压力暂时缓解，不必进一步降低仓位弹性。但增长强、通胀有黏性的组合意味着 12 月加息仍是现实可能。若 11 月就业和通胀数据继续偏强，应重新评估；若通胀回落，小盘股和金融股的相对优势可能延续。",
+     "watch": "11 月初的就业数据；11 月 25 日 GDP 第二次估值；12 月 8–9 日议息会议。",
+     "sources": [
+      {
+       "title": "BEA：2026 年三季度 GDP 初值",
+       "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+      },
+      {
+       "title": "CNBC：三季度 GDP 增长 3.4%，9 月通胀加速",
+       "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+      },
+      {
+       "title": "CNBC：欧洲央行维持利率不变",
+       "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "GLD",
+    "UUP"
+   ]
+  },
+  {
+   "key": "tech",
+   "overview": "科技 XLK −1.18%，半导体 SMH −1.06%。Alphabet −12.64% 至 283.82 美元，亚马逊 −4.25%，甲骨文 −3.45%，AMD −2.08%，博通 −1.94%，台积电 −1.75%；Meta +1.96%，苹果 +1.48%。CNBC 指出微软和谷歌均未上调资本开支预测，市场担心 AI 建设节奏放缓。",
+   "events": [
+    {
+     "title": "亚马逊三季报：AWS 增速加快至 39%（近五年最快），但 EPS 不及预期、资本开支继续上调，盘后再跌约 5–7%",
+     "tickers": [
+      "AMZN"
+     ],
+     "importance": 5,
+     "view": "分歧",
+     "facts": "AWS 收入增长 39.3%，年化收入规模 1840 亿美元，为近五年最快增速；CEO 预计 AWS 在 2027 和 2028 年增速超过 40%。EPS 1.89 美元，低于 1.97 美元的预期；总收入 2019 亿美元（+12%），略低于预期；经营利润 281 亿美元，利润率创新高。四季度收入指引低于预期。三季度现金资本开支 759 亿美元，2026 年预计约 2200 亿美元，2027 年将“明显更多”。常规交易收跌 4.25%，盘后再跌约 5–7%（各来源报价时点不同）。",
+     "impact_path": "AWS 加速 → 云业务收入和估值支撑；资本开支持续上升 + 自由现金流下降 + 零售指引偏弱 → 市场担心投入回报的时间。与微软对比：微软 Azure 加速的同时资本开支低于预期，亚马逊则是加速与资本开支同步上升。",
+     "magnitude": "AWS 增速加快是结构性利好，管理层对 2027–2028 年超过 40% 的增速预期是重要的中期锚。资本开支压力也是结构性的，至少持续到 2027 年。",
+     "priced_in": "常规交易 −4.25% 已部分反映 Alphabet 带来的板块情绪，盘后再跌说明利润和资本开支担忧仍在加深。",
+     "guidance": "亚马逊的持有逻辑是“AWS 增长 + 零售利润率提升”。AWS 加速说明 AI 需求真实存在，问题在于资本开支能否带来足够回报。若下季度 AWS 增速保持在 40% 附近、且资本开支增速开始放缓，盘后下跌可能是过度反应；若 AWS 增速回落而资本开支继续上调，估值倍数会承压。在 AI 投入回报出现分化时，应优先选择回报已经可见的公司（例如微软）。",
+     "watch": "电话会中 2027 年资本开支的具体幅度；下季度 AWS 增速与经营利润率；四季度零售销售。",
+     "sources": [
+      {
+       "title": "Amazon 三季度财报新闻稿",
+       "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+      },
+      {
+       "title": "GeekWire：AWS 增速 39%，EPS 不及预期",
+       "url": "https://www.geekwire.com/2026/aws-growth-hits-39-its-fastest-in-nearly-five-years-as-amazon-misses-on-earnings/"
+      },
+      {
+       "title": "CNBC：AWS 收入增长 39%",
+       "url": "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html"
+      },
+      {
+       "title": "Seeking Alpha：收入与资本开支指引压过 AWS 加速",
+       "url": "https://seekingalpha.com/news/4660612-amazon-slides-after-sales-and-capex-guidance-overshadow-accelerating-aws-growth"
+      }
+     ]
+    },
+    {
+     "title": "Alphabet 跌 12.6%，创上市以来最大单日跌幅；AI 链条普跌，多家机构下调评级和目标价",
+     "tickers": [
+      "GOOGL",
+      "AVGO",
+      "AMD",
+      "ORCL",
+      "TSM"
+     ],
+     "importance": 4,
+     "view": "利空",
+     "facts": "Alphabet 收跌 12.64% 至 283.82 美元，美联社称这是其上市 20 多年来最大的单日跌幅（财报详情见 10-28 报告）。Citizens 将评级从跑赢大盘下调至与大盘持平，理由是搜索变现面临挑战；Scotiabank 将目标价从 450 美元下调至 375 美元，德意志银行从 430 美元下调至 390 美元（据 CNN 列表）。CNBC 指出微软和谷歌都没有上调资本开支预测，AI 建设出现“阻滞”。同日博通 −1.94%、AMD −2.08%、甲骨文 −3.45%、台积电 −1.75%。",
+     "impact_path": "搜索收入首次出现被 AI 侵蚀的迹象（CNBC 分析）→ Alphabet 核心业务估值下调；大型云厂商不再上调 2026 年资本开支 → 市场下调对 AI 硬件供应链（博通、AMD、台积电）和 AI 基础设施（甲骨文）的短期预期。",
+     "magnitude": "对 Alphabet 属于结构性重估：市场在重新定价搜索业务的长期增长率。对供应链属于情绪和预期层面的调整，2027 年资本开支仍被指引为“显著增加”，基本面没有恶化。",
+     "priced_in": "Alphabet 的跌幅已经充分反映利润不及预期和现金流转负；供应链 2% 左右的跌幅更多是情绪传导。",
+     "guidance": "昨日的指引认为 Alphabet 2027 年资本开支“显著增加”对博通是领先的正面信号，但市场当日选择抛售整个 AI 链条，说明短期情绪主导了基本面。应区分：Alphabet 面临的是搜索业务的结构性问题，需要更长时间验证；博通、AMD 的订单逻辑没有改变，若后续财报确认订单，当前的回调属于估值消化。若更多云厂商下调 2027 年资本开支计划，则应重新评估 AI 硬件链的估值。",
+     "watch": "Alphabet 后续季度的搜索收入增速；Meta、苹果财报对 AI 投入的表态；博通 12 月财报。",
+     "sources": [
+      {
+       "title": "Anchorage Daily News（美联社）：Alphabet 可能创历史最大跌幅",
+       "url": "https://www.adn.com/business-economy/2026/10/29/a-potentially-historic-drop-for-alphabets-stock-drags-us-market-lower/"
+      },
+      {
+       "title": "Investing.com：Citizens 下调 Alphabet 评级",
+       "url": "https://www.investing.com/news/analyst-ratings/citizens-downgrades-alphabet-stock-rating-on-search-growth-slowdown-93CH-4981772"
+      },
+      {
+       "title": "CNBC：谷歌和微软推迟上调资本开支预测",
+       "url": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html"
+      },
+      {
+       "title": "CNBC：Alphabet 业绩显示 AI 开始侵蚀搜索",
+       "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html"
+      }
+     ]
+    },
+    {
+     "title": "英特尔给出疲弱四季度指引并预计 2027 年 PC 市场再萎缩 10%，盘后跌 16–22%",
+     "tickers": [
+      "AMD",
+      "TSM",
+      "AAPL"
+     ],
+     "importance": 3,
+     "view": "利空",
+     "facts": "英特尔三季度收入 165 亿美元（+21%），非 GAAP EPS 0.52 美元；数据中心与 AI 收入增长 78% 至 73 亿美元，客户端（PC）收入下降 5% 至 81 亿美元。四季度收入指引 150–160 亿美元（预期约 170 亿美元），调整后 EPS 0.25 美元（预期 0.43 美元），毛利率降至 38%。公司预计 PC 市场 2026 年下降 12%，2027 年再下降 10%，原因是内存短缺和 IT 预算有限。盘后股价跌 16–22%（各来源不同）。",
+     "impact_path": "PC 市场萎缩 → AMD 客户端 CPU 收入（AMD 的增长主要依赖数据中心，但客户端仍占一定比例）和苹果 Mac 需求承压；内存短缺推高 PC 成本 → 抑制换机需求。台积电：英特尔部分产品外包给台积电，需求下降影响有限。",
+     "magnitude": "对 AMD 的影响取决于客户端业务占比，属于中等程度的利空；数据中心与 AI 业务（英特尔该业务增长 78%）的强劲说明 AI 服务器需求没有减弱。",
+     "priced_in": "AMD 常规交易 −2.08% 发生在英特尔盘后财报之前，尚未反映 PC 市场的指引。",
+     "guidance": "把英特尔的 PC 市场预测（2026 年 −12%、2027 年 −10%）作为客户端业务的基准情景：AMD 持有逻辑应更依赖 MI 系列 GPU 和服务器 CPU，若 AMD 下一份财报中客户端收入降幅超过数据中心增长，则需要下调盈利预期。内存短缺同时是存储芯片的利好、PC 整机的利空。",
+     "watch": "AMD 下一份财报中的客户端与数据中心收入结构；苹果财报中的 Mac 收入；内存价格走势。",
+     "sources": [
+      {
+       "title": "Quartz：英特尔三季报后股价跌超 22%",
+       "url": "https://qz.com/intel-stock-falls-revenue-forecast-pc-demand-102926"
+      },
+      {
+       "title": "英特尔 8-K 财报新闻稿（SEC）",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm"
+      },
+      {
+       "title": "CNBC：英特尔股价暴跌，归咎 PC 放缓",
+       "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html"
+      }
+     ]
+    }
+   ],
+   "institutions": [
+    {
+     "firm": "Citizens",
+     "ticker": "GOOGL",
+     "action": "下调至与大盘持平（此前为跑赢大盘），取消目标价",
+     "detail": "分析师 Andrew Boone 认为搜索变现面临挑战，且搜索业务基数较高。",
+     "url": "https://www.investing.com/news/analyst-ratings/citizens-downgrades-alphabet-stock-rating-on-search-growth-slowdown-93CH-4981772"
+    },
+    {
+     "firm": "Scotiabank / Deutsche Bank",
+     "ticker": "GOOGL",
+     "action": "目标价下调：$450 → $375；$430 → $390",
+     "detail": "据 CNN 的评级列表汇总，未取得原始报告。",
+     "url": "https://www.cnn.com/markets/stocks/GOOG"
+    }
+   ],
+   "quiet": [
+    "NVDA",
+    "MSFT",
+    "META"
+   ]
+  },
+  {
+   "key": "defense",
+   "overview": "军工 ITA +3.16%，板块普涨：亨廷顿英格尔斯 +13.23%、L3 哈里斯 +6.84%、AeroVironment +7.09%、Kratos +5.88%、通用动力 +4.65%、波音 +3.30%。HII 和 L3 哈里斯的财报是直接催化，其余标的未找到单一原因，可能是资金从科技股轮动至订单可见度高的板块（推断）。注意：Politico 报道五角大楼正在为“破纪录军费预算落空”做准备，与板块上涨方向相反，需要跟踪。",
+   "events": [
+    {
+     "title": "亨廷顿英格尔斯三季报大超预期，上调造船收入指引，约 90% 的 2030 年前造船收入已锁定，股价 +13%",
+     "tickers": [
+      "HII",
+      "GD"
+     ],
+     "importance": 4,
+     "view": "利好",
+     "facts": "三季度收入约 35 亿美元（+10.8%，预期 33.7 亿美元），稀释 EPS 5.48 美元（预期约 4.42 美元）。2026 年造船收入指引上调至 105–107 亿美元，造船利润率指引维持在 6%–6.5%。纽波特纽斯船厂收入约 19.1 亿美元，英格尔斯船厂收入 8.76 亿美元，但英格尔斯利润率从 7.9% 降至 6.7%，原因是加薪后劳动力恢复较慢。本季度新签合同 324 亿美元，CEO Chris Kastner 表示约 90% 的 2030 年前预期造船收入已锁定。",
+     "impact_path": "合同锁定 → 收入可见度提高 → 估值风险溢价下降；利润率仍受劳动力制约 → 利润弹性取决于产能与效率。对通用动力（Electric Boat 造潜艇）同样是行业层面的正面信号：海军造船预算与订单在落地。",
+     "magnitude": "约 90% 的收入锁定到 2030 年是结构性的可见度提升；利润率仍在 6%–6.5% 的低位，修复需要时间。",
+     "priced_in": "单日 +13% 已大幅反映业绩与订单；通用动力 +4.65% 部分反映行业情绪。",
+     "guidance": "HII 的持有逻辑是“订单确定、利润率修复”。订单端已基本确认，接下来的关键是利润率：若造船利润率能向 7% 以上提升，说明劳动力问题在缓解，估值仍有空间；若英格尔斯利润率继续下滑，收入增长不能转化为利润。追高前应考虑这一点。",
+     "watch": "下季度造船利润率（尤其英格尔斯）；海军 2027 财年造船拨款；通用动力潜艇交付进度。",
+     "sources": [
+      {
+       "title": "TIKR：HII 业绩超预期，约 90% 造船收入锁定至 2030 年",
+       "url": "https://www.tikr.com/blog/huntington-ingalls-soars-11-on-earnings-beat-approximately-90-percent-of-shipbuilding-revenue-secured-through-2030"
+      },
+      {
+       "title": "GuruFocus：HII Q3 EPS 5.48 美元",
+       "url": "https://www.gurufocus.com/news/9150693/huntington-ingalls-industries-reports-q3-2026-gaap-eps-of-548-exceeding-estimates-and-revenue-of-35-billion-beating-expectations"
+      },
+      {
+       "title": "Motley Fool：HII Q3 电话会纪要",
+       "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/hii-hii-q3-2026-earnings-call-transcript/"
+      }
+     ]
+    },
+    {
+     "title": "L3 哈里斯三季报超预期：订单出货比 3.2 倍，积压订单创纪录 532 亿美元，上调全年指引，股价 +6.8%",
+     "tickers": [
+      "LHX"
+     ],
+     "importance": 4,
+     "view": "利好",
+     "facts": "调整后 EPS 3.28 美元（预期约 2.96 美元），收入约 60.6 亿美元（预期约 59.3 亿美元），同比 +7%，有机增长 9%。本季度订单 193 亿美元，订单出货比 3.2 倍，积压订单创纪录的 532 亿美元。自由现金流 13 亿美元。2026 年 GAAP EPS 指引从 11.80–12.00 美元上调至 12.25–12.35 美元。",
+     "impact_path": "订单大幅超过收入 → 未来数年收入可见度提高；L3 哈里斯的关键变量之一是 Aerojet 固体火箭发动机，直接受益于导弹补库（参见 10-28 伊朗战争成本事件）。",
+     "magnitude": "订单出货比 3.2 倍属于结构性的需求信号，但单季订单可能包含大额一次性合同，需要观察是否可持续。",
+     "priced_in": "+6.84% 已反映业绩超预期与指引上调。",
+     "guidance": "若下季度订单出货比仍高于 1.2，说明需求是持续的，而不是单笔大单带来的波动，L3 哈里斯可以作为导弹补库主题中弹性较高的标的；若补充拨款因中期选举受阻，固体火箭发动机的订单节奏可能放缓。",
+     "watch": "下季度订单出货比；Aerojet 固体火箭发动机产能爬坡；国会补充拨款进展。",
+     "sources": [
+      {
+       "title": "Yahoo Finance：L3 哈里斯上调全年指引",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/l3harris-raises-2026-earnings-revenue-144948207.html"
+      },
+      {
+       "title": "Quartz：创纪录积压订单推动指引上调",
+       "url": "https://qz.com/l3harris-raises-guidance-record-backlog-third-quarter-102926"
+      },
+      {
+       "title": "Investing.com：L3 哈里斯 Q3 电话会纪要",
+       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-l3harris-tops-q3-2026-estimates-and-lifts-guidance-93CH-4984651"
+      }
+     ]
+    }
+   ],
+   "institutions": [
+    {
+     "firm": "JPMorgan",
+     "ticker": "PLTR",
+     "action": "列为首选股，认为有超过 30% 的上涨空间",
+     "detail": "据 CNBC 报道，具体目标价和理由未能从原文核实。",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQmktT2NHMS1zNmFaa01uZW5Nd2UwcXpoUU1xSzVCcUVLUjZ5di1aNjZRMGpuTHZMNF84ZEZCSm92cmh1eEtLX3dDUjBSc0g1ZnZzMURzQWJuS0dfdFRfRjVUUUY3RWlmMjZWamktcnZJdlZaZFI3SVVZX1RYYldzTVBSNXdxVFh0V2ZHRUFpMHZjSUJGSm9VSDVoQksxWk9fb0NkTmxrNA?oc=5"
+    }
+   ],
+   "quiet": [
+    "LMT",
+    "RTX",
+    "NOC",
+    "BA",
+    "LDOS",
+    "PLTR",
+    "AVAV",
+    "KTOS",
+    "RKLB"
+   ]
+  },
+  {
+   "key": "consumer",
+   "overview": "必选消费 XLP +1.54%，可选消费 XLY +0.75%，覆盖池全线上涨：家得宝 +3.60%、耐克 +3.42%、麦当劳 +2.75%、星巴克 +2.24%、沃尔玛 +2.09%。三季度 GDP 显示消费支出强劲，但有经济学家指出部分增长来自价格上涨。家得宝的上涨可能与 10 年期收益率回落有关（推断）。",
+   "events": [
+    {
+     "title": "星巴克财年四季度美国同店销售 +7.7%，超出预期；2027 财年指引以利润率换增长，盘后基本持平",
+     "tickers": [
+      "SBUX"
+     ],
+     "importance": 4,
+     "view": "利好",
+     "facts": "美国同店销售增长 7.7%（预期 6.5%），其中交易笔数 +2.4%、客单价 +5.2%；全球同店销售 +7.2%。2026 财年非 GAAP EPS 2.72 美元，美国同店销售 +6.5%。2027 财年（53 周）指引：合并收入下降约 1%（主要因中国业务转型），北美同店销售增长约 4%，非 GAAP EPS 3.15–3.25 美元，经营利润率 13.5%–14%。CNBC 称国际业务令人失望，但美国门店表现突出。盘后股价基本持平。",
+     "impact_path": "美国客流回升（交易笔数 +2.4%）→ 转型计划见效；2027 年同店增速放缓至约 4%，但 EPS 指引较 2026 年的 2.72 美元增长约 16–19% → 利润率扩张成为主要驱动。中国业务转型拖累合并收入。",
+     "magnitude": "美国转型进展是结构性利好；2027 年 EPS 增长主要来自利润率，依赖成本控制的执行。",
+     "priced_in": "常规交易 +2.24%，盘后持平，说明市场对“增速放缓、利润率提升”的组合反应中性。",
+     "guidance": "星巴克的持有逻辑已从“客流能否恢复”变为“利润率能否兑现”。交易笔数转正是关键验证点。若接下来几个季度北美同店销售维持在约 4% 以上、利润率按指引提升，EPS 增长具有可见度；若客流再次转负或需要靠折扣维持，利润率目标可能落空。可与 Chipotle（10-28）的“10 月行业转弱”信号对照。",
+     "watch": "下季度美国交易笔数与经营利润率；中国业务转型的进展。",
+     "sources": [
+      {
+       "title": "星巴克 8-K 财报新闻稿（SEC）",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000154/sbux-09272026xearningsrele.htm"
+      },
+      {
+       "title": "CNBC：星巴克销售不及预期，但美国转型加速",
+       "url": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html"
+      },
+      {
+       "title": "Quartz：星巴克业绩超预期，美国转型延续",
+       "url": "https://qz.com/starbucks-earnings-beat-us-turnaround-international-102926"
+      },
+      {
+       "title": "Motley Fool：利润率跳升，客流放缓",
+       "url": "https://www.fool.com/investing/2026/10/29/starbucks-margins-jump-as-store-visits-slow-rapid-earnings-reaction/"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "WMT",
+    "COST",
+    "HD",
+    "MCD",
+    "KO",
+    "PG",
+    "NKE",
+    "TGT",
+    "TJX"
+   ]
+  },
+  {
+   "key": "financials",
+   "overview": "金融 XLF +1.44%：万事达 +4.16%、Visa +2.48%、摩根大通 +1.26%、富国 +1.36%、花旗 +1.33%。比特币 −3.03%，Coinbase −1.07%。",
+   "events": [
+    {
+     "title": "万事达三季报超预期：净收入 98 亿美元（+14%），增值服务 +19%，但跨境交易量增速放缓至 11%",
+     "tickers": [
+      "MA",
+      "V"
+     ],
+     "importance": 3,
+     "view": "利好",
+     "facts": "净收入 98 亿美元（+14%，预期约 96.5 亿美元），稀释 EPS 5.28 美元（调整后 5.31 美元）。支付网络收入约 57 亿美元（+11%），返利与激励增长 18%；增值服务与解决方案收入 41 亿美元（+19%）。按当地货币计，跨境交易量增长 11%，低于一季度的 13% 和二季度的 12%；总交易额增长 7% 至 3.0 万亿美元，交易笔数 +9%。",
+     "impact_path": "增值服务高增长 → 收入结构多元化，降低对交易量的依赖；跨境增速逐季放缓 → 高利润业务的增长动力在减弱；返利增速（18%）快于网络收入（11%）→ 竞争压力。对 Visa 是同业印证：消费支出稳健。",
+     "magnitude": "季度业绩小幅超预期；跨境放缓是需要连续观察的趋势，目前幅度温和。",
+     "priced_in": "万事达 +4.16%、Visa +2.48%，市场更看重整体超预期和增值服务，对跨境放缓反应有限。",
+     "guidance": "万事达和 Visa 的持有逻辑是“支付量稳定增长 + 跨境高利润”。若跨境增速连续两个季度降至 10% 以下，说明旅行与跨境消费在降温，应下调对利润率的预期；增值服务若持续接近 20% 增长，可部分抵消。返利增速持续高于网络收入，需警惕定价权削弱。",
+     "watch": "下季度跨境交易量增速；返利与激励占收入比例；刷卡费相关立法。",
+     "sources": [
+      {
+       "title": "万事达 8-K 财报新闻稿（SEC）",
+       "url": "https://www.sec.gov/Archives/edgar/data/0001141391/000114139126000122/ma09302026-exx991xearnings.htm"
+      },
+      {
+       "title": "Yahoo Finance：跨境交易量与定价推动业绩超预期",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-beats-q3-earnings-higher-145800659.html"
+      },
+      {
+       "title": "PPC Land：收入增长 14%，增值服务 +19%",
+       "url": "https://ppc.land/mastercard-revenue-gains-14-to-9-8bn-as-services-rise-19/"
+      }
+     ]
+    },
+    {
+     "title": "Coinbase 三季度：收入同比下降 35%、交易收入下降 44%，GAAP 净利润 7.19 亿美元但调整后仅 7800 万美元",
+     "tickers": [
+      "COIN"
+     ],
+     "importance": 3,
+     "view": "利空",
+     "facts": "收入 12.16 亿美元，同比下降 35%，低于 12.30 亿美元的预期；交易收入 5.90 亿美元，同比下降 44%，环比下降 1%。GAAP 净利润 7.19 亿美元（去年同期 4.33 亿美元），调整后净利润仅 7800 万美元，两者差距未在来源中解释（路透社和 CNBC 称加密投资收益提供了缓冲）。调整后 EBITDA 3.33 亿美元，环比增长 60%。订阅与服务收入占净收入 49%，预测市场年化收入超过 2 亿美元。",
+     "impact_path": "交易量下滑 → 核心收入萎缩；GAAP 利润依赖投资收益 → 利润质量低、波动大；订阅与服务、预测市场 → 收入结构正在转型，降低对交易量的依赖。",
+     "magnitude": "交易收入同比下降 44% 属于周期性下滑（加密市场交易清淡）；收入结构转型属于结构性变化，但规模尚不足以抵消交易收入的下滑。",
+     "priced_in": "常规交易 −1.07% 发生在财报前，同日比特币 −3.03%，尚未反映财报。",
+     "guidance": "Coinbase 的关键变量是加密货币价格与交易量。不要被 GAAP 利润增长误导：投资收益会随比特币价格反向波动。若比特币价格回升带动交易量恢复，经营杠杆很高；若交易继续清淡，应关注订阅与服务收入能否在两个季度内超过交易收入。",
+     "watch": "比特币价格与现货交易量；四季度交易收入；加密市场结构立法进展。",
+     "sources": [
+      {
+       "title": "Coinbase 投资者关系：三季度财报",
+       "url": "https://investor.coinbase.com/news/news-details/2026/Coinbase-Q3-2026-Earnings-Show-All-time-high-Coinbase-One-Subscribers-and-Prediction-Markets-Surpassing-200-Million-in-Annualized-Revenue/default.aspx"
+      },
+      {
+       "title": "Coinbase 10-Q（SEC）",
+       "url": "https://www.sec.gov/Archives/edgar/data/0001679788/000167978826000122/coin-20260930.htm"
+      },
+      {
+       "title": "Benzinga：Coinbase 三季度要点",
+       "url": "https://www.benzinga.com/markets/earnings/26/10/62721640/coinbase-q3-highlights-mixed-earnings-prediction-markets-hit-200-million-annualized-revenue"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "JPM",
+    "BAC",
+    "GS",
+    "MS",
+    "WFC",
+    "C",
+    "BRK-B",
+    "BLK",
+    "SCHW"
+   ]
+  },
+  {
+   "key": "autonomy",
+   "overview": "机器人 ETF BOTZ −1.79%，自动驾驶与机器人股普跌：Aurora −13.46%、Mobileye −9.21%、泰瑞达 −5.43%、Symbotic −4.03%。Aurora 的跌幅未找到具体原因，可能是科技股抛售下的高贝塔效应（推断）。",
+   "events": [
+    {
+     "title": "Mobileye 三季报超预期并小幅上调全年收入指引，但受中国车企压价和管理层交接不确定性影响，股价 −9.2%",
+     "tickers": [
+      "MBLY"
+     ],
+     "importance": 3,
+     "view": "利空",
+     "facts": "调整后 EPS 0.11 美元（预期约 0.10 美元），收入 4.92 亿美元（同比 −2%，预期约 4.77 亿美元），调整后经营利润增长 20% 至 8900 万美元。2026 年收入指引上调 1300 万美元至 19.95–20.2 亿美元。CEO 表示中国车企的压价使 2026 年平均售价下降近 2 美元。Globes 报道公司尚未宣布 Shashua 的继任者。股价收跌 9.21% 至 6.41 美元，接近 52 周低点 6.40 美元。",
+     "impact_path": "单价下降 → 收入增长受限，即使出货量增长；管理层交接不确定 → 风险溢价上升。",
+     "magnitude": "压价是持续性的结构压力（公司称预计 2027 年有所缓解）；管理层问题在继任者确定前持续。",
+     "priced_in": "−9.2% 至 52 周低点附近，市场已对“超预期但无增长”给出明确的负面反应。",
+     "guidance": "Mobileye 的关键变量是 ADAS 订单与 Robotaxi 合作。在单价持续下降、管理层不确定的情况下，股价缺乏催化。若 2027 年压价如公司所说缓解，并在继任者确定后推出明确的高阶产品（SuperVision、Chauffeur）量产时间表，可重新评估；否则低估值本身不足以成为持有理由。",
+     "watch": "CEO 继任者公告；2027 年单价与收入指引；高阶 ADAS 产品的定点订单。",
+     "sources": [
+      {
+       "title": "Benzinga：Mobileye 称中国车企压价将在 2027 年缓解",
+       "url": "https://www.benzinga.com/markets/earnings/26/10/62704150/mobileye-sees-chinese-automaker-pricing-pressure-easing-in-2027"
+      },
+      {
+       "title": "Globes：Mobileye 业绩超预期但股价下跌",
+       "url": "https://en.globes.co.il/en/article-mobileye-falls-despite-beating-analysts-on-q3-1001561293"
+      },
+      {
+       "title": "GuruFocus：Mobileye Q3 业绩",
+       "url": "https://www.gurufocus.com/news/9150750/mobileye-global-mbly-q3-earnings-beat-estimates-despite-revenue-dip"
+      }
+     ]
+    },
+    {
+     "title": "白宫认定进口机器人和工业机械威胁国家安全（第 232 条），暂不加征关税，180 天内与贸易伙伴谈判",
+     "tickers": [
+      "TER",
+      "SYM"
+     ],
+     "importance": 2,
+     "view": "分歧",
+     "facts": "总统于 10-28 签署第 232 条调查结论，认定机器人、工业机械及其零部件的进口威胁国家安全（处于窗口边界，10-28 报告未覆盖）。签署时未征收任何关税，商务部和美国贸易代表办公室需与贸易伙伴谈判，并在 180 天内报告进展；关税、配额或费用仍是可能的后续措施。目前没有生效日期或税则变动。该调查于 2025 年 9 月启动；联邦通信委员会已于 2026 年 7 月禁止部分中国产机器人的新进口（历史对比）。",
+     "impact_path": "若未来加征关税 → 进口机器人成本上升 → 利好美国本土生产的机器人公司，利空依赖进口零部件或整机的公司。泰瑞达的协作机器人主要在海外生产（推断），可能面临成本压力；Symbotic 等系统集成商的影响取决于供应链结构。",
+     "magnitude": "180 天谈判期内没有直接财务影响，属于政策不确定性；若最终加征关税，将是结构性变化。",
+     "priced_in": "当日机器人股下跌主要受科技股抛售影响，难以区分政策因素。",
+     "guidance": "目前只需跟踪，不必调整仓位。关键在于 180 天内谈判的结果：若对主要盟友（欧盟、日本）豁免，影响有限；若普遍加征关税，需要评估泰瑞达协作机器人的成本转嫁能力。",
+     "watch": "180 天内（约 2027 年 4 月底前）的谈判进展报告；是否出现关税清单。",
+     "sources": [
+      {
+       "title": "The Robot Report：白宫对进口机器人作出第 232 条认定",
+       "url": "https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/"
+      },
+      {
+       "title": "GHY International：要求在 180 天内开展贸易谈判",
+       "url": "https://www.ghy.com/trade-compliance/trump-trade-talks-robotics-machinery-imports"
+      },
+      {
+       "title": "Sandler, Travis & Rosenberg：暂不对机器人与工业机械加征 232 关税",
+       "url": "https://www.strtrade.com/trade-news-resources/str-trade-report/trade-report/october/no-section-232-tariffs-on-robotics-and-industrial-machinery"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "TSLA",
+    "GOOGL",
+    "NVDA",
+    "UBER",
+    "AUR",
+    "PONY",
+    "WRD"
+   ]
+  }
+ ],
+ "risks": [
+  "AI 投入回报分化：Alphabet 和亚马逊资本开支上升而利润不及预期，若更多云厂商出现类似情况，AI 硬件链（博通、AMD、台积电）的估值可能继续承压。",
+  "PC 市场萎缩：英特尔预计 2026 年 −12%、2027 年 −10%，对 AMD 客户端业务和苹果 Mac 构成压力。",
+  "国防预算：Politico 报道五角大楼在为破纪录预算落空做准备，与当日板块上涨方向相反；下周中期选举结果将决定拨款路径。",
+  "通胀黏性：GDP 强劲、9 月通胀加速，12 月加息仍有可能。"
+ ],
+ "opportunities": [
+  "若博通、AMD 后续财报确认 AI 订单，当日因情绪传导的下跌可能属于估值消化。",
+  "订单可见度高的国防二线标的（HII、L3 哈里斯）在资金轮动中获得青睐，若利润率改善得到验证，上涨有基本面支撑。",
+  "星巴克美国客流恢复，若利润率按 2027 财年指引兑现，EPS 增长有较高可见度。"
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-02",
+   "event": "苹果财报（据一份财报日历，以公司公告为准）",
+   "tickers": [
+    "AAPL"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "event": "美国中期选举（影响国防补充拨款与预算协调路径）",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "LHX",
+    "AVAV",
+    "KTOS"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "event": "Anthropic 路演最早可能在当周开始（据报道）",
+   "tickers": [
+    "AVGO",
+    "AMD",
+    "GS",
+    "MS"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "event": "三季度 GDP 第二次估值",
+   "tickers": [
+    "SPY",
+    "TLT"
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "美联储议息会议（12 月 8–9 日，含点阵图）",
+   "tickers": [
+    "TLT",
+    "QQQ",
+    "IWM"
+   ]
+  }
+ ],
+ "self_check": [
+  {
+   "item": "是否逐一核查覆盖清单中每只股票？",
+   "ok": true,
+   "note": "60 只覆盖股均已检索。"
+  },
+  {
+   "item": "是否覆盖当日市值较大或波动显著的公司？",
+   "ok": true,
+   "note": "已覆盖 Alphabet −12.6%、HII +13.2%、Mobileye −9.2%、L3 哈里斯 +6.8%、万事达 +4.2%，以及亚马逊、英特尔、星巴克、Coinbase 盘后财报。Aurora −13.5%、AeroVironment +7.1%、Kratos +5.9%、通用动力 +4.7%、家得宝 +3.6% 未找到单一催化，已在板块概览中注明推断。"
+  },
+  {
+   "item": "机构观点是否引用权威来源？",
+   "ok": false,
+   "note": "Citizens 下调 Alphabet 有 Investing.com 报道；Scotiabank、德意志银行的目标价来自 CNN 列表，摩根大通对 Palantir 的观点来自 CNBC 标题，均未取得原始报告。"
+  },
+  {
+   "item": "是否严格限定在报告时间窗口内？",
+   "ok": true,
+   "note": "洛克希德三季报（10-22）、巴克莱上调特斯拉（10-26）、诺斯罗普 2027 年展望（10-20）均不在窗口内，未列为事件；第 232 条认定于 10-28 签署，处于窗口边界，已注明。"
+  },
+  {
+   "item": "是否把事实与分析判断清楚分开？",
+   "ok": true,
+   "note": "推断内容已注明“推断”。"
+  }
+ ]
+}
