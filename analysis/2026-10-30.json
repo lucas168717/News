@@ -1,0 +1,420 @@
+{
+ "date": "2026-10-30",
+ "window": "2026-10-29 16:00 ET（前一交易日收盘）→ 2026-10-30 收盘及盘后；周末事件将并入 11-02 报告",
+ "headline": "英特尔创 1974 年来最大跌幅引发芯片股万亿抛售；美联储官员力挺再加息",
+ "summary": "纳指 −2.86%，创 6 月以来最大跌幅；半导体 SMH −6.98%，AMD −10.9%。英特尔单日跌约 29%，为 1974 年以来最差表现，芯片股合计蒸发约 1 万亿美元市值，市场对 AI 投入回报和 PC 需求的担忧集中爆发。\n达拉斯联储主席 Logan 明确表示“至少还需加息两次”，12 月加息概率约 76%；黄金跌 3.6%，VIX 升至 19.4。Binance 遭遇史上最大加密货币盗窃（63 亿美元），Coinbase 跌 10.6%。\n只有防御板块上涨：必选消费 XLP +1.41%，沃尔玛、好市多走强。本周（10-27 至 10-30）的主线已经从“AI 融资化”演变为“AI 投入回报分化 + 利率上行”，下周的苹果、AMD 财报、中期选举和非农数据将密集考验市场。",
+ "sectors": [
+  {
+   "key": "macro",
+   "overview": "标普 500 −1.82%，纳指 −2.86%，罗素 2000 −1.66%。避险资金流入美债，10 年期收益率降至 4.929%，TLT +0.43%；但黄金不涨反跌 3.6%，市场把加息预期放在避险需求之前。VIX 升 12.9% 至 19.42。下周有中期选举（11 月 3 日）和 10 月就业报告。",
+   "events": [
+    {
+     "title": "达拉斯联储 Logan：至少还需加息两次；黄金大跌 3.6%，12 月加息概率约 76%",
+     "tickers": [
+      "TLT",
+      "GLD",
+      "QQQ",
+      "SPY",
+      "IWM"
+     ],
+     "importance": 4,
+     "view": "利空",
+     "facts": "达拉斯联储主席 Lorie Logan 10-30 表示，联邦公开市场委员会需要“至少”再加息两次、每次 25 个基点，之后暂停评估，并认为渐进调整可以降低经济急剧放缓的风险。GV Wire 称这是 Warsh 5 月就任主席以来美联储官员最明确的利率指引；Logan 并不在本周投票支持加息的两位委员之中。期货隐含 12 月加息概率约 76%。现货黄金跌约 3.6% 至约 3874 美元，没有因收益率下降而获益。",
+     "impact_path": "非投票主张加息的官员也公开支持加息 → 12 月及之后的加息路径更确定 → 实际利率预期上升 → 黄金、高估值成长股承压；同时风险偏好下降使资金流入长端美债，长端收益率回落、曲线趋平。",
+     "magnitude": "若 12 月加息并在 2027 年初再加一次，政策利率将升至 4.25%–4.50%，属于持续数月的结构性利率压力（推断）。",
+     "priced_in": "黄金 −3.6%、纳指 −2.9% 的反应显著，但科技股下跌主要源于财报和芯片股抛售，利率是叠加因素。12 月加息约 76% 的概率说明市场已经大部分定价。",
+     "guidance": "利率与 AI 回报两个压力同时出现时，高估值科技股的波动会放大。黄金在加息周期中不再是可靠的避险资产，持有 GLD 应把它视为实际利率的反向头寸。若 11 月 6 日前后公布的就业数据偏弱、加息概率回落，长久期资产可能反弹；若数据偏强，2027 年加息两次将成为基准情形，应继续降低高估值资产的仓位弹性。",
+     "watch": "11 月 6 日左右的 10 月非农就业报告；11 月 3 日中期选举；12 月 8–9 日议息会议。",
+     "sources": [
+      {
+       "title": "GV Wire：Logan 称至少还需加息两次",
+       "url": "https://gvwire.com/2026/10/30/fed-needs-at-least-two-more-rate-hikes-logan-says/"
+      },
+      {
+       "title": "FXStreet：Logan 认为暂停不改变路径",
+       "url": "https://www.fxstreet.com/news/feds-logan-calls-for-two-more-rate-hikes-pause-wont-alter-path-202610301745"
+      },
+      {
+       "title": "investingLive：纳指大跌，美联储官员维持加息预期",
+       "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-30-oct-it-s-a-wrap-nasdaq-tumbles-as-ai-costs-worry-investors-fed-speakers-keep-hikes-in-play"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "UUP"
+   ]
+  },
+  {
+   "key": "tech",
+   "overview": "科技 XLK −4.89%，半导体 SMH −6.98%。AMD −10.88%、甲骨文 −6.37%、台积电 −5.95%、博通 −5.48%、英伟达 −4.22%；大型平台股跌幅较小（微软 −1.55%、Meta −1.53%、Alphabet −1.40%、亚马逊 −1.41%）。苹果 11 月 2 日盘后发布财报。",
+   "events": [
+    {
+     "title": "英特尔单日跌约 29%，为 1974 年以来最大跌幅，芯片股合计蒸发约 1 万亿美元；AMD −10.9%",
+     "tickers": [
+      "AMD",
+      "TSM",
+      "AVGO",
+      "NVDA",
+      "ORCL"
+     ],
+     "importance": 5,
+     "view": "利空",
+     "facts": "英特尔周四盘后给出低于预期的四季度指引（收入 150–160 亿美元，预期约 171 亿美元），原因包括 PC 市场疲软、内存价格上涨，以及以色列工厂爆炸事故（造成两人死亡，预计两个季度减少约 6 亿美元收入）。10-30 股价跌约 29%，为 1974 年 7 月以来最大单日跌幅；英特尔此前今年已上涨约 150%。美银分析师 Vivek Arya 将英特尔下调至中性，目标价从 145 美元降至 100 美元，并指出 PC 下滑也是 AMD 的逆风（AMD 下周发布财报）。据 Benzinga 统计，芯片股合计蒸发约 1 万亿美元市值，英伟达、英特尔、AMD、台积电、博通占约 60%。",
+     "impact_path": "英特尔指引 → 市场同时下调 PC 需求（AMD 客户端、台积电部分产能）和 AI 投入回报（本周 Alphabet、亚马逊财报引发的担忧）的预期 → 半导体板块估值整体压缩。AMD 跌幅最大，因为它同时暴露于 PC 下滑和 AI GPU 预期两个风险。",
+     "magnitude": "英特尔的问题有很强的公司特异性（工厂事故、自身执行），但 PC 市场 2026 年 −12%、2027 年 −10% 的预测对 AMD 客户端业务是结构性逆风。其余芯片股的下跌更多是估值和情绪的再定价，不代表 AI 数据中心需求恶化（英特尔自身的数据中心与 AI 收入增长 78%）。",
+     "priced_in": "AMD 两日累计跌约 13%，昨日指引中“AMD 尚未反映 PC 指引”已在今天充分体现。博通、台积电、英伟达的跌幅更多是情绪传导。",
+     "guidance": "需要区分三类风险：英特尔的公司特异风险、PC 周期风险（AMD 客户端、苹果 Mac）和 AI 资本开支节奏风险（博通、英伟达、台积电）。对 AMD 持有者，下周财报是关键：若数据中心 GPU 收入和 2027 年 MI 系列订单指引强劲，能够抵消客户端下滑，这次暴跌可能属于过度反应；若客户端降幅超出预期且 GPU 指引平淡，估值可能进一步下修。对博通、英伟达、台积电，在云厂商 2027 年资本开支仍被指引为“显著增加”的前提下，这次回调属于估值消化，但需警惕情绪继续扩散。",
+     "watch": "AMD 下周财报（以公司公告为准）中的客户端收入与 MI 系列 GPU 指引；内存价格；英伟达 11 月财报。",
+     "sources": [
+      {
+       "title": "CNBC：英特尔创 1970 年代以来最差单日表现",
+       "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+      },
+      {
+       "title": "Benzinga：英特尔跌 28%，美银下调评级",
+       "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/10/62742459/intel-stock-worst-day-since-1974-bank-of-america-downgrade"
+      },
+      {
+       "title": "Benzinga：芯片股蒸发 1 万亿美元",
+       "url": "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom"
+      },
+      {
+       "title": "MarketWatch：英特尔财报揭示的两大问题拖累 AMD",
+       "url": "https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91?mod=mw_rss_topstories"
+      }
+     ]
+    },
+    {
+     "title": "微软发行约 250 亿美元债券，为 2017 年以来首次美国债券发行，认购超过 1000 亿美元",
+     "tickers": [
+      "MSFT"
+     ],
+     "importance": 3,
+     "view": "中性",
+     "facts": "微软 10-29 盘后宣布发行约 250 亿美元投资级债券，分最多 10 个期限、2 至 40 年，由富国、摩根大通、瑞银承销，认购订单超过 1000 亿美元（超过 4 倍）。这是其 2017 年以来首次在美国发行债券。微软拥有标普 AAA 评级，募资用于一般公司用途；据报道公司 2026 年资本开支目标约 1700 亿美元，以满足 Anthropic、OpenAI 等客户需求。预计 11 月 4 日完成交割。各来源对定价是否最终确定说法不一。",
+     "impact_path": "现金充裕的 AAA 公司也开始举债 → AI 资本开支规模已超过自由现金流能够覆盖的范围 → 印证本周“AI 融资化”主题（Meta 增发、甲骨文融资、博通为 Anthropic 安排融资）。对微软本身，AAA 级借贷成本低，财务风险有限。",
+     "magnitude": "250 亿美元相对微软的资产负债表规模不大，属于财务结构的温和变化；信号意义大于财务影响。",
+     "priced_in": "微软 −1.55%，跌幅小于科技板块，市场认可其“AI 投入有回报”的定位（Azure 增速 48%）。",
+     "guidance": "微软仍是本周 AI 投入回报最清晰的公司，举债本身不改变持有逻辑。值得跟踪的是行业层面：当最强的资产负债表也需要外部融资时，AI 资本开支的边际资金成本在上升。若利率继续上行，融资能力弱于微软的公司（甲骨文、新型云服务商）压力更大，应在仓位上体现这种差异。",
+     "watch": "11 月 4 日债券交割及最终定价；下季度 Azure 增速与资本开支。",
+     "sources": [
+      {
+       "title": "CNBC：微软计划发债 250 亿美元",
+       "url": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html"
+      },
+      {
+       "title": "Business Standard：2017 年以来首次美国债券",
+       "url": "https://www.business-standard.com/world-news/microsoft-eyes-to-raise-at-least-25-billion-in-first-us-bond-since-2017-126102901884_1.html"
+      },
+      {
+       "title": "Manila Times（路透社）：微软寻求融资 250 亿美元",
+       "url": "https://www.manilatimes.net/2026/10/31/business/foreign-business/microsoft-looking-to-raise-25b-for-ai-push/2458225"
+      }
+     ]
+    }
+   ],
+   "institutions": [
+    {
+     "firm": "BofA Securities",
+     "ticker": "AAPL",
+     "action": "维持买入，目标价 $370；认为 12 月季度收入预期偏高",
+     "detail": "分析师 Wamsi Mohan 将 2027 财年 iPhone 出货预测下调 900 万部至 2.47 亿部，认为零部件成本上升推高 iPhone 售价；同时认为市场可能低估 6 月季度收入。",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-delivers-stark-warning-143709551.html"
+    }
+   ],
+   "quiet": [
+    "AAPL",
+    "GOOGL",
+    "AMZN",
+    "META"
+   ]
+  },
+  {
+   "key": "defense",
+   "overview": "军工 ITA −2.13%。主承包商相对抗跌（通用动力 +0.48%、RTX +0.20%、洛克希德 −1.03%），高贝塔国防科技股大跌：Rocket Lab −7.39%、AeroVironment −6.50%、Palantir −6.27%、Kratos −5.74%，与科技股抛售和中期选举前华尔街预期民主党获益（CNBC）有关（推断）。",
+   "events": [
+    {
+     "title": "通用动力三季报超预期并上调全年指引，积压订单创纪录 2203 亿美元（潜艇大单推动）",
+     "tickers": [
+      "GD"
+     ],
+     "importance": 4,
+     "view": "利好",
+     "facts": "三季度收入 146 亿美元（+12.9%），稀释 EPS 4.49 美元，经营利润 15 亿美元。全年 EPS 指引从 16.80–16.90 美元上调至 17.20–17.30 美元，收入指引 565–568 亿美元。积压订单创纪录的 2203 亿美元（上季度 1365 亿美元），主要来自 421 亿美元弗吉尼亚级和 295 亿美元哥伦比亚级潜艇合同；含期权的合同总值约 2710 亿美元。海洋系统收入增长 21.1% 至 49.6 亿美元，订单出货比 17.5。湾流交付 40 架（去年同期 39 架），管理层目标 2030 年交付 200 架，供应商产能是主要制约。",
+     "impact_path": "潜艇大单 → 未来十年海洋系统收入锁定；湾流公务机 → 高利润率的商业业务，受供应链制约。与 10-29 HII（约 90% 造船收入锁定至 2030 年）共同印证海军造船周期的订单落地。",
+     "magnitude": "积压订单增加约 840 亿美元，属于长期结构性的收入可见度提升；EPS 指引上调约 2.4%，短期贡献温和。",
+     "priced_in": "股价 +0.48%，在板块下跌 2.1% 的情况下明显跑赢，但涨幅有限，说明订单落地已在 HII 财报后部分定价。",
+     "guidance": "通用动力的持有逻辑是“潜艇产能 + 湾流交付”。订单端已经确定，接下来看执行：潜艇产能（劳动力、供应链）能否支撑交付节奏，以及湾流交付能否向 2030 年 200 架的目标爬坡。若下季度海洋系统利润率提升、湾流交付环比增加，可视为执行力验证；若供应商问题拖累湾流交付，商业航空部分的利润弹性会受限。",
+     "watch": "湾流季度交付数；海洋系统利润率；海军 2027 财年造船拨款。",
+     "sources": [
+      {
+       "title": "通用动力 8-K 财报新闻稿（SEC）",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000040533/000004053326000036/gd-20261004exhibit991.htm"
+      },
+      {
+       "title": "MarketScreener（路透社）：湾流和海洋订单推动上调预测",
+       "url": "https://www.marketscreener.com/news/general-dynamics-tops-quarterly-results-as-gulfstream-marine-drive-bookings-ce785fdbdc8df02d"
+      },
+      {
+       "title": "IndexBox：积压订单创纪录 2203 亿美元",
+       "url": "https://www.indexbox.io/blog/general-dynamics-q3-profit-and-revenue-beat-estimates-on-gulfstream-and-shipbuilding-strength/"
+      }
+     ]
+    },
+    {
+     "title": "美国批准向乌克兰出售 500 枚 PAC-3 MSE 拦截弹（约 21 亿美元），由加拿大、德国、挪威和欧盟出资",
+     "tickers": [
+      "LMT",
+      "RTX"
+     ],
+     "importance": 3,
+     "view": "利好",
+     "facts": "美国国务院 10-30 批准向乌克兰出售 500 枚爱国者 PAC-3 MSE 拦截弹，价值约 21 亿美元，资金来自加拿大、德国、挪威的援助和欧盟贷款，而非美国资金。这是一项可能的对外军售批准，并非已签订的合同，首批交付时间未披露。乌克兰此前一直面临拦截弹短缺。",
+     "impact_path": "外国出资的 PAC-3 订单 → 洛克希德（PAC-3 MSE 主承包商）和 RTX（爱国者系统）的增量需求；但 PAC-3 产能紧张，需与美国自身因伊朗战争产生的补库需求（约 290 亿美元，见 10-28）竞争产能。",
+     "magnitude": "约 21 亿美元，相当于洛克希德 2026 年收入指引（800–820 亿美元）的约 2.6%。更重要的意义在于盟国出资模式：外部需求不依赖美国国会拨款，可部分对冲中期选举带来的预算不确定性。",
+     "priced_in": "洛克希德 −1.03%、RTX +0.20%，消息在收盘前后公布，且未签合同，市场反应有限。",
+     "guidance": "PAC-3 需求已经远超产能，单个订单的边际意义在于延长高产能利用率的时间。关注洛克希德的 PAC-3 年产能爬坡：若产能按计划提升，订单可以顺利转化为收入；若产能瓶颈持续，订单会积压而不是转化为收入。盟国出资模式若推广，可降低国防股对美国国会拨款的依赖。",
+     "watch": "正式合同签订与交付时间表；洛克希德 PAC-3 年产能数据；中期选举后的补充拨款进展。",
+     "sources": [
+      {
+       "title": "CNN：美国批准向乌克兰出售 21 亿美元爱国者导弹",
+       "url": "https://www.cnn.com/2026/10/30/politics/us-approves-potential-patriot-missile-sale-ukraine"
+      },
+      {
+       "title": "Investing.com：美国批准 21 亿美元爱国者导弹销售",
+       "url": "https://www.investing.com/news/stock-market-news/us-approves-21-billion-patriot-missile-sale-to-ukraine-93CH-4988537"
+      },
+      {
+       "title": "Breaking Defense：盟国出资 21 亿美元",
+       "url": "https://breakingdefense.com/2026/10/us-greenlights-500-patriot-missiles-for-ukraine-with-2-1-billion-to-be-paid-by-allies/"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "NOC",
+    "BA",
+    "LHX",
+    "HII",
+    "LDOS",
+    "PLTR",
+    "AVAV",
+    "KTOS",
+    "RKLB"
+   ]
+  },
+  {
+   "key": "consumer",
+   "events": [],
+   "institutions": [],
+   "quiet": [
+    "WMT",
+    "COST",
+    "HD",
+    "MCD",
+    "KO",
+    "PG",
+    "NKE",
+    "SBUX",
+    "TGT",
+    "TJX"
+   ]
+  },
+  {
+   "key": "financials",
+   "overview": "金融 XLF −0.76%，投行跌幅较大：高盛 −3.58%、大摩 −3.00%、贝莱德 −2.44%，风险偏好下降对 IPO 窗口（Anthropic 路演计划）构成压力。Visa +0.74%、万事达 +0.36% 走势稳健。",
+   "events": [
+    {
+     "title": "Binance 遭遇史上最大加密货币盗窃（约 63 亿美元），Coinbase 跌 10.6%",
+     "tickers": [
+      "COIN"
+     ],
+     "importance": 4,
+     "view": "分歧",
+     "facts": "Binance 估计安全事件影响约 63 亿美元，为有记录以来最大的加密货币盗窃；区块链分析公司 TRM Labs 估计约 63.6 亿美元资金被转移到 10 条区块链上，并将攻击与朝鲜支持的黑客组织联系起来（Binance 未证实）。Binance 称约 30 亿美元已被冻结，并已预留超过 63.4 亿美元自有资金覆盖损失，另有报道称其暂停提现。Coinbase 表示自身未受影响。Coinbase 收跌 10.62% 至 143.54 美元，同时也受前一日财报（交易收入同比下降 44%）拖累；比特币一度跌超 4%。",
+     "impact_path": "短期：加密市场信心受挫 → 交易量与币价下跌 → Coinbase 交易收入继续承压，且其资产负债表上的加密投资会出现账面损失（三季度 GAAP 利润依赖投资收益，见 10-29）。中长期：离岸交易所安全事件 → 用户和机构可能向受监管的美国平台迁移 → 对 Coinbase 份额是潜在利好（推断）。",
+     "magnitude": "短期冲击取决于币价能否企稳；若 Binance 如其所称全额覆盖损失，系统性风险有限。份额迁移是长期、渐进的影响。",
+     "priced_in": "−10.6% 同时反映了财报和黑客事件，短期悲观情绪已大幅释放。",
+     "guidance": "Coinbase 的关键变量是币价与交易量。观察两点：一是 Binance 能否恢复提现并兑现损失覆盖承诺，若出现兑付问题，会演变为行业流动性危机，应大幅降低加密相关仓位；二是未来几周 Coinbase 的现货交易量和用户资产是否出现来自离岸平台的净流入，若出现，说明“受监管平台”的价值在体现。",
+     "watch": "Binance 提现恢复情况与损失覆盖进展；比特币价格；Coinbase 月度交易量数据。",
+     "sources": [
+      {
+       "title": "CNBC：63 亿美元 Binance 黑客事件为史上最大加密货币盗窃",
+       "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html"
+      },
+      {
+       "title": "RTÉ：黑客从 Binance 盗取 63 亿美元",
+       "url": "https://www.rte.ie/news/business/2026/1030/1597305-binance-bitcoin-world/"
+      },
+      {
+       "title": "crypto.news：Binance 事件后 Coinbase 大跌",
+       "url": "https://crypto.news/crypto-stocks-coinbase-slump-binance-hack/"
+      },
+      {
+       "title": "CNBC：Binance 黑客事件的已知情况与后续",
+       "url": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "JPM",
+    "BAC",
+    "GS",
+    "MS",
+    "WFC",
+    "C",
+    "BRK-B",
+    "BLK",
+    "V",
+    "MA",
+    "SCHW"
+   ]
+  },
+  {
+   "key": "autonomy",
+   "overview": "机器人 ETF BOTZ −3.59%，泰瑞达 −7.38%、Mobileye −7.02%、小马智行 −5.69%、文远知行 −5.05%，主要受芯片股抛售拖累。Symbotic +1.42% 逆势上涨。",
+   "events": [
+    {
+     "title": "Waymo 选定丰田 bZ4X 作为下一代 Robotaxi，2027 年在日本测试，之后进入英国",
+     "tickers": [
+      "GOOGL",
+      "TSLA",
+      "UBER"
+     ],
+     "importance": 3,
+     "view": "分歧",
+     "facts": "Waymo 与丰田 10-30 宣布，bZ4X 将成为 Waymo 下一代 Robotaxi 平台：由丰田在爱知县高冈工厂生产，Waymo 的自动驾驶硬件在同一条产线上集成，而不是事后改装。2027 年在日本开始测试和验证，英国及其他市场时间未定。双方还将探讨把该技术用于私人拥有的丰田车辆。Waymo 未披露传感器规格、数量和价格。历史对比：据 Fortune，Alphabet 包含 Waymo 的“其他业务”部门三季度收入 3.72 亿美元，亏损 20.5 亿美元。",
+     "impact_path": "整车厂在产线上集成 → 降低 Robotaxi 单车成本、提高扩张速度 → Waymo 国际化（日本、英国）；进入私家车领域的探索 → 自动驾驶技术授权的潜在收入。对特斯拉：Waymo 获得大型车企的规模化制造能力，削弱特斯拉“唯一能低成本量产 Robotaxi”的叙事。对 Uber：Waymo 扩张模式（自营或合作）影响其长期份额。",
+     "magnitude": "对 Alphabet 的财务影响很小（其他业务每季度亏损约 20 亿美元），属于远期期权价值；对特斯拉属于竞争格局的结构性变化，但要到 2027 年后才会体现。",
+     "priced_in": "当日受大盘拖累（Alphabet −1.40%、特斯拉 −0.87%），消息本身的影响难以区分。",
+     "guidance": "对特斯拉持有者，这是值得记录的竞争信号：Robotaxi 不再是“特斯拉制造 vs Waymo 改装”的成本对比。若 Waymo 与丰田的合作扩展到美国市场，或私家车授权落地，应下调对特斯拉 Robotaxi 市场份额的假设。对 Alphabet 持有者，Waymo 是加分项，但不足以抵消搜索业务的担忧（见 10-28、10-29）。",
+     "watch": "Waymo-丰田合作是否扩展至美国；2027 年日本测试进展；特斯拉达拉斯 Cybercab 上线（计划 11 月）。",
+     "sources": [
+      {
+       "title": "Electrek：Waymo 选定丰田 bZ4X",
+       "url": "https://electrek.co/2026/10/30/waymo-toyota-bz4x-robotaxi-japan-2027/"
+      },
+      {
+       "title": "TechCrunch：Waymo 由丰田供应日本和英国 Robotaxi",
+       "url": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/"
+      },
+      {
+       "title": "Engadget：Waymo 与丰田将在日本测试",
+       "url": "https://www.engadget.com/2301972/waymo-toyota-soon-start-testing-bz4x-robotaxis-japan/"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "NVDA",
+    "MBLY",
+    "AUR",
+    "PONY",
+    "WRD",
+    "TER",
+    "SYM"
+   ]
+  }
+ ],
+ "risks": [
+  "芯片股情绪扩散：英特尔的公司特异问题叠加 AI 回报担忧，若下周 AMD 财报不及预期，半导体板块可能继续下跌。",
+  "利率：Logan 公开支持至少再加息两次，12 月加息概率约 76%，叠加科技股抛售，高估值资产的波动会放大。",
+  "中期选举（11 月 3 日）：华尔街预期民主党获益，可能影响国防补充拨款和预算协调路径，高贝塔国防科技股（AeroVironment、Kratos、Palantir）最敏感。",
+  "加密行业：若 Binance 无法兑现损失覆盖承诺，可能演变为行业流动性危机。",
+  "IPO 窗口：风险偏好下降可能影响 Anthropic 路演计划，进而影响高盛、大摩的投行收入预期。"
+ ],
+ "opportunities": [
+  "若 AMD 下周财报显示数据中心 GPU 强劲、足以抵消 PC 下滑，两日约 13% 的跌幅可能属于过度反应。",
+  "海军造船（通用动力、HII）订单锁定至 2030 年前后，在市场波动中提供较高的收入可见度。",
+  "盟国出资的 PAC-3 订单降低了洛克希德、RTX 对美国国会拨款的依赖。",
+  "防御性消费股（沃尔玛、好市多）在科技股抛售中获得资金流入，但需注意估值。"
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-02",
+   "event": "苹果盘后发布财报（美银认为 12 月季度收入预期偏高）",
+   "tickers": [
+    "AAPL"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "event": "美国中期选举",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "AVAV",
+    "KTOS",
+    "PLTR"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "event": "微软约 250 亿美元债券预计交割",
+   "tickers": [
+    "MSFT"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "event": "10 月非农就业报告（预计，以 BLS 公布为准）",
+   "tickers": [
+    "TLT",
+    "QQQ",
+    "IWM"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "event": "Anthropic 路演最早可能在当周开始（据报道）",
+   "tickers": [
+    "AVGO",
+    "AMD",
+    "GS",
+    "MS"
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "美联储议息会议（12 月 8–9 日，含点阵图）",
+   "tickers": [
+    "TLT",
+    "GLD",
+    "QQQ"
+   ]
+  }
+ ],
+ "self_check": [
+  {
+   "item": "是否逐一核查覆盖清单中每只股票？",
+   "ok": true,
+   "note": "60 只覆盖股均已检索；消费板块窗口内无达到标准的事件，未显示。"
+  },
+  {
+   "item": "是否覆盖当日市值较大或波动显著的公司？",
+   "ok": true,
+   "note": "已覆盖 AMD −10.9%、Coinbase −10.6%、芯片股抛售、通用动力财报。Rocket Lab −7.4%、泰瑞达 −7.4%、Mobileye −7.0%、AeroVironment −6.5%、Palantir −6.3% 归因于板块抛售，已在概览中注明推断。"
+  },
+  {
+   "item": "机构观点是否引用权威来源？",
+   "ok": false,
+   "note": "美银对苹果和英特尔的观点来自 Yahoo Finance、Benzinga 的转述，未取得原始报告。"
+  },
+  {
+   "item": "是否严格限定在报告时间窗口内？",
+   "ok": true,
+   "note": "微软发债于 10-29 盘后宣布，处于窗口内；Waymo 其他业务亏损数据来自 10-28 财报，已标注为历史对比。"
+  },
+  {
+   "item": "是否把事实与分析判断清楚分开？",
+   "ok": true,
+   "note": "推断内容已注明。"
+  }
+ ]
+}
