@@ -1,0 +1,338 @@
+{
+ "date": "2026-11-03",
+ "window": "2026-11-02 16:00 ET（前一交易日收盘）→ 2026-11-03 收盘及盘后（含 AMD 盘后财报；中期选举结果在报告生成时尚未揭晓）",
+ "headline": "AMD 数据中心收入近翻倍、指引大超预期，盘后涨约 8%；芯片股反弹",
+ "summary": "中期选举日，标普 500 结束三连跌（+0.36%），芯片股反弹：SMH +2.01%，博通 +3.07%，甲骨文 +5.85%。资金从前一日上涨的防御板块流出，必选消费 XLP −2.07%，沃尔玛、好市多、家得宝跌约 2%。\n盘后 AMD 数据中心收入增长 97%，四季度收入指引约 170 亿美元（同比约 +66%），股价涨约 8%，上周因英特尔引发的“PC 拖累 AMD”担忧明显缓解。Meta 在 950 亿美元股权融资计划之后，又寻求 200–250 亿美元债券融资，标普将其评级展望下调至负面。\n9 月 JOLTS 职位空缺约 750 万，高于预期，劳动力市场依然偏紧，10 年期收益率回升至 4.95%。选举结果预计需要时间统计，11 月 6 日左右的非农数据是下一个关键宏观变量。",
+ "sectors": [
+  {
+   "key": "macro",
+   "overview": "标普 500 +0.36%，纳指 +0.83%，道指 −0.38%。10 年期收益率回升至 4.952%（+1.19%），TLT −0.76%；黄金 −0.74%，WTI 原油基本持平（+0.31%）。德国央行行长 Nagel 加入支持欧洲央行 12 月加息的行列（路透社）。中期选举投票当天进行，计票可能需要数周。",
+   "events": [
+    {
+     "title": "9 月 JOLTS 职位空缺约 750 万，高于预期约 40 万；离职率升至 2.1%",
+     "tickers": [
+      "TLT",
+      "QQQ",
+      "IWM"
+     ],
+     "importance": 3,
+     "view": "利空",
+     "facts": "BLS 数据显示，9 月职位空缺约 750 万，空缺率 4.5%，BLS 将环比变化描述为“基本持平”；8 月数据上修 11.1 万至 720 万。二级来源称 9 月为 752.3 万，较 8 月增加 33.3 万，预期约 710 万。离职人数升至约 340 万，离职率从 1.9% 升至 2.1%；裁员约 160 万，基本持平。",
+     "impact_path": "职位空缺回升 + 离职率上升（员工更有信心跳槽）→ 工资增长压力 → 通胀黏性 → 支持美联储 12 月加息 → 长端收益率上行，长久期资产承压。",
+     "magnitude": "单月数据，影响有限；但与三季度 GDP 3.4% 的强劲增长一致，降低了“劳动力市场降温、美联储停止加息”的可能性。",
+     "priced_in": "10 年期收益率上升 1.19%、TLT −0.76%，债市已有反应；股市被芯片股反弹主导，对数据反应不明显。",
+     "guidance": "劳动力数据偏强，强化了 12 月加息的基准情形（见 10-30 Logan 的表态）。11 月 6 日左右的非农是关键：若新增就业和工资增速同样偏强，应把“2027 年再加息一到两次”作为基准，继续控制长久期资产的仓位弹性；若非农明显走弱，市场可能重新定价加息路径。",
+     "watch": "11 月 6 日左右的 10 月非农就业报告与平均时薪；中期选举结果；12 月 8–9 日议息会议。",
+     "sources": [
+      {
+       "title": "BLS：2026 年 9 月 JOLTS",
+       "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+      },
+      {
+       "title": "CNBC：9 月职位空缺大增",
+       "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
+      },
+      {
+       "title": "Financial Gurkha：职位空缺 750 万，离职 340 万",
+       "url": "https://financialgurkha.substack.com/p/job-openings-hit-75-million-in-september"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "SPY",
+    "GLD",
+    "UUP"
+   ]
+  },
+  {
+   "key": "tech",
+   "overview": "科技 XLK +1.31%，半导体 SMH +2.01%：甲骨文 +5.85%、AMD +3.65%（财报前）、博通 +3.07%、微软 +2.74%、Meta +2.36%、英伟达 +2.29%。苹果 −1.90%，继续消化毛利率指引偏弱（见 11-02）。",
+   "events": [
+    {
+     "title": "AMD 三季报：数据中心收入创纪录 85 亿美元（+97%），四季度收入指引约 170 亿美元，盘后涨约 8%",
+     "tickers": [
+      "AMD",
+      "TSM"
+     ],
+     "importance": 5,
+     "view": "利好",
+     "facts": "收入 134 亿美元（预期 130.9 亿美元），非 GAAP EPS 2.09 美元（预期 1.95 美元）。数据中心收入创纪录的 85 亿美元，同比增长 97%，得益于 EPYC 服务器 CPU 需求和 Instinct MI450 系列 GPU 的推出。四季度收入指引约 170 亿美元（±3%），中值意味着同比增长约 66%；管理层将增长加速归因于 Helios 机架和“Venice”服务器 CPU 的量产爬坡。CNBC 报道股价盘后上涨约 8%。财报前一个月股价累计下跌约 26%（Benzinga）。来源未披露客户端（PC）业务的具体数字。",
+     "impact_path": "数据中心 GPU（MI450、Helios 机架）放量 → 收入和利润快速增长 → 抵消市场对 PC 市场萎缩（英特尔预测 2026 年 −12%、2027 年 −10%）的担忧；对台积电：AMD 的先进制程订单增加。",
+     "magnitude": "四季度指引约 170 亿美元，较三季度增长约 27%，属于结构性的加速，验证了 AMD 在 AI 加速器市场的份额提升。",
+     "priced_in": "盘后约 +8% 只回补了过去一个月约 26% 跌幅的一部分；10-30 单日 −10.9% 反映的 PC 担忧在很大程度上被数据中心增长抵消。",
+     "guidance": "10-30 的指引提出，“若数据中心 GPU 收入和指引强劲，能够抵消客户端下滑，这次暴跌可能属于过度反应”。这一条件已经基本满足。AMD 的持有逻辑应更明确地以数据中心为核心：若 2027 年 MI450/Helios 订单可见度继续提高，可以把近期回调视为估值消化；需要跟踪的风险是客户端业务的降幅，以及 Anthropic、Meta 等大客户的融资能力（它们的资本开支越来越依赖外部融资）。",
+     "watch": "电话会中 2027 年数据中心 GPU 收入展望与客户端收入降幅；Anthropic IPO（AMD 是其算力供应商之一）；英伟达 11 月财报。",
+     "sources": [
+      {
+       "title": "AMD 三季度财报新闻稿",
+       "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+      },
+      {
+       "title": "AMD 8-K（SEC）",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm"
+      },
+      {
+       "title": "CNBC：数据中心收入近翻倍，AMD 盘后涨 8%",
+       "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
+      },
+      {
+       "title": "Benzinga：AMD 双超预期，四季度增长将加速",
+       "url": "https://www.benzinga.com/markets/earnings/26/11/62845344/amd-posts-q3-double-beat-as-data-center-segment-shines-growth-expected-to-accelerate-in-q4"
+      }
+     ]
+    },
+    {
+     "title": "Meta 在 950 亿美元股权融资计划后再寻求 200–250 亿美元债券融资；标普将其评级展望下调至负面",
+     "tickers": [
+      "META"
+     ],
+     "importance": 3,
+     "view": "分歧",
+     "facts": "据 CNBC，Meta 计划发行 200–250 亿美元债券，约三分之二为美元、三分之一为欧元，当日下午定价（最终规模未能确认）。此前标普将 Meta 的评级展望从 AA- 稳定下调至 AA- 负面，理由是大规模资本开支的不确定性和负自由现金流；穆迪给予新票据 Aa3 评级、展望稳定。这是在上周宣布的 950 亿美元股权融资计划（350 亿美元包销 + 600 亿美元 ATM，见 10-27）之后的又一笔融资。Meta 今年 4 月已发行 250 亿美元债券（历史对比）。股价当日 +2.36%。",
+     "impact_path": "股权融资 + 债务融资同时进行 → AI 资本开支已远超经营现金流 → 评级展望转负 → 融资成本可能上升；同时持续投入意味着英伟达、AMD、博通等供应商的订单得到资金支持。",
+     "magnitude": "评级展望转负是信用层面的结构性变化，若最终降级，会提高 Meta 后续的融资成本；但 AA- 仍是高评级，短期财务风险有限。",
+     "priced_in": "股价 +2.36% 随科技股反弹，市场对融资消息反应不大。",
+     "guidance": "10-27 的指引认为 Meta 的持有逻辑正在从“广告现金牛 + 回购”转向“AI 资本开支的远期回报”。债务融资和评级展望转负进一步印证了这一点：Meta 的资产负债表风险在上升。若下一份财报中广告收入继续加速、资本开支指引不再上调，融资可以视为对增长的投资；若资本开支继续上调而广告增速放缓，应下调对 Meta 估值倍数的假设，并关注是否被正式降级。",
+     "watch": "债券最终定价与需求；标普是否正式降级；Meta ATM 股票发行进度（2027 年初）。",
+     "sources": [
+      {
+       "title": "CNBC：Meta 寻求最高 250 亿美元债券融资",
+       "url": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html"
+      },
+      {
+       "title": "Yahoo Finance：Meta 债券融资",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/meta-looks-raise-25-billion-130141093.html"
+      },
+      {
+       "title": "HuggingNews：Meta 上调债券发行目标",
+       "url": "https://huggingnews.com/ai/meta-increases-target-for-new-debt-offering-to-25b-as-ai-infrastructure-66e6921b"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "NVDA",
+    "MSFT",
+    "AAPL",
+    "GOOGL",
+    "AMZN",
+    "AVGO",
+    "ORCL"
+   ]
+  },
+  {
+   "key": "defense",
+   "overview": "军工 ITA +0.69%，个股分化：Leidos −6.55%（财报）、Palantir −1.65%（分析师指出合同总值增长放缓，与 11-02 提到的“新签合同放缓”一致）；Rocket Lab +4.53%、Kratos +1.89%。中期选举结果将影响国防补充拨款和预算协调路径。",
+   "events": [
+    {
+     "title": "Leidos 三季报：利润超预期并上调 EPS 指引，但收入不及预期、下调全年收入指引，称 2027 年不会是盈利增长之年，股价 −6.6%",
+     "tickers": [
+      "LDOS"
+     ],
+     "importance": 3,
+     "view": "利空",
+     "facts": "调整后 EPS 3.62 美元（预期 3.05 美元），全年调整后 EPS 指引上调至 12.50–12.70 美元。收入 46.3 亿美元，低于 47.1 亿美元的预期；全年收入指引下调至 180–182 亿美元。管理层表示 2027 财年不会是盈利增长的一年，项目延迟和“一些不利的决定”将拖累四季度和 2027 年的增长。分部收入：健康业务 −12%，国土安全 +32%，国防 +3%，情报与数字 +1%。股价收于 134.72 美元（−6.55%），较 52 周高点 205.77 美元低约三分之一。",
+     "impact_path": "政府 IT 服务合同延迟、部分竞标失利 → 收入增长放缓 → 2027 年盈利停滞；利润超预期主要来自成本控制与利润率，难以持续推动估值。健康业务下滑反映联邦医疗支出审查的影响。",
+     "magnitude": "管理层明确表示 2027 年没有盈利增长，属于至少持续一年的结构性放缓。",
+     "priced_in": "−6.6% 反映了收入指引下调和 2027 年盈利停滞的预期；股价已比高点低约三分之一，部分悲观预期此前已经计入。",
+     "guidance": "Leidos 的关键变量是政府 IT 与服务合同，以及联邦支出审查。管理层对 2027 年的表态说明这一逻辑短期内难以改善。在国防板块内部，资金更倾向于订单可见度高的硬件和造船公司（通用动力、HII、L3 哈里斯），而服务类公司受预算审查和项目延迟影响更大。若后续几个季度新签合同和订单出货比回升到 1 以上，可重新评估；否则低估值本身不足以构成持有理由。",
+     "watch": "下季度订单出货比与新签合同；健康业务能否企稳；中期选举后的联邦支出政策。",
+     "sources": [
+      {
+       "title": "Investing.com：Leidos Q3 电话会纪要",
+       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-leidos-tops-q3-2026-eps-forecast-but-shares-fall-93CH-4995566"
+      },
+      {
+       "title": "Yahoo Finance：Leidos 利润增长、上调盈利指引，收入不及预期",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/leidos-reports-stronger-q3-profit-133847811.html"
+      },
+      {
+       "title": "Seeking Alpha：收入展望令人失望",
+       "url": "https://seekingalpha.com/news/4663329-leidos-stock-falls-revenue-outlook-disappoints"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD",
+    "BA",
+    "LHX",
+    "HII",
+    "PLTR",
+    "AVAV",
+    "KTOS",
+    "RKLB"
+   ]
+  },
+  {
+   "key": "consumer",
+   "events": [],
+   "institutions": [],
+   "quiet": [
+    "WMT",
+    "COST",
+    "HD",
+    "MCD",
+    "KO",
+    "PG",
+    "NKE",
+    "SBUX",
+    "TGT",
+    "TJX"
+   ]
+  },
+  {
+   "key": "financials",
+   "events": [],
+   "institutions": [],
+   "quiet": [
+    "JPM",
+    "BAC",
+    "GS",
+    "MS",
+    "WFC",
+    "C",
+    "BRK-B",
+    "BLK",
+    "V",
+    "MA",
+    "SCHW",
+    "COIN"
+   ]
+  },
+  {
+   "key": "autonomy",
+   "overview": "机器人 ETF BOTZ +0.15%；泰瑞达 +3.20% 随芯片股反弹，特斯拉 −1.32%。",
+   "events": [
+    {
+     "title": "人形机器人公司 Agility Robotics 的 SPAC 合并获批，预计 11 月 5 日以 AGLT 代码在纳斯达克上市",
+     "tickers": [
+      "TSLA"
+     ],
+     "importance": 2,
+     "view": "中性",
+     "facts": "Churchill Capital Corp XI 股东于 11 月 2 日批准与 Agility Robotics 的合并，预计 11 月 4 日完成交割，11 月 5 日在纳斯达克以“AGLT”（认股权证“AGLTW”）开始交易。按 10 月 30 日的公告，预计募资总额约 4.65 亿美元（信托账户约 1.64 亿美元、每股 10 美元的 PIPE 约 2.01 亿美元、已收到的 1 亿美元股权融资）；此前报道的投前股权估值为 25 亿美元。消息公布后 Churchill XI（CCXI）上涨约 20%。各来源对募资金额的说法存在差异。",
+     "impact_path": "美国首个纯人形机器人上市公司 → 为人形机器人赛道提供公开市场的估值参照 → 影响市场对特斯拉 Optimus 估值的锚定；同时为投资者提供直接投资人形机器人的标的。",
+     "magnitude": "约 25 亿美元的估值规模较小，对特斯拉等大公司没有直接财务影响，属于行业层面的估值参照事件。",
+     "priced_in": "特斯拉 −1.32%，与该消息无明显关联。",
+     "guidance": "可以把 AGLT 作为观察人形机器人估值的“温度计”：若上市后持续获得高估值，说明市场愿意为人形机器人支付溢价，对特斯拉 Optimus 的估值叙事是支撑；若上市后大幅破发（SPAC 上市后常见），说明市场对该赛道的商业化时间表存疑。如果考虑直接配置，需要注意 SPAC 上市初期的赎回、流动性和高波动风险，建议先观察几周的交易和首份财报。",
+     "watch": "11 月 5 日 AGLT 上市后的股价表现与赎回比例；Agility 的商业订单与 Digit 机器人部署数量；特斯拉 Optimus 量产时间表。",
+     "sources": [
+      {
+       "title": "Yahoo Finance：Churchill XI 股东批准与 Agility Robotics 合并",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/churchill-capital-corp-xi-shareholders-222700941.html"
+      },
+      {
+       "title": "Agility Robotics：预计募资约 4.65 亿美元",
+       "url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise-of-approximately-465-million-and-anticipated-closing-of-business-combination"
+      },
+      {
+       "title": "The Robot Report：股东批准 25 亿美元人形机器人 SPAC",
+       "url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "GOOGL",
+    "NVDA",
+    "UBER",
+    "MBLY",
+    "AUR",
+    "PONY",
+    "WRD",
+    "TER",
+    "SYM"
+   ]
+  }
+ ],
+ "risks": [
+  "中期选举结果：计票可能需要数周，若民主党控制国会，国防补充拨款、预算协调和部分政策（关税、加密监管）可能出现变化。",
+  "利率：JOLTS 偏强、欧洲央行官员支持 12 月加息，若 11 月 6 日左右的非农同样偏强，长端收益率可能重返 5% 以上。",
+  "AI 融资：Meta 评级展望转负，甲骨文、微软、Meta 接连大规模融资，若利率维持高位，AI 资本开支的边际融资成本上升。",
+  "政府服务类国防股：Leidos 表示 2027 年盈利不增长，联邦支出审查与项目延迟可能影响同类公司。"
+ ],
+ "opportunities": [
+  "AMD 数据中心业务的强劲增长验证了 AI 加速器需求，若其他芯片公司（英伟达 11 月财报）同样确认需求，芯片股近期的回调可能属于估值消化。",
+  "Agility Robotics 上市为人形机器人赛道提供了直接投资标的和估值参照。"
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-05",
+   "event": "Agility Robotics（AGLT）预计在纳斯达克开始交易",
+   "tickers": [
+    "TSLA"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "event": "10 月非农就业报告（预计，以 BLS 公布为准）",
+   "tickers": [
+    "TLT",
+    "QQQ",
+    "IWM"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "event": "Anthropic 路演最早可能在当周开始（据报道）",
+   "tickers": [
+    "AVGO",
+    "AMD",
+    "GS",
+    "MS"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "event": "沃尔玛发布财年三季度财报",
+   "tickers": [
+    "WMT"
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "美联储议息会议（12 月 8–9 日，含点阵图）",
+   "tickers": [
+    "TLT",
+    "GLD",
+    "QQQ"
+   ]
+  }
+ ],
+ "self_check": [
+  {
+   "item": "是否逐一核查覆盖清单中每只股票？",
+   "ok": true,
+   "note": "60 只覆盖股均已检索；消费和金融板块窗口内无达到标准的事件，未显示。"
+  },
+  {
+   "item": "是否覆盖当日市值较大或波动显著的公司？",
+   "ok": true,
+   "note": "已覆盖 AMD 盘后财报、Leidos −6.6%、Meta 融资、芯片股反弹。沃尔玛、好市多、家得宝、塔吉特约 −2% 未找到可靠的单一原因（仅有一篇二级来源提到 FTC 对沃尔玛和塔吉特的定价调查，未能核实），判断为前一日上涨后的回吐（推断）。"
+  },
+  {
+   "item": "机构观点是否引用权威来源？",
+   "ok": true,
+   "note": "窗口内未找到可核实的评级变动，因此未列出机构观点。"
+  },
+  {
+   "item": "是否严格限定在报告时间窗口内？",
+   "ok": true,
+   "note": "Agility 股东投票于 11-02 盘后公布，处于窗口内；Meta 4 月债券发行、10-27 股权融资计划均标注为历史对比。"
+  },
+  {
+   "item": "是否把事实与分析判断清楚分开？",
+   "ok": true,
+   "note": "推断内容已注明。"
+  }
+ ]
+}
