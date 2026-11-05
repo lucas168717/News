@@ -1,0 +1,375 @@
+{
+ "date": "2026-11-04",
+ "window": "2026-11-03 16:00 ET（前一交易日收盘）→ 2026-11-04 收盘及盘后（含中期选举结果）",
+ "headline": "民主党横扫国会、道指大涨 3%；国防股和数据中心链大跌，油价跌破 90 美元",
+ "summary": "民主党同时赢得众议院和参议院（CNBC 称参议院至少 54 席，仍有两席未定）。副总统 Vance 把共和党败选归咎于伊朗战争，市场押注战争更快结束：WTI 原油跌 8.4% 至约 88 美元，本周累计跌超 14%。\n道指 +3.03%，是 2025 年 4 月以来最好的一天；VIX 跌 20% 至 16.6。板块分化极大：消费（XLY +4.26%）、金融（XLF +3.51%）和大型平台（微软 +6.7%、亚马逊 +6.1%、苹果 +5.3%）大涨；国防股（Kratos −12.3%、AeroVironment −8.3%、洛克希德 −6.9%）和数据中心链（英伟达 −3.2%、台积电 −2.2%、泰瑞达 −6.8%）大跌。41 项数据中心地方公投中有 40 项结果对数据中心不利。\n此前报告中提出的两个情景已经兑现：一是“选举导致拨款受阻时，依赖增量预算的无人机股风险最大”（10-28），二是“若 Waymo 选择自营，应下调 Uber 的长期份额假设”（10-27）。",
+ "sectors": [
+  {
+   "key": "macro",
+   "overview": "标普 500 +1.58%，道指 +3.03%，纳指 +1.44%，罗素 2000 +1.58%。10 年期收益率回落至 4.894%，TLT +0.80%；黄金 +3.34%，比特币 +4.29%，美元指数 −0.35%。欧元区 10 月通胀升至 4%，为三年来首次，欧洲央行 12 月加息几乎确定（路透社）。",
+   "events": [
+    {
+     "title": "民主党赢得参众两院；Vance 称“输掉选举是因为战争”，油价跌破 90 美元，道指创 2025 年 4 月以来最大涨幅",
+     "tickers": [
+      "SPY",
+      "IWM",
+      "TLT",
+      "GLD"
+     ],
+     "importance": 5,
+     "view": "分歧",
+     "facts": "CBS News 预测民主党赢得众议院和参议院控制权；CNBC 称民主党在参议院至少获得 54 席，仍有两场选举未定。民主党在北卡罗来纳、德克萨斯翻盘参议院席位。新国会将从 1 月起由民主党控制拨款，特朗普提出的 1.5 万亿美元国防预算将面临更大阻力。副总统 Vance 在 X 上写道“我们输掉选举的原因是这场战争”，分析师认为特朗普更可能寻求与伊朗达成协议；WTI 收于约 88 美元（−8%以上），本周累计跌超 14%。道指上涨约 1500 点（+3.03%），CNBC 称这是 2025 年 4 月以来最好的一天；VIX 跌 20% 至 16.61。摩根大通的 Lisa Gill 认为未来两年将陷入僵局；安联警告分治政府增加政府停摆或债务上限对峙的可能性。",
+     "impact_path": "国会与白宫分治 → 政策不确定性下降（大规模新政策难以通过），但预算谈判、债务上限风险上升；战争结束预期 → 油价下跌 → 通胀预期回落、消费者实际收入改善 → 消费股和小盘股受益；国防预算增量和数据中心扩张面临政治阻力 → 相关板块承压。",
+     "magnitude": "这是结构性的政治格局变化，至少影响到 2028 年。油价若能维持在 90 美元以下，对通胀和消费的影响也是结构性的，但前提是战争确实结束。",
+     "priced_in": "单日定价非常剧烈：道指 +3%、VIX −20%、原油 −8%，反映了“不确定性消除 + 和平预期”。国防和数据中心板块的跌幅是对新风险的首次定价，后续可能还有调整。",
+     "guidance": "分治政府通常意味着政策变化有限，市场重新聚焦基本面和利率。需要调整的是两类假设：一是国防预算从“大幅扩张”下调为“维持或小幅增长”；二是油价和通胀路径下移，美联储 12 月加息的必要性可能下降。若后续美伊谈判取得实质进展，消费、小盘股和长久期资产的反弹有基础；若谈判反复，油价回升会让今天的部分涨幅回吐。年底前要关注预算拨款和政府停摆风险。",
+     "watch": "11 月 6 日左右的非农就业报告；美伊谈判与霍尔木兹海峡状态；新国会 1 月就任后的拨款谈判；12 月 8–9 日议息会议。",
+     "sources": [
+      {
+       "title": "CBS News：民主党赢得众议院",
+       "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+      },
+      {
+       "title": "CNBC：2026 年中期选举结果",
+       "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+      },
+      {
+       "title": "CNBC：民主党大胜、油价下跌，道指涨 1500 点",
+       "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+      },
+      {
+       "title": "Yahoo Finance：民主党横扫后油价跌破 90 美元",
+       "url": "https://finance.yahoo.com/markets/article/oil-prices-fall-below-90-as-traders-bet-on-iran-war-ending-after-democrats-sweep-midterms-192105228.html"
+      },
+      {
+       "title": "Quartz：Vance 将共和党败选归咎于伊朗战争",
+       "url": "https://qz.com/oil-plunges-vance-iran-war-republicans-election-110426"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "QQQ",
+    "UUP"
+   ]
+  },
+  {
+   "key": "tech",
+   "overview": "科技 XLK 持平（−0.01%），内部严重分化：微软 +6.68%、亚马逊 +6.12%、苹果 +5.31%、Alphabet +3.18%；英伟达 −3.17%、台积电 −2.24%、博通 −2.00%、甲骨文 −1.95%，半导体 SMH −2.75%。盘后高通因内存短缺拖累手机销售、给出疲弱指引，跌约 6%。",
+   "events": [
+    {
+     "title": "选举后科技股分化：大型平台股大涨，数据中心与芯片股下跌；41 项数据中心地方公投中 40 项结果对数据中心不利",
+     "tickers": [
+      "MSFT",
+      "AMZN",
+      "AAPL",
+      "NVDA",
+      "AVGO",
+      "TSM",
+      "ORCL"
+     ],
+     "importance": 5,
+     "view": "分歧",
+     "facts": "据 Ballotpedia 和 CNBC 统计，10 个州共 41 项与数据中心相关的地方投票中，除北达科他州 Harwood 一项外，结果均对数据中心不利；俄亥俄州至少 14 个市镇通过禁令或限制。部分投票属于咨询性质，对地方政府不具约束力。CNBC 称选举结果消除了不确定性，大型云厂商和苹果大涨：微软 +6.68%、亚马逊 +6.12%（MarketWatch 称两者合计增加约 4240 亿美元市值）、苹果 +5.31%。同时数据中心和芯片股下跌：英伟达 −3.17%、台积电 −2.24%、博通 −2.00%、甲骨文 −1.95%。Bloomberg 和 Barron's 报道称，与数据中心相关的股票在民主党大胜后受挫，市场担心民主党会限制数据中心扩张。",
+     "impact_path": "地方层面对数据中心的抵制 + 民主党可能收紧能源与土地政策 → 新建数据中心的选址、电力审批难度加大 → AI 资本开支落地节奏放缓 → 利空依赖产能扩张的芯片供应商（英伟达、博通、台积电）和新建产能的公司（甲骨文）；已拥有大量现有产能的云厂商（微软、亚马逊）在供给受限时议价能力更强，并且能源成本下降、政策不确定性消除 → 利好。",
+     "magnitude": "地方投票多为个案且部分不具约束力，直接影响有限；但它说明数据中心的“社会许可”在恶化，属于中长期的结构性约束（推断），可能拉长 2027 年后的资本开支兑现周期。",
+     "priced_in": "当日平台股与芯片股方向相反，说明市场已开始区分“拥有产能”和“需要新建产能”的公司。芯片股的跌幅（2%–3%）相对温和，若政策层面出现实质限制，可能还有进一步调整。",
+     "guidance": "AI 投资需要从“谁受益于资本开支增长”转向“谁能在供给受限时保持回报”。拥有现成数据中心和电力合同的云厂商（微软、亚马逊）在产能紧张时更具定价权；芯片供应商的订单可见度仍高（AMD 刚给出强劲指引），但 2027 年以后的增速可能取决于数据中心能否顺利落地。若后续出现州或联邦层面对数据中心电力、用水的实质性限制，应下调对芯片股长期增速的假设；若只是地方个案，当前回调可视为情绪波动。",
+     "watch": "各州对数据中心电力和用水的立法动向；云厂商下季度资本开支指引是否因选址问题下调；英伟达 11 月财报。",
+     "sources": [
+      {
+       "title": "CNBC：数据中心地方公投几乎全部遇阻",
+       "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html"
+      },
+      {
+       "title": "Fortune：俄亥俄 21 项数据中心投票",
+       "url": "https://fortune.com/2026/11/04/ohio-data-center-ballot-measures-midterm-elections/"
+      },
+      {
+       "title": "CNBC：选举结果消除不确定性，云厂商和苹果大涨",
+       "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html"
+      },
+      {
+       "title": "MarketWatch：微软和亚马逊合计增加 4240 亿美元市值",
+       "url": "https://www.marketwatch.com/story/microsoft-and-amazon-combine-for-a-400-billion-market-cap-boost-and-these-factors-show-why-6655d1a9?mod=mw_rss_topstories"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "GOOGL",
+    "META",
+    "AMD"
+   ]
+  },
+  {
+   "key": "defense",
+   "overview": "军工 ITA −1.54%，主承包商和无人机股大跌，波音（+2.13%）因商用业务受益于油价下跌而逆势上涨。另据报道，洛克希德同意支付约 2950 万美元，和解联邦政府关于其多元化做法的指控，金额对公司影响很小。",
+   "events": [
+    {
+     "title": "民主党将掌控国防拨款，国防股大跌：Kratos −12.3%、AeroVironment −8.3%、洛克希德 −6.9%、L3 哈里斯 −6.5%",
+     "tickers": [
+      "LMT",
+      "LHX",
+      "NOC",
+      "HII",
+      "GD",
+      "RTX",
+      "KTOS",
+      "AVAV"
+     ],
+     "importance": 5,
+     "view": "利空",
+     "facts": "民主党将从 1 月起控制国会拨款，特朗普提出的 1.5 万亿美元国防预算面临更大阻力；市场同时预期伊朗战争可能更快结束。当日收盘：Kratos −12.27%、AeroVironment −8.34%、洛克希德 −6.88%、L3 哈里斯 −6.46%、诺斯罗普 −4.53%、HII −4.08%、RTX −2.64%、通用动力 −2.57%。洛克希德 10 月曾因创纪录的积压订单上涨约 26%。Wolfe Research 的 Myles Walton 认为民主党横扫对国防股是“标题性利空”，但反应“可能是短暂的”，理由是历史上即使政治格局变化，军费开支仍持续增长；安联警告分治政府增加政府停摆和债务上限对峙的风险。Breaking Defense 称，预算之争和对国防部长 Hegseth 的弹劾将是新国会的议题。",
+     "impact_path": "国会拨款权转移 → 1.5 万亿美元预算和预算协调（reconciliation）路径受阻 → 增量项目（无人机、新兴国防科技）风险最大；战争结束预期 → 新增弹药消耗放缓，但已消耗约 290 亿美元弹药的补库需求（见 10-28）仍需拨款，时间可能推迟；已签合同的长期积压订单（潜艇、PAC-3 多年合同）受影响较小。",
+     "magnitude": "对无人机和新兴国防科技股是结构性利空（预算增量受限）；对积压订单深厚的主承包商，影响主要在估值倍数，收入可见度在未来 2–3 年内基本有保障（推断）。",
+     "priced_in": "10 月板块上涨（洛克希德 +26%）主要反映战争和预算扩张预期，今天的下跌回吐了一部分。无人机股跌幅最大，与“依赖增量预算”的逻辑一致。",
+     "guidance": "10-28 的指引提出，若选举导致拨款和预算协调受阻，依赖增量预算的无人机标的（AeroVironment、Kratos）估值风险更大，这一情景已经兑现。下一步应按积压订单的确定性区分：通用动力（2203 亿美元）、HII（约 90% 收入锁定至 2030 年）、洛克希德（PAC-3 多年合同和盟国订单）的收入可见度高，下跌更多是估值调整，可以关注 Wolfe 提出的“反应短暂”是否兑现；AeroVironment、Kratos 依赖新项目和增量预算，在拨款路径明确前，下跌后的低估值不构成充分的买入理由。短期需要警惕年底政府停摆导致合同授予延迟。",
+     "watch": "年底前的持续决议（CR）与政府停摆风险；新国会 1 月就任后的 2027 财年拨款；伊朗战争补充拨款（670 亿美元）的命运；美伊谈判进展。",
+     "sources": [
+      {
+       "title": "CNBC：国防股因担心民主党削减开支下跌，分析师称是买入机会",
+       "url": "https://www.cnbc.com/2026/11/04/defense-stocks-slide-on-fear-democrats-will-curb-spending-one-analyst-say-its-a-buying-opportunity.html"
+      },
+      {
+       "title": "CNBC：选举结果引发波动的个股",
+       "url": "https://www.cnbc.com/2026/11/04/every-stock-thats-moving-as-a-result-of-the-election.html"
+      },
+      {
+       "title": "Breaking Defense：中期选举后的预算之争与 Hegseth 弹劾",
+       "url": "https://breakingdefense.com/2026/11/what-now-budget-fight-hegseth-impeachment-on-deck-for-defense-focused-lawmakers-after-midterms/"
+      },
+      {
+       "title": "TradingView（Seeking Alpha）：民主党横扫为国防、AI 基础设施带来新风险",
+       "url": "https://www.tradingview.com/news/seekingalpha:230ab68a7094b:0-democratic-sweep-raises-new-risks-for-defense-aerospace-ai-infrastructure-stocks/"
+      }
+     ]
+    }
+   ],
+   "institutions": [
+    {
+     "firm": "Wolfe Research",
+     "ticker": "",
+     "action": "认为国防股的下跌可能是短暂的",
+     "detail": "Myles Walton 认为民主党横扫是“标题性利空”，但历史上政治格局变化后军费开支仍持续增长，承包商股价通常会恢复（据 CNBC 转述）。",
+     "url": "https://www.cnbc.com/2026/11/04/defense-stocks-slide-on-fear-democrats-will-curb-spending-one-analyst-say-its-a-buying-opportunity.html"
+    }
+   ],
+   "quiet": [
+    "BA",
+    "LDOS",
+    "PLTR",
+    "RKLB"
+   ]
+  },
+  {
+   "key": "consumer",
+   "overview": "可选消费 XLY +4.26%，必选消费 XLP +3.36%，覆盖池全线大涨：家得宝 +6.53%、塔吉特 +5.63%、耐克 +5.22%、TJX +5.18%、星巴克 +4.71%、沃尔玛 +3.45%。油价大跌改善消费者购买力，以及政策不确定性下降，是主要推动因素。",
+   "events": [
+    {
+     "title": "麦当劳三季报：EPS 超预期、收入不及预期；美国同店销售 −0.2%，结束连续五个季度增长，但 9 月转正，股价 +6.5%",
+     "tickers": [
+      "MCD"
+     ],
+     "importance": 4,
+     "view": "分歧",
+     "facts": "调整后 EPS 3.57 美元（预期约 3.38 美元，剔除 5600 万美元重组费用），GAAP EPS 3.51 美元（+10%）。收入 71.6 亿美元（+1%），低于约 72.8 亿美元的预期。美国同店销售下降 0.2%（预期 −0.5%），结束连续五个季度的增长；路透社引述 Placer.ai 数据，本季到店人次同比下降 4.6%。全球同店销售 +1.5%。美国同店销售 7–8 月较弱、9 月转正，但管理层没有表示四季度会好于三季度。公司正在测试新的超值菜单。股价收涨 6.53% 至 280.22 美元。",
+     "impact_path": "到店人次下降（−4.6%）→ 低收入客群仍在流失（麦当劳的关键变量）；9 月转正 + 油价大跌 → 四季度客流可能改善；超值菜单 → 以利润率换客流。",
+     "magnitude": "客流下降是持续性的压力，但幅度不大；油价下跌若持续，对低收入客群的可支配收入是结构性的改善（推断）。",
+     "priced_in": "+6.5% 的涨幅主要来自当天整体消费股行情和油价下跌，财报本身好坏参半；市场在为“最坏时候已经过去”定价。",
+     "guidance": "10-28 的指引提出，若麦当劳显示低收入客流改善且利润率稳定，可视为客群修复；若需要加大促销才能留住客流，利润率风险上升。本季的情况介于两者之间：客流仍在下降，但 9 月已经转正，同时公司开始测试超值菜单。四季度是关键：若在油价下跌的环境下美国同店销售转正、客流降幅收窄，且利润率没有因促销明显下滑，客群修复的逻辑成立；否则今天的涨幅更多是行情驱动。",
+     "watch": "四季度美国同店销售与客流；超值菜单对利润率的影响；汽油零售价格。",
+     "sources": [
+      {
+       "title": "Investing.com：麦当劳 Q3 电话会纪要",
+       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-mcdonalds-tops-q3-2026-eps-estimates-as-shares-rise-93CH-5000522"
+      },
+      {
+       "title": "Quartz：EPS 超预期，美国客流下降",
+       "url": "https://qz.com/mcdonalds-q3-earnings-beat-us-traffic-decline-110426"
+      },
+      {
+       "title": "Yahoo Finance：收入不及预期",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-nyse-mcd-misses-q3-122045718.html"
+      },
+      {
+       "title": "CNBC：麦当劳业绩超预期，美国门店改善",
+       "url": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "WMT",
+    "COST",
+    "HD",
+    "KO",
+    "PG",
+    "NKE",
+    "SBUX",
+    "TGT",
+    "TJX"
+   ]
+  },
+  {
+   "key": "financials",
+   "events": [],
+   "institutions": [],
+   "quiet": [
+    "JPM",
+    "BAC",
+    "GS",
+    "MS",
+    "WFC",
+    "C",
+    "BRK-B",
+    "BLK",
+    "V",
+    "MA",
+    "SCHW",
+    "COIN"
+   ]
+  },
+  {
+   "key": "autonomy",
+   "overview": "机器人 ETF BOTZ +1.52%，但泰瑞达 −6.82%（随芯片股下跌）、特斯拉 −3.34%、Mobileye −4.47%、Aurora −4.45%。Uber +4.91%、小马智行 +4.40%。",
+   "events": [
+    {
+     "title": "Waymo 确认 2028 年 1 月起在奥斯汀、亚特兰大结束与 Uber 的合作，改用自有 App",
+     "tickers": [
+      "UBER",
+      "GOOGL"
+     ],
+     "importance": 4,
+     "view": "分歧",
+     "facts": "Waymo 联席 CEO Tekedra Mawakana 对 Bloomberg 表示，Waymo 将从 2028 年 1 月起结束在奥斯汀和亚特兰大与 Uber 的合作，乘客改用 Waymo 自有 App 叫车；原合同到 2028 年 5 月，相当于提前约 4 个月退出。她称 Uber 初期提供了规模，但乘客体验“有点碰运气”，因为乘客无法确定会叫到无人车还是人类司机；Waymo 希望与乘客建立直接关系。Uber 表示只要双方同意，仍会在其 App 上接入 Waymo，并称 Waymo 拒绝了其在 App 中增加直接预订无人车选项的请求。两家公司今年早些时候已在凤凰城结束合作。另据 The Information，Uber 计划加大投资以提高自动驾驶车辆的供给。",
+     "impact_path": "Waymo 转向自营 → 与 Uber 从合作关系变为竞争关系 → Uber 在 Waymo 运营城市的出行份额面临长期威胁；Uber 需要依赖其他自动驾驶合作方（及自身投资）获得无人车供给 → 资本开支上升。对 Alphabet：自营获得完整的用户关系和收入，但需要自建获客能力。",
+     "magnitude": "影响从 2028 年开始，属于远期的结构性变化；短期对 Uber 财务没有影响。",
+     "priced_in": "Uber 当日 +4.91%，主要受大盘和消费出行行情推动，市场暂时没有对远期竞争风险定价。",
+     "guidance": "10-27 的指引提出，若 Waymo 在更多城市选择自营，应下调 Uber 在这些市场的长期份额假设。这一情景已经确认。对 Uber 持有者：短期业绩不受影响，但长期估值应体现“头部无人车公司不再依赖 Uber 分发”的风险；Uber 的应对（投资其他自动驾驶公司、自建车队）会增加资本开支。若 Uber 能与特斯拉、小马智行等达成规模化合作，可部分抵消；若主要无人车供应商都转向自营，Uber 的平台价值将受到挑战。",
+     "watch": "Uber 与其他自动驾驶公司的合作与投资；Waymo 在更多城市的自营扩张；Uber 下季度资本开支。",
+     "sources": [
+      {
+       "title": "TechCrunch：Waymo 确认 2028 年 1 月开始与 Uber 分手",
+       "url": "https://techcrunch.com/2026/11/04/waymo-confirms-it-will-start-splitting-with-uber-in-january-2028/"
+      },
+      {
+       "title": "TipRanks：Waymo 确认与 Uber 分手",
+       "url": "https://www.tipranks.com/news/alphabets-googl-waymo-confirms-split-with-crapshoot-partner-uber-uber"
+      },
+      {
+       "title": "Crypto Briefing：Waymo 与 Uber 在凤凰城已分手",
+       "url": "https://cryptobriefing.com/waymo-uber-split-robotaxi-partnership/"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "TSLA",
+    "NVDA",
+    "MBLY",
+    "AUR",
+    "PONY",
+    "WRD",
+    "TER",
+    "SYM"
+   ]
+  }
+ ],
+ "risks": [
+  "预算与停摆：分治政府增加年底政府停摆和债务上限对峙的风险，可能推迟国防合同授予。",
+  "AI 数据中心的社会许可：地方公投几乎全部不利于数据中心，若扩展为州或联邦层面的限制，芯片和数据中心链的长期增速将受影响。",
+  "油价反复：若美伊谈判破裂，油价回升会让消费股和小盘股的涨幅回吐。",
+  "国防估值：10 月因战争和预算扩张预期累积的涨幅可能继续回吐，无人机和新兴国防科技股风险最大。"
+ ],
+ "opportunities": [
+  "积压订单深厚的国防主承包商（通用动力、HII、洛克希德）若被错杀，Wolfe 认为反应可能是短暂的，可在拨款路径明确后重新评估。",
+  "油价跌破 90 美元并持续的话，消费股（尤其低收入客群相关的麦当劳、沃尔玛、塔吉特）的基本面将改善。",
+  "拥有现成产能和电力合同的云厂商（微软、亚马逊）在数据中心供给受限时议价能力更强。"
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-05",
+   "event": "Agility Robotics（AGLT）预计在纳斯达克开始交易",
+   "tickers": [
+    "TSLA"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "event": "10 月非农就业报告（预计，以 BLS 公布为准）",
+   "tickers": [
+    "TLT",
+    "QQQ",
+    "IWM"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "event": "Anthropic 路演最早可能在当周开始（据报道）",
+   "tickers": [
+    "AVGO",
+    "AMD",
+    "GS",
+    "MS"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "event": "沃尔玛发布财年三季度财报",
+   "tickers": [
+    "WMT"
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "美联储议息会议（12 月 8–9 日，含点阵图）",
+   "tickers": [
+    "TLT",
+    "GLD",
+    "QQQ"
+   ]
+  },
+  {
+   "date": "2027-01-03",
+   "event": "新一届国会就任，民主党控制拨款",
+   "tickers": [
+    "LMT",
+    "GD",
+    "KTOS",
+    "AVAV"
+   ]
+  }
+ ],
+ "self_check": [
+  {
+   "item": "是否逐一核查覆盖清单中每只股票？",
+   "ok": true,
+   "note": "60 只覆盖股均已检索；金融板块的上涨属于大盘行情，没有个股层面的重要事件，未显示。"
+  },
+  {
+   "item": "是否覆盖当日市值较大或波动显著的公司？",
+   "ok": true,
+   "note": "已覆盖国防股大跌、平台股与芯片股分化、麦当劳财报、Waymo 与 Uber 分手。泰瑞达 −6.8% 归因于芯片股下跌，特斯拉 −3.3% 未找到具体原因，已在概览中说明。"
+  },
+  {
+   "item": "机构观点是否引用权威来源？",
+   "ok": false,
+   "note": "Wolfe Research 的观点来自 CNBC 转述，未取得原始报告。"
+  },
+  {
+   "item": "是否严格限定在报告时间窗口内？",
+   "ok": true,
+   "note": "选举结果、Waymo 表态、麦当劳财报均在窗口内；Waymo 与 Uber 在凤凰城的分手、洛克希德 10 月涨幅已标注为历史对比。"
+  },
+  {
+   "item": "是否把事实与分析判断清楚分开？",
+   "ok": true,
+   "note": "推断内容已注明。"
+  }
+ ]
+}
