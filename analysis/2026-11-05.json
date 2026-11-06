@@ -1,0 +1,388 @@
+{
+ "date": "2026-11-05",
+ "window": "2026-11-04 16:00 ET（前一交易日收盘）→ 2026-11-05 收盘及盘后",
+ "headline": "AI 监管担忧引发崩盘：纳指跌 5.5% 进入回调区间，AMD 跌 17%",
+ "summary": "民主党大胜后，多名当选官员承诺放缓或叫停数据中心建设，参议员 Sanders 公开呼吁“全国数据中心暂停”，AI 链条遭到集中抛售。标普 500 −4.36%，纳指 −5.52%，进入回调区间（AP 称纳指 100 蒸发约 2.3 万亿美元市值），VIX 暴涨 70% 至 28.2。半导体 SMH −11.2%：AMD −17.3%、台积电 −10.8%、博通 −10.4%、英伟达 −9.3%。\n抛售扩散到所有高贝塔资产：特斯拉 −10.8%、泰瑞达 −15.2%、Rocket Lab −12.2%、Palantir −9.7%、Coinbase −9.7%、高盛 −6.4%。只有好市多（+1.8%）、黄金和长期美债上涨。\n需要冷静区分的是：联邦层面的“全国暂停”需要参议院 60 票和总统签字，在特朗普任内几乎不可能成为法律；真正的约束来自州和地方层面（纽约已有行政令，德州新州长承诺暂停审批）。明天（11 月 6 日）的非农数据和 11 月 17 日左右的英伟达财报，是判断市场能否企稳的下一个节点。",
+ "sectors": [
+  {
+   "key": "macro",
+   "overview": "标普 500 −4.36%，纳指 −5.52%，道指 −3.44%（据 Yahoo Finance 一度跌 1800 点），罗素 2000 −4.45%。VIX 升至 28.18（+69.7%）。避险资金流入美债，10 年期收益率降至 4.837%，TLT +0.21%；黄金 +0.6%，比特币 −6%。英国央行三年来首次加息；克利夫兰联储 Hammack 和里士满联储 Barkin 表示支持渐进加息（路透社）。数据源中军工 ETF ITA 显示 −68%，明显是数据错误，本报告不采用。",
+   "events": [
+    {
+     "title": "AI 监管担忧引发全面抛售：标普 −4.4%、纳指 −5.5% 进入回调区间，VIX 暴涨 70% 至 28",
+     "tickers": [
+      "SPY",
+      "QQQ",
+      "IWM",
+      "TLT"
+     ],
+     "importance": 5,
+     "view": "利空",
+     "facts": "标普 500 收跌 4.36% 至 7353.73，纳指收跌 5.52% 至 24315，进入回调区间（较高点下跌超过 10%）。美联社称纳斯达克 100 指数下跌 6.3%，蒸发约 2.3 万亿美元市值；路透社称这是纳指 19 个月来最大单日跌幅。VIX 升至 28.18。报道普遍将抛售归因于民主党在中期选举中获胜，以及多名当选的州长、总检察长和国会议员承诺放缓或叫停 AI 数据中心建设。Yardeni 称这是他在“蓝色浪潮”后预期的“冷水澡”；美联社指出，自 2024 年大选日以来，纳指仍累计上涨超过 30%。克利夫兰联储 Hammack 和里士满联储 Barkin 表示支持以渐进方式加息。10 月非农就业报告于 11 月 6 日（周五）公布。",
+     "impact_path": "AI 资本开支是过去两年美股盈利增长和估值扩张的核心驱动 → 政策风险突然上升 → 高估值、高集中度的 AI 链条被集中抛售 → 指数层面的风险溢价上升；同时美联储仍倾向于加息，“风险资产下跌 + 政策不放松”的组合加剧了波动。",
+     "magnitude": "单日跌幅属于 2025 年 4 月以来最大，波动率显著抬升。AI 资本开支的政策风险是中长期的结构性因素，但联邦层面的实质性限制在 2028 年前很难落地（推断），因此短期跌幅中包含相当部分的情绪和杠杆出清。",
+     "priced_in": "VIX 达到 28，说明市场处于高度恐慌状态；但纳指距 2024 年大选日仍上涨 30% 以上，估值的回调空间仍然存在。",
+     "guidance": "在恐慌性抛售中，首要任务是控制仓位风险而不是判断底部：若单只 AI 相关股票的仓位超出能承受的波动，应先降到能安心持有的水平。11 月 6 日的非农是关键：若就业强劲、加息预期上升，叠加 AI 政策风险，市场可能继续承压；若就业偏弱、加息预期回落，可能出现技术性反弹。真正的基本面检验是 11 月 17 日左右的英伟达财报：若订单和指引依然强劲，说明当前的跌幅主要来自政策预期，而非需求恶化。",
+     "watch": "11 月 6 日的 10 月非农就业报告；11 月 17 日左右的英伟达财报；VIX 能否回落到 20 以下；12 月 8–9 日议息会议。",
+     "sources": [
+      {
+       "title": "Yahoo Finance（美联社）：AI 股遭重挫，标普 500 跌 4.4%",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/ai-data-center-concerns-trigger-205202808.html"
+      },
+      {
+       "title": "Yahoo Finance：道指暴跌 1800 点，纳指进入回调",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
+      },
+      {
+       "title": "Axios：选举冲击 AI 交易，科技股暴跌",
+       "url": "https://www.axios.com/2026/11/05/nasdaq-plummets-correction"
+      },
+      {
+       "title": "CNBC：纳指进入回调区间后通常会怎样",
+       "url": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "GLD",
+    "UUP"
+   ]
+  },
+  {
+   "key": "tech",
+   "overview": "科技 XLK −8.00%，半导体 SMH −11.21%。AMD −17.26%、台积电 −10.78%、博通 −10.43%、英伟达 −9.26%、甲骨文 −6.93%；平台股跌幅较小：Meta −3.96%、微软 −3.58%、Alphabet −2.20%、亚马逊 −2.19%、苹果 −1.53%。CoreWeave 等新型云服务商、GE Vernova 等电力设备股同样大跌（美联社）。",
+   "events": [
+    {
+     "title": "民主党人呼吁“全国数据中心暂停”：芯片股暴跌 10%–17%，AI 链条蒸发数万亿美元",
+     "tickers": [
+      "NVDA",
+      "AMD",
+      "AVGO",
+      "TSM",
+      "ORCL",
+      "MSFT",
+      "META",
+      "PLTR"
+     ],
+     "importance": 5,
+     "view": "利空",
+     "facts": "参议员 Sanders 在社交媒体上写道“全国数据中心暂停，现在就要”（CNBC）；他与众议员 Ocasio-Cortez 于今年 3 月提出《人工智能数据中心暂停法案》（S.4214），要求在相关法律出台前不得新建或升级 AI 数据中心，目前仍在委员会阶段。TechCrunch 报道纽约州州长 Hochul 已签署行政令，在全州暂停新的超大规模数据中心；德州当选州长 Hinojosa 曾承诺暂停数据中心审批；南卡罗来纳州翻盘当选的参议员 Annie Andrews 也曾在竞选中反对数据中心。TechCrunch 同时引述一名民主党人称，“即使在民主党内部，全面冻结也存在争议”。当日收盘：AMD −17.26%、台积电 −10.78%、博通 −10.43%、英伟达 −9.26%、Palantir −9.73%、甲骨文 −6.93%、Meta −3.96%、微软 −3.58%。",
+     "impact_path": "数据中心选址和审批受限 → 新增算力落地放缓 → 云厂商和 AI 公司的资本开支兑现推迟 → 芯片（英伟达、AMD、博通、台积电）和 AI 基础设施（甲骨文、新型云服务商）的远期订单增速下调；拥有现成产能的平台公司受影响较小（与 11-04 的分化逻辑一致），但在全面抛售中同样下跌。",
+     "magnitude": "联邦层面的全国暂停需要参议院 60 票并获总统签字，在特朗普任内（至 2029 年 1 月）几乎不可能成为法律（推断）；州和地方层面的限制是真实的，主要影响特定州的新增产能，可能推动选址转向政策友好的州或海外。对芯片股而言，2026–2027 年的需求大多已有合同或在建产能支撑，真正的风险在 2028 年以后的增速。",
+     "priced_in": "芯片股单日下跌 10%–17%，叠加此前两周的下跌（AMD 在 10 月底已因英特尔下跌约 13%），价格已经反映了相当悲观的预期。但政策不确定性短期内难以消除，波动可能持续。",
+     "guidance": "11-04 的指引提出，若出现州或联邦层面对数据中心的实质性限制，应下调芯片股的长期增速假设。州层面的限制已经出现（纽约行政令），应适度下调 2028 年以后的增速假设；联邦层面的全国暂停可能性很低，今天的跌幅在一定程度上超出了近期基本面的变化。操作上：一是区分“需要新建产能的公司”（甲骨文、新型云服务商，风险最大）、“芯片供应商”（中等）和“拥有现成产能的平台公司”（风险最小）；二是不要在恐慌日追加杠杆或重仓抄底，等待英伟达财报和就业数据给出更清晰的信号；三是若持仓集中在芯片股，可借反弹降低集中度。",
+     "watch": "11 月 17 日左右的英伟达财报及其对 2027 年需求的表态；各州是否跟进纽约的行政令；新国会 1 月就任后与数据中心相关的听证与立法；云厂商下季度资本开支指引。",
+     "sources": [
+      {
+       "title": "CNBC：民主党高层呼吁限制 AI 建设，“全国数据中心暂停”",
+       "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+      },
+      {
+       "title": "TechCrunch：中期选举后，数据中心之争可能升级",
+       "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/"
+      },
+      {
+       "title": "Congress.gov：S.4214《人工智能数据中心暂停法案》",
+       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4214"
+      },
+      {
+       "title": "CNBC：AI 崩盘，英伟达、高通跌超 9%",
+       "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+      }
+     ]
+    },
+    {
+     "title": "众议院共和党三名委员会主席要求英伟达 CEO 黄仁勋就涉华间谍报道闭门作证",
+     "tickers": [
+      "NVDA"
+     ],
+     "importance": 3,
+     "view": "利空",
+     "facts": "众议院外交委员会主席 Brian Mast、中国特别委员会主席 John Moolenaar 和情报委员会主席 Rick Crawford 在 11 月 4 日的信中，要求黄仁勋于 11 月 18 日（英伟达三季报的次日）进行闭门简报，内容涉及《纽约时报》的报道及英伟达“防范外国对手间谍活动的安全措施”。《纽约时报》报道称，美国情报部门认定中国公民 Alice Huang 向北京输送信息，并与黄仁勋“建立了密切关系”；她曾任新加坡 Megaspeed 公司高管，该公司被美国当局怀疑帮助北京获取被禁止对华出口的先进 AI 芯片。英伟达未就信件置评，但表示黄仁勋每年与“数千名客户高管”交流，亚洲云客户获得的是常规商业信息，而非敏感商业机密。",
+     "impact_path": "出口管制与国家安全审查升级 → 英伟达面临来自两党的监管压力（民主党关注数据中心，共和党关注对华安全）→ 可能导致更严格的出口许可和渠道审查 → 影响通过第三国流入中国的需求，并增加管理层的声誉风险。",
+     "magnitude": "目前只是简报请求，不是正式调查；但它与长期的反垄断调查（见 10-28 司法部问询 Hugging Face 交易）叠加，使英伟达的政策风险从单一方向变为多方向。",
+     "priced_in": "当日英伟达 −9.26%，主要受数据中心政策担忧驱动，这一消息是叠加因素，难以单独区分其影响。",
+     "guidance": "英伟达的持有逻辑（数据中心需求、云厂商资本开支）短期内不受这一消息直接影响，但需要把“政策风险”作为估值折价的一部分。11 月 17 日左右的财报和 11 月 18 日的简报安排在相邻两天，这两天的波动可能放大，仓位较重的持有者应提前考虑风险承受能力。若简报后出现正式调查或出口管制收紧，应下调对中国相关收入和第三国渠道的假设。",
+     "watch": "11 月 17 日左右的英伟达财报；11 月 18 日的闭门简报是否举行及后续；商务部对 AI 芯片出口管制的动向。",
+     "sources": [
+      {
+       "title": "CNBC：黄仁勋被要求就涉华间谍报道向国会作简报",
+       "url": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html"
+      },
+      {
+       "title": "Yahoo Finance（路透社）：共和党要员要求英伟达 CEO 简报",
+       "url": "https://www.yahoo.com/news/politics/articles/key-republicans-seek-briefing-nvidia-184123750.html"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "AAPL",
+    "GOOGL",
+    "AMZN"
+   ]
+  },
+  {
+   "key": "defense",
+   "events": [],
+   "institutions": [],
+   "quiet": [
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD",
+    "BA",
+    "LHX",
+    "HII",
+    "LDOS",
+    "PLTR",
+    "AVAV",
+    "KTOS",
+    "RKLB"
+   ]
+  },
+  {
+   "key": "consumer",
+   "events": [],
+   "institutions": [],
+   "quiet": [
+    "WMT",
+    "COST",
+    "HD",
+    "MCD",
+    "KO",
+    "PG",
+    "NKE",
+    "SBUX",
+    "TGT",
+    "TJX"
+   ]
+  },
+  {
+   "key": "financials",
+   "overview": "金融 XLF −2.87%，投行和资产管理跌幅较大：高盛 −6.36%、大摩 −5.94%、花旗 −5.04%、贝莱德 −4.39%、摩根大通 −4.19%。Coinbase −9.69%，比特币 −6%。",
+   "events": [
+    {
+     "title": "参议院民主党拟在明年掌控财政委员会后调查摩根大通与爱泼斯坦的关系，摩根大通 −4.2%",
+     "tickers": [
+      "JPM"
+     ],
+     "importance": 3,
+     "view": "利空",
+     "facts": "CNBC 援引匿名消息称，参议院财政委员会民主党人正在准备对摩根大通与爱泼斯坦关系的调查，预计在明年 1 月接管参议院后启动，尚未正式宣布；Wyden 预计将出任委员会主席，届时拥有传唤权，可强制包括银行 CEO 在内的人员作证。调查将重点关注资产与财富管理业务 CEO Mary Erdoes 的相关决策。Wyden 8 月的报告指控摩根大通因少报爱泼斯坦的活动“很可能违反”联邦反洗钱法（历史对比）。摩根大通拒绝置评，股价收跌 4.19% 至 337.34 美元。",
+     "impact_path": "国会调查 → 管理层声誉与合规风险 → 可能引发监管罚款或和解成本；更广泛地看，民主党控制国会后，大型银行面临的监管和听证压力将上升。",
+     "magnitude": "财务影响有限（摩根大通此前已就爱泼斯坦相关诉讼和解）；主要是声誉和管理层风险，以及对银行业监管环境转向的信号。",
+     "priced_in": "−4.19% 的跌幅与金融板块整体跌幅（−2.87%）相比略大，其中大部分来自当日的全面抛售。",
+     "guidance": "单一调查不改变摩根大通的核心持有逻辑（净利息收入、投行与交易收入、信用成本）。需要跟踪的是更大的趋势：民主党控制国会后，大型银行可能面临更多听证、资本和合规要求，估值溢价可能受到压制。若调查涉及现任高管并导致管理层变动，应重新评估；否则下跌更多是情绪性的。",
+     "watch": "新国会 1 月就任后的调查启动与传唤；摩根大通管理层的回应；银行业监管政策动向。",
+     "sources": [
+      {
+       "title": "CNBC：民主党将在掌控参议院后调查摩根大通与爱泼斯坦的关系",
+       "url": "https://www.cnbc.com/2026/11/05/jpmorgan-epstein-democrats-erdoes-midterm-election.html"
+      },
+      {
+       "title": "US News（路透社）：民主党准备调查摩根大通",
+       "url": "https://www.usnews.com/news/politics/articles/2026-11-05/democrats-gearing-up-to-probe-jpmorgans-relationship-with-epstein-cnbc-reports"
+      },
+      {
+       "title": "Axios：Wyden 报告称德银、摩根大通和美银为爱泼斯坦提供便利（历史对比）",
+       "url": "https://www.axios.com/2026/08/06/epstein-deutsche-bank-jpmorgan-bofa-wyden"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "BAC",
+    "GS",
+    "MS",
+    "WFC",
+    "C",
+    "BRK-B",
+    "BLK",
+    "V",
+    "MA",
+    "SCHW",
+    "COIN"
+   ]
+  },
+  {
+   "key": "autonomy",
+   "overview": "机器人 ETF BOTZ −6.61%。泰瑞达 −15.24%（随芯片股暴跌）、特斯拉 −10.77%、文远知行 −8.18%、Symbotic −6.58%、小马智行 −5.89%。另据路透社，Lyft 将在年底前扩大在纳什维尔运营的 Waymo 车队，进一步印证 Waymo 正在弱化与 Uber 的独家关系（见 11-04）。",
+   "events": [
+    {
+     "title": "特斯拉跌 10.8%，较高点低约 30%：民主党国会可能审查自动驾驶安全规则和马斯克的政府合同",
+     "tickers": [
+      "TSLA",
+      "PONY",
+      "WRD"
+     ],
+     "importance": 4,
+     "view": "利空",
+     "facts": "特斯拉收跌 10.77% 至 343.69 美元，较 52 周高点 498.83 美元低约 30%。据 Investing.com（经 FinanceFeeds 转述），市场担心民主党控制的国会将审查自动驾驶和 Robotaxi 的安全规则、涉及马斯克公司的政府合同及其政治活动；报道还提到市场对 SpaceX 合并的疑虑，以及特斯拉在自动驾驶、Robotaxi 和机器人项目上接近 200 亿美元的资本开支。德州当选州长 Hinojosa 击败 Abbott，成为三十多年来德州首位民主党州长；Axios 报道称民主党浪潮让 Robotaxi 行业“紧张”。",
+     "impact_path": "联邦与德州（特斯拉 Robotaxi 的核心市场）的政治格局同时变化 → 自动驾驶监管趋严的可能性上升 → Robotaxi 规模化时间表面临推迟风险；特斯拉估值中很大一部分来自 Robotaxi 和 Optimus 的期权价值，对这类风险最敏感。",
+     "magnitude": "监管变化需要时间落地，短期不影响财务；但特斯拉的估值主要建立在远期期权上，政策不确定性对估值的影响是即时且放大的。",
+     "priced_in": "单日 −10.8%，叠加当日 AI 和高贝塔股的全面抛售，已反映了较多悲观情绪；但具体监管措施尚未出现，不确定性仍在。",
+     "guidance": "10-27 的指引建议关注 Robotaxi 的运营质量和监管调查。现在需要额外关注政治风险：德州（奥斯汀、休斯顿、达拉斯）是特斯拉 Robotaxi 的主战场，新州长的态度直接影响扩张节奏。若新国会或德州出台针对无安全员运营的限制，应下调 Robotaxi 的规模化时间假设；若监管保持现状、11 月达拉斯 Cybercab 按计划上线，政治风险更多是情绪性的。持有者应确认仓位能否承受这种高波动。",
+     "watch": "德州新州长的自动驾驶政策；新国会对 NHTSA 和自动驾驶规则的听证；达拉斯 Cybercab 上线进度（计划 11 月）。",
+     "sources": [
+      {
+       "title": "FinanceFeeds：特斯拉中期选举后下跌",
+       "url": "https://financefeeds.com/tesla-tsla-stock-385-thursday-after-lagging-post-midterm-rally-congress-oversight-bull-420-bear-350/"
+      },
+      {
+       "title": "Rolling Out：特斯拉较高点下跌 30% 的原因",
+       "url": "https://rollingout.com/2026/11/05/tesla-stock-falls-3-reasons/"
+      },
+      {
+       "title": "Seeking Alpha：特斯拉最大的阻力可能是奥斯汀的政治人物",
+       "url": "https://seekingalpha.com/news/4666717-tesla-moved-to-austin---now-its-biggest-headwind-might-be-austin-politicians"
+      }
+     ]
+    },
+    {
+     "title": "人形机器人公司 Agility（AGLT）在崩盘日上市，收于 11.49 美元，守住 10 美元的 PIPE 价格",
+     "tickers": [
+      "TSLA"
+     ],
+     "importance": 2,
+     "view": "中性",
+     "facts": "Agility Robotics 于 11 月 5 日在纳斯达克以 AGLT 代码开始交易，成为美国首家上市的纯人形机器人公司。据 The Robot Report，股价开盘 11.26 美元，盘中区间 8.40–12.15 美元，收于 11.49 美元；盘中一度跌破 10 美元的 PIPE 价格。此次合并募资约 4.65 亿美元（含富士康领投的 PIPE）。公司称拥有超过 3 亿美元的多年期 Digit 5 订单，计划 2027 年上半年开放早期客户使用，2027 年底全面上市。Forbes 的标题称其上市时 2025 年销售额仅 180 万美元（未能从其他来源核实）。",
+     "impact_path": "为人形机器人赛道提供公开市场的估值参照 → 影响市场对特斯拉 Optimus 期权价值的锚定。",
+     "magnitude": "约 25 亿美元的估值规模较小，对特斯拉没有直接财务影响。",
+     "priced_in": "在纳指暴跌 5.5% 的当天收于 PIPE 价格之上约 15%，相对表现较强，但单日数据意义有限。",
+     "guidance": "11-03 的指引建议把 AGLT 作为人形机器人估值的“温度计”。首日在极端行情中守住 PIPE 价格，是一个初步的积极信号，但收入规模极小、商业化要到 2027 年，估值主要依赖订单兑现。若考虑配置，建议观察 SPAC 赎回结果和首份季报后再决定，并严格控制仓位。",
+     "watch": "AGLT 首份季报中的订单与收入；Digit 5 早期客户部署进度；SPAC 上市后的赎回与流动性。",
+     "sources": [
+      {
+       "title": "The Robot Report：Agility 上市首日表现",
+       "url": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/"
+      },
+      {
+       "title": "Agility Robotics：成为美国首家上市的纯人形机器人公司",
+       "url": "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt"
+      },
+      {
+       "title": "Forbes：AGLT 在纳斯达克开始交易",
+       "url": "https://www.forbes.com/sites/johnkoetsier/2026/11/05/aglt-first-pure-play-humanoid-robot-company-starts-trading-on-nasdaq-today/"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "GOOGL",
+    "NVDA",
+    "UBER",
+    "MBLY",
+    "AUR",
+    "TER",
+    "SYM"
+   ]
+  }
+ ],
+ "risks": [
+  "AI 政策风险扩散：州层面的数据中心限制（纽约行政令、德州新州长）若被更多州效仿，2028 年以后的 AI 资本开支增速将下调。",
+  "利率与就业：若 11 月 6 日的非农强劲、加息预期上升，将与 AI 政策风险叠加，市场可能继续承压。",
+  "英伟达的双重事件：财报（11 月 17 日左右）与国会简报（11 月 18 日）相邻，波动可能放大。",
+  "高贝塔资产的去杠杆：特斯拉、Palantir、Rocket Lab、Coinbase 等单日跌幅接近 10% 或以上，若波动率持续高企，可能出现连锁抛售。",
+  "银行监管：民主党控制国会后，大型银行面临的调查和监管压力上升。"
+ ],
+ "opportunities": [
+  "联邦层面的全国数据中心暂停几乎不可能在特朗普任内成为法律，若英伟达财报确认需求强劲，芯片股的跌幅可能部分属于过度反应。",
+  "拥有现成数据中心产能的平台公司（微软、亚马逊）在供给受限时议价能力更强，当日跌幅明显小于芯片股。",
+  "防御性资产（好市多、黄金、长期美债）在恐慌中表现稳健，可作为组合中的稳定器。"
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-06",
+   "event": "10 月非农就业报告",
+   "tickers": [
+    "TLT",
+    "QQQ",
+    "IWM"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "event": "Anthropic 路演最早可能在当周开始（据报道；需关注市场动荡是否导致推迟）",
+   "tickers": [
+    "AVGO",
+    "AMD",
+    "GS",
+    "MS"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "event": "英伟达三季报（据国会信函推算为 11 月 18 日简报的前一天，以公司公告为准）",
+   "tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "TSM"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "event": "众议院共和党要求黄仁勋闭门简报",
+   "tickers": [
+    "NVDA"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "event": "沃尔玛发布财年三季度财报",
+   "tickers": [
+    "WMT"
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "美联储议息会议（12 月 8–9 日，含点阵图）",
+   "tickers": [
+    "TLT",
+    "QQQ"
+   ]
+  },
+  {
+   "date": "2027-01-03",
+   "event": "新一届国会就任（民主党控制两院）",
+   "tickers": [
+    "NVDA",
+    "JPM",
+    "TSLA"
+   ]
+  }
+ ],
+ "self_check": [
+  {
+   "item": "是否逐一核查覆盖清单中每只股票？",
+   "ok": true,
+   "note": "60 只覆盖股均已检索；国防和消费板块当日的涨跌由大盘抛售驱动，没有个股层面的重要事件，未显示。"
+  },
+  {
+   "item": "是否覆盖当日市值较大或波动显著的公司？",
+   "ok": true,
+   "note": "已覆盖芯片股暴跌、英伟达涉华调查、特斯拉、摩根大通、Agility 上市。泰瑞达 −15.2%、Rocket Lab −12.2%、AeroVironment −9.9%、Palantir −9.7%、Coinbase −9.7% 归因于 AI 与高贝塔股的全面抛售，已在概览中说明。"
+  },
+  {
+   "item": "机构观点是否引用权威来源？",
+   "ok": true,
+   "note": "窗口内未找到可核实的券商评级变动，因此未列出机构观点。"
+  },
+  {
+   "item": "是否严格限定在报告时间窗口内？",
+   "ok": true,
+   "note": "S.4214 法案（3 月提出）、Wyden 8 月报告标注为历史对比；纽约州行政令的签署日期未能确认，已注明来源为 TechCrunch。数据源中 ITA −68% 判定为数据错误，未采用。"
+  },
+  {
+   "item": "是否把事实与分析判断清楚分开？",
+   "ok": true,
+   "note": "“联邦暂停在特朗普任内几乎不可能成为法律”等判断已注明为推断。"
+  }
+ ]
+}
