@@ -1,0 +1,343 @@
+{
+ "date": "2026-11-06",
+ "window": "2026-11-05 16:00 ET（前一交易日收盘）→ 2026-11-06 收盘及盘后（因运行环境重启，本报告于 11-09 补写，仅使用窗口内信息）",
+ "headline": "非农大超预期、12 月加息概率升至约 80%；芯片股反弹，微软削减外租 AI 算力",
+ "summary": "10 月非农新增 16.5 万人，约为预期的三倍，失业率降至 4.1%，薪资增速加快，12 月加息概率升至约 77%–80%。尽管如此，市场在前一日暴跌后反弹：纳指 +1.09%，费城半导体指数反弹约 4%，AMD +11%、台积电 +6.3%；白宫经济顾问 Hassett 表示“蓝色浪潮”不会阻止未来几年的数据中心建设。\n但 AI 链条的结构性压力仍在累积：据 Bloomberg，微软已停止续约 2023 年向甲骨文租用 AI 算力的协议，并计划削减新型云服务商合作伙伴；Anthropic 的 IPO 估值预期从 2 万亿美元下修至 1–1.5 万亿美元，并可能推迟上市。\n本周（11-02 至 11-06）的主线是：选举结果把“政策风险”加入 AI 投资逻辑，强劲的就业数据又让“加息风险”无法退场。下周重点关注 11 月 9 日 Rocket Lab 财报、Anthropic IPO 定价和 11 月 17 日左右的英伟达财报。",
+ "sectors": [
+  {
+   "key": "macro",
+   "overview": "标普 500 +0.31%，纳指 +1.09%，道指 −0.46%，罗素 2000 +0.89%。10 年期收益率回升至 4.859%，美元指数 +0.72%，黄金 −0.83%；VIX 回落至 25.64，仍处于高位。消费者信心 11 月有所改善（密歇根大学），但 AI 泡沫担忧在调查中出现（路透社）。数据源中军工 ETF ITA 的价格异常（约 69），沿用 11-05 的判断，视为数据错误。",
+   "events": [
+    {
+     "title": "10 月非农新增 16.5 万（预期约 6 万），失业率降至 4.1%，薪资同比 +3.1%；12 月加息概率升至约 77%–80%",
+     "tickers": [
+      "TLT",
+      "IWM",
+      "QQQ",
+      "SPY"
+     ],
+     "importance": 5,
+     "view": "分歧",
+     "facts": "非农就业人数增加 16.5 万，远高于预期（CNBC 称预期 5.9 万，其他来源约 6.5 万），前两个月数据大幅上修。失业率降至 4.1%（未四舍五入为 4.14%）。平均时薪环比 +0.4%、同比 +3.1%（预期 0.3%、2.9%），但仍低于 3.7% 的通胀率。结构上并非全面强劲：平均失业持续时间升至 27.1 周，为 2021 年 9 月以来最高；非自愿兼职增加 33.9 万人。CME FedWatch 显示 12 月加息概率升至 76.8%，路透社称利率期货隐含约 80%（数据公布前约 75%）。路透社报道，美联储决策者在强劲就业数据后考虑加息。",
+     "impact_path": "就业与薪资强劲 → 通胀压力难以缓解 → 美联储 12 月加息几乎成为基准情形 → 长端收益率上行，压制长久期资产；但强劲的就业也降低了经济衰退的风险，对周期性板块（小盘股、金融）是支撑。",
+     "magnitude": "12 月加息概率从约 75% 升至约 80%，变化幅度不大，说明市场此前已基本定价；关键在于 2027 年是否还需要再加息一到两次（Logan 在 10-30 主张至少两次）。",
+     "priced_in": "10 年期收益率仅上升 0.45%，股市反而反弹，说明市场把强劲就业解读为“经济健康”，而非“紧缩加速”；前一日的暴跌也为反弹提供了空间。",
+     "guidance": "11-05 的指引认为，若非农强劲、加息预期上升，叠加 AI 政策风险，市场可能继续承压。实际情况是加息预期小幅上升，但市场选择反弹，说明恐慌情绪有所释放。12 月加息现在应视为基准情形。下一个关键是 11 月中旬的 CPI：若通胀继续上行，2027 年再加息两次将被定价，长久期和高估值资产会再次承压；若通胀回落，市场可能把 12 月视为最后一次加息。",
+     "watch": "11 月中旬公布的 10 月 CPI；12 月 8–9 日议息会议及点阵图；10 年期收益率是否重返 5% 以上。",
+     "sources": [
+      {
+       "title": "CNBC：10 月非农新增 16.5 万",
+       "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+      },
+      {
+       "title": "Employ America：10 月劳动力市场回顾",
+       "url": "https://www.employamerica.org/jobs-day/october-2026-labor-market-recap/"
+      },
+      {
+       "title": "Babypips：非农大超预期",
+       "url": "https://www.babypips.com/news/headline-us-jobs-report-october-2026-payrolls-beat-fed"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "GLD",
+    "UUP"
+   ]
+  },
+  {
+   "key": "tech",
+   "overview": "科技 XLK +1.45%，半导体 SMH +3.62%：AMD +11.04%、台积电 +6.33%、英伟达 +2.78%；微软 −0.99%、苹果 −0.52%、亚马逊 −0.35%。CNBC 称数据中心建设正在变成一场“消耗战”。",
+   "events": [
+    {
+     "title": "芯片股在暴跌后反弹（AMD +11%、台积电 +6%）；白宫顾问 Hassett 称“蓝色浪潮”不会阻止数据中心建设",
+     "tickers": [
+      "AMD",
+      "TSM",
+      "NVDA",
+      "AVGO"
+     ],
+     "importance": 4,
+     "view": "分歧",
+     "facts": "国家经济委员会主任 Hassett 周五表示，预计数据中心建设将按计划继续，未来几年已排期的数据中心不受地方投票影响，并会继续在政策更友好的州扩张；他将周四的暴跌归因于“政治变化对数据中心未来影响的不确定性”。Ballotpedia 统计，2026 年约 50 项相关投票中至少 46 项的多数选择限制数据中心开发。费城半导体指数在周四暴跌 12% 后反弹约 4%。当日收盘：AMD +11.04%、台积电 +6.33%、英伟达 +2.78%、博通 +0.74%。OpenAI CFO 对 CNBC 表示，公司将继续投资 AI 数据中心。",
+     "impact_path": "政府层面释放支持信号 + OpenAI 等需求方表态继续投入 → 短期缓解“需求骤降”的担忧；但地方限制已成事实，数据中心向“政策友好州”集中 → 选址成本和时间增加。",
+     "magnitude": "反弹幅度仅回补了前一日跌幅的一部分（AMD 前一日 −17%），说明市场仍保留相当的政策风险溢价。",
+     "priced_in": "反弹更多是超跌后的技术性修复，基本面信息（Hassett 表态）并不新颖；真正的检验要等英伟达财报。",
+     "guidance": "11-05 的指引建议不要在恐慌日追加杠杆或重仓抄底，并可借反弹降低持仓集中度。这一建议仍然适用：反弹幅度有限，政策和利率两个风险都没有消除。对芯片股的判断应以 11 月 17 日左右的英伟达财报为准：若数据中心收入和指引继续超预期，说明需求端没有受到选举影响；若指引谨慎，应接受估值在更长时间内承压。",
+     "watch": "11 月 17 日左右的英伟达财报；各州数据中心政策动向；云厂商对 2027 年资本开支的表态。",
+     "sources": [
+      {
+       "title": "CNBC：Hassett 称蓝色浪潮不会阻止 AI 建设",
+       "url": "https://www.cnbc.com/2026/11/06/data-centers-ai-elections-hassett.html"
+      },
+      {
+       "title": "Yahoo Finance：纳指与标普反弹，结束 AI 股艰难的一周",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html"
+      },
+      {
+       "title": "CNBC：OpenAI CFO 称将继续投资数据中心",
+       "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html"
+      }
+     ]
+    },
+    {
+     "title": "微软据报停止续约向甲骨文租用 AI 算力的 2023 年协议，并计划削减新型云服务商合作伙伴",
+     "tickers": [
+      "ORCL",
+      "MSFT"
+     ],
+     "importance": 4,
+     "view": "利空",
+     "facts": "据 Bloomberg，微软在决定不续约后，已让 2023 年与甲骨文签订的 AI 算力租用协议到期，并在过去几个月陆续关闭相关产能；该协议与 AI 版必应相关，规模未披露。甲骨文发言人表示，市场对其 AI 基础设施（包括上一代 GPU）的需求依然强劲。CNBC 报道微软正在评估削减新型云服务商（neocloud）合作伙伴的数量，尚未决定停用哪些；微软此前已承诺向 CoreWeave、Nscale、Nebius 等租用超过 800 亿美元算力，近期还放弃了扩大 Nscale 德州项目的选择权。消息公布后甲骨文盘中下跌近 3%，收盘 +0.82%。",
+     "impact_path": "最大的算力租用方开始收缩外部采购 → 甲骨文和新型云服务商的订单集中度风险显现 → 若其他大型云厂商跟进，外租算力市场的需求和定价将承压；对微软而言，转向自建产能有利于长期利润率。",
+     "magnitude": "单个协议规模未披露，直接财务影响难以量化；更重要的是信号：微软在 10-28 财报中资本开支低于预期（部分第三方算力交付推迟），现在又收缩外租，说明“算力短缺”可能在缓解。",
+     "priced_in": "甲骨文收盘仅 +0.82%，明显跑输当日反弹的芯片股（AMD +11%），市场已部分反映这一消息。",
+     "guidance": "11-02 的指引认为，甲骨文的股价在现金流明显改善前对融资和需求消息高度敏感，适合降低仓位或保留观察仓。这一消息强化了这一判断：甲骨文的 RPO（合同积压）质量需要重新审视，尤其是来自单一大客户的部分。若下一份季报显示 RPO 增长放缓或客户集中度上升，应进一步下调预期；若甲骨文能证明需求来自多元化客户（例如 OpenAI 以外的客户），这次冲击可能有限。",
+     "watch": "甲骨文 12 月季报中的 RPO 与客户结构；微软削减哪些新型云服务商；CoreWeave 等公司的订单变化。",
+     "sources": [
+      {
+       "title": "CNBC：微软计划减少使用新型云服务商",
+       "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html"
+      },
+      {
+       "title": "The Next Web：微软逐步终止向甲骨文租用 AI 算力",
+       "url": "https://thenextweb.com/news/microsoft-winds-down-oracle-ai-cloud-capacity-deal"
+      },
+      {
+       "title": "Global Banking & Finance：微软终止甲骨文 AI 云协议",
+       "url": "https://www.globalbankingandfinance.com/microsoft-winding-down-oracle-deal-rent-ai-cloud-capacity/"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic IPO 估值预期从 2 万亿美元下修至 1–1.5 万亿美元，可能推迟上市",
+     "tickers": [
+      "AVGO",
+      "AMD",
+      "GOOGL",
+      "AMZN"
+     ],
+     "importance": 4,
+     "view": "利空",
+     "facts": "CNBC 报道，部分 Anthropic 投资者预计其上市估值将低于 1.5 万亿美元，有人认为可能降至 1 万亿美元，而公司此前一度瞄准 2 万亿美元。Bloomberg 称潜在买家正在讨论 1.2–1.3 万亿美元，低于此前认为合理的约 1.4–1.5 万亿美元；《华尔街日报》称有投资者建议目标定在 1.5–1.6 万亿美元。投资者引用的理由包括科技股抛售和 Anthropic 最新披露的财务数据（收入增速放缓）。据报道，公司原计划在 11 月 16 日当周上市，但《华尔街日报》的消息人士未排除推迟上市的可能。",
+     "impact_path": "IPO 估值下调或推迟 → Anthropic 的融资能力受影响 → 其对博通（约 630 亿美元芯片融资，见 10-27）、AMD 等供应商的算力承诺兑现面临更大不确定性；Alphabet 和亚马逊作为 Anthropic 的主要投资方，账面价值和云业务合作也受影响；高盛、大摩作为主承销商的费用收入随之下降。",
+     "magnitude": "估值下调 25%–50% 是显著变化；若推迟上市，10-27 报告中提出的“AI 融资闭环”验证将延后，对 AI 链条的情绪影响较大。",
+     "priced_in": "博通当日仅 +0.74%，明显跑输芯片股反弹，可能部分反映了这一担忧。",
+     "guidance": "10-27 的指引提出，若 Anthropic IPO 推迟或大幅折价，应警惕相关算力承诺的兑现风险，尤其是博通的融资敞口。这一风险正在显现。对博通持有者，在 Anthropic 完成定价前，应把其订单视为“有条件的”；对 Alphabet、亚马逊，Anthropic 估值下调主要影响投资收益（可能计入账面损失），对核心业务影响有限。若 Anthropic 按 1 万亿美元以上顺利定价，仍可视为 AI 融资渠道畅通的信号。",
+     "watch": "Anthropic 是否在 11 月 16 日当周定价及最终估值；博通 12 月财报对 Anthropic 订单的表述；Alphabet、亚马逊对 Anthropic 投资的账面处理。",
+     "sources": [
+      {
+       "title": "CNBC：投资者预期 Anthropic 估值下调，1.5 万亿美元“偏高”",
+       "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html"
+      },
+      {
+       "title": "Yahoo Finance：AI 股抛售导致 Anthropic IPO 估值预期下降",
+       "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-valuation-expectations-fall-154900027.html"
+      },
+      {
+       "title": "Fortune：Anthropic 三季度业绩让 IPO 估值承压",
+       "url": "https://fortune.com/2026/11/03/anthropics-third-quarter-results-mean-ipo-math-and-history-are-not-on-its-side-analysts-say/"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "AAPL",
+    "META"
+   ]
+  },
+  {
+   "key": "defense",
+   "events": [],
+   "institutions": [],
+   "quiet": [
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD",
+    "BA",
+    "LHX",
+    "HII",
+    "LDOS",
+    "PLTR",
+    "AVAV",
+    "KTOS",
+    "RKLB"
+   ]
+  },
+  {
+   "key": "consumer",
+   "events": [],
+   "institutions": [],
+   "quiet": [
+    "WMT",
+    "COST",
+    "HD",
+    "MCD",
+    "KO",
+    "PG",
+    "NKE",
+    "SBUX",
+    "TGT",
+    "TJX"
+   ]
+  },
+  {
+   "key": "financials",
+   "events": [],
+   "institutions": [],
+   "quiet": [
+    "JPM",
+    "BAC",
+    "GS",
+    "MS",
+    "WFC",
+    "C",
+    "BRK-B",
+    "BLK",
+    "V",
+    "MA",
+    "SCHW",
+    "COIN"
+   ]
+  },
+  {
+   "key": "autonomy",
+   "overview": "自动驾驶股大幅反弹：Mobileye +11.70%、文远知行 +10.40%、Aurora +9.43%、小马智行 +6.26%、特斯拉 +4.23%。Uber −0.28%。",
+   "events": [
+    {
+     "title": "Lyft 称 Robotaxi 是“最大的礼物”，将在年底前大幅扩大纳什维尔的 Waymo 车队",
+     "tickers": [
+      "UBER",
+      "GOOGL"
+     ],
+     "importance": 3,
+     "view": "分歧",
+     "facts": "Lyft 三季度收入 18.22 亿美元，低于 19.2 亿美元的预期。CEO David Risher 在电话会上表示，Robotaxi 没有损害公司业务，Lyft 在有自动驾驶服务的市场仍在增长，并将在年底前大幅扩大纳什维尔的 Waymo 车队。Lyft 的收入来自通过其 App 预订的 Waymo 行程，以及按可用车辆收取的车场运维费用。据 BigGo Finance，Risher 预计到 2030 年自动驾驶行程可能占公司业务的 10%。",
+     "impact_path": "Waymo 在与 Uber 分手（11-04）的同时，加深与 Lyft 的合作 → Waymo 采取“多平台、不独家”的策略，并保留自营 App → 网约车平台在自动驾驶时代的议价能力下降，但仍可通过车队运营服务获得收入。",
+     "magnitude": "对 Uber 是长期的竞争格局变化，短期财务影响有限；对 Alphabet 而言，Waymo 的商业化渠道更加多元。",
+     "priced_in": "Uber 当日 −0.28%，市场没有明显反应。",
+     "guidance": "11-04 的指引提出，若主要无人车供应商都转向自营，Uber 的平台价值将受到挑战。Waymo 与 Lyft 加深合作说明 Waymo 并非完全自营，而是选择更有利于自己的合作伙伴，这对 Uber 的含义是：它需要与其他自动驾驶公司（特斯拉、小马智行、文远知行等）建立规模化合作，或者自建车队。关注 Uber 在下季度是否宣布新的大规模合作；若迟迟没有进展，应下调其长期增长假设。",
+     "watch": "Uber 与其他自动驾驶公司的合作进展；Waymo 在纳什维尔等城市的车队规模；Lyft 自动驾驶相关收入的披露。",
+     "sources": [
+      {
+       "title": "Benzinga：Lyft CEO 称 Robotaxi 没有冲击业务",
+       "url": "https://www.benzinga.com/markets/earnings/26/11/62966806/robotaxis-arent-killing-lyfts-business-ceo-says-company-is-growing-in-av-markets-details-waymo-partnership"
+      },
+      {
+       "title": "Yahoo Finance：Lyft CEO 称 Robotaxi 是“最大的礼物”",
+       "url": "https://finance.yahoo.com/markets/stocks/article/lyft-ceo-robotaxis-are-one-of-the-biggest-gifts-i-could-have-gotten-as-a-ceo-in-my-life-170450908.html"
+      },
+      {
+       "title": "Global Banking & Finance：Lyft 年底前扩大纳什维尔 Waymo 车队",
+       "url": "https://www.globalbankingandfinance.com/lyft-expand-waymo-robotaxi-fleet-nashville-year-end/"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "TSLA",
+    "NVDA",
+    "MBLY",
+    "AUR",
+    "PONY",
+    "WRD",
+    "TER",
+    "SYM"
+   ]
+  }
+ ],
+ "risks": [
+  "利率：非农大超预期，12 月加息几乎成为基准情形，若 11 月中旬 CPI 偏强，2027 年再加息的预期将上升。",
+  "AI 算力需求的边际变化：微软收缩外租算力、Anthropic 估值下调，说明 AI 基础设施链条中“需求方的融资和采购”开始收紧，甲骨文、新型云服务商和博通最敏感。",
+  "AI 政策风险：地方数据中心限制已成事实，联邦层面的听证可能在新国会就任后展开。",
+  "英伟达的双重事件：11 月 17 日左右的财报和 11 月 18 日的国会简报。"
+ ],
+ "opportunities": [
+  "若英伟达财报确认需求强劲，芯片股本周的回调可能属于估值消化。",
+  "强劲的就业数据降低了衰退风险，有利于周期性板块和小盘股的基本面。",
+  "微软转向自建产能，长期有利于其云业务利润率。"
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-09",
+   "event": "Rocket Lab 盘后发布三季报（指引收入 2.5–2.65 亿美元）",
+   "tickers": [
+    "RKLB"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "event": "Anthropic 原计划当周上市（可能推迟或下调估值）",
+   "tickers": [
+    "AVGO",
+    "AMD",
+    "GS",
+    "MS"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "event": "英伟达三季报（据国会信函推算，以公司公告为准）",
+   "tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "TSM"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "event": "众议院共和党要求黄仁勋闭门简报",
+   "tickers": [
+    "NVDA"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "event": "沃尔玛发布财年三季度财报",
+   "tickers": [
+    "WMT"
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "美联储议息会议（12 月 8–9 日，含点阵图）",
+   "tickers": [
+    "TLT",
+    "QQQ",
+    "IWM"
+   ]
+  }
+ ],
+ "self_check": [
+  {
+   "item": "是否逐一核查覆盖清单中每只股票？",
+   "ok": true,
+   "note": "60 只覆盖股均已检索；国防、消费、金融板块当日没有达到标准的个股事件，未显示。"
+  },
+  {
+   "item": "是否覆盖当日市值较大或波动显著的公司？",
+   "ok": true,
+   "note": "已覆盖非农、芯片股反弹、微软与甲骨文、Anthropic 估值、Lyft 与 Waymo。Rocket Lab +15.4%、AeroVironment +10.5%、Mobileye +11.7% 归因于前一日暴跌后的高贝塔反弹（Rocket Lab 财报在 11 月 9 日），未单独列为事件。"
+  },
+  {
+   "item": "机构观点是否引用权威来源？",
+   "ok": true,
+   "note": "窗口内未找到可核实的券商评级变动，因此未列出机构观点。"
+  },
+  {
+   "item": "是否严格限定在报告时间窗口内？",
+   "ok": false,
+   "note": "本报告因运行环境重启于 11-09 补写；内容只使用 11-06 窗口内的信息，但未能在报告日次日早上按时发布。"
+  },
+  {
+   "item": "是否把事实与分析判断清楚分开？",
+   "ok": true,
+   "note": "推断内容已注明。"
+  }
+ ]
+}
