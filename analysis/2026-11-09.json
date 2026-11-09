@@ -1,0 +1,401 @@
+{
+ "date": "2026-11-09",
+ "window": "2026-11-06 16:00 ET（上一交易日收盘）→ 2026-11-09 收盘及盘后（含周末；含 Rocket Lab 盘后财报）",
+ "headline": "市场大幅反弹、VIX 回落至 20 以下；英伟达董事会调查 CEO 涉华间谍事件，股价逆势跌 4%",
+ "summary": "市场从上周的 AI 恐慌中强力反弹：标普 500 +2.35%，纳指 +2.74%，道指涨约 1100 点，VIX 跌 22% 至 19.9。特朗普的表态降低了对伊朗进一步军事行动的预期，WTI 原油跌 4.9% 至 86 美元。芯片股普涨（SMH +5.05%）：AMD +13.3%（获 Oppenheimer 上调至跑赢大盘，目标价 600 美元）、博通 +8.8%。\n唯一明显下跌的是英伟达（−4.27%，Bloomberg 称蒸发约 2000 亿美元市值）：周末黄仁勋承认婚外情，美国情报部门认定对方为中国间谍，英伟达董事会已启动独立调查。资金正在从英伟达转向 AMD、博通等替代者。\n同时花旗将美股评级下调至中性，理由是 AI 担忧。明天（11 月 10 日）公布 10 月 CPI，11 月 17 日英伟达财报、18 日黄仁勋国会简报，是接下来最重要的三个节点。",
+ "sectors": [
+  {
+   "key": "macro",
+   "overview": "标普 500 +2.35%，纳指 +2.74%，道指 +2.15%，罗素 2000 +3.15%。VIX 跌至 19.92（−22.3%）。WTI 原油 −4.90% 至 86.38 美元，黄金 +1.83%，美元指数 −0.59%，10 年期收益率基本持平（4.864%）。芝加哥联储 Goolsbee 称美联储必须解决通胀问题，里士满联储 Barkin 称应“谨慎”调整政策。中国 10 月 PPI 升至四年多来最高。数据源中军工 ETF ITA 价格仍异常，不采用。",
+   "events": [
+    {
+     "title": "市场从 AI 恐慌中强力反弹：标普 +2.4%、VIX 回落至 20 以下；特朗普降低对伊朗动武预期，油价跌 4.9%",
+     "tickers": [
+      "SPY",
+      "QQQ",
+      "IWM",
+      "GLD"
+     ],
+     "importance": 4,
+     "view": "利好",
+     "facts": "标普 500 收涨 2.35% 至 7549.94，纳指 +2.74%，道指涨约 1100 点（+2.15%），罗素 2000 +3.15%，VIX 跌至 19.92。路透社称上周的抛售使标普 500 成分股蒸发约 3 万亿美元市值。特朗普的表态降低了美国对伊朗进一步军事行动的预期，美油跌至 86.38 美元（−4.9%），布伦特跌破 95 美元。花旗将美股评级从超配下调至中性，理由是担心纳指等主要指数的仓位可能重置为净空头，同时将全球和欧洲科技股下调至中性，转而看好英国以外的欧洲股票。10 月 CPI 于 11 月 10 日（周二）公布。",
+     "impact_path": "波动率回落 + 油价下跌 → 风险偏好修复，资金回流小盘股和周期股；但花旗等机构下调美股评级，说明专业投资者对 AI 风险的担忧并未消失。油价下跌若持续，将降低通胀压力，为美联储放缓加息提供空间。",
+     "magnitude": "单日反弹回补了上周大部分跌幅，但 AI 政策风险、利率风险和英伟达特有风险都没有消除，属于情绪修复而非基本面变化。",
+     "priced_in": "VIX 从 28 降至 20 以下，市场已从恐慌回到正常波动区间；接下来对 CPI 和英伟达财报的反应将决定反弹能否延续。",
+     "guidance": "11-05 的指引提出，若 VIX 回落到 20 以下，市场可以视为初步企稳，这一条件已满足。但仍建议不要因单日大涨追高：明天的 CPI 若偏强，12 月加息之后的路径将重新定价；英伟达的财报和国会简报在下周相邻两天发生，波动可能再次放大。对于上周已降低仓位集中度的持有者，可以在这些事件明朗后再决定是否回补。",
+     "watch": "11 月 10 日 10 月 CPI；11 月 17 日英伟达财报、18 日国会简报；美伊谈判进展与油价。",
+     "sources": [
+      {
+       "title": "CNBC：道指涨 1100 点，科技股反弹",
+       "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+      },
+      {
+       "title": "Globe and Mail（路透社）：花旗将美股下调至中性",
+       "url": "https://www.theglobeandmail.com/investing/article-citigroup-downgrades-us-equities-to-neutral-on-ai-concerns/"
+      },
+      {
+       "title": "Analytics Insight：油价下跌、英伟达下滑，美股期货上涨",
+       "url": "https://www.analyticsinsight.net/stocks/us-stock-market-futures-rise-as-oil-prices-fall-nvidia-shares-slide"
+      },
+      {
+       "title": "CNBC：10 月 CPI 预期",
+       "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html"
+      }
+     ]
+    }
+   ],
+   "institutions": [
+    {
+     "firm": "Citi",
+     "ticker": "",
+     "action": "美股评级从超配下调至中性；全球与欧洲科技股下调至中性",
+     "detail": "担心纳指等主要指数的仓位可能重置为净空头，转而看好英国以外的欧洲股票，理由是其科技敞口较低、对油价下跌更敏感（据路透社和 Investing.com）。",
+     "url": "https://www.investing.com/news/stock-market-news/ai-fatigue-citi-cuts-us-and-tech-to-neutral-turns-bullish-on-europe-5011368"
+    }
+   ],
+   "quiet": [
+    "TLT",
+    "UUP"
+   ]
+  },
+  {
+   "key": "tech",
+   "overview": "科技 XLK +3.73%，半导体 SMH +5.05%：AMD +13.26%、博通 +8.78%、Meta +5.12%、台积电 +3.51%、甲骨文 +3.18%、亚马逊 +2.94%、微软 +2.75%；英伟达 −4.27% 是唯一下跌的覆盖股。高盛 CEO Solomon 表示 AI 融资依然强劲。",
+   "events": [
+    {
+     "title": "英伟达董事会启动独立调查：黄仁勋承认婚外情，美国情报部门认定对方为中国间谍；股价 −4.3%，蒸发约 2000 亿美元",
+     "tickers": [
+      "NVDA"
+     ],
+     "importance": 5,
+     "view": "利空",
+     "facts": "英伟达董事会周日宣布，由独立董事组成的委员会在外部律师协助下启动独立调查，起因是 CEO 黄仁勋成为外国情报活动的目标；董事会表示目前没有理由认为国家安全或公司机密受到损害。黄仁勋在给员工的备忘录中承认婚外情。据 NBC 援引知情人士，美国情报部门认定 Alice Huang（其公司曾购买英伟达先进芯片）为中国间谍，并与黄仁勋有关系；中国外交部称相关说法是“抹黑”。特朗普表示 FBI 正在调查，并称黄仁勋是“好人”。英伟达收跌 4.27% 至 178.67 美元，Bloomberg 估计蒸发近 2000 亿美元市值；部分跌幅也与 Alphabet 发布两款与英伟达竞争的新 AI 芯片有关。目前没有宣布管理层变动，分析师认为黄仁勋被撤换的可能性不大，但公司缺乏明确的接班人。众议院共和党此前已要求黄仁勋于 11 月 18 日（财报次日）闭门简报（见 11-05）。",
+     "impact_path": "CEO 个人风险上升 → 关键人物风险与接班人问题浮现 → 估值折价；同时可能引发更严格的出口管制和客户（尤其是亚洲渠道）审查 → 影响通过第三国流入中国的需求；资金同时流向 AMD、博通等替代供应商（当日 AMD +13%、博通 +8.8%）。",
+     "magnitude": "对英伟达的数据中心需求没有直接影响；风险集中在管理层和政策层面，持续时间取决于调查结果。若导致 CEO 离任，影响将是结构性的；若调查确认无泄密，影响可能逐步消退。",
+     "priced_in": "在市场大涨 2.4% 的当天下跌 4.3%，相对跑输约 7 个百分点，说明市场已为“关键人物风险”给出明确折价。",
+     "guidance": "11-05 的指引已提示英伟达的风险从单一方向变为多方向（反垄断、出口管制、国会审查）。现在又增加了关键人物风险。持有英伟达的逻辑（AI 加速器的领先地位）仍然成立，但估值需要包含更高的风险溢价。建议：一是不要在调查结果出来前加仓；二是关注 11 月 17 日财报和 18 日简报，若财报强劲且简报未引出新的调查，股价可能修复；若出现 CEO 离任或出口管制收紧，应重新评估仓位。对于希望保持 AI 芯片敞口的投资者，可以考虑把部分仓位分散到 AMD、博通。",
+     "watch": "董事会调查结果与时间表；11 月 17 日财报；11 月 18 日国会简报；FBI 调查与商务部出口管制动向；接班人安排。",
+     "sources": [
+      {
+       "title": "CNBC：黄仁勋与涉嫌中国间谍的婚外情遭调查",
+       "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+      },
+      {
+       "title": "NBC News：英伟达启动调查",
+       "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148"
+      },
+      {
+       "title": "Bloomberg：黄仁勋承认不忠后英伟达董事会调查间谍案",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity"
+      },
+      {
+       "title": "CNBC：黄仁勋事件让英伟达的未来面临风险，缺乏明确接班人",
+       "url": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html"
+      }
+     ]
+    },
+    {
+     "title": "AMD 获 Oppenheimer 上调至跑赢大盘、目标价 600 美元，并获谷歌云选用 EPYC 处理器，股价 +13.3%",
+     "tickers": [
+      "AMD",
+      "AVGO"
+     ],
+     "importance": 4,
+     "view": "利好",
+     "facts": "Oppenheimer 分析师 Rick Schafer 将 AMD 从“与大盘持平”上调至“跑赢大盘”，目标价 600 美元，理由是数据中心业务的成功“不可否认”，预计 2027 年数据中心收入增长 135%。谷歌云选用第五代 EPYC 处理器用于一套新的 AI 系统。AMD 收于 508.58 美元（+13.26%），基本收复上周四（11-05）17% 的跌幅；有报道指出上调前股价已经反弹，难以精确区分上调的贡献。博通 +8.78%，没有公司层面的新消息，被认为是同一轮反弹买盘。MarketWatch 讨论 AMD 和博通是否是英伟达丑闻的“真正赢家”。",
+     "impact_path": "数据中心 GPU 增长获得卖方认可（11-03 财报：数据中心收入 +97%、四季度指引约 170 亿美元）→ 估值重估；英伟达的关键人物风险 → 客户和投资者分散供应商的动机增强 → 利好 AMD、博通。",
+     "magnitude": "Oppenheimer 预计 2027 年数据中心收入 +135%，若兑现，属于结构性增长；但这是单一券商的预测。",
+     "priced_in": "+13.3% 已收复上周的暴跌，股价回到 500 美元以上，大部分利好已反映。",
+     "guidance": "11-05 的指引建议在恐慌日不要追加杠杆，并可借反弹降低持仓集中度。AMD 已收复失地，对于上周没有减仓的持有者，现在是重新审视仓位比例的时机，而不是追涨。AMD 的持有逻辑（数据中心 GPU 份额提升）在 11-03 财报和今天的上调后进一步得到验证；接下来要看英伟达 11 月 17 日的财报：若英伟达指引强劲，说明整个行业需求健康；若英伟达受丑闻影响出现订单转移，AMD 可能进一步受益。",
+     "watch": "英伟达 11 月 17 日财报；AMD MI450 与 Helios 量产进度；更多券商对 AMD 的评级变化。",
+     "sources": [
+      {
+       "title": "CNBC：Oppenheimer 上调 AMD，目标价 600 美元",
+       "url": "https://www.cnbc.com/2026/11/09/amd-oppenheimer-upgrade-outperform.html"
+      },
+      {
+       "title": "Yahoo Finance（Motley Fool）：AMD 因上调和谷歌云选用而大涨",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-9-223002825.html"
+      },
+      {
+       "title": "Quantisnow：芯片股收复上周五分之三跌幅",
+       "url": "https://www.quantisnow.com/articles/chip-rebound-mostly-bounce-amd-jumped-before-oppenheimer-upgrade-broadcom-no-news"
+      }
+     ]
+    }
+   ],
+   "institutions": [
+    {
+     "firm": "Oppenheimer",
+     "ticker": "AMD",
+     "action": "上调至跑赢大盘（此前为与大盘持平），目标价 $600",
+     "detail": "分析师 Rick Schafer 认为数据中心业务的成功“不可否认”，预计 2027 年数据中心收入增长 135%（据 CNBC）。",
+     "url": "https://www.cnbc.com/2026/11/09/amd-oppenheimer-upgrade-outperform.html"
+    }
+   ],
+   "quiet": [
+    "MSFT",
+    "AAPL",
+    "GOOGL",
+    "AMZN",
+    "META",
+    "TSM",
+    "ORCL"
+   ]
+  },
+  {
+   "key": "defense",
+   "overview": "国防股全面反弹：AeroVironment +12.59%、Rocket Lab +10.91%、Kratos +7.38%、Palantir +5.50%、HII +5.41%、L3 哈里斯 +4.44%、洛克希德 +3.72%。众议员 Massie 提出弹劾国防部长 Hegseth 的条款；无人机初创公司 Neros 获五角大楼 4.5 亿美元贷款扩大国内产能，无人机领域竞争加剧。",
+   "events": [
+    {
+     "title": "Rocket Lab 三季报：收入创纪录 2.68 亿美元，积压订单增至约 36 亿美元，但 Neutron 首飞推迟至“不早于 2027 年”，盘后 −3.8%",
+     "tickers": [
+      "RKLB"
+     ],
+     "importance": 4,
+     "view": "分歧",
+     "facts": "三季度收入 2.68 亿美元（+73%），高于约 2.56 亿美元的预期；调整后每股亏损 0.12 美元，高于预期的 0.07 美元。积压订单创纪录的约 36 亿美元，较二季度末增长 52%（增加约 12 亿美元），经营现金流为正。本季获得超过 5.15 亿美元的 Neutron 发射合同，Neutron 积压增至 16 次任务，部分任务基础价格从 5500 万美元提高到 7000 万美元。Neutron 首飞目标改为“不早于 2027 年”，晚于二季度时提到的 2026 年四季度交付发射台的时间表。四季度收入指引 2.7–2.9 亿美元，GAAP 毛利率 34%–36%。常规交易收涨 10.91%，盘后跌约 3.8%。",
+     "impact_path": "Neutron 合同和价格上调 → 证明市场对中型运载火箭的需求和定价权；首飞推迟 → 收入确认和估值重估被延后；积压订单大增 → 未来几年收入可见度提高。",
+     "magnitude": "积压订单约为当前年化收入的 3 倍以上，属于结构性利好；首飞推迟属于时间层面的风险，若推迟幅度不大，影响主要在估值节奏。",
+     "priced_in": "常规交易已大涨 10.9%（随国防和高贝塔股反弹），盘后回落 3.8%，说明 Neutron 推迟抵消了部分收入和积压订单的利好。",
+     "guidance": "10-27 的指引认为 Rocket Lab 的股价对 Neutron 首飞高度敏感，若首飞时间表（分析师预期 2027 年二季度）再次推迟，前期跌幅可能重演。这次的表述是“不早于 2027 年”，与分析师预期基本一致，并没有更大幅度的推迟；同时 Neutron 合同的签约和提价说明需求真实存在。持有逻辑仍然取决于首飞：若 2027 年上半年完成首飞，积压订单将开始转化；若推迟到 2027 年下半年以后，估值仍有压力。仓位应与这一二元风险相匹配。",
+     "watch": "Neutron 静态点火和首飞的具体日期；四季度收入与毛利率；SDA 卫星交付进度。",
+     "sources": [
+      {
+       "title": "Rocket Lab 三季报新闻稿（GlobeNewswire）",
+       "url": "https://www.globenewswire.com/news-release/2026/11/09/3398954/0/en/rocket-lab-announces-third-quarter-2026-financial-results-posts-record-revenue-1-2-billion-or-52-sequential-quarterly-backlog-growth-positive-gaap-operating-cash-flow-and-guides-to.html"
+      },
+      {
+       "title": "Rocket Lab 8-K（SEC）",
+       "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm"
+      },
+      {
+       "title": "Investing.com：EPS 不及预期，收入超预期，股价下跌",
+       "url": "https://www.investing.com/news/earnings/rocket-lab-falls-on-earnings-miss-despite-revenue-beat-5013401"
+      },
+      {
+       "title": "Benzinga：收入超预期、EPS 不及预期，签下 5.15 亿美元 Neutron 合同",
+       "url": "https://www.benzinga.com/markets/earnings/26/11/63071405/rocket-lab-q3-revenue-beat-eps-miss-company-signs-515-million-in-neutron-launch-deals"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD",
+    "BA",
+    "LHX",
+    "HII",
+    "LDOS",
+    "PLTR",
+    "AVAV",
+    "KTOS"
+   ]
+  },
+  {
+   "key": "consumer",
+   "events": [],
+   "institutions": [],
+   "quiet": [
+    "WMT",
+    "COST",
+    "HD",
+    "MCD",
+    "KO",
+    "PG",
+    "NKE",
+    "SBUX",
+    "TGT",
+    "TJX"
+   ]
+  },
+  {
+   "key": "financials",
+   "events": [],
+   "institutions": [],
+   "quiet": [
+    "JPM",
+    "BAC",
+    "GS",
+    "MS",
+    "WFC",
+    "C",
+    "BRK-B",
+    "BLK",
+    "V",
+    "MA",
+    "SCHW",
+    "COIN"
+   ]
+  },
+  {
+   "key": "autonomy",
+   "overview": "泰瑞达 +12.73%（随芯片股反弹）、特斯拉 +5.54%、Aurora +5.44%、Uber +3.76%。Bloomberg 报道 Uber 负责 Robotaxi 和配送网络的工程主管将离职。",
+   "events": [
+    {
+     "title": "特斯拉在圣安东尼奥推出无安全员 Robotaxi，覆盖约 274 平方英里，为第 8 个城市；Cybertruck 将于 2027 年中停产，为 Cybercab 让出产能",
+     "tickers": [
+      "TSLA"
+     ],
+     "importance": 3,
+     "view": "利好",
+     "facts": "特斯拉 11 月 9 日早上 5 点在德州圣安东尼奥推出无人监督的 Robotaxi 服务，地理围栏约 274–275 平方英里，是其首日覆盖面积最大的一次，圣安东尼奥成为第 8 个提供该服务的美国城市。特斯拉未说明使用 Cybercab 还是改装 Model Y，也未说明是否配备安全员，暂不提供机场接送。特斯拉计划于 2027 年中停止德州工厂的 Cybertruck 生产，为 Cybercab 腾出空间；马斯克称 Cybertruck 订单远超产能，将在约 8 个月后关闭产线前尽量多生产，但需要向“很多人”退还订金。股价收于 378.05 美元（+5.54%），仍比 52 周高点低约 24%。",
+     "impact_path": "Robotaxi 在德州持续扩张 → 支撑自动驾驶的期权价值；Cybertruck 停产换 Cybercab → 公司把产能押注在 Robotaxi 上，短期牺牲汽车收入。",
+     "magnitude": "对当期收入影响很小，影响主要在估值叙事上。",
+     "priced_in": "+5.5% 的涨幅包含了大盘反弹因素，消息本身的影响难以区分。",
+     "guidance": "11-05 的指引提出，德州是特斯拉 Robotaxi 的主战场，新州长的态度会直接影响扩张节奏。目前特斯拉仍在德州快速扩张（沃斯堡、圣安东尼奥），尚未出现监管阻力。继续跟踪两个问题：一是是否真正无安全员运营及实际运营数据；二是德州新州长 1 月就任后的政策。Cybertruck 停产意味着特斯拉更依赖 Robotaxi 的兑现，持仓的风险收益特征更偏向“期权”。",
+     "watch": "达拉斯 Cybercab 上线进度；德州新州长就任后的自动驾驶政策；Robotaxi 运营里程和安全数据。",
+     "sources": [
+      {
+       "title": "TechCrunch：特斯拉将 Robotaxi 扩展到圣安东尼奥",
+       "url": "https://techcrunch.com/2026/11/09/tesla-expands-robotaxi-service-to-san-antonio/"
+      },
+      {
+       "title": "Teslarati：特斯拉 Robotaxi 进入圣安东尼奥",
+       "url": "https://www.teslarati.com/tesla-robotaxi-enters-newest-city-san-antonio/"
+      },
+      {
+       "title": "Yahoo Finance：特斯拉今日为何大涨",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/why-tesla-stock-surging-today-175724791.html"
+      }
+     ]
+    },
+    {
+     "title": "NHTSA 对 2895 辆 Waymo 车辆展开召回调查：软件修复后仍多次违规超越停靠的校车",
+     "tickers": [
+      "GOOGL",
+      "TSLA",
+      "UBER"
+     ],
+     "importance": 3,
+     "view": "利空",
+     "facts": "美国国家公路交通安全管理局（NHTSA）于 11 月 9 日对 2895 辆 Waymo 车辆展开召回质询，调查 2025 年底召回的软件修复是否真正阻止了车辆违规超越停靠的校车；报道称大部分违规发生在 Waymo 宣布修复已全面部署之后。原召回涉及 3067 辆第五代自动驾驶系统车辆。奥斯汀学区记录了 19 起 Waymo 车辆超越停靠校车的事件，亚特兰大公立学校另记录 6 起。美国国家运输安全委员会（NTSB）已于 2026 年 1 月另行调查；NHTSA 还在调查 1 月一辆 Waymo 车辆在加州圣莫尼卡一所小学外撞到儿童的事件（历史对比）。",
+     "impact_path": "行业领先者的安全问题 → 联邦监管审查加强 → 自动驾驶行业整体面临更高的合规门槛；叠加民主党控制国会后对自动驾驶安全规则的审查（见 11-05），整个 Robotaxi 赛道的扩张节奏可能放缓。",
+     "magnitude": "对 Alphabet 整体财务影响很小；对行业而言是监管风险的积累，单次调查通常以软件更新解决，但若引发更严格的规则，影响是结构性的。",
+     "priced_in": "Alphabet +1.18%，市场基本没有反应；特斯拉和 Uber 当日上涨，未受此消息影响。",
+     "guidance": "这是监管风险的又一个信号，与 11-05 提到的民主党审查自动驾驶安全规则相呼应。对特斯拉持有者，Waymo 的安全问题会提高整个行业的监管门槛，特斯拉的无安全员运营同样可能受到更严格的审视；对 Uber 而言，行业放缓反而延长了其传统业务的窗口期。若 NHTSA 升级为正式缺陷调查或要求限制运营，应下调对整个 Robotaxi 赛道扩张速度的假设。",
+     "watch": "NHTSA 调查是否升级；新国会对自动驾驶安全规则的听证；Waymo 的软件修复与运营调整。",
+     "sources": [
+      {
+       "title": "Investing.com（路透社）：美国对 Waymo 车辆展开校车安全违规调查",
+       "url": "https://www.investing.com/news/stock-market-news/us-opens-probe-into-2895-waymo-vehicles-over-school-bus-safety-violations-5011247"
+      },
+      {
+       "title": "Quartz：NHTSA 对 Waymo 展开召回质询",
+       "url": "https://qz.com/nhtsa-waymo-recall-query-school-bus-violations-110926"
+      },
+      {
+       "title": "GV Wire：美国对 Waymo 车辆展开调查",
+       "url": "https://gvwire.com/2026/11/09/us-opens-probe-into-waymo-vehicles-over-school-bus-safety-violations/"
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "quiet": [
+    "NVDA",
+    "MBLY",
+    "AUR",
+    "PONY",
+    "WRD",
+    "TER",
+    "SYM"
+   ]
+  }
+ ],
+ "risks": [
+  "通胀：11 月 10 日的 CPI 若偏强，12 月之后的加息路径将重新定价，反弹可能中断。",
+  "英伟达关键人物风险：董事会调查、FBI 调查和国会简报叠加，若导致 CEO 离任或出口管制收紧，AI 芯片板块情绪将再次受挫。",
+  "自动驾驶监管：NHTSA 对 Waymo 的调查与新国会的审查叠加，Robotaxi 赛道的扩张节奏可能放缓。",
+  "机构仓位：花旗下调美股至中性，若更多机构跟进，资金可能继续流出美国科技股。"
+ ],
+ "opportunities": [
+  "AMD、博通在英伟达事件中获得资金青睐，AMD 的数据中心增长已得到财报和卖方的双重验证。",
+  "Rocket Lab 积压订单大增、Neutron 合同提价，若首飞按时完成，订单将开始转化为收入。",
+  "油价跌至 86 美元，若持续，将改善通胀前景和消费者购买力。"
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-10",
+   "event": "10 月 CPI",
+   "tickers": [
+    "TLT",
+    "QQQ",
+    "IWM"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "event": "Anthropic 原计划当周上市（可能推迟或下调估值）",
+   "tickers": [
+    "AVGO",
+    "AMD",
+    "GS",
+    "MS"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "event": "英伟达三季报（据国会信函推算，以公司公告为准）",
+   "tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "TSM"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "event": "众议院共和党要求黄仁勋闭门简报",
+   "tickers": [
+    "NVDA"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "event": "沃尔玛发布财年三季度财报",
+   "tickers": [
+    "WMT"
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "event": "美联储议息会议（12 月 8–9 日，含点阵图）",
+   "tickers": [
+    "TLT",
+    "QQQ",
+    "IWM"
+   ]
+  }
+ ],
+ "self_check": [
+  {
+   "item": "是否逐一核查覆盖清单中每只股票？",
+   "ok": true,
+   "note": "60 只覆盖股均已检索；消费和金融板块没有达到标准的个股事件，未显示。"
+  },
+  {
+   "item": "是否覆盖当日市值较大或波动显著的公司？",
+   "ok": true,
+   "note": "已覆盖英伟达、AMD、Rocket Lab、特斯拉、Waymo。AeroVironment +12.6%、泰瑞达 +12.7%、博通 +8.8% 归因于全面反弹，已在概览和事件中说明。"
+  },
+  {
+   "item": "机构观点是否引用权威来源？",
+   "ok": true,
+   "note": "Oppenheimer 上调 AMD 引自 CNBC，花旗下调美股引自路透社与 Investing.com；均为媒体转述，未取得原始报告。"
+  },
+  {
+   "item": "是否严格限定在报告时间窗口内？",
+   "ok": true,
+   "note": "英伟达董事会声明于 11-08（周日）发布，属于本窗口（含周末）；Waymo 2025 年召回、NTSB 1 月调查标注为历史对比。"
+  },
+  {
+   "item": "是否把事实与分析判断清楚分开？",
+   "ok": true,
+   "note": "推断内容已注明。"
+  }
+ ]
+}
