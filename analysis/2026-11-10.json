@@ -1,0 +1,204 @@
+{
+  "date": "2026-11-10",
+  "window": "2026-11-09 16:00 ET 收盘后 → 2026-11-10 收盘及盘后",
+  "headline": "10 月 CPI 超预期，10 年美债逼近 5%，12 月加息几成定局",
+  "summary": "当日主线是通胀再度超预期：10 月 CPI 环比 +0.4%、核心 +0.3%，均高于预期，2 年期收益率跳升约 17bp，市场几乎完全定价 12 月加息，并开始交易 50bp 的可能。高利率压制长久期资产：纳指 −0.74%、TLT −1.3%、黄金 −2.7%、比特币跌破 7.3 万美元。AI 板块内部继续分化：英伟达因 CEO 丑闻连续第二天大跌 5.5%，而 Anthropic 公布 IPO 价格区间及 260 亿美元定向增发名单，博通、台积电、亚马逊受益；Anthropic 推出办公套件则拖累微软。最需要重新思考的是高估值、长久期成长股在加息周期中的估值锚，以及 NVDA 的治理与出口管制双重风险能否在 11 月 17 日财报前得到澄清。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY −0.37%、QQQ −0.68%、IWM −0.68%，VIX 反而回落至 19.5；TLT −1.32%、GLD −2.68%、UUP +0.62%。驱动因素单一而清晰：CPI 超预期叠加 Waller、Bowman 偏鹰表态，推高短端利率与美元。",
+      "events": [
+        {
+          "title": "10 月 CPI 环比 +0.4%、核心 +0.3%，双双高于预期；2 年期收益率升约 17bp，12 月加息概率接近 100%",
+          "tickers": ["SPY", "QQQ", "IWM", "TLT", "GLD", "UUP"],
+          "importance": 5,
+          "view": "利空",
+          "facts": "BLS 公布 10 月 CPI 环比 +0.4%（预期 +0.3%），核心 CPI 环比 +0.3%（预期 +0.2%）；因 2025 年 10 月政府停摆未采集数据，同比数据缺失。数据公布后 2 年期美债收益率上升约 17bp 至约 4.74%，10 年期升至约 4.98%–5.01%（不同来源收盘口径不同），30 年期约 5.36%。CME FedWatch 显示 12 月加息 25bp 已基本完全定价（各来源 89%–99%），加息 50bp 的概率从数据前约 0% 升至 10%–15%。美联储理事 Waller 表示 12 月加息可能性大，若通胀恶化应考虑加息 50bp；理事 Bowman 称通胀方面“仍有工作要做”。现货黄金跌约 2.7% 至约 4,028 美元/盎司，比特币跌至 8 月以来最低（约 7.27 万美元）。",
+          "impact_path": "通胀超预期 → 短端利率与加息路径上移 → 实际利率与美元走强 → 无息资产（黄金）与长久期资产（TLT、高估值成长股）贴现率上升、估值倍数承压；小盘股（IWM）融资成本更敏感，受压同样明显。银行等利差受益板块相对抗跌（XLF +0.5%）。",
+          "magnitude": "结构性而非一次性：核心通胀连续高于预期意味着加息周期可能延续到 2027 年，而不是 12 月加息一次就结束。估值层面，若 10 年期在 5% 上方站稳，标普 500 远期市盈率的利率锚下移；粗略看，股权风险溢价不变时，10 年期每上升 25bp 对应估值倍数约 3%–5% 的压力，量化有较大不确定性。",
+          "priced_in": "股市反应偏温和：SPY 仅 −0.37%，且 VIX 不升反降，说明市场此前已预期 12 月加息，本次主要上调的是 50bp 的尾部概率。债市和黄金反应更充分（TLT −1.3%、GLD −2.7%）。股市对“加息周期延长”的定价可能不足，尤其是纳指高估值成分股。",
+          "guidance": "若 11 月 13 日 PPI 及后续 PCE 继续高于预期，且 10 年期收益率站稳 5% 以上，应下调对高估值成长股（QQQ 权重股）的估值假设，并提高现金流稳定、定价能力强资产的相对权重；若 12 月会议仅加息 25bp 且点阵图暗示随后暂停，长端利率可能回落，TLT 与小盘股会迎来修复窗口。黄金短期受实际利率压制，但若加息引发风险资产大幅回撤，避险需求可能再起，需观察央行购金是否持续。",
+          "watch": "11 月 13 日 10 月 PPI；11 月下旬 10 月 PCE；12 月 8–9 日 FOMC（含点阵图）；10 年期收益率能否站稳 5%；50bp 加息概率是否超过 30%。",
+          "sources": [
+            {"title": "CNBC：Consumer prices rose 0.4% in October, more than expected", "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"},
+            {"title": "CNBC：Fed Governor Waller sees December hike likely, opens door to possible half-point increase", "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"},
+            {"title": "Benzinga：50-Basis-Point Fed Hike Back in Play After Hot CPI", "url": "https://www.benzinga.com/markets/macro-economic-events/26/11/63106031/50-basis-point-fed-hike-october-cpi-waller-treasury-yields"},
+            {"title": "CNBC：Gold falls more than 2% as CPI tops forecasts, lifting dollar and yields", "url": "https://www.cnbc.com/2026/11/10/gold-edges-lower-as-focus-shifts-to-us-inflation-data.html"},
+            {"title": "Forbes：Bitcoin Falls Below $73,000 To Reach Lowest Since August", "url": "https://www.forbes.com/sites/digital-assets/2026/11/10/bitcoin-falls-below-73000-to-reach-lowest-since-august/"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": []
+    },
+    {
+      "key": "tech",
+      "overview": "XLK −1.15%、SMH −0.78%，但个股严重分化：NVDA −5.47%、MSFT −2.20%、ORCL −1.51%；AVGO +3.91%、TSM +2.02%、AMZN +1.48%、AMD +1.30%。驱动因素：CPI 引发的利率上行、英伟达治理风险，以及 Anthropic IPO 带来的受益方重新定价。",
+      "events": [
+        {
+          "title": "Anthropic 修订 S-1：IPO 区间 $70–78、发行 8.25 亿股；谷歌、英伟达各认购 100 亿美元，合计 260 亿美元定向增发",
+          "tickers": ["GOOGL", "AMZN", "NVDA", "AMD", "AVGO", "MSFT", "TSM"],
+          "importance": 4,
+          "view": "利好",
+          "facts": "Anthropic 修订后的 S-1 显示：拟发行 8.25 亿股 A 类股（公司新发约 8.01 亿股，老股东出售约 2,365 万股），价格区间 $70–78，拟在纳斯达克上市，代码 ANT；多家媒体援引 CNBC 称计划 11 月 18 日定价、19 日交易。与 IPO 同步，谷歌、英伟达、AMD、博通、美光、微软和台积电旗下实体合计以 IPO 价格认购 260 亿美元无投票权 N 类股：谷歌 100 亿、英伟达 100 亿、AMD 25 亿（计入此前与芯片交付挂钩的最高 50 亿美元承诺）、博通/美光/微软各 10 亿、台积电 5 亿。按中值 $74 计，新股与定增合计净募资约 846 亿美元，市场估算估值约 1.2–1.4 万亿美元。Reuters 报道亚马逊、谷歌作为早期股东将获得大额账面收益。此前 Anthropic 曾撤回发给承销商的一版定价条款，称其不准确。卖方观点：Goldman 分析师预计 Anthropic 2030 年收入约 6,850 亿美元。",
+          "impact_path": "（1）亚马逊、谷歌：所持 Anthropic 股权按公开市场价重估 → 计入其他收益抬升 GAAP EPS，同时确认 AWS/Google Cloud 最大 AI 客户之一的融资能力 → 云业务算力订单（RPO）更有保障。（2）英伟达、AMD、博通、台积电：认购与芯片/算力采购绑定，相当于以股权换取长期订单，锁定 2027 年需求可见度。（3）微软：认购规模小，且 Anthropic 同日推出对标 Office 的产品，竞合关系更复杂。",
+          "magnitude": "对亚马逊、谷歌主要是一次性的按市值计价收益（可能达数百亿美元级，取决于持股比例与上市价，公开信息不足以精确测算），以及结构性的云需求支撑。对芯片供应商而言，单笔认购占其收入比例不大，但意义在于降低“AI 资本开支见顶”的叙事风险。IPO 本身吸收约 900 亿美元资金，短期可能从其他 AI 股抽走部分资金。",
+          "priced_in": "博通 +3.9%、台积电 +2.0%、亚马逊 +1.5%、AMD +1.3%，在纳指下跌日逆势上涨，说明市场已部分计入；谷歌 −0.3% 反应不足，可能因其认购金额最大（100 亿美元现金支出），被视为对冲了收益。英伟达同样认购 100 亿，但被 CEO 丑闻完全掩盖。",
+          "guidance": "若 11 月 18 日定价落在区间上沿或上调，且首日交易稳定，可视为 AI 应用层商业化获得资本市场确认，对 AWS、Google Cloud 和定制芯片（AVGO）的中期需求假设可以更有信心；若定价下调或破发，说明在加息环境下市场对万亿美元级 AI 估值的承受力有限，需警惕整条 AI 链估值同步下修。持有亚马逊、谷歌的投资者应区分一次性投资收益与经常性经营利润，不宜据此上调估值倍数。",
+          "watch": "11 月 18 日 IPO 定价（是否在 $70–78 区间内）；11 月 19 日首日表现；亚马逊、谷歌下季度财报中的 Anthropic 投资收益与云积压订单；上市后锁定期安排。",
+          "sources": [
+            {"title": "Anthropic S-1 修订文件（SEC EDGAR）", "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/exhibit45-sx1.htm"},
+            {"title": "Yahoo Finance：Anthropic Sets IPO Price Range at $70 to $78", "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-sets-ipo-price-range-140602411.html"},
+            {"title": "Motley Fool：AMD Rises on Plan to Invest $2.5 Billion in Anthropic", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/10/stock-market-today-nov-10-amd-rises-on-plan-to-invest-usd2-5-billion-in-anthropic/"},
+            {"title": "Quartz：Anthropic retracts IPO pricing terms it sent to banks", "url": "https://qz.com/anthropic-ipo-pricing-terms-retracted-banks-111026"},
+            {"title": "Forbes：Anthropic IPO Targets $1.3 Trillion Valuation", "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/11/10/anthropic-ipo-targets-13-trillion-valuation-904-billion-raise/"}
+          ]
+        },
+        {
+          "title": "英伟达连续第二天大跌 5.5% 至 $168.89：股东集体诉讼、国会推动收紧对华芯片出口",
+          "tickers": ["NVDA"],
+          "importance": 4,
+          "view": "利空",
+          "facts": "NVDA 收跌 5.47% 至 $168.89，两日累计跌约 9.5%，Yahoo Finance 称为 3 月 30 日以来最低收盘。当日有股东在加州圣何塞联邦法院对英伟达及黄仁勋提起集体诉讼。公司聘请 Wachtell Lipton 律所协助独立董事委员会调查。公司表示没有理由认为美国国家安全或英伟达机密受到损害，黄仁勋将“不间断地”继续担任 CEO。政策层面：参议员 Warren 与 Banks 呼吁通过 AI Overwatch Act（允许国会审查并叫停对华先进芯片出口）；参议院版国防授权法案包含国会审查 AI 芯片许可、海外芯片追踪等条款，尚未表决。The Information 报道商务部工作人员推动限制中国远程访问先进芯片的规则，但领导层此前多次拖延。卖方观点：Wedbush 的 Dan Ives 估计黄仁勋被撤换的概率约 15%，调查可能需要 4–6 周。",
+          "impact_path": "两条路径叠加：（1）治理风险 → 关键人风险溢价上升 → 估值倍数下降；诉讼带来法律费用与潜在和解成本，但金额相对市值很小。（2）政策风险 → 若国会审查权或远程访问禁令落地 → 中国及“经第三国转售”渠道收入受限 → 数据中心营收增速下修。对 AMD、AVGO 是相对受益（客户可能分散供应商），但出口管制收紧同样会波及 AMD。",
+          "magnitude": "治理风险在调查结论前难以量化，属于事件型；若最终 CEO 留任且未发现泄密，估值折价可能大部分收回。出口管制属于结构性风险：中国区目前在英伟达数据中心收入中占比已较低（具体比例以公司披露为准），直接影响有限，更大的风险在于远程访问规则波及海外云客户。",
+          "priced_in": "两日蒸发约 4,000 亿美元市值，跌幅已超过对治理风险的直接经济影响，部分反映了财报前的避险情绪和 CPI 带来的整体估值压力。相对 AMD、AVGO 同日上涨，市场在 AI 链内部做“去英伟达化”的相对交易，短期可能反应过度，但在调查结论出来前难以判断底部。",
+          "guidance": "若 11 月 17 日财报中数据中心收入与下季度指引保持强劲，且董事会调查在 4–6 周内给出“无泄密、CEO 留任”的结论，当前折价可视为再评估窗口；若调查范围扩大（如涉及出口合规或客户 Megaspeed 的交易），或 NDAA 中芯片审查条款获得两院通过，需下调对 2027 财年数据中心收入的预期，并重新评估其在 AI 组合中的权重。",
+          "watch": "11 月 17 日盘后 Q3 FY27 财报与电话会；11 月 18 日众议院共和党闭门简报；董事会调查进展；参众两院 NDAA 协商文本是否保留芯片出口审查条款；商务部远程访问规则。",
+          "sources": [
+            {"title": "CNBC：Nvidia sells off for second day in fallout from Jensen Huang's affair with alleged spy", "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html"},
+            {"title": "CNBC：Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe", "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html"},
+            {"title": "Yahoo Finance：Congress Wants China Chip Limits in the Defense Bill After Nvidia's Spy Scandal", "url": "https://finance.yahoo.com/technology/ai/articles/congress-wants-china-chip-limits-142719076.html"},
+            {"title": "Investing.com：Nvidia faces increased chip export controls amid Huang scandal - The Information", "url": "https://www.investing.com/news/stock-market-news/nvidia-faces-increased-chip-export-controls-amid-huang-scandal-the-information-93CH-5013845"}
+          ]
+        },
+        {
+          "title": "Anthropic 推出 Claude Sheets、Claude Data 等办公工具，直接对标 Excel；微软收跌 2.2%",
+          "tickers": ["MSFT"],
+          "importance": 3,
+          "view": "利空",
+          "facts": "Anthropic 在官方博客发布 Claude Sheets、Claude Whiteboards 和 Claude Data，其中 Claude Sheets 直接对标 Excel。Anthropic 自己表示 Claude Sheets 上线时功能相对简单，重度用户可导出 XLSX/CSV 或使用 Claude for Excel。MSFT 收跌 2.20% 至 $533.16，盘中跌幅约 3%。Anthropic 同时是微软的大客户（2025 年 11 月承诺采购 300 亿美元 Azure 算力），微软也参与了其 IPO 定向增发（10 亿美元）。",
+          "impact_path": "AI 原生应用切入办公软件 → 对 Microsoft 365 席位扩张与 Copilot 加价（ARPU 提升）形成竞争 → 生产力与业务流程分部的增速和定价能力受压 → 估值中“应用层护城河”溢价下降。反向的对冲：Anthropic 的 Azure 算力采购会增加智能云收入。",
+          "magnitude": "短期对收入几乎没有可测量影响：产品初期功能有限，企业迁移办公套件的成本很高。风险是结构性的、长期的，主要体现在 Copilot 变现的定价权和 2027 年后续约谈判，难以量化。",
+          "priced_in": "−2.2% 中有一部分来自 CPI 带来的大盘科技股普跌（XLK −1.15%），单独归因于该产品的跌幅约 1 个百分点，属于基本合理的反应，没有显示出恐慌性抛售。",
+          "guidance": "若后续数据显示企业客户实际采用 Claude Sheets 替代 Excel（如大型企业公开切换、Microsoft 365 席位增速放缓），需要下调对微软生产力分部长期增速与 Copilot 渗透率的假设；若微软下季度 Copilot 付费席位与 M365 ARPU 继续提升，可视为本次竞争担忧被证伪，回调属于情绪性波动。",
+          "watch": "微软 FY27 第二财季财报（2027 年 1 月下旬）中 M365 商业席位增速与 Copilot 数据；Anthropic 招股书和路演中对企业应用收入的披露；其他 AI 公司是否跟进办公套件产品。",
+          "sources": [
+            {"title": "TipRanks：Microsoft Stock (MSFT) Drops as Anthropic Takes On Excel", "url": "https://www.tipranks.com/news/microsoft-stock-msft-drops-as-anthropic-takes-on-excel"},
+            {"title": "StreetInsider：Microsoft stock falls as Anthropic takes aim at Excel and workplace software", "url": "https://www.streetinsider.com/Investing/Microsoft+stock+falls+as+Anthropic+takes+aim+at+Excel+and+workplace+software/27322131.html"}
+          ]
+        },
+        {
+          "title": "台积电 10 月营收新台币 5,868.9 亿元，同比 +59.7%、环比 +14.7%，创单月新高",
+          "tickers": ["TSM", "NVDA", "AVGO", "AMD"],
+          "importance": 3,
+          "view": "利好",
+          "facts": "台积电公告 10 月合并营收约新台币 5,868.9 亿元，较 9 月增长 14.7%，较 2025 年 10 月增长 59.7%，超过 8 月的 5,148 亿元，创单月纪录。1–10 月累计营收约新台币 4.49 万亿元，同比增长 43.3%。公司此前给出的第四季度营收指引为 523–543 亿美元；按汇率换算，10 月约占指引中值的 34%–35%。TSM 收涨 2.02%。",
+          "impact_path": "先进制程与 CoWoS 封装出货强劲 → 证明英伟达、博通、AMD 等 AI 芯片客户的投片量仍在上升 → 台积电第四季度营收大概率达到或超过指引上沿 → 毛利率受益于产能利用率与先进制程占比提升。对 AI 芯片设计公司而言，是需求端（下游资本开支）仍在扩张的交叉验证。",
+          "magnitude": "单月数据波动较大，但 10 月已完成季度指引中值的约三分之一，若 11、12 月维持相近水平，第四季度营收有望超过指引上沿约 3%–5%。属于对 AI 需求延续性的结构性确认，而非一次性订单。",
+          "priced_in": "TSM 在科技股普跌日 +2.0%，反应合理；对英伟达的正面意义被 CEO 丑闻完全掩盖（NVDA −5.5%），说明市场当前交易的是治理风险而不是需求。",
+          "guidance": "若 11 月营收（12 月 10 日左右公布）保持在新台币 5,500 亿元以上，第四季度超指引的概率很高，可维持对 AI 半导体链 2027 年增长的乐观假设；若 11 月环比明显回落（如低于 5,000 亿元），需判断是季节性出货节奏还是客户削减投片，后者会动摇 AI 链整体的增长预期。",
+          "watch": "12 月 10 日左右台积电 11 月营收；2027 年 1 月中旬台积电四季报与 2027 年资本开支指引；英伟达 11 月 17 日财报对下季度供给的描述。",
+          "sources": [
+            {"title": "台积电 10 月营收报告（SEC 6-K）", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm"},
+            {"title": "TSMC 2026 年月度营收（投资者关系）", "url": "https://investor.tsmc.com/english/monthly-revenue/2026"}
+          ]
+        },
+        {
+          "title": "CoreWeave 三季度收入 36.6 亿美元（+168%），上调全年指引至 130–133 亿美元，资本开支 370–390 亿美元",
+          "tickers": ["NVDA", "MSFT"],
+          "importance": 3,
+          "view": "利好",
+          "facts": "CoreWeave（非覆盖个股）盘后公布 Q3：收入 36.6 亿美元，同比 +168%，高于预期的 35.4 亿美元；每股亏损 1.27 美元，好于预期的 1.55 美元；净亏损 7.09 亿美元。截至 9 月 30 日收入积压约 1,325 亿美元。全年收入指引上调至 130–133 亿美元，调整后营业利润指引 12.75–13.75 亿美元（中值较此前上调 26%），资本开支指引 370–390 亿美元，管理层称是因为基础设施部署提前。股价此前一个多月累计跌约 42%，盘后小幅波动。",
+          "impact_path": "新型云厂商资本开支维持高位 → 对英伟达 GPU 与网络设备的采购需求延续 → 支撑英伟达数据中心收入预期。微软是 CoreWeave 的大客户之一，CoreWeave 积压订单增长说明大型云厂商仍在外采算力，间接印证 Azure 需求超过自有产能。",
+          "magnitude": "370–390 亿美元资本开支中相当大部分会流向 GPU 和系统，对英伟达单季收入的贡献可达数十亿美元级（具体比例未披露）。属于需求侧的交叉验证，但 CoreWeave 自身高负债（季度利息约 9 亿美元）意味着这类需求对融资环境敏感，加息周期下存在放缓风险。",
+          "priced_in": "财报在收盘后发布，当日股价尚未反映；CoreWeave 盘后反应平淡，说明市场对“收入强但负债重”的模式仍有疑虑。对英伟达的正面影响可能在次日被 CEO 丑闻抵消。",
+          "guidance": "若 CoreWeave 及其他新型云厂商在加息环境下仍能以可接受的成本完成融资（关注其债券利差与 Morgan Stanley 所说的“AI 债务门槛提高”），英伟达的需求端无忧；若融资成本显著上升导致资本开支推迟，需下调对 2027 年 GPU 出货的预期，英伟达与依赖第三方算力的微软都会受到影响。",
+          "watch": "CoreWeave 后续发债利率与条款；英伟达 11 月 17 日财报中的客户集中度；微软对外部算力租赁支出的披露。",
+          "sources": [
+            {"title": "CoreWeave Reports Strong Third Quarter 2026 Results（公司公告）", "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"},
+            {"title": "CNBC：CoreWeave beats on revenue and lifts guidance", "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["AAPL", "META", "ORCL"]
+    },
+    {
+      "key": "defense",
+      "overview": "军工股在大盘下跌日普遍走强：LMT +2.54%、HII +3.03%、RTX +2.02%、NOC +1.77%、LHX +1.67%、GD +1.48%，RKLB +6.54%；AVAV −2.73%、KTOS −2.57%。未找到单一的可靠催化剂，更可能是 CPI 后资金转向现金流稳定的防御性大盘股；中期选举后国会预算前景仍不明朗（国防拨款仍悬而未决）。",
+      "events": [
+        {
+          "title": "Rocket Lab 抹平财报后跌幅收涨 6.5%：Q3 新签 5.15 亿美元 Neutron 发射合同，获五角大楼 1.5 亿美元有条件贷款承诺",
+          "tickers": ["RKLB"],
+          "importance": 3,
+          "view": "利好",
+          "facts": "RKLB 11 月 9 日收 $58.86，财报后盘后一度跌 6.5% 至 $55.02，11 月 10 日收 $62.71（+6.54%）。电话会披露：Q3 新签 Neutron 发射合同超过 5.15 亿美元，覆盖 5 家星座运营商的 8 次任务，部分合同的 Neutron 基础发射价上调至 7,000 万美元；积压订单约 35.7 亿美元创纪录。五角大楼战略资本办公室（OSC）与 Rocket Lab 签署 1.5 亿美元有条件贷款承诺，用于提高 Neutron 首飞后的发射频率、扩充海上回收船队；需完成财务、法律、技术和尽职调查后才能最终交割。CFO 称利率约为 SOFR + 100bp。Neutron 首飞已推迟至不早于 2027 年。",
+          "impact_path": "Neutron 首飞虽推迟，但客户在首飞前就以更高价格锁定发射档期 → 未来收入与定价能力的可见度提高 → 抵消开发成本上升的担忧；OSC 低息贷款降低融资成本、减少股权稀释压力 → 改善自由现金流和每股价值。政府直接提供资金也表明 Neutron 被视为国家发射能力的组成部分，提高了获得国防发射任务的可能性。",
+          "magnitude": "5.15 亿美元新合同约相当于其 2026 年收入的一半左右，但要到 2027 年首飞之后才逐步确认，是结构性利好。1.5 亿美元贷款相对于其资本开支规模有意义，但属于有条件承诺，金额与时间都有不确定性。",
+          "priced_in": "从盘后低点到次日收盘反弹约 14%，并超过财报前的收盘价，说明市场判断“首飞推迟”已在财报前部分计入（财报前一天已涨 11%），而订单和贷款被重新定价。短期涨幅较大，对首飞进度的任何新延误都会很敏感。",
+          "guidance": "若 2027 年上半年 Neutron 完成首飞且复用回收验证顺利，在手订单将开始转化为收入，当前估值有基本面支撑；若首飞再次推迟或 OSC 贷款未能最终交割，需要下调 2027–2028 年收入预期，并关注是否需要股权融资带来稀释。",
+          "watch": "Neutron 静态点火与发射台测试节点；OSC 贷款最终交割公告；SDA 卫星合同交付进度；2027 年 2 月下旬四季报。",
+          "sources": [
+            {"title": "Defense Daily：Rocket Lab Gets $150 Million Conditional Loan Commitment from Pentagon OSC for Neutron", "url": "https://www.defensedaily.com/rocket-lab-gets-150-million-conditional-loan-commitment-from-pentagon-osc-for-neutron/space/"},
+            {"title": "Via Satellite：Rocket Lab Secures Half a Billion in Neutron Launch Orders in Q3", "url": "https://www.satellitetoday.com/launch/2026/11/10/rocket-lab-secures-half-a-billion-in-neutron-launch-orders-in-q3/"},
+            {"title": "Motley Fool：Rocket Lab (RKLB) Q3 2026 Earnings Call Transcript", "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/rocket-lab-rklb-q3-2026-earnings-call-transcript/"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["LMT", "RTX", "NOC", "GD", "BA", "LHX", "HII", "LDOS", "PLTR", "AVAV", "KTOS"]
+    },
+    {
+      "key": "consumer",
+      "overview": "XLY +0.03%、XLP +0.15%，必选消费相对抗跌（KO +0.92%）；NKE −3.03%、TGT −2.48% 走弱。",
+      "events": [],
+      "institutions": [
+        {"firm": "Cantor Fitzgerald", "ticker": "NKE", "action": "首次覆盖，评级中性，目标价 $38", "detail": "认为耐克是复苏故事，但在当前估值下复苏时点难以判断；当日 NKE 收跌 3.03% 至 $38.67，已接近目标价。", "url": "https://investing.com/news/analyst-ratings/cantor-fitzgerald-initiates-nike-stock-at-neutral-on-recovery-timing-93CH-5015156"}
+      ],
+      "quiet": ["WMT", "COST", "HD", "MCD", "KO", "PG", "NKE", "SBUX", "TGT", "TJX"]
+    },
+    {
+      "key": "financials",
+      "events": [],
+      "institutions": [],
+      "quiet": ["JPM", "BAC", "GS", "MS", "WFC", "C", "BRK-B", "BLK", "V", "MA", "SCHW", "COIN"]
+    },
+    {
+      "key": "autonomy",
+      "events": [],
+      "institutions": [],
+      "quiet": ["TSLA", "GOOGL", "NVDA", "UBER", "MBLY", "AUR", "PONY", "WRD", "TER", "SYM"]
+    }
+  ],
+  "risks": [
+    "加息周期延长：若 PPI/PCE 继续超预期、12 月加息 50bp，QQQ 高估值权重股（NVDA、MSFT、ORCL）与 IWM 将面临进一步的估值压缩",
+    "NVDA：董事会调查范围扩大、集体诉讼升级，或 NDAA 中芯片出口审查条款通过，均可能在 11 月 17 日财报前后放大波动",
+    "Anthropic IPO 定价下调或破发，会引发整条 AI 链（AMZN、GOOGL、AVGO、AMD）的估值下修，并显示加息环境下市场对 AI 高估值的承受力有限",
+    "MSFT：AI 原生公司切入办公软件，长期可能削弱 Microsoft 365 与 Copilot 的定价权",
+    "国防预算：中期选举后国会格局变化，国防拨款悬而未决，LMT、NOC、HII 等依赖新财年拨款的项目存在延迟风险",
+    "高负债的新型云厂商（如 CoreWeave）在高利率下融资受阻，可能传导为 GPU 采购放缓，影响 NVDA"
+  ],
+  "opportunities": [
+    "若 NVDA 财报强劲且董事会调查确认无泄密、CEO 留任，当前两日约 9.5% 的跌幅可视为治理风险折价的再评估窗口",
+    "若 Anthropic 顺利定价并稳定交易，AWS 与 Google Cloud 的 AI 需求假设可以更有信心，AMZN、GOOGL 兼具投资收益与云业务的双重支撑",
+    "若 12 月 FOMC 仅加息 25bp 并暗示随后暂停，长端利率回落，TLT 与小盘股（IWM）可能迎来修复",
+    "若台积电 11 月营收维持高位，AI 半导体链（TSM、AVGO）的 2027 年增长假设得到进一步确认"
+  ],
+  "calendar": [
+    {"date": "2026-11-11", "event": "退伍军人节：美债市场休市，股市正常交易", "tickers": ["TLT"]},
+    {"date": "2026-11-13", "event": "美国 10 月 PPI", "tickers": ["TLT", "SPY", "QQQ"]},
+    {"date": "2026-11-17", "event": "英伟达 Q3 FY27 财报（盘后，美东 17:00 电话会）", "tickers": ["NVDA", "AMD", "AVGO", "TSM"]},
+    {"date": "2026-11-18", "event": "Anthropic IPO 预计定价（据报道），19 日纳斯达克上市，代码 ANT", "tickers": ["GOOGL", "AMZN", "NVDA", "AMD", "AVGO", "MSFT"]},
+    {"date": "2026-11-18", "event": "众议院共和党要求黄仁勋闭门简报", "tickers": ["NVDA"]},
+    {"date": "2026-11-19", "event": "沃尔玛发布财年三季度财报", "tickers": ["WMT"]},
+    {"date": "2026-12-09", "event": "美联储议息会议（12 月 8–9 日，含点阵图）", "tickers": ["TLT", "QQQ", "IWM"]}
+  ],
+  "self_check": [
+    {"item": "是否逐一核查覆盖清单中每只股票？", "ok": true, "note": "60 只股票均已对照当日涨跌和新闻线索核查；军工股普涨未找到单一可靠催化剂，在板块概述中说明。"},
+    {"item": "是否覆盖当日市值较大或波动显著的公司？", "ok": true, "note": "覆盖 NVDA（−5.5%）、MSFT（−2.2%）、AVGO（+3.9%）、RKLB（+6.5%）；PONY（−5.2%）、MBLY（−3.9%）、NKE（−3.0%）未找到公司层面的新信息，判断为跟随板块与利率波动。"},
+    {"item": "机构观点是否引用权威来源？", "ok": true, "note": "仅收录 Cantor Fitzgerald 对 NKE 的首次覆盖；CNBC 列出的 TJX、MA、WMT 当日评级调整未能核实具体内容，未收录。"},
+    {"item": "是否严格限定在报告时间窗口内？", "ok": true, "note": "Coinbase 获 OCC 信托银行牌照（11 月 6 日生效、11 月 9 日公布）及 Waymo 结束 Uber 独家（11 月 4 日）属于窗口外信息，未作为当日事件。"},
+    {"item": "是否把事实与分析判断清楚分开？", "ok": true, "note": "Goldman 对 Anthropic 收入的预测、Dan Ives 的 CEO 撤换概率均标注为卖方观点。"}
+  ]
+}
