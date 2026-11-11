@@ -1,0 +1,394 @@
+{
+  "date": "2026-11-11",
+  "window": "2026-11-10 16:00 ET 收盘后 → 2026-11-11 收盘及盘后",
+  "headline": "CoreWeave 点燃 AI 供应链反弹；盘后英伟达再曝丑闻，董事会据报准备撤换黄仁勋",
+  "summary": "CoreWeave 财报后大涨约 25%，带动 AI 供应链全面反弹：SMH +4.8%，AMD +7.3%、甲骨文 +8.8%、台积电 +4.3%，纳指 +1.6%，抹平了前一日 CPI 带来的跌幅。但利率预期没有缓和：高盛把 2027 年 3 月加息加入预测，美元升至 19 个月高点，说明这是在高利率背景下由盈利驱动的反弹。最大变量出在盘后：《纽约时报》报道黄仁勋第二段婚外情，《华尔街日报》称董事会正准备撤换他，NVDA 盘后跌 5%–8%，英伟达已从“治理折价”进入“CEO 更替”阶段。此外，好市多宣布每股 30 美元特别股息，诺斯罗普给出 2027 年 5%–7% 的增长展望。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY +1.32%、QQQ +2.31%、IWM +0.89%，VIX 回落 10% 至 17.5；退伍军人节美债现货市场休市，TLT 基本持平（+0.05%）；美元走强（UUP +0.69%），黄金续跌（GLD −1.13%）。",
+      "events": [
+        {
+          "title": "高盛新增 2027 年 3 月加息预测，政策利率峰值上调至 4.25%–4.50%；美元升至 19 个月高点",
+          "tickers": [
+            "SPY",
+            "QQQ",
+            "IWM",
+            "TLT",
+            "GLD",
+            "UUP"
+          ],
+          "importance": 3,
+          "view": "分歧",
+          "facts": "受 10 月 CPI 超预期影响，高盛把 2027 年 3 月再加息 25bp 加入预测（此前预计 12 月为本轮最后一次加息），预计政策利率峰值为 4.25%–4.50%，首次降息推迟至 2027 年 12 月（比此前晚 3 个月）。首席美国经济学家 David Mericle 认为 3 月加息的可能性略高于 1 月。芝加哥联储主席 Goolsbee 称 10 月通胀数据“令人不安，近乎令人担忧”，并表示服务通胀没有下降。WSJ 报道美元指数升至 19 个月高位。本轮加息周期于 2026 年 9 月开始（历史对比）。同日美股不跌反涨：标普 +1.31%、纳指 +1.60%。",
+          "impact_path": "加息终点上移、降息推迟 → 短端利率与美元维持高位 → 压制黄金和对利率敏感的小盘股；股票估值的利率锚继续抬升。当日股市上涨由 AI 盈利预期驱动（见科技板块），与利率路径形成对冲：盈利上修能否跑赢贴现率上升，是接下来的核心矛盾。",
+          "magnitude": "结构性：若 3 月加息兑现，政策利率在 2027 年大部分时间维持在 4.25% 以上，长端利率很难回到 4.5% 以下。对 TLT 不利，对银行净利息收入有利；对 IWM 中高负债公司影响最大。量化依赖后续数据，不确定性高。",
+          "priced_in": "汇率和黄金已反映（美元 19 个月高点，GLD 两日累计约 −3.8%）；股市基本忽视，VIX 降至 17.5，市场把注意力完全放在 AI 盈利上。若 PPI 再超预期，股市对“加息周期延长”的定价可能明显不足。",
+          "guidance": "若 11 月 13 日 PPI 和月底 PCE 继续高于预期，且 CME 期货开始定价 2027 年 3 月加息，应假设高利率持续到 2027 年下半年，对估值依赖远期盈利的成长股保持更高的回报要求；若通胀数据回落、市场下调 3 月加息概率，TLT 和 IWM 的修复空间更大。美元走强对跨国公司（AAPL、KO、PG、MCD）的海外收入折算不利，下季度指引需关注汇率影响。",
+          "watch": "11 月 13 日 10 月 PPI；11 月下旬 10 月 PCE；12 月 8–9 日 FOMC 点阵图对 2027 年的利率路径；美元指数能否突破 103。",
+          "sources": [
+            {
+              "title": "Reuters/TradingView：Goldman adds another rate hike to Fed outlook after hot inflation data",
+              "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46S08B:0-goldman-adds-another-rate-hike-to-fed-outlook-after-hot-inflation-data/"
+            },
+            {
+              "title": "MLQ：Goldman adds another Fed rate hike as Goolsbee calls October inflation 'borderline disturbing'",
+              "url": "https://mlq.ai/news/goldman-adds-another-fed-rate-hike-to-its-forecast-as-goolsbee-calls-october-inflation-borderline-disturbing/"
+            },
+            {
+              "title": "Yahoo Finance：Stock market today, November 11",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": []
+    },
+    {
+      "key": "tech",
+      "overview": "XLK +3.23%、SMH +4.82%。AI 供应链领涨：ORCL +8.82%、AMD +7.32%、TSM +4.25%、AVGO +3.99%、NVDA +2.87%、AAPL +2.04%（创收盘新高）、GOOGL +2.11%；大型云厂商与平台股反而下跌：MSFT −2.26%、META −1.97%、AMZN −1.74%。资金从“花钱的一方”转向“收钱的一方”。",
+      "events": [
+        {
+          "title": "盘后重磅：《纽约时报》曝黄仁勋第二段婚外情，《华尔街日报》称董事会准备撤换 CEO；NVDA 盘后跌 5%–8%",
+          "tickers": [
+            "NVDA",
+            "AMD"
+          ],
+          "importance": 5,
+          "view": "利空",
+          "facts": "NVDA 常规交易时段收涨 2.87% 至 $173.73。盘后《纽约时报》报道黄仁勋与英伟达医疗业务副总裁 Kimberly Powell 存在婚外关系，称两人今年 3 月在圣何塞一家酒店被拍到，其安保团队曾要求拍摄者签署保密协议；英伟达拒绝置评。随后 CNBC 援引《华尔街日报》报道，英伟达董事会正准备撤换黄仁勋。NVDA 盘后跌幅各来源不同，约 5% 至 7.6%（约 $160）。另据 Fortune 报道，董事会也可能选择让其留任但削减权力。英伟达未公开继任人选，The Information 认为 CFO Colette Kress 可能出任临时 CEO。当日卖方动作：Baird 下调至中性、目标价 $500 → $200，称在联邦调查结束、财务影响可量化、黄仁勋角色明确之前维持中性，并下调 2027 年数据中心预测；Morgan Stanley 将其移出首选股名单（维持增持、目标价 $300）；Wells Fargo 目标价 $315 → $300。华盛顿方面，CNBC 报道有议员要求黄仁勋辞职，并推动收紧对华出口。",
+          "impact_path": "创始人 CEO 可能离任 → 产品路线、客户关系（超大规模云厂商、主权 AI）与供应链谈判中“黄仁勋溢价”下降 → 关键人风险从尾部情景变为基准情景之一 → 估值倍数下修。若以 CFO 临时接任，短期执行风险可控，但长期战略方向不确定。对 AMD 而言，客户在英伟达动荡期分散采购的动机增强，属于相对受益。",
+          "magnitude": "近期收入不受直接影响：Rubin 等产品的路线图和订单已锁定。主要影响在估值：两周内若完成 CEO 更替，市场可能给予 10%–20% 的治理与执行折价，直到新管理层证明执行力（这是基于历史上创始人离任案例的推断，不确定性很大）。11 月 17 日财报和电话会将由谁主持，本身就是重要信号。",
+          "priced_in": "常规时段 +2.9% 反映的是 CoreWeave 带来的需求利好；盘后 5%–8% 的跌幅才开始反映 CEO 更替风险。叠加 11 月 9–10 日的累计跌幅，若盘后跌幅保持，股价较丑闻前下跌约 15%，已部分定价，但如果撤换正式公布，可能还有一轮下跌。",
+          "guidance": "若董事会在财报前宣布黄仁勋离任且同时公布明确的临时与长期安排（如由内部资深高管接任、黄仁勋保留技术顾问或董事角色），不确定性反而会下降，结合强劲财报，可能构成重新评估的窗口；若撤换过程混乱（董事会分裂、诉讼、黄仁勋拒绝离开），或联邦调查发现出口合规问题，需显著下调估值假设并降低在 AI 组合中的权重。对 AMD 可视为相对受益，但不宜假设订单立即转移。",
+          "watch": "董事会正式公告与继任安排；11 月 17 日盘后财报及电话会主持人；联邦调查与国会听证（11 月 18 日众议院闭门简报）；大客户（微软、Meta、谷歌、甲骨文）是否公开表态。",
+          "sources": [
+            {
+              "title": "CNBC：Nvidia stock slides after NYT report alleges Jensen Huang had a second affair",
+              "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html"
+            },
+            {
+              "title": "Axios：Nvidia sinks after report implicates CEO Jensen Huang in 2nd affair",
+              "url": "https://www.axios.com/2026/11/11/nvidia-jensen-huang-affair-shares"
+            },
+            {
+              "title": "Fortune：Why Nvidia's board may rein in Jensen Huang rather than fire him",
+              "url": "https://fortune.com/2026/11/11/nvidia-board-directors-jensen-huang-captive-board/"
+            },
+            {
+              "title": "Quartz：Nvidia stock downgraded by Baird over Jensen Huang CEO uncertainty",
+              "url": "https://qz.com/nvidia-stock-baird-downgrade-jensen-huang-ceo-111126"
+            },
+            {
+              "title": "Yahoo Finance：Nvidia Has No Obvious Jensen Huang Successor",
+              "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-no-obvious-jensen-huang-030947978.html"
+            }
+          ]
+        },
+        {
+          "title": "CoreWeave 大涨约 25%，带动 AI 供应链反弹：AMD +7.3%、甲骨文 +8.8%、台积电 +4.3%；云巨头反而下跌",
+          "tickers": [
+            "AMD",
+            "ORCL",
+            "TSM",
+            "AVGO",
+            "MSFT",
+            "AMZN",
+            "META"
+          ],
+          "importance": 3,
+          "view": "分歧",
+          "facts": "CoreWeave（非覆盖个股）在三季报后收涨约 24.7%，为 2025 年 4 月以来最大单日涨幅；财报要点：收入 36.6 亿美元（+168%），全年收入指引上调至 130–133 亿美元，积压订单约 1,325 亿美元，资本开支指引 370–390 亿美元。存储与网络股领涨：美光约 +12%–14%、Sandisk 约 +14%–17%。覆盖个股中 ORCL +8.82%、AMD +7.32%、TSM +4.25%、AVGO +3.99%；MSFT −2.26%、META −1.97%、AMZN −1.74%。Bloomberg 称纳斯达克 100 盘中涨约 3%。卖方观点分歧：Stifel 尽管 CoreWeave 上调了指引，仍把其目标价从 $120 下调至 $60。",
+          "impact_path": "新型云厂商收入和积压订单超预期 → 缓解“AI 需求见顶”的担忧 → 资金回流硬件与基础设施供应商（GPU、存储、光模块、晶圆代工）；甲骨文作为同类 AI 云业务受益于估值对标。对微软、亚马逊、Meta 则相反：它们是资本开支的支付方，AI 投入回报的担忧加上 Anthropic 等应用层竞争（前一日微软受 Claude 办公套件冲击），导致资金流出。",
+          "magnitude": "属于情绪与预期修复，不是新的订单。CoreWeave 积压订单与资本开支确认了 2027 年的需求可见度，对 AMD、TSM、AVGO 的中期收入假设有支撑；但 CoreWeave 债务约 469 亿美元、季度利息约 8.5 亿美元，在加息周期中这类需求对融资条件高度敏感。",
+          "priced_in": "AMD 两日累计涨约 9%、ORCL 单日 +8.8%，对一份第三方公司的财报而言反应偏强，部分是前期大幅回调后的空头回补。云巨头的下跌说明市场正在区分 AI 产业链中的赢家与“成本承担者”，这一分化可能延续。",
+          "guidance": "若英伟达 11 月 17 日财报和 Anthropic 11 月 18 日定价都验证需求强劲，AI 供应链的反弹有望延续，可将本轮回调视为对 AMD、AVGO、TSM 的再评估窗口；若高利率导致 CoreWeave 等新型云厂商发债利差显著走阔、资本开支推迟，反弹可能只是短期修复。对微软、亚马逊、Meta，需要在下季度财报中看到 AI 收入增速跑赢折旧增速，否则“花钱方”的估值压力会持续。",
+          "watch": "CoreWeave 后续融资条款与债券利差；美光 12 月中旬财报；英伟达 11 月 17 日财报；甲骨文 12 月中旬 FY27Q2 财报中的 RPO。",
+          "sources": [
+            {
+              "title": "CNBC：Stocks making the biggest moves Wednesday",
+              "url": "https://www.cnbc.com/2026/11/11/stocks-moving-the-most-today-live-updates.html"
+            },
+            {
+              "title": "Benzinga：Tech Stocks Add $500 Billion on CoreWeave Results",
+              "url": "https://www.benzinga.com/markets/earnings/26/11/63148039/tech-stocks-500-billion-coreweave-results-ai-rally"
+            }
+          ]
+        }
+      ],
+      "institutions": [
+        {
+          "firm": "Baird",
+          "ticker": "NVDA",
+          "action": "下调至中性（此前为跑赢大盘），目标价 $500 → $200",
+          "detail": "2027 年数据中心需求缺乏可见度，下调 2027 年预测；在联邦调查结束、财务影响可量化、黄仁勋角色明确前维持中性。",
+          "url": "https://qz.com/nvidia-stock-baird-downgrade-jensen-huang-ceo-111126"
+        },
+        {
+          "firm": "Morgan Stanley",
+          "ticker": "NVDA",
+          "action": "移出首选股名单，维持增持，目标价 $300",
+          "detail": "据 Bloomberg 报道，因 CEO 相关调查带来的不确定性。",
+          "url": "https://cryptobriefing.com/nvidia-downgraded-baird-morgan-stanley-huang/"
+        },
+        {
+          "firm": "Wells Fargo",
+          "ticker": "NVDA",
+          "action": "目标价 $315 → $300",
+          "detail": "反映黄仁勋相关调查带来的风险。",
+          "url": "https://sg.finance.yahoo.com/news/nvidia-stock-gets-rare-wall-122608074.html"
+        },
+        {
+          "firm": "China Renaissance",
+          "ticker": "AAPL",
+          "action": "上调至买入（此前为持有），目标价 $280 → $425（华尔街最高）",
+          "detail": "看好首款折叠屏 iPhone 带来的增长；AAPL 当日收涨 2.04% 至 $355.63，创收盘新高。",
+          "url": "https://www.tradingview.com/news/tradingview:2e4ee9216fc8a:0-china-renaissance-upgrades-apple-to-buy-from-hold-sets-price-target-at-425/"
+        }
+      ],
+      "quiet": [
+        "AAPL",
+        "GOOGL"
+      ]
+    },
+    {
+      "key": "defense",
+      "overview": "ITA +1.23%，龙头小幅上涨：LMT +1.15%、RTX +0.51%、NOC +0.43%；RKLB +5.49% 延续财报后反弹，LDOS −2.44%。驱动因素：中期选举后国防拨款仍依赖持续决议，承包商陆续在行业会议上给出 2027 年展望。",
+      "events": [
+        {
+          "title": "诺斯罗普在 Baird 会议上给出 2027 年收入增长 5%–7%，2031 年国际销售目标 100 亿美元",
+          "tickers": [
+            "NOC"
+          ],
+          "importance": 3,
+          "view": "利好",
+          "facts": "诺斯罗普在 Baird 工业会议上表示：预计 2027 年销售额增长 5%–7%，2028 年增速加快；国际销售年初至今约 43 亿美元，目标 2031 年达到约 100 亿美元，CEO Kathy Warden 称可能超过，最大的国际机会是弹药、战术导弹和反无人机。积压订单创纪录，约 1,096 亿美元。2027 年和 2028 年资本开支约占销售额的 4.5%，用于扩产。2027 年展望的前提是联邦持续决议延长至 2027 年初，以免项目中断。NOC 收涨 0.43%。",
+          "impact_path": "积压订单创新高 + 国际订单占比提升 → 收入增长对美国国防预算的依赖下降 → 降低中期选举后国会分治带来的预算风险溢价；国际销售通常利润率更高 → 利润率改善。资本开支上升会在 2027–2028 年压制自由现金流，但为弹药和导弹扩产所必需。",
+          "magnitude": "5%–7% 的增长对一家年收入约 400 亿美元以上的公司意味着每年新增约 20–30 亿美元收入，属于结构性增长。国际销售从约 50 亿美元（年化）增至 100 亿美元，约占未来收入的五分之一。不确定性在于持续决议：若 2027 财年拨款延迟，部分新项目可能推迟启动。",
+          "priced_in": "股价仅 +0.4%，反应平淡。市场似乎视之为符合预期，同时对选举后的预算风险仍有顾虑；过去一年股价下跌约 19%，与创纪录的积压订单形成反差，估值可能尚未充分反映国际业务的增长。",
+          "guidance": "若 2027 年 1 月财报正式给出与此一致的指引，且国际订单（尤其欧洲弹药与防空）持续落地，可视为前期回调后的再评估窗口；若持续决议到期后国会未能通过全年拨款，或 B-21、Sentinel 出现新的成本超支，需要下调 2027 年利润率预期。",
+          "watch": "国会持续决议到期日及全年拨款进展；2027 年 1 月下旬 NOC 四季报与正式指引；欧洲国家弹药与防空采购合同。",
+          "sources": [
+            {
+              "title": "Investing.com：Northrop Grumman at Baird conference sees durable demand, growth",
+              "url": "https://www.investing.com/news/transcripts/northrop-grumman-at-baird-conference-sees-durable-demand-growth-93CH-5019691"
+            },
+            {
+              "title": "MarketBeat：Northrop Grumman Sees 2027 Growth and $10 Billion in Overseas Sales by 2031",
+              "url": "https://www.marketbeat.com/instant-alerts/event-northrop-grumman-sees-2027-growth-and-10-billion-in-overseas-sales-by-2031-2026-11-11/"
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": [
+        "LMT",
+        "RTX",
+        "GD",
+        "BA",
+        "LHX",
+        "HII",
+        "LDOS",
+        "PLTR",
+        "AVAV",
+        "KTOS",
+        "RKLB"
+      ]
+    },
+    {
+      "key": "consumer",
+      "overview": "XLY −0.05%、XLP +0.46%；COST +2.01% 领涨，MCD −2.61% 走弱（未发现公司层面新信息）。CNBC/NRF 零售监测显示消费者在继续支出的同时出现压力迹象。",
+      "events": [
+        {
+          "title": "好市多宣布每股 30 美元特别股息（约 133 亿美元），并重新授权 40 亿美元回购",
+          "tickers": [
+            "COST"
+          ],
+          "importance": 3,
+          "view": "利好",
+          "facts": "好市多 11 月 10 日（收盘后）公告：董事会宣布每股 30 美元特别现金股息，登记日和除息日为 11 月 24 日，派发日为 12 月 4 日；总额约 133 亿美元，为公司历史上最大的特别股息。董事会同时重新授权最高 40 亿美元的股票回购计划。有分析师此前预期特别股息为每股 18–20 美元。Mizuho 上调其目标价。COST 收涨 2.01% 至 $1,087.61。",
+          "impact_path": "资本回报超预期 → 体现资产负债表强劲和自由现金流充裕 → 增强长期持有者回报，支撑估值。特别股息本身不改变经营价值（除息日股价会相应下调约 30 美元），真正的信号是管理层对未来现金流和会员费收入的信心。",
+          "magnitude": "30 美元约占股价的 2.8%，属于一次性回报；40 亿美元回购约占市值 0.8%。对经营和每股收益几乎没有影响，属于资本配置事件而非基本面变化。",
+          "priced_in": "+2.0% 的反应高于特别股息超出预期的部分（约 10–12 美元/股，约 1%），说明市场同时把好市多当作躲避 AI 波动的避风港（Barron's 观点）。估值已经很高（市盈率长期 50 倍左右），进一步上行需要同店销售与会员续费率继续强劲。",
+          "guidance": "若 12 月初公布的 11 月同店销售与 12 月中旬一季报中会员续费率保持在高位，可视为高确定性的防御配置；若除息后股价大幅回落，需区分是机械性除息还是资金撤离。不宜因特别股息本身而追高，它不提升公司的内在价值。",
+          "watch": "11 月 24 日除息；12 月初 11 月销售数据；12 月中旬 FY27Q1 财报中的会员费收入与续费率。",
+          "sources": [
+            {
+              "title": "Costco 新闻稿：Declares $30 Special Cash Dividend and Reauthorizes Stock Repurchase Program",
+              "url": "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Declares-30-Special-Cash-Dividend-and-Reauthorizes-Stock-Repurchase-Program/default.aspx"
+            },
+            {
+              "title": "Costco 8-K（SEC）",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000909832/000090983226000134/costex9918-k111026.htm"
+            },
+            {
+              "title": "FX Leaders：COST nears $1,100 as Mizuho raises target",
+              "url": "https://www.fxleaders.com/news/2026/11/11/cost-stock-nears-1100-as-mizuho-raises-target-30-special-costco-dividend-boosts-shares/"
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": [
+        "WMT",
+        "HD",
+        "MCD",
+        "KO",
+        "PG",
+        "NKE",
+        "SBUX",
+        "TGT",
+        "TJX"
+      ]
+    },
+    {
+      "key": "financials",
+      "events": [],
+      "institutions": [],
+      "quiet": [
+        "JPM",
+        "BAC",
+        "GS",
+        "MS",
+        "WFC",
+        "C",
+        "BRK-B",
+        "BLK",
+        "V",
+        "MA",
+        "SCHW",
+        "COIN"
+      ]
+    },
+    {
+      "key": "autonomy",
+      "overview": "BOTZ +2.09%、TSLA +2.91%；TER +8.30% 领涨，源于 Jefferies 首次覆盖。",
+      "events": [],
+      "institutions": [
+        {
+          "firm": "Jefferies",
+          "ticker": "TER",
+          "action": "首次覆盖，买入，目标价 $284",
+          "detail": "认为 AI 使泰瑞达转型为“算力测试”公司，预计自动测试设备市场从 2025 年约 90 亿美元增至 2030 年约 250 亿美元；当日 TER 收涨 8.3% 至 $265.78。",
+          "url": "https://www.investing.com/news/analyst-ratings/jefferies-initiates-teradyne-stock-with-buy-rating-on-ai-growth-93CH-5018369"
+        }
+      ],
+      "quiet": [
+        "TSLA",
+        "GOOGL",
+        "NVDA",
+        "UBER",
+        "MBLY",
+        "AUR",
+        "PONY",
+        "WRD",
+        "TER",
+        "SYM"
+      ]
+    }
+  ],
+  "risks": [
+    "NVDA：若董事会正式撤换黄仁勋且继任安排不清，或联邦调查涉及出口合规，可能在 11 月 17 日财报前后再次大幅下跌，并拖累 AI 供应链情绪",
+    "加息周期延长：高盛预计 2027 年 3 月再加息，若 PPI/PCE 继续超预期，当日由 AI 盈利驱动的反弹可能难以持续，QQQ、IWM 承压",
+    "MSFT、AMZN、META：资金从 AI 资本开支的“支付方”流向“供应商”，若下季度 AI 收入增速跑不赢折旧，估值压力持续",
+    "新型云厂商高负债：CoreWeave 等在高利率下融资受阻，会传导为 GPU、存储和代工需求放缓（NVDA、AMD、TSM、AVGO）",
+    "国防拨款：NOC 等 2027 年展望以持续决议延长为前提，国会分治下全年拨款延迟会推迟新项目"
+  ],
+  "opportunities": [
+    "若 NVDA 董事会迅速给出清晰的继任安排、财报强劲，治理折价可能在数周内部分收回",
+    "若英伟达财报与 Anthropic IPO 定价都验证需求，AMD、AVGO、TSM 的本轮回调可视为再评估窗口",
+    "NOC：积压订单创纪录、国际业务翻倍目标与股价过去一年约 −19% 形成反差，若 2027 年指引确认，存在估值修复空间",
+    "COST：高确定性的现金回报与会员模式，在 AI 与利率双重波动中具备防御属性，但需警惕高估值"
+  ],
+  "calendar": [
+    {
+      "date": "2026-11-13",
+      "event": "美国 10 月 PPI",
+      "tickers": [
+        "TLT",
+        "SPY",
+        "QQQ"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "event": "英伟达 Q3 FY27 财报（盘后，美东 17:00 电话会）",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "event": "Anthropic IPO 预计定价（据报道），19 日纳斯达克上市",
+      "tickers": [
+        "GOOGL",
+        "AMZN",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MSFT"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "event": "众议院共和党要求黄仁勋闭门简报",
+      "tickers": [
+        "NVDA"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "event": "沃尔玛发布财年三季度财报",
+      "tickers": [
+        "WMT"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "event": "好市多 30 美元特别股息除息/登记日（12 月 4 日派发）",
+      "tickers": [
+        "COST"
+      ]
+    },
+    {
+      "date": "2026-12-09",
+      "event": "美联储议息会议（12 月 8–9 日，含点阵图）",
+      "tickers": [
+        "TLT",
+        "QQQ",
+        "IWM"
+      ]
+    }
+  ],
+  "self_check": [
+    {
+      "item": "是否逐一核查覆盖清单中每只股票？",
+      "ok": true,
+      "note": "60 只股票均已对照当日涨跌与新闻线索核查。"
+    },
+    {
+      "item": "是否覆盖当日市值较大或波动显著的公司？",
+      "ok": true,
+      "note": "覆盖 NVDA、AMD（+7.3%）、ORCL（+8.8%）、TSM、AVGO、MSFT/META/AMZN（−2% 左右）、AAPL（新高）、TER（+8.3%）、COST；MCD（−2.6%）、LDOS（−2.4%）未找到公司层面的新信息，列入 quiet。"
+    },
+    {
+      "item": "机构观点是否引用权威来源？",
+      "ok": true,
+      "note": "Morgan Stanley 与 Wells Fargo 对 NVDA 的动作来自转引 Bloomberg 的二手报道，未能直接查看原报告。"
+    },
+    {
+      "item": "是否严格限定在报告时间窗口内？",
+      "ok": true,
+      "note": "好市多公告于 11 月 10 日收盘后发布，在窗口内；Rocket Lab 的 OSC 贷款前一日已写，不重复。"
+    },
+    {
+      "item": "是否把事实与分析判断清楚分开？",
+      "ok": true,
+      "note": "WSJ 关于董事会准备撤换黄仁勋的报道为媒体援引知情人士，公司未确认，已在 facts 中标明来源；10%–20% 治理折价为推断，已注明。"
+    }
+  ]
+}
