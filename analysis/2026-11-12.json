@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-12",
+  "window": "2026-11-11 16:00 ET 收盘后 → 2026-11-12 收盘及盘后",
+  "headline": "黄仁勋辞去英伟达 CEO，CFO 暂代；10 年美债升至 5.10%",
+  "summary": "两条主线同时发酵。第一，英伟达董事会宣布黄仁勋立即辞去 CEO、总裁和董事职务，CFO Colette Kress 出任临时 CEO，Harvey Jones 担任首位独立董事长；NVDA 收跌 4.3%，Bernstein、William Blair、Melius 等多家券商下调评级，资金转向 AMD（+5.9%）和博通（+5.5%）。第二，债市抛售加剧：10 年期收益率升约 10bp 至 5.10%，2 年期 4.86%，旧金山联储 Daly 称可能需要进一步加息；特朗普称“不需要与伊朗达成协议”，推升油价约 2.5%；10 月成屋销售跌至 16 年低点。小盘股（IWM −1.6%）、长债、黄金和加密资产承压最重。需要重新思考的是：英伟达进入“无创始人”时代后的估值框架，以及 10 年期站上 5.1% 后对利率敏感板块的冲击。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY −0.35%、QQQ −0.32%、IWM −1.64%，VIX 升至 18.7；TLT −1.48%、GLD −2.82%（金价跌破 3,900 美元）、UUP +0.24%；WTI +2.5% 至 88.7 美元，比特币 −3.4%。",
+      "events": [
+        {
+          "title": "10 年期美债收益率升约 10bp 至 5.10%，Daly 称可能需进一步加息；油价因伊朗表态上涨，成屋销售创 16 年新低",
+          "tickers": [
+            "SPY",
+            "QQQ",
+            "IWM",
+            "TLT",
+            "GLD",
+            "UUP",
+            "HD"
+          ],
+          "importance": 4,
+          "view": "利空",
+          "facts": "据 Benzinga，10 年期美债收益率上升约 10bp 至 5.10%，2 年期升约 11bp 至 4.86%，30 年期升约 7bp 至 5.43%（退伍军人节休市后首个交易日）。旧金山联储主席 Daly 表示“我倾向于认为需要进一步紧缩”，通胀已从能源和商品扩散到服务业；但她也称收益率上升“很受欢迎”，给了美联储更多时间“做出审慎的决定”。CME FedWatch 显示 12 月加息 25bp 概率约 91%、50bp 约 9%。上周初请失业金人数 20 万，高于预期的 19.5 万。NAR 公布 10 月成屋销售环比 −5.5% 至年化 375 万套，为 16 年来最低，同比 −8.8%；10 月 30 年期抵押贷款平均利率 7.33%（9 月为 6.86%）。特朗普称“我们不需要与伊朗达成协议”，WTI 收于约 88.7 美元（+2.5%），Brent 约 95.8 美元。美联储同日宣布 2027 年 10 月会议不进行利率决议。",
+          "impact_path": "收益率上行 + 油价上涨 → 通胀预期与加息路径进一步上移 → 长久期资产（TLT、黄金、高估值小盘股）贴现率上升；抵押贷款利率维持 7% 以上 → 成屋交易冻结 → 家装大件、搬家相关需求（HD）承压；小盘股依赖浮动利率融资，受冲击最大（IWM −1.6%）。",
+          "magnitude": "结构性：10 年期站上 5.1% 是本轮周期高位附近，若持续，对股市估值是持续压力而非一次性冲击。成屋销售对 HD 的影响体现在大件维修与改造需求，可能拖累其 2026 年下半年至 2027 年同店销售。油价若因霍尔木兹海峡风险持续上行，会进一步推高 headline 通胀。",
+          "priced_in": "股市大盘跌幅不大（SPY −0.35%），主要是因为 AI 内部轮动（AMD、AVGO 大涨）掩盖了利率冲击；但 IWM −1.6%、TLT −1.5%、GLD −2.8% 显示利率敏感资产已在定价。Bloomberg 报道 BofA 交易员观察到空头集中做空利率敏感股，说明市场仍在加仓这一方向。",
+          "guidance": "若 11 月 13 日 PPI 再超预期、10 年期突破 5.2%，应假设“高利率更久”成为基准情景，降低对小盘股和高负债公司的暴露，对 HD 等地产链公司下调 2027 年同店销售预期；若 PPI 温和、油价回落，Daly 所说的“金融条件收紧替代加息”可能使 12 月后暂停加息，TLT 和 IWM 有修复空间。黄金在实际利率上升期间承压，若跌破 3,800 美元需关注央行购金是否放缓。",
+          "watch": "11 月 13 日 10 月 PPI；下周家得宝三季报；美伊谈判与霍尔木兹海峡航运；12 月 8–9 日 FOMC。",
+          "sources": [
+            {
+              "title": "Benzinga：Nasdaq 100 Turns Green Despite Nvidia's 5% Drop on Huang Exit",
+              "url": "https://benzinga.com/markets/equities/26/11/63210863/stock-market-today-nvidia-huang-exit-amd-broadcom-rally"
+            },
+            {
+              "title": "Investing.com/Reuters：Fed's Daly says more rate hikes likely needed to fight inflation",
+              "url": "https://www.investing.com/news/economy-news/feds-daly-says-more-rate-hikes-likely-needed-to-fight-inflation-5022988"
+            },
+            {
+              "title": "Bloomberg：US Existing Home Sales Drop to 16-Year Low",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-12/sales-of-existing-us-homes-tumble-to-lowest-level-since-2010"
+            },
+            {
+              "title": "CNBC：Oil prices rise after Trump says no Iran deal needed",
+              "url": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html"
+            },
+            {
+              "title": "Rigzone：Oil Rises as Trump Dims Iran Deal Hopes",
+              "url": "https://www.rigzone.com/news/wire/oil_rises_as_trump_dims_iran_deal_hopes-12-nov-2026-185073-article/"
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": []
+    },
+    {
+      "key": "tech",
+      "overview": "XLK −0.34%、SMH −1.03%。NVDA −4.34% 至 $166.19，TSM −1.90%，存储股回落；AMD +5.86%、AVGO +5.54%、GOOGL +1.79% 逆势上涨，MSFT +0.36%、AMZN +0.48%。驱动因素：英伟达 CEO 更替引发的 AI 芯片内部轮动，叠加美债收益率上行。",
+      "events": [
+        {
+          "title": "黄仁勋辞去英伟达 CEO、总裁及董事职务，CFO Colette Kress 任临时 CEO；NVDA 收跌 4.3%，多家券商下调评级",
+          "tickers": [
+            "NVDA",
+            "TSM"
+          ],
+          "importance": 5,
+          "view": "利空",
+          "facts": "英伟达 11 月 12 日公告（8-K）：黄仁勋辞去总裁、CEO 及董事职务，立即生效；CFO Colette Kress 出任临时 CEO，在正式继任者确定前继续兼任 EVP 和 CFO；Harvey C. Jones 出任公司首位董事长；董事会将对内部和外部候选人进行全面遴选。此前董事会已聘请 Wachtell Lipton 进行独立调查，涉及黄仁勋与一名被美国情报部门认定为中国情报人员的女性的关系，以及《纽约时报》报道的与公司员工的关系。CNBC 称董事会前一晚已决定撤换。NVDA 收跌 4.34% 至 $166.19；Reuters 称其市盈率降至 14 年来最低。卖方：Bernstein（Stacy Rasgon）下调至与大盘持平，目标价 $400 → $200，认为数据中心增长仍然稳健、估值有吸引力，但不建议抄底；William Blair 下调至与大盘持平；Melius 下调至持有、目标价 $185；Oppenheimer 下调并撤销目标价。Wedbush 的 Dan Ives 估计 Kress 可能担任临时 CEO 约一年。Q3 FY27 财报仍定于 11 月 17 日盘后。",
+          "impact_path": "创始人 CEO 离任 → 产品路线（Rubin 及之后架构）、软件生态（CUDA）战略、大客户与主权 AI 谈判失去核心决策者 → 执行与战略不确定性上升 → 估值倍数下调（“黄仁勋溢价”消失）。短期营收受已锁定的订单与产能保护；中期风险在于客户为分散供应链风险而加大 AMD、博通定制芯片（XPU）和自研芯片的采购比例。对台积电而言，英伟达是最大客户之一，任何需求不确定性都会传导（TSM −1.9%）。",
+          "magnitude": "2027 年数据中心收入大部分已由在手订单和 CoWoS 产能锁定，短期 EPS 影响有限。主要影响是估值：市盈率已降至 14 年低点，市场在给予一次性的治理折价。结构性风险取决于继任者（内部技术高管还是外部职业经理人）和大客户在 2027–2028 年订单中的份额变化，目前无法量化。",
+          "priced_in": "自 11 月 9 日丑闻曝光以来累计跌约 15%–20%，市盈率降至 14 年低点，CEO 离任这一最坏情景已大部分计入。11 月 11 日盘后 5%–8% 的跌幅收窄至收盘 −4.3%，说明“不确定性落地”带来了一定的稳定效果。但如果财报电话会显示客户在重新评估采购，或出口管制进一步收紧，仍有下跌空间。",
+          "guidance": "若 11 月 17 日财报的数据中心收入与下季度指引保持强劲，且 Kress 在电话会上明确产品路线图不变、主要客户订单未变，当前估值（14 年最低市盈率）可视为中期再评估窗口；若指引下调、客户集中度上升或董事会遴选拖延超过两个季度，需要接受更长时间的估值折价，并将 AI 算力敞口向 AMD、AVGO 分散。对 TSM 的影响取决于英伟达订单是否被其他客户（同样在台积电投片）替代，整体风险可控。",
+          "watch": "11 月 17 日盘后财报及 Kress 主持的首次电话会；董事会继任人选遴选进展；联邦调查与国会听证；大客户（微软、Meta、谷歌、甲骨文、OpenAI）的公开表态。",
+          "sources": [
+            {
+              "title": "NVIDIA 新闻稿：NVIDIA Announces CEO Transition",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+            },
+            {
+              "title": "NVIDIA 8-K（SEC）",
+              "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+            },
+            {
+              "title": "CNBC：Nvidia CEO Jensen Huang resigns: Live updates",
+              "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+            },
+            {
+              "title": "Investing.com：Wall Street reacts to Nvidia saga, Bernstein and Oppenheimer downgrade stock",
+              "url": "https://www.investing.com/news/stock-market-news/wall-street-reacts-to-nvidia-saga-bernstein-and-oppenheimer-downgrade-stock-5021136"
+            },
+            {
+              "title": "Fortune：Nvidia taps CFO Colette Kress as interim CEO",
+              "url": "https://fortune.com/2026/11/12/colette-kress-nvidia-cfo-interim-ceo-jensen-huang-fallout/"
+            }
+          ]
+        },
+        {
+          "title": "资金从英伟达转向 AMD 与博通：William Blair 上调 AMD，高盛将博通列入首选；两股分别涨 5.9%、5.5%",
+          "tickers": [
+            "AMD",
+            "AVGO"
+          ],
+          "importance": 3,
+          "view": "利好",
+          "facts": "William Blair 将 AMD 上调至跑赢大盘（此前为与大盘持平），同时下调英伟达，分析师 Sebastien Naji 认为英伟达的“领导力真空”为 AMD 争取定制项目提供机会。高盛将博通加入首选股名单，JPMorgan 重申博通增持评级。AMD 收涨 5.86% 至 $585.30，AVGO 收涨 5.54% 至 $364.36。有分析师提醒，客户无法在短期内把大量 2027 年订单从英伟达转移给 AMD。",
+          "impact_path": "英伟达 CEO 更替 → 大客户出于供应链风险管理，提高第二供应商（AMD GPU）和定制 ASIC（博通 XPU）的采购比例 → AMD 数据中心 GPU 与博通 AI 半导体收入的中期份额上升 → 估值相对英伟达重估。",
+          "magnitude": "短期属于情绪与相对估值交易，订单转移需要 2–4 个季度才能体现在收入中（受 CoWoS 产能、软件迁移成本限制）。若 2027 年 AMD 在 AI 加速器市场份额提升几个百分点，对应数十亿美元级收入增量，属于结构性机会，但目前没有订单层面的证据。",
+          "priced_in": "AMD 一周累计涨约 20%（11 月 9 日 +13%、11 日 +7%、12 日 +6%），已明显提前定价份额提升，短期透支风险较大；博通涨幅相对温和，定制芯片订单的可见度也更高。",
+          "guidance": "若后续出现客户公开扩大 AMD MI 系列采购或博通新增 XPU 客户的证据（订单公告、云厂商资本开支说明），本轮重估有基本面支撑；若英伟达 11 月 17 日财报显示订单与指引不变，市场可能回补英伟达、获利了结 AMD，需警惕 AMD 短期回撤。对博通，12 月中旬财报中的 AI 收入指引是验证点。",
+          "watch": "11 月 17 日英伟达财报；12 月中旬博通 FY26Q4 财报与 AI 收入指引；AMD MI 系列新客户公告；Anthropic 11 月 18 日 IPO 定价（AMD、博通均参与定增）。",
+          "sources": [
+            {
+              "title": "CNBC：AMD upgraded because it will benefit from Nvidia's 'leadership vacuum'",
+              "url": "https://www.cnbc.com/2026/11/12/amd-upgraded-because-it-will-benefit-from-nvidias-leadership-vacuum.html"
+            },
+            {
+              "title": "Investing.com：AMD, Broadcom shares rally as Nvidia CEO Huang resigns",
+              "url": "https://au.investing.com/news/stock-market-news/amd-broadcom-gain-after-reports-say-nvidia-board-preparing-to-oust-huang-4764488"
+            },
+            {
+              "title": "Motley Fool：Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
+              "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+            }
+          ]
+        }
+      ],
+      "institutions": [
+        {
+          "firm": "Bernstein",
+          "ticker": "NVDA",
+          "action": "下调至与大盘持平（此前为跑赢大盘），目标价 $400 → $200",
+          "detail": "认为数据中心增长仍然稳健、估值有吸引力，但 CEO 继任存在不确定性，不建议假设坏消息已完全定价。",
+          "url": "https://247wallst.com/investing/2026/11/12/bernstein-just-gave-up-on-nvidia-cutting-its-target-in-half-to-200/"
+        },
+        {
+          "firm": "William Blair",
+          "ticker": "AMD",
+          "action": "上调至跑赢大盘（此前为与大盘持平）；同时将 NVDA 下调至与大盘持平",
+          "detail": "认为 AMD 将受益于英伟达的“领导力真空”，有机会争取更多定制项目。",
+          "url": "https://www.cnbc.com/2026/11/12/amd-upgraded-because-it-will-benefit-from-nvidias-leadership-vacuum.html"
+        },
+        {
+          "firm": "Goldman Sachs",
+          "ticker": "AVGO",
+          "action": "加入首选股名单",
+          "detail": "英伟达动荡期间定制 AI 芯片需求的可见度较高；JPMorgan 同日重申增持。",
+          "url": "https://rollingout.com/2026/11/12/broadcom-amd-rise-nvidia-huang/"
+        }
+      ],
+      "quiet": [
+        "MSFT",
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "ORCL"
+      ]
+    },
+    {
+      "key": "defense",
+      "events": [],
+      "institutions": [],
+      "quiet": [
+        "LMT",
+        "RTX",
+        "NOC",
+        "GD",
+        "BA",
+        "LHX",
+        "HII",
+        "LDOS",
+        "PLTR",
+        "AVAV",
+        "KTOS",
+        "RKLB"
+      ]
+    },
+    {
+      "key": "consumer",
+      "events": [],
+      "institutions": [],
+      "quiet": [
+        "WMT",
+        "COST",
+        "HD",
+        "MCD",
+        "KO",
+        "PG",
+        "NKE",
+        "SBUX",
+        "TGT",
+        "TJX"
+      ]
+    },
+    {
+      "key": "financials",
+      "events": [],
+      "institutions": [],
+      "quiet": [
+        "JPM",
+        "BAC",
+        "GS",
+        "MS",
+        "WFC",
+        "C",
+        "BRK-B",
+        "BLK",
+        "V",
+        "MA",
+        "SCHW",
+        "COIN"
+      ]
+    },
+    {
+      "key": "autonomy",
+      "events": [],
+      "institutions": [],
+      "quiet": [
+        "TSLA",
+        "GOOGL",
+        "NVDA",
+        "UBER",
+        "MBLY",
+        "AUR",
+        "PONY",
+        "WRD",
+        "TER",
+        "SYM"
+      ]
+    }
+  ],
+  "risks": [
+    "NVDA：继任者遴选拖延、联邦调查扩大或大客户公开转移订单，可能使估值折价长期化，并拖累 TSM 与存储链",
+    "AMD：一周涨约 20%，已提前定价份额提升；若英伟达财报强劲，存在获利了结风险",
+    "利率：10 年期站上 5.1%、油价因伊朗局势上行，若 PPI 再超预期，IWM、TLT、高估值成长股继续承压",
+    "HD：成屋销售 16 年新低、抵押贷款利率 7% 以上，下周三季报的同店销售与 2027 年展望面临下修风险",
+    "能源冲击：美伊谈判破裂、霍尔木兹海峡航运受阻会推高通胀，并增加加息 50bp 的可能"
+  ],
+  "opportunities": [
+    "NVDA：市盈率降至 14 年低点，若 11 月 17 日财报与指引稳健、管理层确认路线图不变，可视为中期再评估窗口",
+    "AVGO：定制 AI 芯片在客户分散供应商的趋势中受益，可见度高于 AMD 的份额假设，回调时值得关注",
+    "若 PPI 温和、美联储认可“收益率上升替代加息”，TLT 与 IWM 的超跌可能修复"
+  ],
+  "calendar": [
+    {
+      "date": "2026-11-13",
+      "event": "美国 10 月 PPI",
+      "tickers": [
+        "TLT",
+        "SPY",
+        "QQQ"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "event": "英伟达 Q3 FY27 财报（盘后，Kress 首次以临时 CEO 身份主持）",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "TSM"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "event": "Anthropic IPO 预计定价（据报道），19 日上市",
+      "tickers": [
+        "GOOGL",
+        "AMZN",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MSFT"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "event": "沃尔玛发布财年三季度财报",
+      "tickers": [
+        "WMT"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "event": "好市多 30 美元特别股息除息日",
+      "tickers": [
+        "COST"
+      ]
+    },
+    {
+      "date": "2026-12-09",
+      "event": "美联储议息会议（12 月 8–9 日，含点阵图）",
+      "tickers": [
+        "TLT",
+        "QQQ",
+        "IWM"
+      ]
+    }
+  ],
+  "self_check": [
+    {
+      "item": "是否逐一核查覆盖清单中每只股票？",
+      "ok": true,
+      "note": "60 只股票均已对照当日涨跌和新闻线索核查；国防板块普跌（ITA −2.1%、KTOS −5.3%）未找到公司层面的新信息，判断为利率与风险偏好驱动。"
+    },
+    {
+      "item": "是否覆盖当日市值较大或波动显著的公司？",
+      "ok": true,
+      "note": "覆盖 NVDA、AMD、AVGO、TSM 及利率敏感资产；PONY（−6.1%）、WRD（−5.6%）、AUR（−5.4%）、SYM（−4.5%）、COIN（−4.1%）未找到个股新信息，判断为跟随高 beta 资产回落。"
+    },
+    {
+      "item": "机构观点是否引用权威来源？",
+      "ok": true,
+      "note": "Bernstein、William Blair 来自 CNBC 与多家媒体转述；高盛将博通列入首选的信息来自二手报道，未直接看到原报告。"
+    },
+    {
+      "item": "是否严格限定在报告时间窗口内？",
+      "ok": true,
+      "note": "芬兰批准特斯拉 FSD（Supervised）属于渐进性进展，未单列事件；Rocket Lab、好市多等前几日事件不重复。"
+    },
+    {
+      "item": "是否把事实与分析判断清楚分开？",
+      "ok": true,
+      "note": "Dan Ives 对临时 CEO 任期的估计、分析师关于订单转移速度的提醒均标注为卖方观点。"
+    }
+  ]
+}
