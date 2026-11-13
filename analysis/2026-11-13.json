@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-13",
+  "window": "2026-11-12 16:00 ET 收盘后 → 2026-11-13 收盘及盘后",
+  "headline": "芯片股反弹逆转，AMD 跌 8.8%；PPI 同比 6.5%，10 年期美债收于 5.15%",
+  "summary": "周五资金从科技股撤向防御板块：纳指 −0.91%、SMH −3.0%，必选消费 XLP +1.4%、金融 XLF +0.8%，道指小幅收涨。AI 芯片的“去英伟达化”交易出现逆转：本周大涨约 30% 的 AMD 回落 8.8%，博通 −4.8%，NVDA −2.0% 至 $162.85 再创新低；丑闻延伸至商务部长 Lutnick，他同意于 12 月 10 日就对华芯片销售出席参议院听证。宏观方面，10 月 PPI 环比 +0.3%，略低于预期，但同比 6.5% 为 2022 年 11 月以来最高；Williams、Collins、Logan 等多位联储官员表态偏鹰，10 年期收于 5.15%，本周累计上升约 26bp，为 2025 年 4 月以来最大周涨幅。苹果、好市多再创新高，体现资金对“低 AI 风险”资产的偏好。另据 Bloomberg，SpaceX 与特斯拉的合并谈判取得进展，最早可能在 12 月宣布。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY −0.36%、QQQ −1.20%、IWM −0.32%，VIX 19.3；TLT −0.43%、GLD +0.16%、UUP +0.27%（美元录得一个多月来最佳单周表现）；比特币跌破 6.8 万美元（−4.7%）。本周累计：标普 +2.5%、纳指 +2.3%。",
+      "events": [
+        {
+          "title": "10 月 PPI 环比 +0.3%（预期 +0.4%），同比 6.5% 创近四年新高；多位联储官员表态偏鹰，10 年期收于 5.15%，周涨约 26bp",
+          "tickers": ["SPY", "QQQ", "IWM", "TLT", "GLD", "UUP"],
+          "importance": 4,
+          "view": "利空",
+          "facts": "BLS：10 月最终需求 PPI 环比 +0.3%（Reuters 调查预期 +0.4%），其中商品 +0.5%、服务 +0.2%、能源 −0.1%；同比 +6.5%，为 2022 年 11 月以来最大，9 月环比上修至 +1.4%。10 年期收益率盘中一度升至约 5.17%，收于约 5.15%；据报道本周累计上升约 26bp，为 2025 年 4 月关税冲击以来最大周涨幅；30 年期约 5.46%，2 年期约 4.85%。CME FedWatch 显示 12 月加息概率 100%（25bp 约 87%、50bp 约 13%）。纽约联储 Williams 称通胀“过高”、仍有工作要做；波士顿联储 Collins 称将有更多加息；达拉斯联储 Logan 此前表示至少还需两次 25bp 加息；Daly、Goolsbee 也表态偏鹰。美联储金融稳定调查显示，受访者认为 AI 相关风险是金融体系最大威胁。卖方观点：高盛预计 2027 年标普 500 升至 8,700 点。",
+          "impact_path": "PPI 环比略低于预期，但同比加速、9 月上修 → 上游价格压力仍会传导至 CPI → 联储官员一致偏鹰 → 市场开始定价 12 月之后继续加息 → 长端利率维持 5% 以上 → 高估值成长股与长久期资产承压；资金转向现金流稳定、对利率不敏感或受益于高利率的板块（必选消费、银行、支付）。",
+          "magnitude": "结构性：10 年期一周上升 26bp，对股票估值的压力相当于远期市盈率下降约 3%–5%（粗略推算，不确定性高）。本周股指仍收涨，说明盈利预期（AI 资本开支）暂时抵消了利率冲击，但这种平衡依赖 AI 叙事，而英伟达动荡正在削弱这一支撑。",
+          "priced_in": "PPI 环比略低于预期没有带来缓和，收益率继续上行，说明市场关注的是联储的鹰派表态和年化通胀水平。股市对利率的定价仍不充分：标普本周 +2.5%，与 10 年期 +26bp 并存；比特币等高 beta 资产已率先反映紧缩预期。",
+          "guidance": "若 11 月下旬 PCE 继续偏强，且 12 月 FOMC 点阵图显示 2027 年还有至少两次加息，应假设 10 年期在 5%–5.5% 区间运行，降低对高估值成长股与小盘股的权重，相对偏好资产负债表强、定价能力强的公司；若 PCE 回落、点阵图暗示 12 月后暂停，长端利率可能快速回落，TLT 与 IWM 的修复弹性较大。",
+          "watch": "11 月下旬 10 月 PCE；12 月 8–9 日 FOMC 与点阵图；10 年期能否站稳 5.15% 以上；12 月 15 日 11 月 PPI。",
+          "sources": [
+            {"title": "BLS：Producer Price Index News Release", "url": "https://www.bls.gov/news.release/ppi.htm"},
+            {"title": "Detroit News/Reuters：Producer prices up at highest annual rate in four years in October", "url": "https://www.detroitnews.com/story/business/2026/11/13/producer-prices-up-at-highest-annual-rate-in-four-years-in-october/92756973007/"},
+            {"title": "FXStreet：Gold faces weekly rout as high US yields fuel Fed rate hike bets", "url": "https://www.fxstreet.com/news/gold-faces-weekly-rout-as-high-us-yields-fuel-fed-rate-hike-bets-202611132023"},
+            {"title": "CNBC：Nasdaq falls on Friday as Nvidia sells off, but index notches best week since August", "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": []
+    },
+    {
+      "key": "tech",
+      "overview": "XLK −2.01%、SMH −2.99%。AMD −8.75%、AVGO −4.76%、NVDA −2.01%、TSM −1.67%、ORCL −1.38%；META +2.90%、AAPL +0.39%（收盘创新高）、MSFT +0.17%。驱动因素：AI 芯片轮动交易逆转、英伟达丑闻进入政治层面，叠加长端利率上行。",
+      "events": [
+        {
+          "title": "芯片股轮动逆转：AMD 跌 8.8%、博通跌 4.8%，英伟达再跌 2% 创新低；商务部长 Lutnick 同意就对华芯片销售出席听证",
+          "tickers": ["AMD", "AVGO", "NVDA", "TSM"],
+          "importance": 4,
+          "view": "利空",
+          "facts": "AMD 收跌 8.75% 至 $534.06，为标普 500 当日最大跌幅；此前本周已累计上涨约 30%，公司本身没有新消息。AVGO −4.76%，NVDA −2.01% 至 $162.85，TSM −1.67%；费城半导体指数盘中一度跌约 5%。Bank of America、RBC、Barclays 近期对 AMD 维持中性类评级。政治层面：参议院银行委员会主席 Tim Scott 致信 Lutnick 和黄仁勋，请其出席听证；据美国官员透露，Lutnick 已同意于 12 月 10 日出席。Axios 报道 Lutnick 曾搁置对涉嫌转运英伟达芯片至中国的企业（Megaspeed）的打击授权；财长 Bessent 据报道称财政部、战争部、USTR 和国务院数月来都支持将 Megaspeed 列入实体清单。共和党参议员 Jim Banks 称 Lutnick“似乎利用漏洞允许部分芯片销售”。上述 Megaspeed 调查被叫停的报道未获商务部或司法部证实。",
+          "impact_path": "（1）AMD、博通：周初“客户从英伟达转单”的叙事缺乏订单证据，在利率上行日估值回撤；（2）英伟达：丑闻从公司治理延伸到出口管制政治 → 实体清单扩大、对华及转运渠道收紧的概率上升 → 中国与东南亚相关收入风险上升；国会听证将持续制造负面新闻至 12 月中旬；（3）出口管制收紧同样会波及 AMD 的中国业务和台积电的先进制程出货。",
+          "magnitude": "AMD 的回撤属于交易层面的反转，基本面没有变化；英伟达的政治风险是结构性的，但转运渠道收入占比未公开披露，难以量化。听证安排在 12 月 10 日，与 FOMC 同周，可能放大波动。",
+          "priced_in": "AMD 单周先涨约 30% 再跌 9%，显示市场在“受益者”判断上分歧很大，短期波动会持续。英伟达自丑闻曝光以来已累计下跌约 20%，远期市盈率约 11–14 倍（各来源口径不同），已经计入相当多的治理风险，但对出口管制收紧的定价可能仍不足。",
+          "guidance": "11 月 17 日英伟达财报是本轮分歧的关键：若数据中心收入与下季度指引稳健，且临时 CEO Kress 明确客户订单未受影响，英伟达可能企稳，AMD 的“替代”逻辑会被削弱；若指引下调或提到客户推迟订单，AMD、博通的相对受益逻辑才有基本面支持。出口管制方面，若 12 月 10 日听证后 Megaspeed 等企业被列入实体清单，或国防授权法案保留芯片出口审查条款，需下调英伟达和 AMD 对中国及东南亚的收入假设。",
+          "watch": "11 月 17 日英伟达财报；12 月 10 日参议院银行委员会听证（Lutnick，黄仁勋是否出席未定）；商务部实体清单更新；NDAA 协商文本。",
+          "sources": [
+            {"title": "CNBC：Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify", "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html"},
+            {"title": "CBS News：Lutnick agrees to testify as Bessent blames him for not banning Nvidia chip exports to China-linked firm", "url": "https://www.cbsnews.com/news/howard-lutnick-scott-bessent-nvidia-megaspeed-testimony/"},
+            {"title": "Invezz：AMD falls 9%, Intel drops 6% as chip stocks slide on Friday", "url": "https://invezz.com/news/2026/11/13/amd-falls-9-intel-drops-6-as-chip-stocks-slide-on-friday/"},
+            {"title": "TIKR：AMD Sinks 9%, Marvell Down 5% as Chip Rally Reverses and Treasury Yields Hit 5%", "url": "https://www.tikr.com/blog/amd-sinks-9-marvell-down-5-as-chip-rally-reverses-and-treasury-yields-hit-5"}
+          ]
+        }
+      ],
+      "institutions": [
+        {"firm": "Bernstein", "ticker": "AAPL", "action": "重申跑赢大盘，目标价 $380", "detail": "称苹果是 AI 动荡中的“避风港”，对 AI 基础设施风险暴露低；AAPL 盘中创 $360.80 的历史新高，收于 $356.27，同样创收盘新高。", "url": "https://www.cnbc.com/2026/11/13/stocks-moving-the-most-today-live-updates.html"}
+      ],
+      "quiet": ["MSFT", "AAPL", "GOOGL", "AMZN", "META", "ORCL"]
+    },
+    {
+      "key": "defense",
+      "events": [],
+      "institutions": [],
+      "quiet": ["LMT", "RTX", "NOC", "GD", "BA", "LHX", "HII", "LDOS", "PLTR", "AVAV", "KTOS", "RKLB"]
+    },
+    {
+      "key": "consumer",
+      "events": [],
+      "institutions": [],
+      "quiet": ["WMT", "COST", "HD", "MCD", "KO", "PG", "NKE", "SBUX", "TGT", "TJX"]
+    },
+    {
+      "key": "financials",
+      "events": [],
+      "institutions": [],
+      "quiet": ["JPM", "BAC", "GS", "MS", "WFC", "C", "BRK-B", "BLK", "V", "MA", "SCHW", "COIN"]
+    },
+    {
+      "key": "autonomy",
+      "overview": "TSLA −1.82%、BOTZ −0.60%，TER −5.38% 跟随芯片股回落；亚马逊旗下 Zoox 在亚特兰大部署 Robotaxi 车队（暂未开放公众乘坐），亚特兰大是 Waymo 与 Uber 的合作城市。",
+      "events": [
+        {
+          "title": "SpaceX 与特斯拉合并谈判取得进展，据 Bloomberg 最早可能 12 月宣布；双方已成立独立董事特别委员会",
+          "tickers": ["TSLA"],
+          "importance": 4,
+          "view": "分歧",
+          "facts": "据 Bloomberg（11 月 12 日报道，11 月 13 日多家媒体跟进），SpaceX 与特斯拉的合并谈判取得进展，最早可能在 12 月宣布，也讨论过推迟到 2027 年初。马斯克在 SpaceX 三季度业绩会上确认两家公司都已成立独立董事特别委员会研究交易，称合并“是个好主意”，但委员会尚未就任何交易条款达成一致，“也不能保证一定会达成”。报道称谈判焦点是价格与控制权，方案为特斯拉股东获得 SpaceX 股份，即由 SpaceX 收购特斯拉。主要障碍是如何把特斯拉的中国制造业务与 SpaceX 涉及美国政府和国防的敏感业务隔开，而马斯克表示特斯拉没有分拆中国业务的计划。Reuters 引用的市值：SpaceX 约 1.90 万亿美元、特斯拉约 1.55 万亿美元。特斯拉 12 月 3 日年度股东大会的议程中没有合并议案。TSLA 11 月 12 日 +1.69%，11 月 13 日 −1.82%。",
+          "impact_path": "若以 SpaceX 股份换股收购特斯拉：特斯拉股东转为持有一个以航天、Starlink、AI 和汽车/机器人为一体的综合公司 → 估值逻辑从“汽车 + Robotaxi/Optimus 期权”变为多元化集团，可能出现集团折价或溢价；换股比例决定特斯拉股东能否获得溢价。风险在于：中国业务与国防业务的监管冲突（CFIUS、出口管制）可能要求剥离或设防火墙，影响特斯拉在华产能与销量；关联交易与治理问题可能引发股东诉讼。",
+          "magnitude": "规模约 3.4–3.5 万亿美元，属于结构性、改变公司性质的交易。对 TSLA 的价格影响取决于换股溢价，目前未有任何条款披露，无法量化；在交易宣布前，股价可能围绕传闻大幅波动。",
+          "priced_in": "两日 +1.7% / −1.8%，市场基本没有给出方向性定价，反映对溢价与监管障碍的不确定性。若 12 月宣布且包含明确溢价，TSLA 可能出现跳涨；若谈判破裂或障碍导致推迟，影响有限。",
+          "guidance": "若正式公告的换股比例对特斯拉股东有溢价，且方案明确处理了中国业务与国防业务的隔离（不要求出售上海工厂），可视为特斯拉股东的价值重估机会；若方案要求剥离或限制中国业务，或换股比例对特斯拉不利，需要重新评估持有特斯拉作为“汽车 + Robotaxi”敞口的逻辑，并关注机构股东和代理顾问的反对意见。交易宣布前，不宜基于传闻调整仓位。",
+          "watch": "12 月 3 日特斯拉年度股东大会；12 月可能的合并公告与换股比例；CFIUS 等监管表态；特别委员会聘请的财务顾问意见。",
+          "sources": [
+            {"title": "Bloomberg：SpaceX, Tesla Merger Talks Advance Toward Record Deal", "url": "https://www.bloomberg.com/news/articles/2026-11-12/spacex-and-tesla-talks-on-record-merger-are-said-to-progress"},
+            {"title": "Investing.com/Reuters：SpaceX, Tesla merger talks progress, Bloomberg News reports", "url": "https://www.investing.com/news/stock-market-news/spacex-tesla-merger-talks-progress-bloomberg-news-reports-5023102"},
+            {"title": "Yahoo Finance：Tesla and SpaceX Could Announce a Merger as Soon as December", "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-could-announce-merger-130802489.html"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["GOOGL", "NVDA", "UBER", "MBLY", "AUR", "PONY", "WRD", "TER", "SYM"]
+    }
+  ],
+  "risks": [
+    "利率：10 年期一周上升约 26bp 至 5.15%，若 PCE 继续偏强、点阵图显示 2027 年继续加息，成长股估值承压",
+    "NVDA：12 月 10 日参议院听证与实体清单扩大可能收紧对华及转运渠道，叠加 11 月 17 日财报的不确定性",
+    "AMD、AVGO：“替代英伟达”的叙事缺乏订单证据，若英伟达财报稳健，可能继续回吐",
+    "TSLA：合并方案若要求剥离或限制中国业务，或换股比例不利，可能引发股东反对与股价下跌",
+    "加密资产：比特币跌破 6.8 万美元，COIN 与持币企业承压"
+  ],
+  "opportunities": [
+    "若英伟达 11 月 17 日财报稳健、临时管理层确认订单不变，当前约 11–14 倍远期市盈率可能构成中期再评估窗口",
+    "苹果、好市多等“低 AI 风险”资产受资金青睐，但已创新高，宜等待回调而不是追高",
+    "若 PCE 回落、联储暗示 12 月后暂停，TLT 和 IWM 的修复弹性较大"
+  ],
+  "calendar": [
+    {"date": "2026-11-16", "event": "机构 13F 持仓披露截止日（三季度）", "tickers": ["BRK-B", "NVDA", "AMD"]},
+    {"date": "2026-11-17", "event": "英伟达 Q3 FY27 财报（盘后，临时 CEO Kress 首次主持）", "tickers": ["NVDA", "AMD", "AVGO", "TSM"]},
+    {"date": "2026-11-18", "event": "Anthropic IPO 预计定价（据报道），19 日上市", "tickers": ["GOOGL", "AMZN", "NVDA", "AMD", "AVGO", "MSFT"]},
+    {"date": "2026-11-19", "event": "沃尔玛发布财年三季度财报", "tickers": ["WMT"]},
+    {"date": "2026-11-24", "event": "好市多 30 美元特别股息除息日", "tickers": ["COST"]},
+    {"date": "2026-12-03", "event": "特斯拉年度股东大会", "tickers": ["TSLA"]},
+    {"date": "2026-12-09", "event": "美联储议息会议（12 月 8–9 日，含点阵图）", "tickers": ["TLT", "QQQ", "IWM"]},
+    {"date": "2026-12-10", "event": "参议院银行委员会听证：Lutnick 就英伟达对华芯片销售作证", "tickers": ["NVDA", "AMD"]}
+  ],
+  "self_check": [
+    {"item": "是否逐一核查覆盖清单中每只股票？", "ok": true, "note": "60 只股票均已对照当日涨跌和新闻线索核查。"},
+    {"item": "是否覆盖当日市值较大或波动显著的公司？", "ok": true, "note": "覆盖 AMD（−8.8%）、AVGO（−4.8%）、NVDA、TSLA；META（+2.9%）、TER（−5.4%）、RKLB（−4.0%）未找到公司层面的新信息，判断为跟随板块轮动。"},
+    {"item": "机构观点是否引用权威来源？", "ok": true, "note": "仅收录 Bernstein 对苹果的重申；有报道称 HSBC 下调英伟达，但检索到的 HSBC 下调为 2025 年 4 月的旧闻，未收录。"},
+    {"item": "是否严格限定在报告时间窗口内？", "ok": false, "note": "SpaceX–特斯拉合并谈判进展由 Bloomberg 于 11 月 12 日报道，可能早于本窗口起点（11 月 12 日 16:00 ET），上一份报告未收录；因 11 月 13 日有多家媒体跟进且影响重大，在此补记并注明。"},
+    {"item": "是否把事实与分析判断清楚分开？", "ok": true, "note": "高盛 2027 年标普目标、Axios 关于 Lutnick 搁置授权的报道（未获官方证实）均已标注来源性质。"}
+  ]
+}
