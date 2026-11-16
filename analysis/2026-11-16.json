@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-16",
+  "window": "2026-11-13 16:00 ET 收盘后（含周末）→ 2026-11-16 收盘及盘后",
+  "headline": "纳指跌 2.5% 进入调整区间；商务部封堵对华远程算力漏洞，台积电跌 6%",
+  "summary": "英伟达财报和 Anthropic IPO 前夜，AI 资产遭集中抛售：标普 −1.92%、纳指 −2.49%（较 10 月 6 日高点回落约 10.9%，进入调整区间），SMH −5.1%，VIX 升至 22.9。政策冲击是主因之一：商务部工业与安全局发布临时最终规则，要求大型数据中心运营商在全球任何地方向总部在中国的企业提供算力前须取得许可，并把管制扩大到新加坡、马来西亚等东南亚国家；NVDA −4.1% 至 $156.14，台积电 −6.3%，AMD −5.6%，谷歌、亚马逊、甲骨文跌 3%–5%。利率端略有缓和（10 年期回落至 5.12%，油价跌约 4%），资金继续躲进必选消费（XLP 创历史新高）。13F 显示伯克希尔三季度继续减持美国银行、增持达美航空与 Lennar。明天英伟达财报（由临时 CEO 主持）是检验 AI 链条的关键节点。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY −1.91%、QQQ −2.67%、IWM −1.66%，VIX +18.7% 至 22.9；TLT 持平、GLD −0.71%、UUP +0.20%；WTI −4.0% 至 85.1 美元；比特币盘中跌至约 6.2 万美元的四个月低点，后回升至约 6.5 万美元。",
+      "events": [
+        {
+          "title": "AI 资产集中抛售，纳指较 10 月高点回落约 10.9% 进入调整区间；10 年期回落至 5.12%，油价跌约 4%",
+          "tickers": ["SPY", "QQQ", "IWM", "TLT", "GLD", "UUP"],
+          "importance": 4,
+          "view": "利空",
+          "facts": "据 Reuters，标普 500 收跌 1.92% 至 7,416.59，纳指收跌 2.49% 至 24,509.76（较 10 月 6 日高点低约 10.9%），道指 −1.41%；纳指连续第三天下跌。科技（XLK −3.2%）和半导体（SMH −5.1%）领跌，必选消费是标普唯一上涨的板块，XLP 创历史新高。10 年期美债收益率从上周五的 5.15% 回落至约 5.12%；Brent 跌约 3.3% 至 92.72 美元，WTI 跌至 8 月 28 日以来低点，报道称现货市场供应充足。克利夫兰联储 Hammack 重申倾向小幅、渐进加息。周末中国公布 10 月工业增加值、零售销售和投资均低于预期。卖方观点：Wells Fargo 预计 2027 年底标普 500 为 8,200 点（盈利增速放缓）。",
+          "impact_path": "英伟达 CEO 更替 + 出口管制收紧 + Anthropic 巨型 IPO 吸收资金 → AI 链条风险溢价上升 → 高估值科技股去杠杆，拖累指数；资金转向必选消费等低 beta 资产。油价下跌和收益率小幅回落提供了些许缓冲，但没有改变 12 月加息的基准情景。中国经济放缓则削弱了全球需求，对出口型科技与消费公司是额外压力。",
+          "magnitude": "进入调整区间属于估值层面的修正，目前尚未看到盈利下修的证据。若英伟达财报与 Anthropic 定价不及预期，调整可能扩大为对 AI 资本开支周期的重估，影响更为结构性；反之，可能只是一次 10%–12% 的技术性回调。",
+          "priced_in": "VIX 22.9 显示避险情绪升温，但距离恐慌水平（30 以上）仍有距离。股市已提前计入部分利空（NVDA 自高点跌约 25%），市场在关键事件前降低仓位，事件本身的结果将决定方向。",
+          "guidance": "若英伟达 11 月 17 日的指引稳健且 Anthropic 顺利定价、首日稳定，本轮调整更可能是事件前的仓位出清，可视为对优质 AI 资产的分批再评估窗口；若英伟达下调指引或 Anthropic 定价下调/破发，应假设 AI 资本开支周期进入降温阶段，降低 QQQ 权重股的估值假设。利率方面，若 11 月 17 日零售销售强劲、FOMC 纪要偏鹰，长端利率可能再度走高，对 IWM 不利。",
+          "watch": "11 月 17 日盘后英伟达财报、10 月零售销售；11 月 18 日 Anthropic 定价及 FOMC 会议纪要；11 月 19 日 Anthropic 上市。",
+          "sources": [
+            {"title": "Yahoo Finance：Stock market today, November 16（Nvidia leads AI trade lower）", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html"},
+            {"title": "BNN Bloomberg：Nvidia and other AI stocks drag Wall Street lower", "url": "https://bnnbloomberg.ca/markets/nasdaq/2026/11/16/stocks-decline-on-tech-sell-off-as-concerns-over-the-nvidia-fallout-persist"},
+            {"title": "Motley Fool：Tech Selloff Deepens as AI Leadership Crisis Rattles Nasdaq", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-tech-selloff-deepens-as-ai-leadership-crisis-rattles-nasdaq/"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": []
+    },
+    {
+      "key": "tech",
+      "overview": "XLK −3.24%、SMH −5.11%：TSM −6.34%、AMD −5.58%、ORCL −4.99%、NVDA −4.12%、GOOGL −4.07%、AVGO −3.92%、AMZN −3.34%、META −2.38%、MSFT −1.12%、AAPL −0.98%。驱动因素：对华算力出口管制收紧、英伟达财报前降低仓位、Anthropic IPO 吸收资金。",
+      "events": [
+        {
+          "title": "商务部发布临时最终规则：全球大型数据中心向中国企业提供算力须获许可，管制扩大至东南亚；NVDA 跌 4.1%、台积电跌 6.3%",
+          "tickers": ["NVDA", "TSM", "AMD", "AVGO", "ORCL", "MSFT", "AMZN", "GOOGL"],
+          "importance": 5,
+          "view": "利空",
+          "facts": "美国商务部工业与安全局（BIS）11 月 16 日发布临时最终规则：封堵中国企业通过海外数据中心使用先进英伟达芯片的漏洞；全球任何地方的大型数据中心运营商，若向总部在中国的企业提供算力访问，须取得许可证；已有此类安排的数据中心自规则生效起有 90 天过渡期申请许可；对总部在美国的用户有豁免，但远程访问限制仍适用于它们。Fortune 报道该规则把出口管制扩展到新加坡、马来西亚等东南亚国家。背景：被怀疑为中国情报人员的 Alice Huang 与新加坡数据中心公司 Megaspeed 有关联，该公司涉嫌向中国企业出售美国 AI 芯片的远程访问权。参议员 Cantwell 致信 Lutnick，要求在特朗普与习近平会面前停止对华 AI 芯片销售；CNBC 报道特朗普的账户曾交易最多 9,750 万美元的英伟达股票。英伟达 13F 显示其三季度把英特尔持股减少约 25% 至约 1.61 亿股，并增持 SpaceX 至 1.305 亿股。NVDA 收跌 4.12% 至 $156.14（上周累计跌约 13%，为 2012 年 10 月以来最长周连跌）；TSM −6.34%（台股收跌约 5.7%），AMD −5.58%，AVGO −3.92%。",
+          "impact_path": "（1）英伟达、AMD：东南亚及第三国云服务商面向中国客户的算力需求受限 → 部分海外数据中心订单减少或延迟，尤其是新加坡、马来西亚的新建项目；（2）台积电：先进制程与 CoWoS 订单间接受影响，且东南亚是 AI 服务器组装与部署的重要地区；（3）甲骨文、微软、亚马逊、谷歌：海外云业务中面向中国企业的部分须获许可，合规成本上升，少量收入可能流失；（4）政治层面：Lutnick、特朗普的利益冲突问题使出口管制成为两党共同议题，进一步收紧的概率上升。",
+          "magnitude": "英伟达未单独披露经新加坡、马来西亚的远程算力最终流向中国的收入。按其历史披露，新加坡在账单口径收入中占比较高（主要为区域结算），实际受影响收入可能是数据中心收入的个位数百分比，但不确定性很大。属于结构性政策风险，且有进一步加码的可能（Remote Access Security Act 等立法）。",
+          "priced_in": "NVDA 自丑闻曝光以来累计下跌约 25%，市盈率处于多年低位，已计入大量负面因素；台积电单日 −6.3% 的跌幅可能偏大（10 月营收同比 +59.7%，订单没有被取消的证据），部分是对英伟达风险的连带抛售。云厂商的下跌更多是整体 AI 情绪，而非该规则的直接影响。",
+          "guidance": "明天英伟达财报中有两个关键信号：管理层对新规影响的量化（是否下调下季度指引、东南亚客户是否推迟订单），以及临时 CEO 对路线图与客户关系的表述。若影响被限定在低个位数百分比、指引稳健，当前估值可视为中期再评估窗口，台积电的超跌也可能修复；若指引下调或提到大客户推迟订单，需下调 AI 半导体链 2027 年的收入假设。还要关注特朗普—习近平会面：若达成某种芯片相关安排，可能部分缓解；若中方反制（稀土、反垄断调查），风险进一步上升。",
+          "watch": "11 月 17 日盘后英伟达财报与电话会；BIS 规则生效日期与 90 天过渡期截止日；特朗普—习近平会面时间及议题；12 月 10 日参议院银行委员会听证；国会 Remote Access Security Act 进展。",
+          "sources": [
+            {"title": "NPR：U.S. tightens controls on remote access to AI technology amid Nvidia fallout", "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department"},
+            {"title": "CNBC：Nvidia fallout: Commerce targets loophole for China's data center use", "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html"},
+            {"title": "Fortune：New Commerce rule targets Singapore and Malaysia", "url": "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"},
+            {"title": "Benzinga：Intel Stock Sell-Off Deepens After Nvidia Cuts Stake", "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63327363/intel-stock-sell-off-deepens-after-nvidia-cuts-stake"},
+            {"title": "CoinCentral：TSMC (TSM) Stock Drops 6% as Nvidia CEO Exit Rattles Asian Chip Names", "url": "https://coincentral.com/tsmc-tsm-stock-drops-6-as-nvidia-ceo-exit-rattles-asian-chip-names/"}
+          ]
+        },
+        {
+          "title": "Anthropic IPO 认购据报约 7 倍，11 月 18 日定价；巨额新股供给叠加 AI 情绪，谷歌、亚马逊跌 3%–4%",
+          "tickers": ["GOOGL", "AMZN", "META"],
+          "importance": 3,
+          "view": "分歧",
+          "facts": "据 Bloomberg（经 Benzinga 等转述），Anthropic IPO 获得约 7 倍于发行规模的认购；价格区间仍为 $70–78，发行 8.25 亿股，按区间上沿公开发行约 644 亿美元，加上 260 亿美元定向增发合计约 904 亿美元；预计 11 月 18 日定价、19 日以代码 ANT 在纳斯达克交易。BigGo 等报道承销商考虑在区间上方定价，但未获其他来源证实。卖方观点：Morningstar 认为在定价区间内 Anthropic 被低估。GOOGL −4.07%、AMZN −3.34%、META −2.38%。",
+          "impact_path": "（1）谷歌、亚马逊：作为 Anthropic 早期大股东，定价越高，按公允价值计量的投资收益越大，同时确认其云业务的大客户基础；（2）资金面：约 900 亿美元的新股供给需要机构腾挪仓位，短期可能抛售大型科技股以认购新股，形成压力；（3）Meta 等同为 AI 资本开支大户的公司，被拿来与 Anthropic 的盈利能力对比，估值面临比较。",
+          "magnitude": "资金抽离效应是短期的，通常在上市后 1–2 周内消化；对谷歌、亚马逊的投资收益是一次性的，但金额可能达数百亿美元级（取决于持股比例与定价）。超额认购说明市场对 AI 应用层仍有强烈需求，与当天的 AI 抛售形成反差。",
+          "priced_in": "谷歌、亚马逊当日下跌主要反映整体 AI 情绪与资金腾挪，而不是 Anthropic 估值本身的问题；若定价在区间上方且首日表现强劲，这两家股东的下跌可能被视为过度反应。",
+          "guidance": "若 11 月 18 日定价在 $78 以上或扩大发行，且 19 日首日上涨，说明资本市场仍愿意为 AI 应用层支付高估值，可视为 AI 板块情绪的拐点信号，谷歌、亚马逊的回调更可能是机会；若定价落在区间下沿或首日破发，需警惕 AI 估值全面下修，并重新审视云厂商对 Anthropic 等大客户的收入依赖。",
+          "watch": "11 月 18 日定价（是否高于 $78、是否扩大发行）；11 月 19 日首日表现；谷歌、亚马逊下季度财报中的投资收益确认。",
+          "sources": [
+            {"title": "CNBC：Anthropic IPO guide: The price range, date and more", "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"},
+            {"title": "ITP.net：Anthropic IPO Draws Orders for Nearly Seven Times the Shares on Offer", "url": "https://www.itp.net/ai-automation/anthropic-ipo-draws-orders-for-nearly-seven-times-the-shares-on-offer"},
+            {"title": "Morningstar：Anthropic: We See the Stock as Undervalued in the IPO Pricing Range", "url": "https://www.morningstar.com/stocks/anthropic-we-see-stock-undervalued-ipo-pricing-range"}
+          ]
+        }
+      ],
+      "institutions": [
+        {"firm": "Tiger Global", "ticker": "NVDA", "action": "13F：三季度增持英伟达 7.2% 至约 1,200 万股，增持英特尔 30.4%", "detail": "持仓截至 9 月 30 日，早于黄仁勋丑闻，仅反映当时的配置意图。", "url": "https://cryptobriefing.com/tiger-global-nvidia-intel-stake-increase/"},
+        {"firm": "Fidelity（FMR）", "ticker": "NVDA", "action": "13F：三季度减持英伟达 9.1% 至约 9.33 亿股", "detail": "持仓截至 9 月 30 日；FourWeekMBA 统计其追踪的 8 家基金三季度合计净卖出英伟达与台积电，买入美光。", "url": "https://cryptobriefing.com/fmr-trims-nvidia-stake-13f-filing/"}
+      ],
+      "quiet": ["AAPL", "MSFT", "ORCL"]
+    },
+    {
+      "key": "defense",
+      "events": [],
+      "institutions": [],
+      "quiet": ["LMT", "RTX", "NOC", "GD", "BA", "LHX", "HII", "LDOS", "PLTR", "AVAV", "KTOS", "RKLB"]
+    },
+    {
+      "key": "consumer",
+      "events": [],
+      "institutions": [],
+      "quiet": ["WMT", "COST", "HD", "MCD", "KO", "PG", "NKE", "SBUX", "TGT", "TJX"]
+    },
+    {
+      "key": "financials",
+      "overview": "XLF −0.85%：GS −2.73%、MS −2.66%、JPM −2.31%（当日出现软件故障导致线上交易延迟）、C −2.17%、BAC −1.84%；COIN −6.12% 至 $119.84，跟随比特币下跌。",
+      "events": [],
+      "institutions": [
+        {"firm": "Berkshire Hathaway", "ticker": "BAC", "action": "13F：三季度减持美国银行约 6%，季末市值约 248 亿美元；同时减持 Capital One", "detail": "同期增持达美航空约 12% 至 6,445 万股，Lennar 持股约翻倍，新建仓 Bending Spoons（约 6.89 亿美元），未清仓任何持仓。", "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html"}
+      ],
+      "quiet": ["JPM", "BAC", "GS", "MS", "WFC", "C", "BRK-B", "BLK", "V", "MA", "SCHW", "COIN"]
+    },
+    {
+      "key": "autonomy",
+      "events": [],
+      "institutions": [],
+      "quiet": ["TSLA", "GOOGL", "NVDA", "UBER", "MBLY", "AUR", "PONY", "WRD", "TER", "SYM"]
+    }
+  ],
+  "risks": [
+    "NVDA、TSM、AMD：对华远程算力许可制度及东南亚管制可能在财报中体现为指引下调；特朗普—习近平会面前后政策不确定性高",
+    "AI 板块：若英伟达财报不及预期或 Anthropic 定价下调/破发，纳指调整可能扩大为对 AI 资本开支周期的重估",
+    "利率：零售销售、FOMC 纪要偏鹰会推高长端利率，IWM 与高估值股承压",
+    "COIN：比特币连续六周下跌并跌至四个月低点，交易量萎缩压制收入",
+    "中国经济放缓：10 月数据全面低于预期，影响 AAPL、TSLA、NKE、SBUX 等在华业务"
+  ],
+  "opportunities": [
+    "若英伟达指引稳健、管理层对新规影响的量化有限，NVDA 与 TSM 的超跌可能构成中期再评估窗口",
+    "若 Anthropic 在区间上方定价且首日稳定，GOOGL、AMZN 兼具投资收益与云业务支撑，当前回调可能被视为过度",
+    "必选消费（PG、KO、COST、WMT）在 AI 波动中受资金青睐，但 XLP 已创新高，更适合作为防御配置而非追涨"
+  ],
+  "calendar": [
+    {"date": "2026-11-17", "event": "英伟达 Q3 FY27 财报（盘后，临时 CEO Kress 首次主持）；美国 10 月零售销售", "tickers": ["NVDA", "AMD", "AVGO", "TSM"]},
+    {"date": "2026-11-18", "event": "Anthropic IPO 预计定价；FOMC 10 月会议纪要", "tickers": ["GOOGL", "AMZN", "MSFT", "TLT"]},
+    {"date": "2026-11-19", "event": "Anthropic 纳斯达克上市（ANT）；沃尔玛财年三季度财报", "tickers": ["GOOGL", "AMZN", "WMT"]},
+    {"date": "2026-11-24", "event": "好市多 30 美元特别股息除息日", "tickers": ["COST"]},
+    {"date": "2026-12-03", "event": "特斯拉年度股东大会", "tickers": ["TSLA"]},
+    {"date": "2026-12-09", "event": "美联储议息会议（12 月 8–9 日，含点阵图）", "tickers": ["TLT", "QQQ", "IWM"]},
+    {"date": "2026-12-10", "event": "参议院银行委员会听证：Lutnick 就英伟达对华芯片销售作证", "tickers": ["NVDA"]}
+  ],
+  "self_check": [
+    {"item": "是否逐一核查覆盖清单中每只股票？", "ok": true, "note": "60 只股票均已对照当日涨跌和新闻线索核查。国防板块普跌（AVAV −6.8%、KTOS −6.6%、RKLB −6.8%、LHX −3.9%、BA −3.7%）未找到公司层面的新信息；NOC 获 16 亿美元 PAC-3 MSE 发动机订单，但属于 8 月已宣布的 30 亿美元协议的一部分，未单列事件。"},
+    {"item": "是否覆盖当日市值较大或波动显著的公司？", "ok": true, "note": "覆盖 NVDA、TSM、AMD、AVGO、GOOGL、AMZN 等；TER（−7.1%）、MBLY（−5.4%）、PONY（−5.8%）判断为跟随 AI/芯片板块。"},
+    {"item": "机构观点是否引用权威来源？", "ok": true, "note": "13F 持仓截至 9 月 30 日，早于英伟达丑闻，仅代表当时的配置；Renaissance 大幅减持英伟达的说法仅有单一社交媒体来源，未收录。"},
+    {"item": "是否严格限定在报告时间窗口内？", "ok": true, "note": "窗口包括周末；中国 10 月经济数据为 11 月 16 日北京时间发布，在窗口内。"},
+    {"item": "是否把事实与分析判断清楚分开？", "ok": true, "note": "英伟达经东南亚流向中国的收入占比为推断，已标明不确定性；承销商考虑上调 Anthropic 定价的报道未获证实，已注明。"}
+  ]
+}
