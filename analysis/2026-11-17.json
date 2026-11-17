@@ -1,0 +1,386 @@
+{
+  "date": "2026-11-17",
+  "window": "2026-11-16 16:00 ET 收盘后 → 2026-11-17 收盘及盘后",
+  "headline": "英伟达营收 1,158 亿超预期、指引 1,300 亿，盘后涨约 3%；道指跌 849 点",
+  "summary": "常规交易时段再度普跌：道指 −1.64%（−849 点），标普 −1.03% 收于 7 月以来最低，VIX 升至 25.5，11 个板块全部下跌，金融（XLF −1.9%）和软件跌幅最大。驱动因素包括 OpenAI 发布 GPT-6.2 Astra 再次引发“AI 替代软件”担忧（Salesforce −9.4%、微软 −2.3%）、零售销售放缓，以及联储官员继续释放加息信号。盘后英伟达交出黄仁勋离任后的首份财报：营收 1,158 亿美元（+103%），下季度指引 1,300 亿美元（不含中国数据中心收入），新增 1,500 亿美元回购，临时 CEO Kress 称路线图按计划推进，股价盘后涨约 3%；但 WSJ 报道 SEC 已对其信息披露展开民事调查。消费方面，家得宝业绩超预期、宣布新 CEO，但股价下跌；耐克投资者日把恢复增长推迟到 FY2029，股价跌 6.3%。加州 DMV 禁止 Waymo 无人车上高速，Waymo 已暂停全美高速运营。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY −1.01%、QQQ −0.73%、IWM −1.43%，VIX +11% 至 25.5；TLT +0.21%（10 年期 5.10%）、GLD −0.13%、UUP 持平（美元仍处 19 个月高位）。",
+      "events": [
+        {
+          "title": "10 月零售销售仅增 0.2%，实际消费或已转负；联储官员 Musalem 称未来几个月可能还需四次加息，标普收于 7 月以来最低",
+          "tickers": [
+            "SPY",
+            "QQQ",
+            "IWM",
+            "TLT",
+            "UUP"
+          ],
+          "importance": 4,
+          "view": "利空",
+          "facts": "美国商务部：10 月零售销售环比 +0.2%（9 月上修至 +0.8%），同比 +6.8%；剔除加油站 +0.1%，剔除汽车 +0.6%；家具店 −2.3%、服装 −0.7%、网上零售 +1.2%。由于数据未经价格调整，而 10 月 CPI 环比 +0.4%，Navy Federal 经济学家 Heather Long 称经通胀调整后的消费为“负增长”。CNBC 报道圣路易斯联储 Musalem 表示未来几个月可能还需要四次加息；纽约联储 Williams 仍倾向于更紧的政策，但称“现在不是采取剧烈行动的时候”。标普 500 收于 7,340.53（−1.03%），为 7 月以来最低收盘；道指 −849 点至 50,759.42；仅 75 家标普成分股上涨。Bloomberg 报道美国银行股接近“死亡交叉”；JPMorgan 预计 2027 年杠杆贷款违约率将翻倍。",
+          "impact_path": "名义消费放缓 + 通胀黏性 → 实际消费走弱，盈利增长预期下修；同时联储继续加息 → “滞胀式”组合：盈利与估值双重压力。银行股受信用风险上升（杠杆贷款违约、AI 相关债务）和收益率曲线变化影响，成为当日跌幅最大的板块；小盘股受融资成本与内需放缓双重冲击。",
+          "magnitude": "结构性风险上升：若实际消费连续负增长而联储继续加息，2027 年美国经济放缓的概率明显上升，盈利预期可能下修。短期看，标普已较高点回落约 6%，VIX 25 以上意味着市场进入高波动阶段。",
+          "priced_in": "VIX 跳升、所有板块下跌，说明市场开始定价“加息 + 增长放缓”的组合，不再只是 AI 估值问题。但 10 年期收益率反而小幅回落（5.10%），债市开始为增长放缓留出空间；股市对盈利下修的定价可能还不充分。",
+          "guidance": "若 11 月 18 日 FOMC 纪要和后续数据显示联储愿意在增长放缓时继续加息，应降低对周期性消费、小盘股和银行的配置，偏向现金流稳定、资产负债表强的公司；若纪要显示内部对“加息至何时”存在分歧，且 12 月点阵图暗示 12 月后暂停，长端利率可能回落，成长股估值压力缓解。关注信用利差：若高收益债利差明显走阔，说明风险从估值扩散到信用。",
+          "watch": "11 月 18 日 FOMC 10 月会议纪要；11 月下旬 10 月 PCE 与个人消费；高收益债利差；11 月 27 日黑色星期五销售数据；12 月 8–9 日 FOMC。",
+          "sources": [
+            {
+              "title": "AP/US News：Shoppers Slowed Spending in October With High Prices Leading to Caution",
+              "url": "https://www.usnews.com/news/business/articles/2026-11-17/shoppers-slowed-spending-in-october-with-high-prices-leading-to-caution"
+            },
+            {
+              "title": "Census Bureau：Monthly Retail Trade",
+              "url": "https://www.census.gov/retail/sales.html"
+            },
+            {
+              "title": "CNBC：St. Louis Fed's Musalem says four more rate hikes may be needed",
+              "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
+            },
+            {
+              "title": "CNBC：Wall Street's fear gauge is surging again",
+              "url": "https://www.cnbc.com/2026/11/17/wall-streets-fear-gauge-is-surging-again-and-this-time-its-not-just-about-ai-jitters.html"
+            },
+            {
+              "title": "Yahoo Finance：Dow sinks 850 points ahead of Nvidia earnings",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": [
+        "GLD"
+      ]
+    },
+    {
+      "key": "tech",
+      "overview": "XLK −0.91%、SMH −0.39%：TSM −3.68%、ORCL −3.43%、MSFT −2.27%、GOOGL −1.24%、META −1.20%、NVDA −0.44%（盘后约 +3%）；AVGO +2.46% 逆势上涨。Reuters 独家报道，尽管亚马逊、谷歌、Meta 游说，针对中国的数据中心限制仍在推进。",
+      "events": [
+        {
+          "title": "英伟达 Q3 营收 1,158 亿美元（+103%），Q4 指引 1,300 亿美元（不含中国），新增 1,500 亿美元回购；WSJ 称 SEC 展开民事调查",
+          "tickers": [
+            "NVDA",
+            "TSM",
+            "AMD",
+            "AVGO"
+          ],
+          "importance": 5,
+          "view": "利好",
+          "facts": "英伟达公告 FY27 Q3（截至 10 月下旬）：营收 1,158 亿美元，同比 +103%、环比 +20%，高于公司此前指引 1,080 亿美元和市场预期约 1,091 亿美元；数据中心收入 1,076 亿美元（+110%）；GAAP 净利润 653 亿美元（+105%），GAAP 稀释 EPS $2.70；毛利率 74.8%。Q4 指引：营收 1,300 亿美元 ±3%（含额外一周，不假设任何来自中国的数据中心计算收入），市场预期约 1,247 亿美元；毛利率 71%–72%。董事会新增 1,500 亿美元回购授权，剩余授权共约 2,270 亿美元，Kress 称计划在 FY2028 结束前执行完毕。临时 CEO Kress 称 Vera Rubin“开局爆发”，路线图按计划推进，已开始出货 Vera Rubin NVL72。董事长 Harvey Jones 表示董事会一致接受黄仁勋辞职，无意让其复任 CEO。WSJ 报道 SEC 已对英伟达是否向投资者作出误导性披露展开民事调查，SEC 拒绝置评。CNBC 援引消息人士称英伟达已提醒芯片买家注意与中国 AI 访问相关的法律风险。NVDA 常规时段 −0.44% 至 $155.46，盘后涨约 3%。",
+          "impact_path": "需求端：数据中心收入环比 +20%、指引再增约 12%，说明 Rubin 换代与超大规模云厂商资本开支没有因 CEO 更替而放缓 → 2027 财年收入与 EPS 预期上修 → 对台积电（CoWoS、3nm）、博通（网络）、AMD（行业需求）均有正面传导。资本回报：1,500 亿美元回购约占当前市值的 4% 左右，提供下行支撑。风险端：SEC 调查若涉及对中国相关收入或客户（如 Megaspeed）的披露问题，可能带来罚款、重述或管理层进一步变动；毛利率从 74.8% 降至 71%–72%，反映 Rubin 爬坡初期成本。",
+          "magnitude": "结构性利好：Q4 指引高于预期约 4%，且不含中国收入，意味着增长完全来自非中国市场，受出口管制新规的边际影响有限。按指引年化，数据中心收入超过 4,500 亿美元。SEC 调查属于尾部风险，在调查范围明确前难以量化。",
+          "priced_in": "股价自丑闻曝光以来累计下跌约 28%，市盈率处于多年低位，盘后仅涨约 3% 说明市场仍对治理与监管风险给予大幅折价，基本面利好被部分抵消。相对超预期幅度而言，盘后反应偏温和，可能存在反应不足。",
+          "guidance": "若 11 月 18 日起股价能在财报后企稳，且 SEC 调查范围被证实限于披露流程、不涉及收入真实性，当前估值可视为 AI 龙头的中期再评估窗口；若 SEC 调查扩大至收入确认或对华销售，或董事会遴选出的新 CEO 引发战略调整，需要接受更长时间的折价。对台积电、博通，英伟达的强劲指引是需求端的直接验证，近期的连带下跌（TSM 两日约 −10%）可能存在修正空间。",
+          "watch": "11 月 18 日盘中股价反应；SEC 调查的官方披露（10-Q 或 8-K）；董事会 CEO 遴选进展；12 月 10 日参议院听证；Rubin 量产与毛利率回升节奏（2027 年 2 月下旬 Q4 财报）。",
+          "sources": [
+            {
+              "title": "NVIDIA 新闻稿：Financial Results for Third Quarter Fiscal 2027",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+            },
+            {
+              "title": "Yahoo Finance：Nvidia Revenue Doubles to $115.8 Billion, Forecasts $130 Billion",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-revenue-doubles-115-8-213800805.html"
+            },
+            {
+              "title": "TheStreet：Interim CEO Kress makes debut; Board declines to reinstate Huang",
+              "url": "https://www.thestreet.com/latest-news/nvda-nvidia-corporation-q3-2027-earnings-stock-updates"
+            },
+            {
+              "title": "Investing.com/Reuters：Nvidia facing SEC probe after Huang's resignation, WSJ reports",
+              "url": "https://www.investing.com/news/stock-market-news/nvidia-facing-sec-probe-after-huangs-resignation-wsj-reports-5034040"
+            },
+            {
+              "title": "CNBC：Nvidia warns chip buyers of legal risks tied to China AI access",
+              "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
+            }
+          ]
+        },
+        {
+          "title": "OpenAI 发布 GPT-6.2 Astra，软件股再遭抛售：Salesforce 跌 9.4%，微软跌 2.3%、甲骨文跌 3.4%",
+          "tickers": [
+            "MSFT",
+            "ORCL"
+          ],
+          "importance": 3,
+          "view": "利空",
+          "facts": "OpenAI 11 月 17 日发布 GPT-6.2 Astra 和 GPT-6.2 Sol，Astra 面向复杂专业任务（如构建财务模型、科研），价格较上一版本降低 20%。软件 ETF IGV 午后跌近 3%：Salesforce 收跌 9.41% 至 $194.62，ServiceNow 约 −6%，Intuit 约 −5%。微软同日在 Ignite 大会发布六款更便宜的专用 AI 模型，对标 OpenAI 和 Anthropic；MSFT 收跌 2.27% 至 $506.24，ORCL −3.43%。",
+          "impact_path": "前沿模型能力提升 + 价格下降 → 企业可直接用 AI 完成过去需要购买 SaaS 软件的工作 → 软件公司的席位数、定价权和续约率受威胁 → 估值倍数下降。对微软而言，Microsoft 365 与 Dynamics 面临同样压力，但 Azure 作为 OpenAI 模型的主要承载方会受益，二者部分对冲；甲骨文的应用软件业务承压，但 OCI 云需求不受影响。",
+          "magnitude": "短期对收入几乎没有可测量影响，属于对长期终值的重估。若企业客户确实减少软件席位采购，影响会在 2027–2028 年的续约周期中体现。微软的风险敞口相对分散，甲骨文在跌幅中混入了 AI 融资与云业务的担忧。",
+          "priced_in": "Salesforce 单日 −9.4% 反映软件股的估值逻辑正在被重写；微软跌幅相对温和，市场仍认可其云与模型平台地位。这类“AI 替代软件”的抛售近期反复出现，情绪化程度较高。",
+          "guidance": "若微软下季度财报显示 M365 商业席位增速和 Copilot 付费用户保持增长，同时 Azure AI 收入加速，可视为本轮抛售过度；若出现企业客户削减软件预算、转向直接调用模型的证据，需下调对微软生产力业务和甲骨文应用软件的长期增速假设。",
+          "watch": "Salesforce 12 月初财报中的续约与席位数据；微软 2027 年 1 月下旬财报；Anthropic 11 月 19 日上市后的估值锚定效应。",
+          "sources": [
+            {
+              "title": "Yahoo Finance：OpenAI's new release turns a bad week ugly for software stocks",
+              "url": "https://finance.yahoo.com/technology/ai/articles/openais-release-turns-bad-week-221412203.html"
+            },
+            {
+              "title": "Investing.com：OpenAI releases updated Astra AI model with new safeguards",
+              "url": "https://investing.com/news/stock-market-news/openai-releases-updated-astra-ai-model-with-new-safeguards-5033754"
+            },
+            {
+              "title": "Axios：Microsoft aims to challenge OpenAI, Anthropic with cheaper, specialized AI models",
+              "url": "https://axios.com/2026/11/17/microsoft-ai-models-openai-anthropic-ignite"
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": [
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "META"
+      ]
+    },
+    {
+      "key": "defense",
+      "events": [],
+      "institutions": [],
+      "quiet": [
+        "LMT",
+        "RTX",
+        "NOC",
+        "GD",
+        "BA",
+        "LHX",
+        "HII",
+        "LDOS",
+        "PLTR",
+        "AVAV",
+        "KTOS",
+        "RKLB"
+      ]
+    },
+    {
+      "key": "consumer",
+      "overview": "XLY −0.89%、XLP −1.23%：NKE −6.30%、HD −2.45%、SBUX −1.13%；MCD +0.42% 逆势上涨。零售销售放缓叠加高利率，可选消费与地产链承压；Bloomberg 报道部分好市多顾客因系统故障担忧而囤货。",
+      "events": [
+        {
+          "title": "家得宝 Q3 同店销售 +2.2% 超预期，上调全年同店指引至约 1.4%，并任命 Richard McPhail 为新 CEO；股价仍跌 2.5%",
+          "tickers": [
+            "HD"
+          ],
+          "importance": 3,
+          "view": "中性",
+          "facts": "家得宝 FY26 Q3：销售额 434 亿美元，同比 +4.9%；同店销售 +2.2%（StreetAccount 预期 +1.8%）；调整后 EPS $3.86（预期 $3.84，去年同期 $3.74）。线上同店销售约 +13%，16 个品类中 13 个同店为正；客单价 +3%，可比交易笔数 −0.5%。全年指引：同店销售增长约 1.4%（此前为持平至 +2%），总销售增长约 4.5%（此前区间上沿）；调整后 EPS 增长指引各来源口径不一（约 +1.5% 至 +2%）。公司同时宣布 Richard McPhail（现任 CFO）将出任 CEO。HD 收跌 2.45% 至 $339.01。",
+          "impact_path": "客单价上升、交易笔数下降 → 增长主要来自价格和大件，而非客流；在成屋销售处于 16 年低点、抵押贷款利率 7% 以上的环境中，同店仍为正，说明维修与专业客户（Pro）需求有韧性 → 利润率稳定；但全年 EPS 增长仅约 2%，说明成本与利息压力抵消了收入增长。CEO 由 CFO 接任，战略延续性较高。",
+          "magnitude": "属于“符合偏好”的季度，不改变中期判断：家居改造需求在利率回落前很难大幅改善。全年同店 +1.4% 相对 2025 年属于温和复苏。",
+          "priced_in": "股价财报前一个月涨约 20%，业绩小幅超预期但 EPS 指引平淡，加上大盘下跌，出现“利好兑现”式回落，属于基本合理的反应。",
+          "guidance": "若 2027 年抵押贷款利率回落至 6.5% 以下、成屋交易回升，家得宝的大件与改造需求有望加速，可作为利率见顶后的受益标的；若联储加息延续至 2027 年春季、成屋销售继续下滑，需下调 2027 年同店假设。新 CEO 的首份战略规划（预计 2027 年投资者活动）是观察点。",
+          "watch": "2027 年 2 月 Q4 财报与 2027 年指引；月度成屋销售与抵押贷款利率；Lowe's 本周财报的对比。",
+          "sources": [
+            {
+              "title": "CNBC：Home Depot (HD) Q3 earnings 2026",
+              "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html"
+            },
+            {
+              "title": "家得宝新闻稿：Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance",
+              "url": "https://www.tradingview.com/news/prnewswire:bf08e8d182d85:0-the-home-depot-announces-third-quarter-fiscal-2026-results-updates-fiscal-2026-guidance/"
+            },
+            {
+              "title": "Quartz：Home Depot's online comparable sales grew about 13%",
+              "url": "https://qz.com/home-depot-online-comparable-sales-earnings-111726"
+            }
+          ]
+        },
+        {
+          "title": "耐克九年来首次投资者日：恢复增长推迟至 FY2029，FY2031 目标 EPS $3.00–3.50；股价收跌 6.3% 至 $35.85",
+          "tickers": [
+            "NKE"
+          ],
+          "importance": 3,
+          "view": "利空",
+          "facts": "耐克投资者日：预计销售额将持续下滑至 FY2028，FY2029 恢复增长且大致与运动鞋服市场同步（CEO Elliott Hill 称市场年增速约 3%–4%），FY2030–2031 增速超过市场。FY2031 目标（以 FY2027 为基数）：新增约 50 亿美元收入（其中 Performance 运动约 40 亿、Sportswear 约 10 亿），营业利润率 12%–14%，调整后 EPS $3.00–3.50。重申 FY2027 指引：销售额高个位数百分比下降，调整后 EPS $1.15–1.35。Investing.com 报道投资者关注中国业务疲弱和 FY2028 的艰难。卖方观点：RBC 认为 2031 年目标留给近期超预期的空间不大；Stifel 此前预测 FY2031 收入约 512 亿美元，高于耐克隐含的约 480 亿美元。股价早盘一度上涨约 6%，随后反转收跌 6.3%。",
+          "impact_path": "复苏时间表比市场预期更晚（至少还有两年下滑）→ 2027–2028 年 EPS 维持低位 → 估值缺乏近期催化剂；中国业务疲弱 + 关税 + 消费放缓叠加，使转型执行风险上升。长期目标中利润率 12%–14% 若兑现，FY2031 EPS 约为 FY2027 的 2.6 倍，但时间跨度长、不确定性大。",
+          "magnitude": "结构性：FY2029 前没有收入增长，意味着未来两年估值主要依赖对 2031 年目标的信心。按 FY2031 EPS 中值 $3.25 和 20 倍市盈率折现，与当前股价相比并无明显安全边际（推算，假设简化）。",
+          "priced_in": "股价过去一年已下跌约 44%，但投资者日后再跌 6%，说明市场此前仍预期复苏更早到来；当前价格大致反映了“慢复苏”情景，但对中国业务进一步恶化的定价可能不足。",
+          "guidance": "若后续季度北美批发订单和库存数据显示 FY2028 下滑幅度收窄，或中国业务企稳，可视为长期转型的布局窗口；若 FY2027 下半年仍需加大折扣清库存、毛利率继续承压，需进一步推迟复苏时间假设。对普通投资者而言，这是长周期转型故事，宜以 2028 年中的数据验证，而非短期交易。",
+          "watch": "12 月中下旬 FY27 Q2 财报（北美、中国收入与毛利率）；关税政策变化；主要竞争对手（Adidas、On、Hoka）的份额变化。",
+          "sources": [
+            {
+              "title": "Investing.com：Nike shares fall 6% as investor day highlights China weakness and tough FY28",
+              "url": "https://au.investing.com/news/stock-market-news/nike-shares-rise-4-as-company-outlines-fiveyear-turnaround-plan-and-2031-targets-4777321"
+            },
+            {
+              "title": "Sportico：China, Sportswear and a Tone Shift: 3 Takeaways from Nike Investor Day",
+              "url": "https://www.sportico.com/business/commerce/2026/nike-investor-day-forecast-takeaways-1234958723/"
+            },
+            {
+              "title": "Motley Fool：Nike Stock Just Plunged Despite the Company's New Turnaround Plan",
+              "url": "https://www.fool.com/investing/2026/11/17/nike-stock-just-plunged-despite-the-company-s-new-turnaround-plan-then-plunged-here-s-what-spooked-investors/"
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": [
+        "WMT",
+        "COST",
+        "MCD",
+        "KO",
+        "PG",
+        "SBUX",
+        "TGT",
+        "TJX"
+      ]
+    },
+    {
+      "key": "financials",
+      "events": [],
+      "institutions": [],
+      "quiet": [
+        "JPM",
+        "BAC",
+        "GS",
+        "MS",
+        "WFC",
+        "C",
+        "BRK-B",
+        "BLK",
+        "V",
+        "MA",
+        "SCHW",
+        "COIN"
+      ]
+    },
+    {
+      "key": "autonomy",
+      "overview": "BOTZ −1.36%、TSLA +0.10%、UBER −1.69%、PONY −5.0%；Waymo 监管受挫成为板块焦点。",
+      "events": [
+        {
+          "title": "加州 DMV 以“迫在眉睫的危险”为由禁止 Waymo 无人车上高速，Waymo 暂停全美高速运营",
+          "tickers": [
+            "GOOGL",
+            "UBER",
+            "TSLA"
+          ],
+          "importance": 3,
+          "view": "利空",
+          "facts": "加州车辆管理局（DMV）11 月 17 日公布：禁止 Waymo 无人驾驶车辆在全州高速公路运营，称其“构成迫在眉睫的危险”，因为车辆多次驶入有工人和设备的施工区域，并曾试图超越加州高速巡警为设置路障而停放的警车（I-280）；其中一次事件中三辆 Waymo 车辆驶入 US-101 的施工区。据 AP，该限制令于 11 月 11 日签发。这是今年第二次高速限制：5 月 18 日类似事件后，Waymo 曾在旧金山和洛杉矶暂停高速运营并采取纠正措施。解除条件是 Waymo 证明其车辆能安全识别并应对施工区、紧急车辆等情况；城市道路服务不受影响。《纽约时报》和 Electrek 报道 Waymo 已暂时把无人车撤出全美所有高速公路。Waymo 称将继续由安全员在驾驶位进行高速测试。此前 NHTSA 已就校车问题对 2,895 辆 Waymo 车辆展开召回调查（历史对比，见 11 月 9 日报告）。",
+          "impact_path": "（1）Alphabet/Waymo：高速运营是机场接送和跨城出行的关键场景，暂停后单车订单量与收入受限；连续的安全事件（校车、施工区、警车）增加监管审查强度，可能拖慢新城市扩张与 2027 年车队目标；（2）Uber：作为 Waymo 在部分城市的合作平台，短期订单受影响有限，但行业整体监管收紧不利于其自动驾驶战略；（3）特斯拉：短期可能被视为相对受益（竞争对手受限），但监管机构对所有 Robotaxi 的审查也会更严，特斯拉在德州之外的扩张同样面临更高门槛。",
+          "magnitude": "对 Alphabet 整体财务影响很小（Waymo 收入占比极低），但对 Waymo 估值叙事有影响：安全记录是其相对特斯拉的核心优势，连续事件削弱了这一优势。若禁令持续数月，高速相关的机场线路收入损失有限，主要风险在于监管连锁反应。",
+          "priced_in": "GOOGL −1.24% 主要受科技板块整体拖累，市场对 Waymo 事件的定价有限；UBER −1.7%、TSLA 基本持平，说明市场没有把此事视为行业性冲击。",
+          "guidance": "若 Waymo 在数周内提交纠正方案并恢复高速运营，可视为单一事件；若 NHTSA 或其他州（亚利桑那、德州）跟进限制，或校车召回调查升级为强制召回，需要下调对 Waymo 2027 年车队规模和城市扩张速度的预期。对特斯拉，关注德州监管是否因 Waymo 事件对 Robotaxi 提出新的高速运营要求。",
+          "watch": "Waymo 向加州 DMV 提交纠正措施及恢复高速运营的时间；NHTSA 校车召回调查进展；其他州监管机构表态；Waymo 2027 年 2 万辆车队目标。",
+          "sources": [
+            {
+              "title": "CNN：California bans driverless Waymo vehicles from state freeways",
+              "url": "https://www.cnn.com/2026/11/17/us/california-waymo-ban-freeways"
+            },
+            {
+              "title": "CBS San Francisco：California DMV blocks Waymo robotaxis from freeways",
+              "url": "https://www.cbsnews.com/sanfrancisco/news/waymo-robotaxis-california-dmv-freeways-autonomous-vehicles/"
+            },
+            {
+              "title": "SF Standard：DMV kicks Waymo off California freeways",
+              "url": "https://sfstandard.com/2026/11/17/california-dmv-bans-waymo-from-freeways/"
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": [
+        "NVDA",
+        "MBLY",
+        "AUR",
+        "PONY",
+        "WRD",
+        "TER",
+        "SYM"
+      ]
+    }
+  ],
+  "risks": [
+    "宏观：实际消费可能已转负，而联储官员仍暗示还需多次加息，盈利与估值面临双重压力；银行股受信用风险（杠杆贷款违约预期翻倍）拖累",
+    "NVDA：SEC 民事调查若扩大至收入确认或对华销售，可能引发重述、罚款或管理层进一步变动",
+    "MSFT、ORCL：前沿模型能力持续提升、价格下降，“AI 替代软件”的估值重估可能延续",
+    "NKE：复苏推迟到 FY2029，中国业务疲弱与关税风险叠加",
+    "GOOGL（Waymo）：连续安全事件使监管审查升级，可能拖慢车队与城市扩张"
+  ],
+  "opportunities": [
+    "NVDA：Q4 指引不含中国仍高于预期约 4%，新增 1,500 亿美元回购；若 SEC 调查范围有限，当前估值可视为中期再评估窗口",
+    "TSM、AVGO：英伟达指引直接验证 AI 需求，近期的连带下跌可能存在修正空间",
+    "HD：在成屋交易冰点期同店仍为正，若 2027 年利率见顶回落，是地产链中质地较好的受益标的"
+  ],
+  "calendar": [
+    {
+      "date": "2026-11-18",
+      "event": "Anthropic IPO 预计定价；FOMC 10 月会议纪要",
+      "tickers": [
+        "GOOGL",
+        "AMZN",
+        "MSFT",
+        "TLT"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "event": "Anthropic 纳斯达克上市（ANT）；沃尔玛财年三季度财报",
+      "tickers": [
+        "GOOGL",
+        "AMZN",
+        "WMT"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "event": "好市多 30 美元特别股息除息日",
+      "tickers": [
+        "COST"
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "event": "特斯拉年度股东大会",
+      "tickers": [
+        "TSLA"
+      ]
+    },
+    {
+      "date": "2026-12-09",
+      "event": "美联储议息会议（12 月 8–9 日，含点阵图）",
+      "tickers": [
+        "TLT",
+        "QQQ",
+        "IWM"
+      ]
+    },
+    {
+      "date": "2026-12-10",
+      "event": "参议院银行委员会听证：Lutnick 就英伟达对华芯片销售作证",
+      "tickers": [
+        "NVDA"
+      ]
+    }
+  ],
+  "self_check": [
+    {
+      "item": "是否逐一核查覆盖清单中每只股票？",
+      "ok": true,
+      "note": "60 只股票均已对照当日涨跌和新闻线索核查。"
+    },
+    {
+      "item": "是否覆盖当日市值较大或波动显著的公司？",
+      "ok": true,
+      "note": "覆盖 NVDA、MSFT、ORCL、HD、NKE、Waymo；TSM（−3.7%）在英伟达事件中说明；AVAV（−4.6%）、RKLB（−4.0%）、COIN（−4.0%）、PONY（−5.0%）未找到公司层面的新信息，判断为跟随风险偏好下降。"
+    },
+    {
+      "item": "机构观点是否引用权威来源？",
+      "ok": true,
+      "note": "当日未发现覆盖个股的可靠评级变动，institutions 留空；RBC、Stifel 对耐克的观点在事件中标注为卖方观点。"
+    },
+    {
+      "item": "是否严格限定在报告时间窗口内？",
+      "ok": true,
+      "note": "Waymo 限制令于 11 月 11 日签发，但于 11 月 17 日首次公开，按公开时间纳入；NHTSA 校车调查标注为历史对比。"
+    },
+    {
+      "item": "是否把事实与分析判断清楚分开？",
+      "ok": true,
+      "note": "Musalem“四次加息”的说法来自 CNBC 报道标题，未找到原话全文；耐克估值折现为简化推算，已注明。"
+    }
+  ]
+}
