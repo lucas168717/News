@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-18",
+  "window": "2026-11-17 16:00 ET 收盘后 → 2026-11-18 收盘及盘后",
+  "headline": "Anthropic 以 83 美元定价、估值 1.5 万亿；英伟达财报后反跌 2.9%，联储纪要偏鹰",
+  "summary": "三条主线交织。第一，Anthropic IPO 定价 83 美元，高于 $70–78 区间，募资约 685 亿美元（加定增超 940 亿），完全稀释估值约 1.5 万亿美元，明天上市；受益方亚马逊 +3.8%、博通 +3.6%、AMD +5.3%。第二，英伟达财报超预期，但股价先涨后跌，收跌 2.9% 至 $150.96，多家券商下调目标价，市场关注点仍在 CEO 继任和中国风险。第三，联储 10 月会议纪要显示几乎所有与会者认为需要继续加息，且把 AI 带动的需求视为通胀风险；理事 Waller 公开主张 12 月加息 50bp。道指 −1.11%（联合健康 −8.5%），标普连跌五天，纳指 +0.4%；黄金 −3.5%、原油 −4.8%、比特币跌破 6.3 万美元。零售股财报亮眼：塔吉特同店 +5.6% 并上调指引，TJX +8%。国防方面，众议院军事委员会主席称 3,500 亿美元国防和解法案“不会发生”，军工股普跌。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY −0.31%、QQQ +0.39%、IWM +0.40%，VIX 回落至 24.6；TLT +0.84%（10 年期 5.07%）、GLD −3.20%、UUP +0.27%（19 个月高位）；WTI −4.8% 至 81.9 美元。",
+      "events": [
+        {
+          "title": "联储 10 月纪要：几乎所有与会者认为需继续加息，并把 AI 需求列为通胀风险；Waller 主张 12 月加息 50bp",
+          "tickers": ["SPY", "QQQ", "IWM", "TLT", "GLD", "UUP"],
+          "importance": 4,
+          "view": "利空",
+          "facts": "美联储公布 10 月 27–28 日 FOMC 会议纪要：会议以 10 比 2 维持利率在 3.75%–4.00%，理事 Lisa Cook 和克利夫兰联储 Hammack 投反对票，主张加息 25bp；几乎所有与会者认为进一步提高目标区间“可能是合适的”；若通胀数据恶化，12 月可能需要大于 25bp 的加息；纪要称 AI 相关需求是“重要的通胀风险来源”；部分与会者认为市场对 12 月及明年加息的预期与其判断大体一致。同日理事 Waller 接受 CNBC 采访称 12 月可能需要加息 50bp，“可能需要让人们感到震动”，也可以加息 25bp 并预告 1 月再加息；理事 Barr、旧金山联储 Daly 也表示还需要加息。CME FedWatch 显示 12 月加息 25bp 的概率约 95%。黄金跌 3.5% 至约 3,728 美元，WTI 跌 4.8%，比特币跌至约 6.24 万美元。",
+          "impact_path": "联储鹰派共识增强 + 部分官员主张更大步伐 → 短端利率维持高位，美元走强 → 黄金、比特币等无息资产承压；长端收益率反而小幅回落（10 年期 5.07%），市场开始交易“加息导致增长放缓”。AI 被明确列为通胀来源，意味着 AI 资本开支越强，联储越倾向于收紧，这在 AI 资产与利率之间形成了反馈。",
+          "magnitude": "结构性：联储内部已就“继续加息”达成共识，分歧在于速度。若 12 月加息 50bp，政策利率将升至 4.25%–4.50%，达到高盛此前预测的峰值区间，但 2027 年可能还会加息。油价大跌对 headline 通胀有缓解作用，可能是 12 月只加 25bp 的理由。",
+          "priced_in": "25bp 加息已几乎完全定价，50bp 的概率仍较低（约 5%–15%），若 Waller 的观点获得更多支持，存在重新定价的空间。股市对纪要反应有限（标普 −0.3%），债市长端走强，说明市场更担心增长而非通胀本身。",
+          "guidance": "若 12 月 FOMC 加息 50bp 或点阵图显示 2027 年还需加息两次以上，应假设高利率至少延续到 2027 年中，降低对小盘股、高负债公司和长久期成长股的权重；若加息 25bp 且声明强调“观察累积效应”，长端利率与成长股可能迎来喘息。黄金短期受实际利率压制，但若加息引发明显的增长放缓或金融市场动荡，避险需求可能回归。",
+          "watch": "11 月 25 日左右 10 月 PCE；12 月初 11 月非农就业；12 月 8–9 日 FOMC 利率决议与点阵图；油价走势（对 headline 通胀的影响）。",
+          "sources": [
+            {"title": "美联储：Minutes of the FOMC, October 27-28, 2026", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"},
+            {"title": "CNBC：Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show", "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"},
+            {"title": "CNBC：Fed's Waller says central bank may need to 'shock people' with half-point rate hike", "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"},
+            {"title": "CNBC：Longer-dated Treasury yields fall as traders weigh Waller comments, Fed minutes", "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": []
+    },
+    {
+      "key": "tech",
+      "overview": "XLK +0.34%、SMH −0.12%：AMD +5.31%、AMZN +3.82%、AVGO +3.64%、TSM +0.81%、GOOGL +0.80%；NVDA −2.89%、ORCL −0.97%、META −0.40%。网络安全股因政府警告 AI 攻击基础设施而大涨（非覆盖个股）。",
+      "events": [
+        {
+          "title": "Anthropic IPO 定价 83 美元，高于区间上限，募资约 685 亿美元、估值约 1.5 万亿；亚马逊、博通、AMD 走强",
+          "tickers": ["AMZN", "GOOGL", "AVGO", "AMD", "NVDA", "MSFT", "TSM"],
+          "importance": 4,
+          "view": "利好",
+          "facts": "据 CNBC 等援引知情人士，Anthropic IPO 定价每股 83 美元，高于此前 $70–78 的区间；按 8.25 亿股计算，公开发行募资约 685 亿美元，加上以同一价格进行的 260 亿美元定向增发（谷歌、英伟达各 100 亿，AMD 25 亿，博通、美光、微软各 10 亿，台积电 5 亿），合计超过 940 亿美元；完全稀释估值约 1.5 万亿美元。Bloomberg 称其募资规模将超过 SpaceX 6 月 IPO（750 亿美元，含超额配售为 862 亿美元）。股票将于 11 月 19 日在纳斯达克交易，代码 ANT。此前有报道称认购倍数约 7 倍（见 11 月 16 日报告）。当日 AMZN +3.82%、AVGO +3.64%、AMD +5.31%、GOOGL +0.80%。",
+          "impact_path": "（1）亚马逊、谷歌：作为早期大股东，以 83 美元计的持股市值大幅增加，下季度将确认可观的投资收益；同时确认其云业务第一大 AI 客户的融资能力，AWS 与 Google Cloud 的算力合同更有保障；（2）英伟达、AMD、博通、台积电：定增价格高于区间，账面即有浮盈，且绑定的芯片采购订单更确定；（3）市场层面：在 AI 板块调整期间仍以高于区间定价，说明长期资金对 AI 应用层的需求强劲，有助于稳定 AI 链条情绪。",
+          "magnitude": "对亚马逊、谷歌是一次性、可能达数百亿美元级的按公允价值计量收益（具体取决于持股比例与锁定安排）；对芯片公司是需求确定性的结构性支撑。约 940 亿美元的资金吸收是短期流动性压力，通常在上市后 1–2 周内消化。",
+          "priced_in": "AMZN、AVGO、AMD 当日上涨已部分反映定价超预期；谷歌涨幅较小，可能因其作为定增方的现金支出最大。若首日大涨，市场可能进一步上调对亚马逊、谷歌所持股权价值的估计。",
+          "guidance": "若 11 月 19 日首日稳定上涨且前几周没有破发，可视为 AI 应用层估值得到资本市场确认，AI 链条（尤其云厂商和定制芯片）的调整可能接近尾声；若首日破发或很快跌破 83 美元，说明一级市场定价过度乐观，需警惕 AI 资产的整体估值下修，并关注锁定期到期（通常 90–180 天）带来的抛压。持有亚马逊、谷歌的投资者应区分一次性投资收益与经营利润。",
+          "watch": "11 月 19 日开盘价与首日表现；承销商超额配售权行使情况；亚马逊、谷歌下季度财报中的投资收益；锁定期安排。",
+          "sources": [
+            {"title": "CNBC：Anthropic prices IPO at $83 per share, above expected range", "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"},
+            {"title": "Motley Fool：It's Official: Anthropic Prices Its IPO at $83 a Share", "url": "https://www.fool.com/investing/2026/11/18/it-s-official-anthropic-prices-its-ipo-at-usd83-a-share-here-s-what-we-know-and-what-we-don-t/"},
+            {"title": "The Next Web：Anthropic prices its IPO at $83 a share, valuing it at about $1.5tn", "url": "https://thenextweb.com/news/anthropic-ipo-prices-83-share-1-5-trillion-record-raise"}
+          ]
+        },
+        {
+          "title": "英伟达财报超预期后反跌 2.9% 至 $150.96，多家券商下调目标价；美中委员会称中国军方寻求英伟达先进芯片",
+          "tickers": ["NVDA"],
+          "importance": 4,
+          "view": "分歧",
+          "facts": "NVDA 盘后一度上涨约 5%，11 月 18 日常规时段反转，收跌 2.89% 至 $150.96。卖方目标价调整：Piper Sandler $300 → $230（维持买入），Jefferies $300 → $250（维持买入），Evercore $465 → $186，JPMorgan $215 → $230 并称短期内股价“高度波动”，Goldman 维持 $220；HSBC 认为在任命正式 CEO 前股价可能难以继续上涨。财报数据：调整后 EPS $2.68（预期 $2.47），Q4 收入指引 1,300 亿美元（预期约 1,250 亿）。CNBC 报道美中经济与安全审查委员会称中国军方在寻求英伟达先进芯片以发展 AI 能力；BNN Bloomberg 报道英伟达收紧了云服务相关条款。CNBC 刊发了 Jim Cramer 对临时 CEO Kress 的专访（谈需求、回购与中国）。受英伟达下跌拖累，CoreWeave、Iren 等新型云厂商盘中走弱，但随后反弹。",
+          "impact_path": "基本面（需求、指引、回购）强劲，但估值被三项不确定性压制：CEO 继任（临时 CEO 可能持续约一年）、SEC 民事调查、对华出口管制与国家安全审查持续升级 → 市场不愿为远期盈利支付溢价 → 目标价普遍下调至 $186–250 区间。",
+          "magnitude": "按 Q4 指引年化，收入超过 5,000 亿美元，而股价对应的市盈率处于多年低位；这种“业绩超预期 + 股价下跌”的背离，属于治理与政策风险折价，而非基本面恶化。折价可能持续到正式 CEO 任命或 SEC 调查明朗。",
+          "priced_in": "业绩利好已被市场“忽视”：自 11 月 9 日以来累计跌约 30%。目标价下调后的区间（$186–250）仍明显高于现价，说明卖方认为风险已大部分计入，但短期催化剂不足。",
+          "guidance": "若董事会在未来 1–2 个季度内任命有技术背景、获市场认可的正式 CEO，且 SEC 调查范围有限，当前估值可能被视为长期配置窗口；若继任者选择引发战略争议、SEC 调查扩大，或出口管制进一步扩展到更多国家与客户，折价可能长期化。在不确定性消除前，仓位应与能承受的波动相匹配，而不是基于单季业绩做判断。",
+          "watch": "董事会 CEO 遴选进展；SEC 调查的官方披露；12 月 10 日参议院听证；商务部规则 90 天过渡期内的客户许可申请情况；Rubin 出货与毛利率。",
+          "sources": [
+            {"title": "Star-Advertiser/Bloomberg：Nvidia retreats as strong outlook fails to dispel uncertainty", "url": "https://www.staradvertiser.com/2026/11/18/breaking-news/nvidia-retreats-as-strong-outlook-fails-to-dispel-uncertainty/"},
+            {"title": "TipRanks：Nvidia Stock Price Forecast: Analysts Cut Targets Despite Strong Q3", "url": "https://www.tipranks.com/news/nvidia-stock-price-forecast-analysts-cut-targets-despite-strong-q3"},
+            {"title": "Yahoo Finance：Evercore slashed its NVDA price target from $465 to $186", "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-just-slashed-nvda-price-072819592.html"},
+            {"title": "Motley Fool：Nvidia Slips on Strong Results as Succession and China Business Risks Weigh", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-nvidia-slips-on-strong-results-as-succession-and-china-business-risks-weigh/"}
+          ]
+        }
+      ],
+      "institutions": [
+        {"firm": "Jefferies", "ticker": "NVDA", "action": "目标价 $300 → $250，维持买入", "detail": "财报后下调，反映治理与中国风险折价。", "url": "https://www.tipranks.com/news/nvidia-stock-price-forecast-analysts-cut-targets-despite-strong-q3"},
+        {"firm": "JPMorgan", "ticker": "NVDA", "action": "目标价 $215 → $230", "detail": "认为财报未能解决继任与中国两大问题，预计短期股价高度波动。", "url": "https://www.tipranks.com/news/nvidia-stock-price-forecast-analysts-cut-targets-despite-strong-q3"},
+        {"firm": "Evercore ISI", "ticker": "NVDA", "action": "目标价 $465 → $186", "detail": "在黄仁勋离任后大幅下调目标价。", "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-just-slashed-nvda-price-072819592.html"}
+      ],
+      "quiet": ["MSFT", "AAPL", "META", "ORCL"]
+    },
+    {
+      "key": "defense",
+      "overview": "ITA −0.30%：HII −3.21%、LMT −2.06%、LDOS −1.98%、NOC −1.86%、GD −1.85%、LHX −1.68%；AVAV −3.17%、RKLB −3.60%。",
+      "events": [
+        {
+          "title": "众议院军事委员会主席 Rogers：3,500 亿美元国防和解法案“不会发生”；参议院拨款委员会公布约 1.1 万亿美元 FY27 国防拨款法案",
+          "tickers": ["LMT", "NOC", "GD", "HII", "LHX", "RTX"],
+          "importance": 3,
+          "view": "利空",
+          "facts": "特朗普 FY2027 国防预算请求约 1.5 万亿美元，包括 1.15 万亿常规国防拨款和 3,500 亿美元拟通过预算和解程序通过的额外资金。11 月 18 日，众议院军事委员会主席 Mike Rogers 在 Hudson Institute 活动上表示，“3,500 亿美元不会发生”，若缩减到约 1,000 亿美元则有通过路径。参议院拨款委员会共和党人 11 月 16 日公布近 1.1 万亿美元的 FY27 国防拨款法案，其中纳入了白宫原本希望通过和解程序获得的约 690 亿美元；众议院 7 月已通过约 1.1 万亿美元的版本，两者需协调，均未最终通过。报道称共和党人希望在明年 1 月失去国会控制权前推动额外支出，参议院多数党领袖 Thune 在权衡 3,500 亿美元方案，但有参议员警告可能引发政府停摆。当日主要军工股普跌。",
+          "impact_path": "3,500 亿美元追加资金落空 → 弹药、造船、导弹防御、无人机等原本寄望于和解资金的扩产与新项目可能缩水或推迟 → 对 HII（造船）、GD（潜艇）、LMT/RTX/NOC（导弹与防空）、AVAV/KTOS（无人机）的 2027–2028 年订单增长预期下修；基础拨款约 1.1 万亿美元仍提供稳定的底部。民主党 1 月接管国会后，追加拨款的难度进一步上升。",
+          "magnitude": "若最终只通过约 1,000 亿美元的和解资金，相比 3,500 亿美元的请求少约 2,500 亿美元，约占年度国防预算的 15%–20%，对军工板块中期增长预期影响显著。但基础拨款已有两院版本，常规项目的资金相对确定。",
+          "priced_in": "军工股自中期选举后已明显回调（LMT 等一度单日跌约 7%），当日再跌约 2%–3%，市场正在逐步下调对“超级国防预算”的预期；部分大型主承包商估值已不高，但缺乏新的上行催化剂。",
+          "guidance": "若国会在 12 月前通过约 1.1 万亿美元的全年拨款（避免持续决议）并附带约 1,000 亿美元的和解资金，可视为基本面底部确认，NOC、LMT 等积压订单创纪录的公司具备防御价值；若协商失败、陷入长期持续决议或政府停摆，需下调 2027 年新合同授予节奏的预期，造船（HII、GD）和无人机公司受影响最大。国际订单（欧洲弹药与防空）是对冲美国预算不确定性的关键变量。",
+          "watch": "两院 FY27 国防拨款协商与表决；持续决议到期日；参议院和解法案规模（1,000 亿还是 3,500 亿）；NDAA 最终文本；1 月新国会就职后的预算立场。",
+          "sources": [
+            {"title": "Breaking Defense：$350 billion reconciliation bill 'not going to happen': HASC chair", "url": "https://breakingdefense.com/2026/11/350-billion-reconciliation-bill-not-going-to-happen-hasc-chair/"},
+            {"title": "Breaking Defense：Senate appropriators unveil $1.1T Pentagon spending bill", "url": "https://breakingdefense.com/2026/11/senate-appropriators-unveil-1-1t-pentagon-spending-bill-folding-in-reconciliation-priorities/"},
+            {"title": "The Hill：Mike Rogers says $350B defense reconciliation is 'not gonna happen'", "url": "https://thehill.com/policy/defense/6228976-rogers-pentagon-reconciliation-ask/"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["BA", "LDOS", "PLTR", "AVAV", "KTOS", "RKLB"]
+    },
+    {
+      "key": "consumer",
+      "overview": "XLY +1.79%、XLP −0.31%：TJX +8.05%、TGT +4.01%、SBUX +1.51%、NKE +1.28%；COST −1.21%、PG −0.83%。",
+      "events": [
+        {
+          "title": "塔吉特同店 +5.6%、五年来最佳增长并上调全年指引；TJX 同店 +4% 超计划，股价涨 8%",
+          "tickers": ["TGT", "TJX", "WMT"],
+          "importance": 3,
+          "view": "利好",
+          "facts": "塔吉特 Q3：同店销售 +5.6%（预期 +3.8%），其中门店 +4.6%、数字渠道 +9.8%；收入约 270.7 亿美元（预期 265.6 亿）；调整后 EPS $2.65（LSEG 预期 $2.07）。全年净销售增长指引上调 1 个百分点至约 6%，EPS 指引从 $9.90–10.90 上调至 $10.65–11.40，其中包含年初至今已确认的每股 $2.14 关税退款收益；公司称 11 月迄今销售符合指引，较 10 月加速。TGT 收涨 4.01%（盘中一度涨约 7%），今年以来累计涨超 60%。TJX（11 月 18 日盘前发布）FY27 Q3：净销售 160 亿美元（+6%），同店 +4%（高于计划），其中 Marmaxx +2%、HomeGoods +5%、加拿大 +6%、国际 +8%；稀释 EPS $1.39（+9%），剔除每股 $0.05 关税退款后调整后 EPS $1.34（+5%）；全年同店指引收窄至 +4%，Q4 计划同店 +2% 至 +3%。TJX 收涨 8.05% 至 $140.30。",
+          "impact_path": "在零售销售整体放缓（10 月 +0.2%）的背景下，塔吉特和 TJX 的同店加速说明消费者在向性价比和折扣渠道迁移（“消费降级”中的份额赢家）；关税退款一次性提升了 EPS，但同店增长本身是经营层面的改善。对沃尔玛（明天财报）而言，这意味着大众零售需求稳健，但竞争对手的份额回升也是潜在压力。",
+          "magnitude": "塔吉特同店 +5.6% 是五年来最好表现，若延续，2027 年 EPS 基数上调；但每股 $2.14 的关税退款属于一次性项目，剔除后全年 EPS 增长幅度明显较小。TJX 属于稳健超预期，并非结构性改变。",
+          "priced_in": "TGT 今年已涨 60%，财报后 +4% 属于合理反应，部分涨幅可能来自一次性关税退款，需警惕市场把一次性收益当作经常性利润；TJX +8% 的反应强于同店超预期幅度，反映市场在消费放缓环境中对折扣零售商的偏好。",
+          "guidance": "若塔吉特 Q4（假日季）同店保持在 +4% 以上，并在剔除关税退款后仍有利润率改善，可视为转型真正见效；若假日季促销加大导致毛利率下降，或 2027 年失去关税退款后 EPS 出现同比下滑，需重新评估。对 TJX，关注 Q4 同店 +2%–3% 的指引是否保守。明天沃尔玛的财报将验证大众消费的整体强度。",
+          "watch": "11 月 19 日沃尔玛财年 Q3 财报；11 月 27 日黑色星期五及网络星期一销售数据；2027 年 3 月初塔吉特 Q4 财报（剔除关税退款后的利润率）。",
+          "sources": [
+            {"title": "Target 新闻稿：Target Corporation Reports Third Quarter Earnings", "url": "https://corporate.target.com/press/release/2026/11/target-corporation-reports-third-quarter-earnings"},
+            {"title": "CNBC：Target posts best sales growth in five years, raises guidance", "url": "https://www.cnbc.com/amp/2026/11/18/target-tgt-q3-2026-earnings.html"},
+            {"title": "TJX 新闻稿：Q3 FY27 Results; Comp Sales Growth of 4%", "url": "https://investor.tjx.com/news-releases/news-release-details/tjx-companies-inc-reports-q3-fy27-results-comp-sales-growth-4"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["COST", "HD", "MCD", "KO", "PG", "NKE", "SBUX"]
+    },
+    {
+      "key": "financials",
+      "events": [],
+      "institutions": [],
+      "quiet": ["JPM", "BAC", "GS", "MS", "WFC", "C", "BRK-B", "BLK", "V", "MA", "SCHW", "COIN"]
+    },
+    {
+      "key": "autonomy",
+      "events": [],
+      "institutions": [],
+      "quiet": ["TSLA", "GOOGL", "NVDA", "UBER", "MBLY", "AUR", "PONY", "WRD", "TER", "SYM"]
+    }
+  ],
+  "risks": [
+    "利率：联储内部已就继续加息形成共识，若 12 月加息 50bp 或点阵图上调，成长股和小盘股估值承压",
+    "NVDA：业绩无法抵消治理、SEC 调查与对华管制三重折价，目标价普遍下调",
+    "Anthropic 上市后若破发，可能引发 AI 估值全面下修，并影响 AMZN、GOOGL 的投资收益预期",
+    "国防：3,500 亿美元和解资金落空、民主党接管国会，HII、GD、AVAV 等对追加预算敏感的公司面临订单增长下修",
+    "TGT：本年 EPS 含每股 $2.14 一次性关税退款，2027 年面临高基数"
+  ],
+  "opportunities": [
+    "Anthropic 若首日稳定，AWS、Google Cloud 与定制芯片（AVGO）的中期需求假设得到资本市场确认",
+    "NVDA：目标价下调后仍明显高于现价，若 CEO 遴选顺利、SEC 调查有限，存在估值修复空间",
+    "NOC、LMT 等积压订单创纪录的主承包商，在基础拨款落地后具备防御价值",
+    "折扣与大众零售（TJX、TGT）在消费降级中赢得份额，但需剔除一次性关税退款看待利润"
+  ],
+  "calendar": [
+    {"date": "2026-11-19", "event": "Anthropic 纳斯达克上市（ANT）；沃尔玛财年三季度财报", "tickers": ["GOOGL", "AMZN", "AVGO", "WMT"]},
+    {"date": "2026-11-24", "event": "好市多 30 美元特别股息除息日", "tickers": ["COST"]},
+    {"date": "2026-11-27", "event": "黑色星期五（感恩节次日）", "tickers": ["WMT", "TGT", "AMZN", "COST"]},
+    {"date": "2026-12-03", "event": "特斯拉年度股东大会", "tickers": ["TSLA"]},
+    {"date": "2026-12-09", "event": "美联储议息会议（12 月 8–9 日，含点阵图）", "tickers": ["TLT", "QQQ", "IWM"]},
+    {"date": "2026-12-10", "event": "参议院银行委员会听证：Lutnick 就英伟达对华芯片销售作证", "tickers": ["NVDA"]}
+  ],
+  "self_check": [
+    {"item": "是否逐一核查覆盖清单中每只股票？", "ok": true, "note": "60 只股票均已对照当日涨跌和新闻线索核查。"},
+    {"item": "是否覆盖当日市值较大或波动显著的公司？", "ok": true, "note": "覆盖 NVDA、AMD、AMZN、AVGO、TJX、TGT、军工股；PONY（−7.3%）、WRD（−7.1%）未找到个股新信息；Waymo 于亚利桑那州也撤出高速属前日事件的延续，未单列；BRK-B（−2.1%）、WFC、C 跌约 2% 未找到公司层面新信息。"},
+    {"item": "机构观点是否引用权威来源？", "ok": true, "note": "英伟达目标价调整来自 TipRanks、Yahoo Finance 等转述，未直接查看原报告。"},
+    {"item": "是否严格限定在报告时间窗口内？", "ok": true, "note": "TJX 财报新闻稿日期为 11 月 17 日（Business Wire 编号），但于 11 月 18 日盘前发布，在窗口内；参议院拨款法案于 11 月 16 日公布，作为背景引用。"},
+    {"item": "是否把事实与分析判断清楚分开？", "ok": true, "note": "国防和解资金缺口占预算比例为推算；Anthropic 对亚马逊、谷歌的收益规模未量化，已注明不确定性。"}
+  ]
+}
