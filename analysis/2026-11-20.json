@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-20",
+  "window": "2026-11-19 16:00 ET 收盘后 → 2026-11-20 收盘及盘后",
+  "headline": "AI 崩盘式抛售：纳指跌 5.3%，标普道指进入调整；SEC 调查英伟达会计，英伟达跌 14%",
+  "summary": "本轮 AI 抛售在周五加速：标普 −3.70% 至 6,910，道指 −1.93%，两者均较纪录高点回落超过 10%，正式进入调整；纳指 −5.28%，抹去 2026 年全部涨幅，录得 2020 年以来最差单周；SMH −10.6%，VIX 收于 35.9，为 3 月以来最高。导火索有两个：Reuters 报道 SEC 执法部门正在审查英伟达的会计问题，英伟达跌 14% 至 $125.53，录得 2008 年以来最长周连跌；分析师郭明錤称谷歌把 2027 年博通设计的 TPU 8i 出货计划削减约 20%，并转向联发科，博通跌 12%。AMD −13%、台积电 −9.5%、甲骨文 −8.5%；Anthropic 上市第二天跌 9% 至 $88.30，盘中一度逼近 83 美元发行价。避险资金涌入长债：10 年期收益率降至 4.91%，本周降幅为 2025 年 4 月以来最大；但黄金跌 4%、比特币跌破 6 万美元，说明市场在全面去杠杆。只有必选消费上涨。银行股录得 2025 年 4 月以来最差单周。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY −3.64%、QQQ −5.67%、IWM −2.88%，VIX +26% 至 35.9；TLT +1.37%（10 年期 4.91%）、GLD −3.67%、UUP 持平；比特币约 5.9 万美元，连续第七周下跌。",
+      "events": [
+        {
+          "title": "标普与道指进入调整、纳指抹去全年涨幅；VIX 收于 35.9，10 年期降至 4.91%，黄金、比特币同步下跌",
+          "tickers": ["SPY", "QQQ", "IWM", "TLT", "GLD", "UUP"],
+          "importance": 5,
+          "view": "利空",
+          "facts": "据 Reuters，标普 500 收跌 3.70% 至 6,910.42，道指 −1.93% 至 48,147.33，纳指 −5.28% 至 22,617.73；标普和道指较纪录高点回落超过 10%，进入调整区间；纳指转为年内下跌，本周为 2020 年以来最差单周；标普为 2025 年 4 月以来最差单周。VIX 收于 35.9（+26%），为 3 月以来最高。必选消费是唯一上涨的板块。10 年期美债收益率降至约 4.91%，本周降幅为 2025 年 4 月以来最大。黄金跌约 4% 至约 3,539 美元（9 月初以来最低）；比特币跌破 6 万美元，为 7 月以来首次，连续第七周下跌。联储方面：理事 Cook 称需要加息以降低高通胀，费城联储 Paulson 主张审慎加息；CME 显示 12 月加息 25bp 的概率超过 98%。财长 Bessent 以能源冲击为由，主张联储不要加息过大。密歇根大学 11 月消费者信心小幅上升，符合预期。Bloomberg 报道银行股录得 2025 年 4 月以来最差单周。",
+          "impact_path": "AI 龙头的会计与订单疑虑 → 市场对 AI 资本开支周期的信心动摇 → 高估值科技股去杠杆（XLK −7.3%、SMH −10.6%）→ 指数权重股拖累大盘；保证金压力迫使投资者卖出黄金、比特币等流动性资产 → 全资产同步下跌，只有长债和必选消费获得避险资金。长端利率下行是对增长放缓的定价，但联储仍预期 12 月加息，政策与市场之间的分歧扩大。",
+          "magnitude": "结构性冲击：纳指自 10 月高点回落约 17%，标普约 11%，属于中等规模调整；若 AI 资本开支预期实质下修，可能演变为熊市（−20%）。VIX 35.9 表明恐慌程度较高，但尚未达到 2020 年 3 月或 2025 年 4 月的极端水平。银行股大跌说明市场开始担心 AI 相关信贷（新型云厂商、数据中心融资、悬置贷款）风险。",
+          "priced_in": "短期看，恐慌指标与连续下跌显示情绪已接近极端，技术性反弹随时可能出现；但从基本面看，分析师对 2027 年 AI 相关公司盈利的预测尚未下调，若订单削减（如谷歌 TPU）被证实，盈利下修才刚开始。长端利率已提前反映增长放缓。",
+          "guidance": "对普通投资者，这是检验仓位结构的时刻而非追涨杀跌的时刻：若持仓高度集中于 AI 芯片和大型科技股，应考虑在反弹时降低集中度；若现金充足，可设定分批买入的触发条件（如 VIX 回落至 25 以下、英伟达澄清会计问题、博通 12 月财报确认订单）。若联储 12 月仍坚持加息甚至加息 50bp，而市场已在定价放缓，股市可能面临更大下行压力；若联储在会议上释放“暂停”信号，可能触发强劲反弹。",
+          "watch": "感恩节后（11 月 27 日）黑色星期五消费数据；11 月下旬 10 月 PCE；12 月 9 日博通财报；12 月 8–9 日 FOMC；VIX 能否回落至 30 以下；高收益债与杠杆贷款市场的信用利差。",
+          "sources": [
+            {"title": "Yahoo Finance/Reuters：Wall St ends sharply lower on AI selloff, S&P 500, Dow in correction", "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html"},
+            {"title": "CNBC：S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam", "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"},
+            {"title": "Yahoo Finance：The snowballing selloff in global markets", "url": "https://finance.yahoo.com/markets/articles/snowballing-selloff-global-markets-151205233.html"},
+            {"title": "CNBC：Treasury Secretary Scott Bessent on Fed and Nvidia", "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": []
+    },
+    {
+      "key": "tech",
+      "overview": "XLK −7.27%、SMH −10.60%：NVDA −14.01%（$125.53）、AMD −13.25%、AVGO −12.19%、TSM −9.48%、ORCL −8.48%、META −5.93%、AMZN −4.10%、MSFT −2.77%、GOOGL −2.70%、AAPL −1.90%。Anthropic（ANT）上市第二天收跌约 9% 至 $88.30，盘中低点 $83.05，距发行价仅 5 美分；MarketWatch 统计芯片股本周市值蒸发约 2.3 万亿美元。",
+      "events": [
+        {
+          "title": "Reuters：SEC 执法部门审查英伟达会计问题；英伟达暴跌 14% 至 $125.53，录得 2008 年以来最长周连跌",
+          "tickers": ["NVDA", "TSM", "AMD"],
+          "importance": 5,
+          "view": "利空",
+          "facts": "Reuters 援引两名知情人士报道，SEC 执法部门人员正在审查英伟达潜在的会计问题；报道未说明涉及哪些会计处理，也未确认调查开始时间；SEC 拒绝置评，英伟达未立即回应。WSJ 此前报道 SEC 正在调查英伟达的披露是否误导投资者（见 11 月 17 日报告）。有媒体指出英伟达去年把地区收入的划分口径从客户账单地址改为客户总部所在地，此举使新加坡从地区收入中消失，但目前不清楚这是否属于调查范围。NVDA 收跌 14.01% 至 $125.53，为 DeepSeek 冲击以来最大单日跌幅，并录得连续第七周下跌，为 2008 年金融危机以来最长周连跌；自丑闻曝光以来市值蒸发约 2.7 万亿美元。同日，众议院中国问题特别委员会主席 Moolenaar 称英伟达、AMD 的对华芯片销售需要审查；特朗普称与习近平讨论过黄仁勋；Bessent 在 CNBC 谈及英伟达芯片出口政策。",
+          "impact_path": "调查从“披露”扩展到“会计” → 市场开始担心收入确认、地区收入归类（是否掩盖经新加坡流向中国的销售）甚至需要重述历史财报 → 财报可信度受损，估值逻辑（基于盈利的市盈率）失去锚点 → 机构投资者因风控规则被动减仓。英伟达是 AI 资本开支链条的核心，其可信度问题会传导到台积电（最大客户之一）、AMD（同业对华合规）和整个 AI 板块的估值。",
+          "magnitude": "若最终只是地区分类或披露问题，财务影响有限，可能以罚款和补充披露了结；若涉及收入确认时点或渠道压货，可能导致财报重述和更大的估值折价，属于结构性风险。目前信息有限，应按“不确定性极高”处理。股价自 11 月 9 日以来累计下跌约 40%，按 Q4 指引年化收入计算的市销率已降至多年低位。",
+          "priced_in": "单日 −14% 与七周连跌显示市场正在定价最坏情景之一；但在 SEC 调查范围明确前，任何“估值便宜”的判断都缺乏可靠基础，因为盈利数字本身受到质疑。",
+          "guidance": "在 SEC 或公司明确调查范围之前，不宜基于估值抄底英伟达：会计问题的风险是非线性的。若公司主动披露调查细节并确认不涉及收入确认（例如仅涉及地区分类或出口合规披露），且审计师没有提出保留意见，股价可能快速修复；若出现财报重述、审计师变更或高管进一步离职，需要大幅下调持仓或回避。对于通过指数基金间接持有英伟达的投资者，需注意其在 QQQ 和 SPY 中的权重仍然较高。",
+          "watch": "英伟达对 SEC 调查的正式披露（8-K 或 10-Q）；审计师普华永道的表态；12 月 10 日参议院听证；Q3 10-Q 的提交时间是否延迟（若延迟是重大警示信号）。",
+          "sources": [
+            {"title": "Bloomberg：Wall Street Regulator Probes Nvidia Accounting, Reuters Says", "url": "https://www.bloomberg.com/news/articles/2026-11-20/wall-street-regulator-probing-nvidia-s-accounting-reuters-says"},
+            {"title": "Investing.com：Nvidia shares fall 11.5% as report of SEC accounting probe adds to pressure", "url": "https://www.investing.com/news/stock-market-news/nvidia-shares-fall-10-as-report-of-sec-accounting-probe-adds-to-pressure-5042464"},
+            {"title": "CNBC：Nvidia's 7-week losing streak is longest since 2008 financial crisis", "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html"},
+            {"title": "Yahoo Finance：Nvidia stock extends rout as SEC probe reportedly investigates its accounting", "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"}
+          ]
+        },
+        {
+          "title": "郭明錤：谷歌将 2027 年博通 TPU 8i 出货计划削减约 100 万颗（约 20%），转向联发科；博通跌 12%、市值蒸发约 1,910 亿美元",
+          "tickers": ["AVGO", "GOOGL", "TSM"],
+          "importance": 4,
+          "view": "利空",
+          "facts": "天风国际分析师郭明錤 11 月 20 日称，根据其最新产业调查，谷歌把 2027 年博通设计的 TPU 8i 系列出货计划削减约 100 万颗，约 20%，削减主要集中在价格更高的 8i Max；谷歌计划更多采用联发科设计的 TPU 8t，细节尚未最终确定。谷歌未就此置评或宣布任何变化。博通收跌 12.19% 至 $304.41，市值蒸发约 1,910 亿美元，盖过了高盛同日给出的 $460 目标价；Marvell 跌约 10%。有评论指出，这更像是谷歌 AI 芯片供应链内部的重新分配，而不是谷歌削减 AI 投资的明确证据。博通将于 12 月 9 日公布 FY26 Q4 财报，是管理层首次就谷歌 2027 年计划回应的机会。",
+          "impact_path": "谷歌是博通定制 AI 芯片（XPU）最大的客户，若高端 TPU 订单被削减 20% 并转向联发科 → 博通 2027 年 AI 半导体收入增长预期下修、客户集中风险暴露 → 估值溢价（基于“定制芯片长期增长”）被压缩；对谷歌而言，转向更便宜的设计伙伴可能降低资本开支单价，属于成本优化；对台积电，制造订单大致只是在不同设计公司之间转移，影响较小。",
+          "magnitude": "按每颗高端 TPU 数千至上万美元估算，100 万颗的削减可能对应数十亿美元的博通 2027 年收入（推算，单价未公开，不确定性大），约占其 AI 半导体收入预期的个位数至低双位数百分比。属于结构性风险（客户多元化与议价能力），但信息来源为单一分析师调查，尚未获公司证实。",
+          "priced_in": "单日 −12% 在全面恐慌的环境中可能放大了单一报告的影响；若博通 12 月 9 日财报中确认 2027 年 AI 收入指引不变或客户扩展（如 Anthropic、OpenAI 等新客户），存在修复空间；若管理层承认谷歌订单调整，可能还有下修。",
+          "guidance": "12 月 9 日博通财报是关键验证点：关注 2027 年 AI 收入指引、谷歌订单的表述、以及其他 XPU 客户（Meta、OpenAI、Anthropic 等）的进展。若指引稳健，可将本次下跌视为对优质定制芯片资产的再评估窗口；若确认谷歌削减且无其他客户弥补，需下调对博通 AI 业务的长期增速假设。对谷歌，若转向联发科降低了 TPU 单价，长期有利于其云业务毛利率。",
+          "watch": "12 月 9 日博通 FY26 Q4 财报；谷歌或联发科的正式表态；台积电 12 月 10 日左右公布的 11 月营收。",
+          "sources": [
+            {"title": "24/7 Wall St.：Broadcom Stock Plunges 12% and Loses $191 Billion After a Report That Google Cut Its Plans", "url": "https://247wallst.com/investing/2026/11/20/broadcom-stock-plunges-12-and-loses-191-billion-after-a-report-that-google-cut-its-plans-for-broadcom-ai-chips/"},
+            {"title": "Seeking Alpha：Google shifts 2027 AI chip orders from Broadcom to MediaTek, Ming-Chi Kuo says", "url": "https://seekingalpha.com/news/4675203-google-shifts-2027-ai-chip-orders-from-broadcom-to-mediatek-ming-chi-kuo-says"},
+            {"title": "Investing.com：Google reportedly cuts Broadcom-designed TPU plans, eyes more MediaTek chips", "url": "https://ca.investing.com/news/stock-market-news/google-reportedly-cuts-broadcomdesigned-tpu-plans-eyes-more-mediatek-chips-4972824"}
+          ]
+        }
+      ],
+      "institutions": [
+        {"firm": "Goldman Sachs", "ticker": "AVGO", "action": "目标价 $460（维持看多）", "detail": "在郭明錤报告发布的同一天给出，未能阻止股价下跌 12%。", "url": "https://247wallst.com/investing/2026/11/20/broadcom-plunges-11-as-google-reportedly-shifts-tpu-orders-to-mediatek-overshadowing-goldmans-460-target-marvell-sinks-10/"}
+      ],
+      "quiet": ["AMD", "MSFT", "AAPL", "AMZN", "META", "ORCL"]
+    },
+    {
+      "key": "defense",
+      "events": [],
+      "institutions": [],
+      "quiet": ["LMT", "RTX", "NOC", "GD", "BA", "LHX", "HII", "LDOS", "PLTR", "AVAV", "KTOS", "RKLB"]
+    },
+    {
+      "key": "consumer",
+      "events": [],
+      "institutions": [],
+      "quiet": ["WMT", "COST", "HD", "MCD", "KO", "PG", "NKE", "SBUX", "TGT", "TJX"]
+    },
+    {
+      "key": "financials",
+      "events": [],
+      "institutions": [],
+      "quiet": ["JPM", "BAC", "GS", "MS", "WFC", "C", "BRK-B", "BLK", "V", "MA", "SCHW", "COIN"]
+    },
+    {
+      "key": "autonomy",
+      "overview": "BOTZ −5.72%：MBLY −10.22%、TER −9.96%、AUR −8.72%、WRD −8.58%、TSLA −7.64%、SYM −6.21%、PONY −5.97%、UBER −3.25%。文远知行公布 Q3 收入同比 +88%、Robotaxi 收入 +204%，但股价仍随大盘大跌。",
+      "events": [
+        {
+          "title": "Waymo 就封闭高速车道和人工交通指挥问题发起两项召回；特斯拉 FSD（监督版）获意大利临时批准，成为第 12 个欧洲国家",
+          "tickers": ["GOOGL", "TSLA", "UBER"],
+          "importance": 3,
+          "view": "分歧",
+          "facts": "据 Reuters，Waymo 发起两项软件召回：一项针对车辆在特殊情况下可能驶入并持续行驶于封闭的高速车道，公司称仍在研究修复方案，相关事件未造成碰撞或伤亡；另一项针对车辆对交警或应急人员人工指挥交通的响应，起因是一次车辆按警察指挥行驶但警察随后被遮挡时发生的碰撞。BigGo 报道两项召回覆盖约 3,871 辆车。此前加州 DMV 已禁止 Waymo 无人车上高速，Waymo 已暂停全美高速运营。同日，意大利交通部长 Salvini 宣布临时批准特斯拉“辅助驾驶”（FSD Supervised），意大利成为首个批准该功能的欧盟大国、第 12 个批准的欧洲国家；德国、法国、西班牙仍在等待欧盟投票。特斯拉称将很快推送，但未给出日期。TSLA 收跌 7.64% 至 $345.82（随大盘与 AI 板块下跌）。",
+          "impact_path": "Waymo：连续的监管限制（加州高速禁令）、召回和 NHTSA 校车调查 → 安全记录优势被削弱，车队扩张与新城市审批可能放缓 → 对 Alphabet 整体影响小，但影响 Waymo 的估值叙事和 Uber 的合作前景；特斯拉：FSD 进入首个欧盟大国，欧洲 FSD 订阅收入有望增加，并为欧盟统一批准铺路 → 软件收入与 Robotaxi 叙事受益，但在 AI 板块抛售中，这一利好被市场忽视。",
+          "magnitude": "Waymo 召回属于软件层面的修复，不涉及硬件，直接成本很小；但叠加监管压力，可能拖慢其 2027 年车队目标。特斯拉在意大利的 FSD 订阅收入规模有限（以监督版为主），更重要的意义是为欧盟层面的批准积累先例。",
+          "priced_in": "TSLA −7.6% 和 GOOGL −2.7% 完全由大盘与 AI 情绪主导，两条新闻本身几乎没有被定价；这意味着若市场情绪回稳，特斯拉的欧洲进展可能被重新关注。",
+          "guidance": "Waymo 方面，若修复方案在数周内获批、高速服务恢复，可视为技术成长中的正常调整；若更多州跟进限制或 NHTSA 升级调查，需下调对其扩张速度的预期，并重新评估 Uber 自动驾驶合作的价值。特斯拉方面，若欧盟层面在明年初批准 FSD 监督版，欧洲市场的软件收入有望成为新的增长点；但在当前环境下，TSLA 作为高 beta 资产，短期走势仍主要取决于 AI 板块情绪和 SpaceX 合并进展。",
+          "watch": "Waymo 召回修复方案与加州 DMV 恢复高速运营的决定；欧盟 FSD 批准投票时间；12 月 3 日特斯拉股东大会；SpaceX–特斯拉合并谈判进展。",
+          "sources": [
+            {"title": "Investing.com/Reuters：Waymo recalls self-driving cars over closed freeway lanes, manual traffic control", "url": "https://www.investing.com/news/stock-market-news/waymo-recalls-selfdriving-cars-over-closed-freeway-lanes-manual-traffic-control-5042522"},
+            {"title": "Electrek：Tesla FSD approved in Italy, the first big EU market to say yes", "url": "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/"},
+            {"title": "Tesla Mag：Italy approves Tesla Assisted Driving (FSD Supervised) on a provisional basis", "url": "https://www.tesla-mag.com/en/tesla-fsd-italy-provisional-approval-mit-salvini/"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["NVDA", "MBLY", "AUR", "PONY", "WRD", "TER", "SYM"]
+    }
+  ],
+  "risks": [
+    "NVDA：SEC 调查扩展至会计问题，若出现财报重述或 10-Q 延迟提交，可能引发进一步的估值崩塌，并拖累 AI 链条",
+    "AVGO：若谷歌削减 TPU 订单在 12 月 9 日财报中得到确认，定制芯片的长期增长逻辑需要重估",
+    "全资产去杠杆：VIX 36、黄金与比特币同步下跌、银行股创 2025 年 4 月以来最差单周，信用市场（AI 相关融资、悬置贷款）可能成为下一个风险点",
+    "联储：市场在定价放缓，联储仍预期 12 月加息；若加息 50bp，可能加剧下跌",
+    "Anthropic 若跌破 83 美元发行价，将进一步打击 AI 应用层估值"
+  ],
+  "opportunities": [
+    "若 VIX 回落、恐慌情绪缓解，被动减仓导致的超跌（尤其是基本面未受直接影响的 TSM、MSFT、AMZN）可能出现技术性反弹",
+    "长期视角下，AVGO 若在 12 月 9 日财报中确认 AI 指引稳健，当前回调可视为再评估窗口",
+    "必选消费与长债在本轮抛售中提供了有效对冲，可作为组合防御配置的参考",
+    "TSLA：FSD 进入首个欧盟大国，若欧盟统一批准，欧洲软件收入有望增长"
+  ],
+  "calendar": [
+    {"date": "2026-11-24", "event": "好市多 30 美元特别股息除息日", "tickers": ["COST"]},
+    {"date": "2026-11-26", "event": "感恩节休市（11 月 27 日黑色星期五，美股半日交易）", "tickers": ["WMT", "TGT", "AMZN", "COST"]},
+    {"date": "2026-12-03", "event": "特斯拉年度股东大会", "tickers": ["TSLA"]},
+    {"date": "2026-12-09", "event": "美联储议息会议（12 月 8–9 日，含点阵图）；博通 FY26 Q4 财报", "tickers": ["TLT", "QQQ", "IWM", "AVGO"]},
+    {"date": "2026-12-10", "event": "参议院银行委员会听证：Lutnick 就英伟达对华芯片销售作证", "tickers": ["NVDA", "AMD"]}
+  ],
+  "self_check": [
+    {"item": "是否逐一核查覆盖清单中每只股票？", "ok": true, "note": "60 只股票均已对照当日涨跌和新闻线索核查。"},
+    {"item": "是否覆盖当日市值较大或波动显著的公司？", "ok": true, "note": "覆盖 NVDA、AVGO 及 AI 链条整体；AMD（−13%）、TSM（−9.5%）、ORCL（−8.5%）、RKLB（−10.9%）、MBLY（−10.2%）、AVAV（−9.5%）、KTOS（−9.3%）、GS（−6.7%）等未找到公司层面的新信息，判断为本轮 AI 去杠杆的连带抛售，在板块概述中说明。"},
+    {"item": "机构观点是否引用权威来源？", "ok": true, "note": "郭明錤报告为单一分析师的供应链调查，已标注未获公司证实；高盛目标价来自 24/7 Wall St. 转述。"},
+    {"item": "是否严格限定在报告时间窗口内？", "ok": true, "note": "文远知行 Q3 财报于 11 月 20 日发布，仅在概述中提及。"},
+    {"item": "是否把事实与分析判断清楚分开？", "ok": true, "note": "英伟达地区收入口径变化是否属于调查范围尚不确定，已注明；博通收入影响为基于未公开单价的推算。"}
+  ]
+}
