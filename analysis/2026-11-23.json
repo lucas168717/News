@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-23",
+  "window": "2026-11-20 16:00 ET 收盘后（含周末）→ 2026-11-23 收盘及盘后",
+  "headline": "黄仁勋复任英伟达 CEO，英伟达暴涨 31%；纳指涨 6.5%，创 2025 年 4 月以来最大单日涨幅",
+  "summary": "英伟达董事会一致决定让黄仁勋立即复任总裁、CEO 兼董事，称在听取美国政府高层意见后认为其复任不构成国家安全风险；特朗普称曾与黄仁勋和董事会沟通。英伟达收涨 31.5% 至 $165.05，带动 AI 资产全面反弹：台积电 +14.1%、甲骨文 +12.3%、AMD +6.9%、SMH +15%。标普 +4.73%、纳指 +6.51%、道指 +1,448 点，均为 2025 年 4 月以来最大单日涨幅；VIX 从 35.9 降至 26.6。Morgan Stanley 转为 4 月以来最看多，Wells Fargo 将美国大盘股上调至“最看好”。特斯拉因 FSD v15 推送大涨 11.5%。但风险并未消除：SEC 对英伟达的会计调查和独立委员会调查仍在进行，董事会独立性受到两党质疑；联储 Williams 仍称需“逐步”加息，Anthropic 逆势下跌。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY +4.71%、QQQ +7.00%、IWM +3.56%，VIX −25.8% 至 26.6；TLT +0.29%（10 年期 4.92%，2 年期升约 7bp）、GLD +3.14%、UUP +0.54%；WTI −4.4% 至 80.3 美元；比特币回升至约 6.1–6.3 万美元。",
+      "events": [
+        {
+          "title": "美股创 2025 年 4 月以来最大单日涨幅，标普 +4.7%、VIX 回落至 26.6；12 月加息 50bp 的概率降至零",
+          "tickers": ["SPY", "QQQ", "IWM", "TLT", "GLD", "UUP"],
+          "importance": 4,
+          "view": "利好",
+          "facts": "标普 500 收涨 4.73% 至 7,237.17，纳指 +6.51% 至 24,089.56，道指 +3.01%（+1,448 点）至 49,595.31，均为 2025 年 4 月以来最大单日涨幅，标普结束七连跌。XLK +9.0%、SMH +15.0%，必选消费是唯一下跌的板块（资金从防御板块回流）。VIX 降至 26.6（−25.8%）。债市：2 年期收益率升约 7bp 至约 4.69%，10 年期约 4.92%–4.96%。CME FedWatch 显示 12 月加息 25bp 的概率约 93%–98%（各来源时间点不同），50bp 的概率降至 0%（约 10 天前约为 10%）。纽约联储 Williams 表示联储需要“逐步”提高利率以应对通胀；财长 Bessent 称联储有过度紧缩、危及经济的风险。黄金反弹 3.4%，WTI 跌 4.4%。卖方观点：Morgan Stanley 首席策略师 Wilson 转为 4 月以来最看多，称买入机会“好到不能错过”；Wells Fargo 把美国大盘股上调至最看好；JPMorgan 交易台则放弃了看多立场；Yardeni 下调标普目标。",
+          "impact_path": "英伟达领导层不确定性消除（至少暂时）→ AI 资本开支链条的“关键人风险”解除 → 被动去杠杆的资金回补，空头回补放大涨幅；VIX 回落降低了风险平价与波动率目标基金的减仓压力。宏观层面并未改变：联储仍将在 12 月加息，只是 50bp 的尾部风险消失；增长放缓的担忧仍在（必选消费下跌只是资金轮动）。",
+          "magnitude": "单日反弹收复了上周约四成跌幅（标普自高点回落约 11% 后反弹至约 −7%），属于典型的超卖反弹。持续性取决于两个变量：英伟达 SEC 调查的进展，以及联储 12 月会议的政策信号。",
+          "priced_in": "反弹力度很大，部分来自空头回补和期权对冲（Gamma）效应；VIX 仍在 26 以上，说明市场对后续波动仍有警惕。卖方观点明显分化（MS、Wells 看多，JPMorgan 交易台转为中性），说明“底部已现”尚无共识。",
+          "guidance": "若接下来几个交易日指数能守住今日涨幅、VIX 回落至 20 以下，且英伟达没有出现新的负面信息，可视为调整结束的初步信号，前期超跌的优质资产可分批再评估；若反弹迅速回吐（尤其是 SEC 调查有新进展或 PCE 超预期），说明这只是熊市中的反弹，不宜追高。本周是感恩节短周，交易量偏低，价格波动可能被放大。",
+          "watch": "11 月 25 日左右 10 月 PCE 与 Q3 GDP 修正值；11 月 26 日感恩节休市、27 日半日交易；黑色星期五与网络星期一销售数据；12 月 8–9 日 FOMC。",
+          "sources": [
+            {"title": "CNBC：Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns", "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"},
+            {"title": "CNBC：2-year Treasury yield jumps as stocks rebound", "url": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"},
+            {"title": "24/7 Wall St.：Stock Market Today: Dow, S&P 500, and Nasdaq Surge as Nvidia Leads a Major AI Rebound", "url": "https://247wallst.com/investing/2026/11/23/stock-market-today-dow-sp-500-and-nasdaq-surge-as-nvidia-leads-a-major-ai-rebound/"},
+            {"title": "Reuters：Fed has 'work to do' to lower inflation, Williams says", "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN0wxOFpVd01FWG9EWlppMC02d1RtcG5wZ1V1a3N1bklHZGFHWDYzUk80cnMwa00yblpXZUdfQV9SMk1fVVRrM0c0OWZuSDlGWjQtN0hUWW1mMTNHVTZObmhSeTllcDZIUE85S2duamlXdE5hNExsamtsaDU2LUJveEF0Q1ZIQdIBhgFBVV95cUxNN0wxOFpVd01FWG9EWlppMC02d1RtcG5wZ1V1a3N1bklHZGFHWDYzUk80cnMwa00yblpXZUdfQV9SMk1fVVRrM0c0OWZuSDlGWjQtN0hUWW1mMTNHVTZObmhSeTllcDZIUE85S2duamlXdE5hNExsamtsaDU2LUJveEF0Q1ZIQQ?oc=5"}
+          ]
+        }
+      ],
+      "institutions": [
+        {"firm": "Morgan Stanley", "ticker": "SPY", "action": "转为 4 月以来最看多", "detail": "首席策略师 Mike Wilson 认为上周抛售后的买入机会“好到不能错过”。", "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObC1Zdm1ObG5fMy10UDh1T3VVbnpoUzJjSHV0djd6Z3dZdXdHWTlTNUlHU1F1eGJYcUNrZjhzMWVsUFNWSERzS29HY2JVYVZCOXdWWEZqaVl6SkRoZkZQV3NaYWVDc0RmNjlvdnNYQzJ3VlBIamo3NjJpWWdvVGNoTXViYzJwYnlQVUFRYXBxdU9rN3Y2REc0UUp1eE5tbkVydklMX1A2Mkxaa3p4dVZ6S3hqdmdSbzZ2Vm1SU3JUVQ?oc=5"},
+        {"firm": "Wells Fargo", "ticker": "SPY", "action": "将美国大盘股上调至“最看好”", "detail": "据 Bloomberg 报道，在上周抛售后上调美国大盘股评级。", "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMGFQbDl4SjFtaExQRGVONjRaZmhXSHNzZGtueS1nWjI0UWdLd2FoWUpDcHVaZnljVnkwS1c0cHJYRGdnVExudzBCeE5CU2pHUzJVQ1lwVVJobVFHX3RnS18xTmhnN3UteUw3dEs0Wk16ZmVoRi02a2xZY282ZHZEYm1ZVnlqcE9TaGxOMzdkX3lmVWwtZHZjekdoaWJNY2JERVpIOU5XdnNjX09HNXNHOHBn?oc=5"}
+      ],
+      "quiet": []
+    },
+    {
+      "key": "tech",
+      "overview": "XLK +8.97%、SMH +15.03%：NVDA +31.48%、TSM +14.08%、ORCL +12.34%、AMD +6.85%、META +6.55%、GOOGL +6.34%、AMZN +3.47%、AVGO +3.00%、AAPL +1.90%、MSFT +1.65%。Anthropic 逆势下跌（Bloomberg：资金回流英伟达等老牌 AI 龙头）。亚马逊宣布收购 AI 初创公司 Decart 的芯片软件并招揽创始人。",
+      "events": [
+        {
+          "title": "英伟达董事会一致决定黄仁勋立即复任 CEO，称无国家安全风险；英伟达暴涨 31.5% 至 $165.05，带动 AI 链条全面反弹",
+          "tickers": ["NVDA", "TSM", "ORCL", "AMD", "AVGO"],
+          "importance": 5,
+          "view": "利好",
+          "facts": "英伟达公告（8-K 日期为 11 月 22 日，新闻稿 11 月 23 日发布）：董事会一致决定恢复黄仁勋的总裁、CEO 和董事职务，立即生效；经过一系列会议，董事会对其坦诚与领导能力感到满意；董事长表示董事会听取了美国政府高层的意见，认为其复任不构成国家安全风险；独立委员会对其可能成为外国情报目标的调查将继续进行，黄仁勋将全力配合。特朗普称在决定前曾直接或间接与黄仁勋和董事会沟通，称自己“在董事会中有代表”；两党均有批评者质疑董事会的独立性。11 天前（11 月 12 日）黄仁勋辞职，董事会当时表示无意让其复任；CFO Colette Kress 曾任临时 CEO。另有报道（Reuters，11 月 20 日）称 SEC 执法部门正在审查英伟达的会计问题，此事尚无官方更新。NVDA 收涨 31.48% 至 $165.05；TSM +14.08%，ORCL +12.34%，CoreWeave 约 +20%，Dell 约 +20%，美光约 +19%。",
+          "impact_path": "创始人复位 → 产品路线图、超大规模客户关系与供应链谈判的连续性恢复 → “关键人风险”溢价大部分回吐；对台积电、甲骨文、新型云厂商等 AI 资本开支链条，意味着最大需求方的战略不会出现断层。但治理层面出现新的问题：董事会在政府影响下快速反转决定，独立性受质疑；SEC 会计调查与国家安全调查仍在进行，可能在未来引发新的冲击。",
+          "magnitude": "单日市值增加约 9,000 亿美元以上，但股价仍较丑闻前低约 20%，说明市场仍保留了一部分治理与监管折价。会计调查若最终发现问题，影响将远大于 CEO 人事变动；反之，若调查范围有限，股价有进一步修复空间。",
+          "priced_in": "+31.5% 的涨幅回补了 CEO 离任造成的大部分折价，但 SEC 会计调查和政治干预的风险尚未定价充分；短期内股价对任何调查进展都会高度敏感。",
+          "guidance": "CEO 问题的解决只消除了三大不确定性中的一个。若接下来数周英伟达披露 SEC 调查的范围有限（例如仅涉及地区收入分类或出口合规披露），且 Q3 10-Q 按时提交、审计师无保留意见，当前估值仍具中期吸引力；若调查涉及收入确认或需要重述，或董事会治理问题引发机构投资者（如代理顾问）的强烈反对，股价可能再度大幅回落。不建议在单日暴涨后追高，可等待 10-Q 提交和调查信息更清晰后再评估。",
+          "watch": "英伟达 Q3 10-Q 提交时间（是否按时）；SEC 调查的官方披露；独立委员会调查结论；12 月 10 日参议院银行委员会听证；机构股东与代理顾问对董事会独立性的表态。",
+          "sources": [
+            {"title": "NVIDIA 新闻稿：NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx"},
+            {"title": "NVIDIA 8-K（SEC）", "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nvda-20261122.htm"},
+            {"title": "ABC News：Jensen Huang reinstated as Nvidia CEO; board confident 'no national security risk'", "url": "https://abcnews.com/Business/nvidia-reinstates-jensen-huang-ceo/story?id=138375516"},
+            {"title": "The Hill：Why Nvidia's board of directors changed its mind on Jensen Huang", "url": "https://thehill.com/policy/technology/6238401-jensen-huang-returns-nvidia-board/"},
+            {"title": "CNBC：What Jensen Huang's return means for Nvidia's Colette Kress", "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-returns-colette-kress-cfo.html"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["MSFT", "AAPL", "GOOGL", "AMZN", "META"]
+    },
+    {
+      "key": "defense",
+      "events": [],
+      "institutions": [],
+      "quiet": ["LMT", "RTX", "NOC", "GD", "BA", "LHX", "HII", "LDOS", "PLTR", "AVAV", "KTOS", "RKLB"]
+    },
+    {
+      "key": "consumer",
+      "events": [],
+      "institutions": [],
+      "quiet": ["WMT", "COST", "HD", "MCD", "KO", "PG", "NKE", "SBUX", "TGT", "TJX"]
+    },
+    {
+      "key": "financials",
+      "events": [],
+      "institutions": [],
+      "quiet": ["JPM", "BAC", "GS", "MS", "WFC", "C", "BRK-B", "BLK", "V", "MA", "SCHW", "COIN"]
+    },
+    {
+      "key": "autonomy",
+      "overview": "BOTZ +7.57%：TER +14.03%、SYM +12.44%、TSLA +11.46%、AUR +7.56%、MBLY +5.14%、WRD +4.86%；UBER +0.95% 明显落后。",
+      "events": [
+        {
+          "title": "特斯拉开始推送 FSD v15，称安全关键场景处理能力提升 25 倍，12 月扩大推送；股价涨 11.5%，为 2025 年 4 月以来最大单日涨幅",
+          "tickers": ["TSLA"],
+          "importance": 3,
+          "view": "利好",
+          "facts": "特斯拉周末开始向早期车主推送 FSD v15，称其对安全关键场景的处理能力“提升 25 倍”，并带有全新的驾驶可视化界面；更大范围推送预计在 12 月，马斯克未给出具体时间表。JPMorgan 分析师 Rajat Gupta 称此次更新提高了消费级自动驾驶的标准。Electrek 报道马斯克透露 HW4（AI4）车载算力余量已很少，v15 可能是 AI4 平台的最后一次重大升级。TSLA 收涨 11.46% 至 $385.46（盘中最高 $393.83），为 2025 年 4 月以来最大单日涨幅，年内仍下跌约 14%。此前一周：FSD（监督版）获意大利临时批准（第 12 个欧洲国家），Waymo 因高速事件发起召回并暂停全美高速运营。",
+          "impact_path": "FSD 能力提升 → 提高 FSD 订阅/买断的转化率（软件高毛利收入）→ 为 Robotaxi 扩张提供技术基础；在 Waymo 遭遇监管与召回挫折的同时，特斯拉在消费级和 Robotaxi 两条线上都显得相对领先 → 估值中的自动驾驶期权价值上升。风险在于：若 AI4 算力已到上限，后续升级可能需要硬件更换（AI5），带来成本与兼容性问题。",
+          "magnitude": "FSD 软件收入目前占特斯拉总收入比例较小，但毛利率极高，且是估值叙事的核心；本次升级是渐进性的技术进展，而非商业模式的突变。当日涨幅约一半可归因于大盘与 AI 板块的整体反弹。",
+          "priced_in": "+11.5% 中含有显著的大盘 beta 成分（纳指 +6.5%），对 FSD v15 本身的定价相对合理；后续需要通过接管率等实际数据来验证“25 倍”的说法。",
+          "guidance": "若 12 月大范围推送后，第三方数据（如社区接管率统计）验证了显著的安全性提升，且欧盟层面推进 FSD 批准，可上调对特斯拉软件收入和 Robotaxi 扩张速度的预期；若推送延迟或出现安全事故引发监管调查，需警惕回吐。另需关注 12 月 3 日股东大会和 SpaceX 合并谈判，这两项可能比 FSD 本身对股价的影响更大。",
+          "watch": "12 月 FSD v15 大范围推送；欧盟 FSD 批准投票；12 月 3 日特斯拉股东大会；SpaceX–特斯拉合并谈判进展；Robotaxi 新城市扩张。",
+          "sources": [
+            {"title": "Drive Tesla Canada：Tesla posts its biggest one-day gain since April 2025", "url": "https://driveteslacanada.ca/news/tesla-shares-jump-fsd-v15-rollout/"},
+            {"title": "TipRanks：Tesla Stock Surges 13% as JPMorgan Praises Major Self-Driving Upgrade", "url": "https://www.tipranks.com/news/tesla-stock-surges-13-as-jpmorgan-praises-major-self-driving-upgrade"},
+            {"title": "Invezz：Why is Tesla stock gaining 12% today?", "url": "https://invezz.com/news/2026/11/23/why-is-tesla-stock-gaining-12-today/"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["GOOGL", "NVDA", "UBER", "MBLY", "AUR", "PONY", "WRD", "TER", "SYM"]
+    }
+  ],
+  "risks": [
+    "NVDA：SEC 会计调查与国家安全调查仍在进行，董事会在政府影响下反转决定，治理风险可能以新的形式出现",
+    "反弹持续性：VIX 仍在 26 以上，卖方观点分化，感恩节短周低成交量可能放大波动；若 PCE 超预期，反弹可能回吐",
+    "联储：Williams 仍称需逐步加息，12 月加息基本确定，2027 年路径仍偏紧",
+    "TSLA：AI4 算力接近上限，后续升级可能需要硬件更换；股价对 SpaceX 合并消息高度敏感"
+  ],
+  "opportunities": [
+    "若英伟达 10-Q 按时提交、SEC 调查范围有限，AI 链条（TSM、ORCL、AVGO）有望延续修复",
+    "上周被动去杠杆导致的超跌，在 VIX 回落后存在继续修复的空间，尤其是基本面未受直接影响的公司",
+    "TSLA：FSD v15 与欧洲审批进展同时推进，若数据验证有效，自动驾驶期权价值有望重估"
+  ],
+  "calendar": [
+    {"date": "2026-11-24", "event": "好市多 30 美元特别股息除息日", "tickers": ["COST"]},
+    {"date": "2026-11-25", "event": "10 月 PCE、Q3 GDP 修正值（感恩节前发布，日期以官方为准）", "tickers": ["TLT", "SPY", "QQQ"]},
+    {"date": "2026-11-26", "event": "感恩节休市（11 月 27 日黑色星期五，美股半日交易）", "tickers": ["WMT", "TGT", "AMZN", "COST"]},
+    {"date": "2026-12-03", "event": "特斯拉年度股东大会", "tickers": ["TSLA"]},
+    {"date": "2026-12-09", "event": "美联储议息会议（12 月 8–9 日，含点阵图）；博通 FY26 Q4 财报", "tickers": ["TLT", "QQQ", "IWM", "AVGO"]},
+    {"date": "2026-12-10", "event": "参议院银行委员会听证：Lutnick 就英伟达对华芯片销售作证", "tickers": ["NVDA", "AMD"]}
+  ],
+  "self_check": [
+    {"item": "是否逐一核查覆盖清单中每只股票？", "ok": true, "note": "60 只股票均已对照当日涨跌和新闻线索核查。"},
+    {"item": "是否覆盖当日市值较大或波动显著的公司？", "ok": true, "note": "覆盖 NVDA、TSM、ORCL、TSLA 及大盘；PLTR（+11.1%）、RKLB（+9.3%）、TER（+14.0%）、SYM（+12.4%）未找到公司层面新信息，判断为风险偏好回升带动的反弹。"},
+    {"item": "机构观点是否引用权威来源？", "ok": true, "note": "Morgan Stanley、Wells Fargo 的观点来自 Reuters、Bloomberg 报道标题，未直接查看原报告。"},
+    {"item": "是否严格限定在报告时间窗口内？", "ok": true, "note": "窗口包括周末；英伟达 8-K 日期为 11 月 22 日（周日），在窗口内。"},
+    {"item": "是否把事实与分析判断清楚分开？", "ok": true, "note": "SEC 会计调查的报道来自 Reuters 援引知情人士，英伟达未在公告中提及，已注明。"}
+  ]
+}
