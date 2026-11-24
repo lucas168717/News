@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-24",
+  "window": "2026-11-23 16:00 ET 收盘后 → 2026-11-24 收盘及盘后",
+  "headline": "芯片股回吐前日涨幅，道指首次收于 5 万点上方；消费者信心升至近两年高位，新一轮关税在即",
+  "summary": "市场明显分化：道指 +0.85% 至 50,018.70，首次收于 5 万点上方；标普 −0.50%、纳指 −1.48%，SMH −7.3%。前一日暴涨 31.5% 的英伟达回落 5.9%，AMD −8.9%、博通与台积电均跌约 4%，Anthropic 盘中跌破 83 美元发行价；Dell 盘后公布 AI 服务器收入同比 +291%，并把全年收入指引上调 100 亿美元至 2,020 亿美元。消费端偏强：11 月世界大型企业联合会消费者信心指数升至 103.3，为 2025 年初以来最高（选举结束、油价回落），塔吉特 +4.7%、耐克 +5.9%、沃尔玛 +2.1%，必选消费 +1.7%。政策风险在累积：据 Reuters、FT 报道，政府即将公布对 16 个主要贸易伙伴“产能过剩”调查的结果并加征新关税，以部分替代 2 月被最高法院推翻的全球关税；JPMorgan 预计联储将在接下来三次会议上都加息。明天（感恩节前）将公布 10 月 PCE 和 Q3 GDP 修正值。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY −0.49%、QQQ −1.99%、IWM +0.53%，VIX 26.4；TLT −0.24%（10 年期 4.90%）、GLD −2.27%、UUP −0.50%；WTI +1.9% 至 81.7 美元，比特币跌至约 6 万美元。",
+      "events": [
+        {
+          "title": "政府将公布对 16 个贸易伙伴的“产能过剩”调查结果并加征新关税，以部分替代被最高法院推翻的全球关税；特朗普称芯片关税两年内可能升至 200%",
+          "tickers": ["SPY", "QQQ", "IWM", "UUP"],
+          "importance": 4,
+          "view": "利空",
+          "facts": "据 Reuters 援引知情人士，特朗普政府最快于 11 月 24–25 日公布依据《1974 年贸易法》第 301 条对 16 个主要贸易伙伴“过剩工业产能”的调查结果；美国贸易代表办公室预计将提议在现有关税之上叠加新关税，税率尚不清楚。新关税将部分替代今年 2 月被美国最高法院推翻的全球进口关税。报道列出的国家包括中国、欧盟、日本、韩国、越南、印度等；有报道称欧盟、日本、韩国 15% 和马来西亚 19% 的上限可能维持，但未获权威来源证实。FT 报道特朗普正准备对主要经济体加征一系列新关税。另据 BigGo 报道，特朗普 11 月 23 日接受 CNBC 采访时预测芯片关税将在两年内升至 200%，以迫使半导体企业在美建厂（历史对比：1 月 14 日已依据第 232 条对 H200、MI325X 等特定先进芯片加征 25% 关税）。同日 JPMorgan 首席经济学家 Kasman 预计联储将在接下来三次会议上连续加息；Bloomberg 报道多数地区联储理事会在 10 月希望加息。JPMorgan 给出 2027 年标普 500 目标 8,200 点（低于市场共识）。",
+          "impact_path": "新关税叠加在现有关税之上 → 进口商品价格上升 → 通胀预期进一步抬升，强化联储加息路径；对依赖进口供应链的消费品（服装、电子产品）和半导体硬件利润率构成压力；贸易伙伴可能报复，影响美国出口型企业。芯片关税若大幅提高，将推高美国数据中心建设成本，并加速台积电等在美建厂（台积电子公司已为得州 226 亿美元新厂申请财产税减免）。",
+          "magnitude": "税率未公布，量化不确定性很大。若新关税仅在原有框架内“替代”被推翻的关税，对通胀的增量影响有限；若明显高于原有水平，可能使 2027 年核心通胀再提高数个十分点，进一步收紧联储政策空间。",
+          "priced_in": "当日芯片股下跌部分反映了关税担忧（FX Leaders 报道美光、英特尔、高通因关税消息下跌），但更多是前一日暴涨后的回吐；市场对关税的定价尚未完成，需等待具体税率公布。",
+          "guidance": "若公布的关税税率与原有水平相当、并对盟友维持上限（15%），属于“替代而非升级”，市场影响可控；若税率大幅提高或扩展到芯片、消费电子等关键品类，应假设通胀与利率压力上升，对 AAPL、NKE、TGT 等进口依赖型公司下调利润率假设，并警惕贸易伙伴报复对出口企业的影响。",
+          "watch": "USTR 第 301 条调查结果与拟议税率；各国报复措施；11 月 25 日 10 月 PCE 与 Q3 GDP 修正值；12 月 8–9 日 FOMC。",
+          "sources": [
+            {"title": "AJOT/Reuters：Trump administration set to unveil new tariffs after probe on excess factory capacity", "url": "https://www.ajot.com/news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say"},
+            {"title": "Korea Times：US poised to unveil new tariffs targeting S. Korea, 15 other trading partners", "url": "https://www.koreatimes.co.kr/world/20261125/us-poised-to-unveil-new-tariffs-targeting-s-korea-15-other-trading-partners"},
+            {"title": "FX Leaders：AMD, Micron, Intel, Qualcomm Slide as Trump Weighs Wider Trade Tariffs", "url": "https://www.fxleaders.com/news/2026/11/24/md-micron-intel-qualcomm-slide-as-trump-weighs-wider-trade-tariffs/"},
+            {"title": "White House 事实清单：Certain Advanced Computing Chips（2026 年 1 月，历史对比）", "url": "https://www.whitehouse.gov/fact-sheets/2026/01/fact-sheet-president-donald-j-trump-takes-action-on-certain-advanced-computing-chips-to-protect-americas-economic-and-national-security/"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["TLT", "GLD"]
+    },
+    {
+      "key": "tech",
+      "overview": "XLK −3.26%、SMH −7.26%：AMD −8.86%、NVDA −5.86%（$155.38）、AVGO −3.98%、TSM −3.96%、ORCL −3.68%、META −1.30%、AMZN −1.21%、GOOGL −1.08%；AAPL +1.43%、MSFT +0.74%。CNBC 报道 AI 相关债券市场随之震荡。",
+      "events": [
+        {
+          "title": "英伟达回吐前日部分涨幅、跌 5.9%，Anthropic 盘中跌破发行价；Dell 盘后公布 AI 服务器收入 +291%，全年指引上调 100 亿美元",
+          "tickers": ["NVDA", "AMD", "AVGO", "TSM"],
+          "importance": 4,
+          "view": "分歧",
+          "facts": "NVDA 收跌 5.86% 至 $155.38（盘中一度跌约 8.5%），回吐前一日 31.5% 涨幅的一部分；AMD −8.86%，美光、英特尔、Marvell 跌 4%–7%，MarketWatch 报道有分析师警告美光未来可能出现供应过剩。Anthropic 盘中跌破 83 美元发行价。CNBC 报道黄仁勋将在 GTC 发布新品的同一天接受国会质询；司法部长与 FBI 局长在国会回避了关于黄仁勋调查的问题。盘后 Dell 公布 FY27 Q3：收入 549 亿美元（同比 +103%），AI 优化服务器收入 220 亿美元（+291%），AI 服务器积压订单创纪录的 1,323 亿美元；全年收入指引从 1,920 亿上调至 2,020 亿美元，AI 服务器收入指引从 740 亿上调至 780 亿美元，调整后 EPS 指引从 $25.50 上调至 $29.68；新增 250 亿美元回购。Dell 常规时段跌近 12%（担心 AI 产品组合拉低毛利率及获利了结），盘后涨约 2%–4%。",
+          "impact_path": "（1）需求端：Dell 的 AI 服务器收入和积压订单是英伟达 GPU 需求的直接下游指标，+291% 的增速与 1,323 亿美元的积压说明企业与新型云厂商的 AI 基础设施采购仍在加速，对 NVDA、AMD（MI 系列也通过 Dell 出货）、台积电是正面验证；（2）估值端：在 SEC 调查、国会听证、关税和加息的多重不确定性下，资金不愿追高，前一日的反弹被视为空头回补，而非趋势反转；（3）利润率：AI 服务器拉低组装商毛利率的现象，提醒市场 AI 价值链的利润主要集中在芯片层。",
+          "magnitude": "Dell 指引上调约 5%，AI 服务器积压订单规模接近其全年 AI 服务器收入的 1.7 倍，属于结构性的需求确认；但对英伟达而言，这是行业层面的佐证，并非新增订单。英伟达股价仍较丑闻前低约 25%，SEC 会计调查是未解决的最大变量。",
+          "priced_in": "芯片股单日回吐说明市场仍以风险控制为主，基本面利好（Dell）未被充分定价；Anthropic 跌破发行价则显示 AI 应用层的估值也在被重新审视。",
+          "guidance": "若 Dell 的强劲指引在随后几天被市场接受、且英伟达 10-Q 按时提交，AI 硬件链条（NVDA、TSM、AMD）的回调可能提供分批布局机会；但在 SEC 调查范围明确前，英伟达的仓位应与可承受波动相匹配。若 Anthropic 持续低于发行价，说明一级市场的 AI 估值偏高，二级市场 AI 应用相关资产（以及持股方 AMZN、GOOGL）可能继续承压。",
+          "watch": "英伟达 Q3 10-Q 提交；黄仁勋国会质询与 GTC 日期；Anthropic 是否收复发行价；美光 12 月中旬财报（供应过剩担忧）；12 月 9 日博通财报。",
+          "sources": [
+            {"title": "Yahoo Finance：Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure", "url": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html"},
+            {"title": "CNBC：Dell earnings beat on AI strength, company authorizes $25 billion buyback", "url": "https://cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html"},
+            {"title": "CNBC：Nasdaq slumps as Nvidia comeback reverses course and Anthropic breaks IPO price", "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"},
+            {"title": "CNBC：Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC", "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["MSFT", "AAPL", "GOOGL", "AMZN", "META", "ORCL"]
+    },
+    {
+      "key": "defense",
+      "overview": "ITA −0.53%，但主承包商普遍上涨：LDOS +3.97%、LMT +2.62%、HII +2.18%、NOC +1.60%；RKLB −7.35%。WSJ 报道五角大楼正与通用汽车、福特商谈生产军用无人机；白宫寻求为“金穹”导弹防御和新型战列舰在下一份拨款法案中争取资金豁免。",
+      "events": [],
+      "institutions": [
+        {"firm": "Mizuho", "ticker": "LMT", "action": "首次覆盖航空航天与国防板块，将洛克希德·马丁和波音列为首选", "detail": "LMT 当日早盘涨逾 3%，收涨 2.62%。", "url": "https://www.fool.com/investing/2026/11/24/here-s-why-lockheed-martin-stock-popped-higher-hint-an-analyst-upgrade-helped/"}
+      ],
+      "quiet": ["LMT", "RTX", "NOC", "GD", "BA", "LHX", "HII", "LDOS", "PLTR", "AVAV", "KTOS", "RKLB"]
+    },
+    {
+      "key": "consumer",
+      "overview": "XLP +1.66%、XLY +0.68%：NKE +5.89%、TGT +4.68%、TJX +3.31%、HD +2.20%、WMT +2.11%、KO +1.81%、PG +1.69%、MCD +1.56%。Best Buy 同店 +6.1%、Abercrombie、Kohl's、Dollar Tree 业绩超预期，CNBC 称零售业转型正在见效。",
+      "events": [
+        {
+          "title": "11 月消费者信心指数升至 103.3，为 2025 年初以来最高；零售股集体走强，假日季前景改善",
+          "tickers": ["WMT", "TGT", "NKE", "HD", "TJX", "COST"],
+          "importance": 3,
+          "view": "利好",
+          "facts": "世界大型企业联合会（Conference Board）公布 11 月消费者信心指数为 103.3，高于预期，Reuters 称为近两年最高、Bloomberg 称为 2025 年初以来最高；AP 报道选举结束和汽油价格回落是主要推动因素，CNBC 指出消费者对通胀仍有担忧。同日多家零售商业绩超预期：Best Buy 同店销售 +6.1%（五年来最高），Abercrombie & Fitch 涨约 21%，Kohl's 涨约 17%，Dollar Tree 涨约 11%。覆盖个股：NKE +5.89%、TGT +4.68%、TJX +3.31%、HD +2.20%、WMT +2.11%；COST −0.56%（11 月 24 日为 30 美元特别股息的除息日）。",
+          "impact_path": "消费者信心回升 + 油价下降（感恩节出行汽油价格较去年低约 75 美分）→ 假日季消费支出预期改善 → 零售商同店销售与库存周转向好；在 AI 板块剧烈波动时，消费股成为资金的避险与轮动方向。但新关税若推高进口商品价格，可能在 2027 年侵蚀这一改善。",
+          "magnitude": "信心指数属于情绪指标，与实际消费的相关性有限；10 月零售销售仅增 0.2%，说明实际消费仍偏弱。对零售商而言，更重要的是黑色星期五至圣诞期间的实际销售数据。短期利好，中期取决于关税与就业。",
+          "priced_in": "零售股当日普涨、必选消费指数接近历史高位，部分反映了资金从科技股的轮动；对假日季的乐观预期已部分计入，若黑色星期五数据不及预期，存在回落风险。",
+          "guidance": "若黑色星期五与网络星期一的销售（Adobe、Salesforce 等第三方数据）同比增长保持在中高个位数，且零售商在 12 月不需要大幅促销，可维持对 WMT、TGT、TJX 等份额赢家的偏好；若新关税税率较高、零售商在 2027 年指引中下调毛利率，需重新评估。耐克等进口依赖型公司对关税最为敏感。",
+          "watch": "11 月 27 日黑色星期五及 11 月 30 日网络星期一销售数据；USTR 新关税清单；12 月初 11 月零售销售。",
+          "sources": [
+            {"title": "AP：US consumer confidence soars with elections in the rearview mirror and gas prices in retreat", "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSlNZMXlsT1hncHloZ0owYU5ZTlZmbFVsTlFtSFRNdGNhTVFia0RMVGVEeE4wbHVYalhxWkl1WkdJNzRGajN4cVN2N2N6YU1Kc3N0dWo3RGVRQXBpel9sSUNFNDVRMDYyeHhHczQ0RkVNbnF5d3pBMTAzTVQ3WjZ1cVFvSWZEcnpSSWR1cDl5MElSNm54ek9UbER6ZE51Q1BTT28tR25Ya3A?oc=5"},
+            {"title": "Motley Fool：Nvidia Drops 9% as Wall Street's Historic AI Rally Loses Momentum（含零售股表现）", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-midday-nov-24-nvidia-drops-9-as-wall-street-s-historic-ai-rally-loses-momentum/"},
+            {"title": "Kiplinger：Dow Brushes Off Tech Rout, Tariff Worries to Add 423 Points", "url": "https://kiplinger.com/investing/stocks/dow-brushes-off-tech-rout-tariff-worries-stock-market-today"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["MCD", "KO", "PG", "SBUX"]
+    },
+    {
+      "key": "financials",
+      "events": [],
+      "institutions": [],
+      "quiet": ["JPM", "BAC", "GS", "MS", "WFC", "C", "BRK-B", "BLK", "V", "MA", "SCHW", "COIN"]
+    },
+    {
+      "key": "autonomy",
+      "overview": "BOTZ +0.20%：SYM +6.92%；TER −8.69%、WRD −7.51%（跟随芯片股回落）；TSLA −0.20%。Waymo 称召回是因为又发现 11 起车辆驶入封闭高速车道的事件。UBS 在更新的模型中把特斯拉 Robotaxi 业务估值定为 800 亿美元。",
+      "events": [
+        {
+          "title": "Uber 与 Nuro 开始在湾区对 Lucid Gravity Robotaxi 进行无安全员测试，为 2027 年上线做准备",
+          "tickers": ["UBER", "TSLA", "GOOGL"],
+          "importance": 2,
+          "view": "利好",
+          "facts": "据 TechCrunch、Electrek 等 11 月 24 日报道，Nuro 已撤下 Lucid Gravity Robotaxi 上的安全员，与 Uber 在旧金山湾区开始全无人驾驶测试，为 2027 年商业上线做准备（此前公开报道曾预计 2026 年底在 Uber App 上线）。加州 DMV 已于 2026 年 5 月修改 Nuro 的无人驾驶测试许可，允许在圣克拉拉县和圣马特奥县以最高 45 英里/小时的速度、全天候测试（历史对比）。Uber 计划到 2027 年底投入约 100 亿美元，在全球 20 个城市部署约 2,000 辆 Robotaxi（见 11 月 9 日报告）。UBER 收涨 0.98%。",
+          "impact_path": "Uber 自有品牌的 Robotaxi（Lucid 车辆 + Nuro 软件）进入无人测试阶段 → 降低对 Waymo 的依赖（Waymo 已宣布 2028 年起在奥斯汀、亚特兰大结束 Uber 独家）→ Uber 作为“聚合平台”的叙事得到支撑；对 Waymo 和特斯拉而言，湾区的竞争者增加。",
+          "magnitude": "测试阶段不产生收入，对 Uber 2026–2027 年财务影响有限；上线时间从 2026 年底推迟到 2027 年，说明进度慢于原计划。属于长期战略进展。",
+          "priced_in": "UBER 当日仅 +1%，市场基本未定价；Uber 股价近期主要受“被自动驾驶颠覆”的担忧压制，若无人测试顺利推进，有助于修复这一叙事。",
+          "guidance": "若 2027 年上半年 Uber 与 Nuro 获得加州收费运营许可并在 App 上线，可视为 Uber 自动驾驶战略的重要验证；若测试中出现安全事故或监管叫停（参考 Waymo 近期遭遇），需重新评估其时间表。对比 Waymo 的监管挫折，Uber 采取多合作伙伴策略的分散风险价值上升。",
+          "watch": "加州 DMV / CPUC 对 Nuro 收费运营的审批；Uber 其他自动驾驶合作伙伴进展；Waymo 恢复高速运营的时间。",
+          "sources": [
+            {"title": "TechCrunch：Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch", "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYkp3ZVlNSUNTaGdxQi1BeWxvT3lNZnQ2eUJPOHJ0RURzR0k0RXdqTGFoMjBwZGw0aHBVSzZOVUxJRGNkOERUTGxzUVByWW5ocDVCUFg1V2t6WFpxeHo0SlNZT3B0QW5rbUNHUHdHNFFwOGR5WEZtU090bFZjNEVnY1pnWWY2cThEVk01SFBJTDRLTnVJS1hkbVFPZm4xMzdjelVDaHlnRzhaeUgybWhVRnJoMA?oc=5"},
+            {"title": "Electrek：Nuro pulls safety drivers from Lucid Gravity Uber robotaxis in Bay Area", "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbGtPYXpOaFUyNGtLWHZ1aF9ORFR6ZFhjeDNRSHhVQ2JQUmF3aHpQZUpKM2RjaDRtU1VUVEdTLW1XZDNRbFJfUWRzV0c2VmJHY0xzcVlfaE5rR3FkNXU2aHZMSGp4b2xQYXZudHFpVzZ5b2MwUktaNnJMZ3BOMV9hQVV3cUZ6bVVfVjdHV3ZheTdLaWhPenQ0?oc=5"},
+            {"title": "TechCrunch：Nuro receives driverless testing permit（2026 年 5 月，历史对比）", "url": "https://techcrunch.com/2026/05/05/nuro-receives-driverless-testing-permit-ahead-of-uber-robotaxi-service-launch/"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["NVDA", "MBLY", "AUR", "PONY", "WRD", "TER", "SYM"]
+    }
+  ],
+  "risks": [
+    "关税：对 16 个贸易伙伴的新关税即将公布，若税率高于预期，将推高通胀并收紧联储政策空间；特朗普暗示芯片关税可能升至 200%",
+    "NVDA：SEC 会计调查未解决，国会质询将与 GTC 同日，前日反弹已部分回吐",
+    "联储：JPMorgan 预计连续三次加息，若 10 月 PCE 偏强，市场可能上调加息路径",
+    "Anthropic 跌破发行价，AI 应用层估值面临重估，持股方 AMZN、GOOGL 受影响",
+    "零售：消费者信心改善已部分计入，若假日季销售不及预期，零售股存在回落风险"
+  ],
+  "opportunities": [
+    "Dell 的 AI 服务器积压订单（1,323 亿美元）验证了 AI 基础设施需求，若英伟达治理与调查风险缓解，NVDA、TSM 回调可能提供分批布局机会",
+    "零售份额赢家（WMT、TGT、TJX）在消费者信心回升与油价下降中受益，假日季数据是验证点",
+    "国防主承包商（LMT、NOC）在 Mizuho 等机构看好、预算底部逐步明确的背景下具备防御价值"
+  ],
+  "calendar": [
+    {"date": "2026-11-25", "event": "10 月 PCE、Q3 GDP 第二次估计", "tickers": ["TLT", "SPY", "QQQ"]},
+    {"date": "2026-11-26", "event": "感恩节休市（11 月 27 日黑色星期五，美股半日交易）", "tickers": ["WMT", "TGT", "AMZN", "COST"]},
+    {"date": "2026-12-03", "event": "特斯拉年度股东大会", "tickers": ["TSLA"]},
+    {"date": "2026-12-09", "event": "美联储议息会议（12 月 8–9 日，含点阵图）；博通 FY26 Q4 财报", "tickers": ["TLT", "QQQ", "IWM", "AVGO"]},
+    {"date": "2026-12-10", "event": "参议院银行委员会听证：Lutnick 就英伟达对华芯片销售作证", "tickers": ["NVDA", "AMD"]}
+  ],
+  "self_check": [
+    {"item": "是否逐一核查覆盖清单中每只股票？", "ok": true, "note": "60 只股票均已对照当日涨跌和新闻线索核查。"},
+    {"item": "是否覆盖当日市值较大或波动显著的公司？", "ok": true, "note": "覆盖 NVDA、AMD 及芯片板块、零售股、LMT、UBER；RKLB（−7.4%）、TER（−8.7%）、WRD（−7.5%）、COIN（−5.9%）、GS（−2.1%）未找到公司层面新信息，判断为跟随高 beta 资产回落。"},
+    {"item": "机构观点是否引用权威来源？", "ok": true, "note": "Mizuho 对 LMT 为首次覆盖并列为首选，Motley Fool 标题称“升级”，已按实际性质描述。"},
+    {"item": "是否严格限定在报告时间窗口内？", "ok": true, "note": "特朗普的芯片关税预测来自 11 月 23 日 CNBC 采访（可能早于窗口起点），仅作背景；Nuro 许可与 1 月芯片关税标注为历史对比。"},
+    {"item": "是否把事实与分析判断清楚分开？", "ok": true, "note": "关税税率上限未获权威来源证实，已注明；Anthropic 跌破发行价来自 CNBC 标题，收盘价未核实。"}
+  ]
+}
