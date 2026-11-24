@@ -30,9 +30,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -84,6 +81,16 @@ jobs:
         with:
           path: public
 
+  # Deploy in its own job (the standard Pages layout): deploying from the same
+  # job right after the upload sometimes fails with "No artifacts named
+  # github-pages were found".
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
