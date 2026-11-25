@@ -1,0 +1,327 @@
+{
+  "date": "2026-11-25",
+  "window": "2026-11-24 16:00 ET 收盘后 → 2026-11-25 收盘及盘后（11 月 26 日感恩节休市）",
+  "headline": "PCE 升至 3.8%、Q3 GDP 上修至 4.3%；USTR 提议对 14 个经济体加征 15%–35% 关税；纳指盘中一度跌 4.6%",
+  "summary": "感恩节前最后一个完整交易日剧烈波动：纳指盘中一度跌 4.6%、标普跌 3.2%、道指跌超 1,100 点，随后大幅收复，收盘标普 −0.25%、纳指 −0.62%、道指 +0.33%，VIX 28.3。三重压力叠加：一是 10 月 PCE 同比升至 3.8%、核心 3.3%（高于预期 3.2%），Q3 GDP 上修至 4.3%，经济过热与通胀黏性强化 12 月加息；二是 USTR 正式提议依据第 301 条对 14 个经济体加征关税，越南最高 35%、印度 25%、中国 20%、欧日韩台 15%，1 月 25 日听证、最早 2 月实施；三是 AI 资产继续承压，英伟达 −3.9% 至 $149.30，标普将其信用评级列入负面观察并警告董事会可能“受到干扰”，Anthropic 仍在发行价附近徘徊。长债获得避险买盘，10 年期收益率降至 4.85%。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY −0.29%、QQQ −0.65%、IWM +0.65%，VIX +7.3% 至 28.3；TLT +0.92%（10 年期 4.85%）、GLD +0.61%、UUP −0.10%；WTI +2.6% 至 84.2 美元。",
+      "events": [
+        {
+          "title": "10 月 PCE 同比 3.8%、核心 3.3% 高于预期，Q3 GDP 上修至 4.3%；褐皮书显示通胀黏性，12 月加息几成定局",
+          "tickers": [
+            "SPY",
+            "QQQ",
+            "IWM",
+            "TLT",
+            "GLD"
+          ],
+          "importance": 4,
+          "view": "利空",
+          "facts": "BEA：10 月 PCE 价格指数同比 +3.8%（符合预期，9 月为 3.6%）；核心 PCE 环比 +0.3%、同比 +3.3%（预期 3.2%）。Q3 GDP 第二次估计上修至年化 4.3%（首次估计 3.4%，预期约 3.5%）。10 月个人收入 +0.7%（预期 +0.4%），个人支出 +0.3%（预期 +0.4%）。美联储褐皮书显示近几周经济持续增长、通胀黏性；Reuters 报道联储官员对高通胀成因存在分歧。市场普遍认为 12 月加息 25bp 已基本确定。尽管通胀偏强，10 年期美债收益率降至约 4.85%，CNBC 称投资者买入债券寻求保护。股市盘中暴跌后收复：纳指盘中最低 −4.6%、标普 −3.2%、道指一度 −1,100 点，收盘标普 −0.25%、纳指 −0.62%、道指 +0.33% 至 50,182.95。卖方观点：JPMorgan 预计 2027 年标普 500 升至 8,200 点；JPMorgan 预计 2027 年 AI 相关债务发行将达 4,500 亿美元后进入平台期。",
+          "impact_path": "经济增长强劲（GDP 4.3%）+ 通胀未回落（核心 3.3%）→ 联储缺乏放缓加息的理由，2027 年仍可能继续加息 → 实际利率维持高位，压制高估值成长股；但支出增速低于收入增速，叠加 AI 资产波动，市场开始担心“紧缩过度”导致增长后续放缓，因此长债反而受到避险买盘支持（收益率曲线趋平）。",
+          "magnitude": "结构性：核心 PCE 3.3% 远高于 2% 目标，意味着联储在 2027 年上半年大概率继续紧缩（JPMorgan 预期连续三次加息）。对股票的影响主要通过估值倍数；GDP 强劲对盈利有支撑，形成“盈利好、估值差”的拉锯。",
+          "priced_in": "12 月加息已完全定价；盘中暴跌后的强劲收复说明有大量资金在低位承接，但 VIX 仍在 28 以上，市场情绪脆弱。长端收益率下行表明债市更担心增长而非通胀，与股市（关注通胀与估值）存在分歧。",
+          "guidance": "若 12 月 FOMC 点阵图显示 2027 年还需加息两次以上，且核心 PCE 在 11 月继续高于 3%，应维持对高估值成长股的谨慎，偏好现金流稳定的价值与防御板块；若联储释放“观察累积效应、放慢节奏”的信号，长端利率下行将利好 TLT 与优质成长股。感恩节后的短周交易量偏低，波动可能放大。",
+          "watch": "11 月 27 日黑色星期五（半日交易）；12 月 4 日左右 11 月非农就业；12 月 8–9 日 FOMC 与点阵图；12 月中旬 11 月 CPI。",
+          "sources": [
+            {
+              "title": "Benzinga：PCE Inflation Hits 3.8% as Expected, 3Q GDP Growth Revised Up to 4.3%",
+              "url": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate"
+            },
+            {
+              "title": "CNBC：10-year Treasury yield slides despite sticky inflation data",
+              "url": "https://www.cnbc.com/2026/11/25/treasury-yields-bonds-inflation.html"
+            },
+            {
+              "title": "Reuters：Fed survey shows continued economic growth, sticky inflation",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZm5vWXNOWWIxaUVxUEVsRDBCWmpwYmd6eWJMLW1tcnJMVmxvR08ybXFaYWlFcVZ2YU1fYk9hbWotWlBXTzVValBHSFFzNjM1QlpyVWNCXzFPTFRZMUtWeHp0SThmaWxRMTVYVXp3UlM2R3pKQnVNS2hiZ1VERU9EVnFGNlA5dGZEa1NtZ1o5REVxM3ZzX2ZpOXRaN0lydzlDZk1VQ2FlS212U3dw?oc=5"
+            },
+            {
+              "title": "CNBC：Dow closes higher Wednesday, wiping out 1,100-point loss in stunning rebound",
+              "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+            }
+          ]
+        },
+        {
+          "title": "USTR 正式提议对 14 个经济体加征第 301 条“产能过剩”关税：越南最高 35%、印度 25%、中国 20%、欧日韩台 15%",
+          "tickers": [
+            "SPY",
+            "UUP",
+            "NKE",
+            "AAPL",
+            "WMT",
+            "TGT"
+          ],
+          "importance": 4,
+          "view": "利空",
+          "facts": "美国贸易代表办公室 11 月 25 日公布对 14 个经济体“结构性产能过剩”的第 301 条调查结论，并提议加征关税（尚未最终确定）：越南最高 35%（若达成对等贸易协定为 20%）；印度最高 25%（达成协议为 17%，不与 10% 强迫劳动关税叠加）；中国 20%（叠加在第一任期第 301 条关税之上，但不叠加 12.5% 强迫劳动关税）；欧盟、日本、韩国、瑞士、台湾一般为最高 15%（扣除最惠国及已有关税，协商不满意可升至 20%–25%）；孟加拉、柬埔寨、印尼、马来西亚、泰国最高约 18%；新加坡税率各来源不一（10% 或 20%）。墨西哥和挪威尚未作出认定。据 Reuters 援引官员，新关税将遵守与欧日韩台 15%、马来西亚 19% 的协议上限。公众听证会定于 2027 年 1 月 25 日，最早可能 2 月实施。新关税将部分替代今年 2 月被最高法院推翻的全球关税。IBD 报道沃尔玛股价因关税消息波动。",
+          "impact_path": "（1）进口依赖型消费品公司：越南是耐克鞋类的最大生产基地，35% 的关税（或协议后 20%）将直接推高成本，若无法转嫁则侵蚀毛利率；沃尔玛、塔吉特的进口商品成本上升；（2）苹果：印度和中国是 iPhone 主要组装地，25% 和 20% 的关税将提高成本或迫使加快在其他地区布局；（3）宏观：进口价格上升推高通胀，进一步限制联储的政策空间；美元可能受到贸易摩擦影响。",
+          "magnitude": "对耐克影响最大：若越南最终税率为 20%–35%，且无法完全提价转嫁，FY2028 毛利率可能受到数百个基点的冲击（推算，取决于豁免与转嫁比例）。对苹果、沃尔玛影响取决于豁免清单与供应链调整速度。整体看，这是比被推翻的全球关税更有针对性、法律基础更稳固的关税体系，属于结构性成本上升。",
+          "priced_in": "市场盘中一度剧烈下跌，部分源于关税消息，但随后收复，说明投资者认为这是“提议”而非最终方案，且对盟友维持 15% 上限降低了冲击。耐克当日 +2.6%，市场尚未对越南高税率充分定价。",
+          "guidance": "若 1 月听证后越南、印度达成协议使税率降至 17%–20%，冲击可控；若最终按最高税率实施，需下调耐克 FY2028–2029 毛利率假设（其恢复增长计划本就推迟至 FY2029），并关注苹果的供应链转移成本。沃尔玛、塔吉特的进口占比较高，但具备较强的议价与提价能力。贸易伙伴报复措施是另一风险点。",
+          "watch": "2027 年 1 月 25 日 USTR 听证会；越南、印度等国的协商进展；豁免商品清单；最终税率与实施日期（最早 2 月）；各国反制措施。",
+          "sources": [
+            {
+              "title": "Baker McKenzie：USTR Proposes Section 301 Tariffs on 14 Economies Over \"Structural Excess Capacity\"",
+              "url": "https://globalimportblog.bakermckenzie.com/2026/11/25/us-ustr-proposes-section-301-tariffs-on-14-economies-over-structural-excess-capacity/"
+            },
+            {
+              "title": "International Trade Insights：USTR Announces Proposed Section 301 Excess Capacity Tariffs on Fourteen Economies",
+              "url": "https://www.internationaltradeinsights.com/2026/11/ustr-announces-proposed-section-301-excess-capacity-tariffs-on-fourteen-economies/"
+            },
+            {
+              "title": "Feedstuffs：USTR proposes new Section 301 tariffs on 14 countries",
+              "url": "https://www.feedstuffs.com/policy/ustr-proposes-new-section-301-tariffs-on-14-countries"
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": [
+        "UUP"
+      ]
+    },
+    {
+      "key": "tech",
+      "overview": "XLK −0.83%、SMH −1.01%（盘中跌幅更大）：ORCL −5.13%、NVDA −3.91%、AMZN −3.12%、GOOGL −2.13%、TSM −1.96%、AMD −1.75%、MSFT −1.25%；META +3.40%、AAPL +0.43%。CNBC 报道 Anthropic 仍难以回到发行价上方，市值在约 1 万亿美元附近徘徊。",
+      "events": [
+        {
+          "title": "标普将英伟达信用评级列入负面观察，警告董事会可能“受到干扰”；英伟达跌 3.9% 至 $149.30，自复任反弹以来回吐过半",
+          "tickers": [
+            "NVDA",
+            "ORCL",
+            "AMZN"
+          ],
+          "importance": 4,
+          "view": "利空",
+          "facts": "据 Reuters，标普全球评级将英伟达信用评级列入“负面观察”（CreditWatch Negative），理由是管理与治理风险，警告其董事会可能已“受到干扰”（compromised），并提及与 CEO 相关的报道和潜在出口管制违规问题。CNBC 报道英伟达股东诉讼增多，并分析董事会的责任保护；CNBC 援引消息人士称，在美国限制中国获取 AI 芯片算力后，部分英伟达芯片的持有者（经由海外数据中心）正在寻找新买家。Reuters 报道黄仁勋复任加剧了华盛顿围绕中国芯片获取的争论；Bloomberg 报道特朗普将出席台积电亚利桑那新厂奠基仪式。NVDA 收跌 3.91% 至 $149.30（盘中一度跌约 8%），较 11 月 23 日复任当天的 $165.05 下跌约 9.5%。ORCL −5.13%、AMZN −3.12%。CNBC 报道 AI 债务担忧加剧，大型科技公司资本开支压力被英伟达的反弹掩盖。",
+          "impact_path": "（1）信用评级：评级下调风险会提高英伟达未来融资成本（但其现金充裕，直接影响有限），更重要的是评级机构正式把“治理风险”量化为风险因子，可能影响机构投资者的持仓纪律；（2）市场层面：复任后的“关键人风险解除”逻辑被治理质疑抵消，董事会在政府影响下反转决定，被视为独立性受损；（3）需求层面：东南亚远程算力管制导致的二手转售，可能压低部分 GPU 的租赁价格，对新型云厂商（甲骨文、CoreWeave）的回报率构成压力。",
+          "magnitude": "评级本身对英伟达的财务影响很小；影响主要体现在估值与持仓：若评级被下调、或代理顾问建议股东反对部分董事连任，可能触发 ESG 与治理敏感型资金的被动卖出。转售 GPU 的规模未知，可能对 GPU 租赁价格产生边际压力。",
+          "priced_in": "股价已回吐复任当日涨幅的一半以上，市场对治理风险的定价在增加，但 SEC 会计调查的结果尚未明朗，下行风险仍在。",
+          "guidance": "在 SEC 调查、评级观察和诉讼仍未明朗的情况下，英伟达的短期走势更多由治理与监管新闻驱动，而不是基本面；若后续 10-Q 按时提交、评级维持、SEC 调查范围有限，基本面（Q4 指引 1,300 亿美元）将重新主导估值；若评级下调或董事会出现进一步变动，需准备承受新一轮折价。甲骨文等 AI 云厂商对 GPU 租赁价格较为敏感，需关注二手 GPU 供应对行业定价的影响。",
+          "watch": "标普评级最终决定；英伟达 10-Q 与 SEC 调查披露；股东诉讼进展；12 月 10 日参议院听证；甲骨文 12 月中旬财报中的 RPO 与资本开支。",
+          "sources": [
+            {
+              "title": "Reuters：S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch",
+              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb1ZBby1iVDJnTmJwX3hDYWJpU2lxTUdLTHdlWHFqRHJUcmtTOWFuQkFRTlUyZTJBcGdNMWR3N3d1YlJIV05kWk1mU21JSDZmSVpZR1BlanpqRzFXSkg3NkxkeElWcHM0Q2Y4eFJKb3Fha29XakxYNFJ4cXExZHo4MFVDOHdDbENrQWs0d0lqQ3Z5cEVDRVBQR1hNNWZxSmhiUll4NFg1amZlU01oWm9fN2hkUFBBNkdKT21v?oc=5"
+            },
+            {
+              "title": "CNBC：Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price",
+              "url": "https://cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
+            },
+            {
+              "title": "CNBC：Nvidia sellers seek new buyers as U.S. curbs China AI chip access",
+              "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html"
+            },
+            {
+              "title": "CNN：Tech stocks are volatile as AI fears overshadow Huang's Nvidia return",
+              "url": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": [
+        "MSFT",
+        "AAPL",
+        "GOOGL",
+        "META",
+        "AVGO",
+        "TSM",
+        "AMD"
+      ]
+    },
+    {
+      "key": "defense",
+      "events": [],
+      "institutions": [],
+      "quiet": [
+        "LMT",
+        "RTX",
+        "NOC",
+        "GD",
+        "BA",
+        "LHX",
+        "HII",
+        "LDOS",
+        "PLTR",
+        "AVAV",
+        "KTOS",
+        "RKLB"
+      ]
+    },
+    {
+      "key": "consumer",
+      "events": [],
+      "institutions": [],
+      "quiet": [
+        "WMT",
+        "COST",
+        "HD",
+        "MCD",
+        "KO",
+        "PG",
+        "NKE",
+        "SBUX",
+        "TGT",
+        "TJX"
+      ]
+    },
+    {
+      "key": "financials",
+      "events": [],
+      "institutions": [],
+      "quiet": [
+        "JPM",
+        "BAC",
+        "GS",
+        "MS",
+        "WFC",
+        "C",
+        "BRK-B",
+        "BLK",
+        "V",
+        "MA",
+        "SCHW",
+        "COIN"
+      ]
+    },
+    {
+      "key": "autonomy",
+      "overview": "BOTZ −0.81%：MBLY −4.26%、TSLA −1.18%（盘中一度跌约 6%）；UBER +2.55%。Lucid 与 Nuro 在湾区推进无安全员测试。",
+      "events": [
+        {
+          "title": "欧盟再度推迟特斯拉 FSD 审批讨论，投票会议改至 12 月 15 日；特斯拉盘中一度跌 6%",
+          "tickers": [
+            "TSLA"
+          ],
+          "importance": 3,
+          "view": "利空",
+          "facts": "据 Electrek 等报道，欧盟再次推迟就批准特斯拉“全自动驾驶”（监督版）召开的投票会议，新的会议日期为 12 月 15 日。此前意大利已于 11 月 20 日给予临时批准，成为第 12 个批准的欧洲国家；德国、法国、西班牙等仍需等待欧盟层面的决定。Yahoo Finance 报道特斯拉盘中一度跌约 6%，Rivian、Lucid 同步下跌；TSLA 收跌 1.18% 至 $380.14。同期特斯拉正在美国推送 FSD v15（12 月扩大推送）。",
+          "impact_path": "欧盟统一批准是 FSD 在德、法、西等大市场落地的前提 → 推迟意味着欧洲 FSD 订阅收入与 Robotaxi 布局的时间表后移 → 削弱近期“FSD 欧洲放量”的叙事；在 AI 板块与高 beta 资产波动的环境中，监管延迟被放大为股价压力。",
+          "magnitude": "推迟约三周，对 2026 年财务影响可忽略；若 12 月 15 日仍未通过或附加严格条件，欧洲 FSD 收入可能推迟至 2027 年下半年。属于时间表风险，而非方向性否定。",
+          "priced_in": "盘中 −6% 收窄至 −1.2%，说明市场认为推迟属于程序性，但对特斯拉的高估值而言，任何监管延迟都会引发明显波动。",
+          "guidance": "若 12 月 15 日欧盟批准 FSD 监督版，叠加 v15 推送，可能成为特斯拉年末的催化剂；若再度推迟或附加限制（如速度、道路类型），需下调欧洲 FSD 收入的时间假设。12 月 3 日股东大会与 SpaceX 合并谈判仍是更大的变量。",
+          "watch": "12 月 3 日特斯拉年度股东大会；12 月 15 日欧盟 FSD 投票；FSD v15 大范围推送；SpaceX–特斯拉合并进展。",
+          "sources": [
+            {
+              "title": "Electrek：EU pushes back Tesla 'Full Self-Driving' vote meeting again, now set for December 15",
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PaFNVb01SV1gzVUprd3JTMWZlSVVIRXQtVk1ROURnaU1ubTVhWVdMMU5TcUlhQjc3WnNINGhQTUtyTWF0aUw2aFpQdHJPaUVwTWVpWjF5aXR5WlFNbjRFdlQtU2UyUDRneTBZTU1lb3M5ZTVLdmViZFgzXy1PQQ?oc=5"
+            },
+            {
+              "title": "Yahoo Finance：Tesla Slides 6% as EU Delays Vote on Its Self-Driving Software",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdEtvWk04ZmQxQ2xTM0gtc3B0NU94NWxlZEF4QnNaVVIwR3ZLbXZKWTN0RzRNWlByUldFY2U5WWdFSk5MZDZIelNmeXFyb3ZZZkljX0lxZzlaRWhmdzk2S1p1aTVMcmU2azVoMlBIRWtxNWtkRm1mN2dDMG9QMEw0VVR2cWNZTERuVkluUUtMTkIzMUU?oc=5"
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": [
+        "GOOGL",
+        "NVDA",
+        "UBER",
+        "MBLY",
+        "AUR",
+        "PONY",
+        "WRD",
+        "TER",
+        "SYM"
+      ]
+    }
+  ],
+  "risks": [
+    "通胀与利率：核心 PCE 3.3%、GDP 4.3%，联储 2027 年可能继续加息，高估值成长股估值承压",
+    "关税：越南最高 35%、印度 25%、中国 20% 的提议税率若最终实施，NKE、AAPL 等供应链集中的公司成本显著上升，并推高通胀",
+    "NVDA：标普负面观察与股东诉讼增加，SEC 会计调查尚未明朗，治理折价可能持续",
+    "TSLA：欧盟 FSD 审批一再推迟，欧洲放量时间表存在不确定性",
+    "市场情绪：VIX 28 以上、盘中振幅巨大，假期短周低流动性可能放大波动"
+  ],
+  "opportunities": [
+    "盘中暴跌后强劲收复说明低位有大量承接资金，若 12 月 FOMC 释放放缓信号，优质成长股可能修复",
+    "长债在通胀偏高的环境下仍获避险买盘，TLT 对增长放缓的对冲价值上升",
+    "关税提议对盟友维持 15% 上限，若越南、印度达成协议降低税率，相关消费品公司的冲击可控"
+  ],
+  "calendar": [
+    {
+      "date": "2026-11-26",
+      "event": "感恩节休市；11 月 27 日黑色星期五，美股半日交易",
+      "tickers": [
+        "WMT",
+        "TGT",
+        "AMZN",
+        "COST"
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "event": "特斯拉年度股东大会",
+      "tickers": [
+        "TSLA"
+      ]
+    },
+    {
+      "date": "2026-12-09",
+      "event": "美联储议息会议（12 月 8–9 日，含点阵图）；博通 FY26 Q4 财报",
+      "tickers": [
+        "TLT",
+        "QQQ",
+        "IWM",
+        "AVGO"
+      ]
+    },
+    {
+      "date": "2026-12-10",
+      "event": "参议院银行委员会听证：Lutnick 就英伟达对华芯片销售作证",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ]
+    },
+    {
+      "date": "2026-12-15",
+      "event": "欧盟就特斯拉 FSD（监督版）召开投票会议",
+      "tickers": [
+        "TSLA"
+      ]
+    },
+    {
+      "date": "2027-01-25",
+      "event": "USTR 第 301 条产能过剩关税公众听证会",
+      "tickers": [
+        "NKE",
+        "AAPL",
+        "WMT",
+        "TGT"
+      ]
+    }
+  ],
+  "self_check": [
+    {
+      "item": "是否逐一核查覆盖清单中每只股票？",
+      "ok": true,
+      "note": "60 只股票均已对照当日涨跌和新闻线索核查。"
+    },
+    {
+      "item": "是否覆盖当日市值较大或波动显著的公司？",
+      "ok": true,
+      "note": "覆盖 NVDA、ORCL、TSLA 及受关税影响的消费与科技公司；META（+3.4%）、TGT（−2.2%）、MBLY（−4.3%）未找到公司层面新信息；国防股普涨，波音获 28 亿美元 KC-46 订单（原合同最后一批），未单列。"
+    },
+    {
+      "item": "机构观点是否引用权威来源？",
+      "ok": true,
+      "note": "当日未收录覆盖个股的评级变动；标普信用评级观察来自 Reuters 报道标题，未直接查看评级报告。"
+    },
+    {
+      "item": "是否严格限定在报告时间窗口内？",
+      "ok": true,
+      "note": "意大利 FSD 批准、1 月芯片关税等为历史对比。"
+    },
+    {
+      "item": "是否把事实与分析判断清楚分开？",
+      "ok": true,
+      "note": "关税对耐克毛利率的影响为推算；新加坡税率各来源不一，已注明。"
+    }
+  ]
+}
