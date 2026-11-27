@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-27",
+  "window": "2026-11-25 16:00 ET 收盘后（含 11 月 26 日感恩节休市）→ 2026-11-27 半日交易收盘",
+  "headline": "黑色星期五半日交易普涨，纳指涨 2.3%；本周纳指 +6.7%、标普 +5.6%，结束三周下跌",
+  "summary": "感恩节后的半日交易中美股全线上涨：标普 +1.60% 至 7,297.49，纳指 +2.31% 至 24,129.50，道指 +1.18% 至 50,774.94，VIX 降至 23.8；芯片股领涨（SMH +4.2%，AMD +4.6%，博通 +3.8%，台积电 +3.2%），英伟达仅 +0.8%。按收盘价计算，本周纳指 +6.7%、标普 +5.6%、道指 +5.5%，从 11 月 20 日的调整低点明显反弹；Bloomberg 报道 Anthropic 首个完整交易周收于发行价上方。消费端，Adobe 数据显示 11 月 1–22 日美国线上消费同比 +9.1%，预计黑五线上销售约 129 亿美元（+9.2%）。公司层面新增信息有限：OpenAI 反诉苹果窃取商业机密；海军向 RTX 和诺斯罗普授予合计约 36.6 亿美元合同；CNBC 报道英伟达要求 GPU 买家排除中国租户。下周重点是 11 月非农和 12 月 8–9 日 FOMC 前的最后数据。",
+  "sectors": [
+    {
+      "key": "macro",
+      "overview": "SPY +1.62%、QQQ +2.69%、IWM +1.83%，VIX −11.2% 至 23.8；TLT −1.18%（10 年期升至 4.94%）、GLD +2.12%（黄金 +3.75%）、UUP +0.41%；比特币约 5.98 万美元。",
+      "events": [
+        {
+          "title": "感恩节周美股大幅反弹：纳指周涨 6.7%、标普 5.6%，VIX 从 35.9 降至 23.8；但联储 12 月加息与核心 PCE 3.3% 的背景未变",
+          "tickers": ["SPY", "QQQ", "IWM", "TLT", "GLD"],
+          "importance": 3,
+          "view": "分歧",
+          "facts": "11 月 27 日半日交易（股市 13:00 ET 收盘、债市 14:00 收盘）：标普 +1.60% 至 7,297.49，纳指 +2.31% 至 24,129.50，道指 +591.99 点（+1.18%）至 50,774.94；四大指数全线上涨，芯片股领涨。按本周收盘计算：纳指 +6.68%、标普 +5.60%、道指 +5.46%。本周经历了黄仁勋复任（11 月 23 日英伟达 +31.5%）、PCE 3.8%/核心 3.3%、Q3 GDP 上修至 4.3%、USTR 提议新关税、纳斯达克 100 盘中一度触及熊市区间（较 10 月高点回落约 20%，11 月 25 日）后又收复。10 年期美债收益率回升至约 4.94%，黄金上涨约 3.75%。卖方观点：MarketWatch 援引 JPMorgan 称 AI 股票的崩跌大体结束，但更糟糕的阶段可能还在后面；Oxford Economics 指出三重供给冲击推高美国通胀。欧洲央行 Nagel 称 12 月需要再次加息，日本央行也有加息呼声。",
+          "impact_path": "风险偏好修复（VIX 回落、空头回补）→ 前期超跌的芯片与高 beta 资产反弹；但宏观背景（核心通胀 3.3%、GDP 强劲、联储 12 月加息、全球主要央行同步收紧、新关税提议）没有改变，估值修复的空间受限于利率水平。",
+          "magnitude": "一周反弹收复了 11 月中旬以来大部分跌幅，标普较 11 月 20 日低点回升约 5.6%，但仍低于 10 月高点约 6%–7%。假期周成交清淡，涨幅的可持续性需要正常交易周验证。",
+          "priced_in": "VIX 仍在 23 以上，说明市场并未完全回到平静；10 年期收益率与黄金同步上升，反映通胀预期仍在。若下周数据（非农、ISM）偏强，联储鹰派预期可能再度压制反弹。",
+          "guidance": "若下周非农和 ISM 数据显示经济仍强劲、工资增速偏高，联储 12 月加息后可能维持鹰派指引，本周的反弹存在回吐风险；若就业明显放缓，市场可能开始交易“加息周期接近尾声”，成长股的修复有望延续。仓位上，可利用反弹调整过度集中的 AI 持仓，而非追涨。",
+          "watch": "12 月 1 日 11 月 ISM 制造业；12 月 4 日 11 月非农就业；12 月 8–9 日 FOMC 与点阵图；12 月 9 日博通财报；12 月 10 日参议院听证。",
+          "sources": [
+            {"title": "Kiplinger：Dow Adds 592 Points on Black Friday as AI Fear Fades", "url": "https://www.kiplinger.com/investing/stocks/dow-adds-592-points-on-black-friday-as-ai-fear-fades-stock-market-today"},
+            {"title": "Yahoo Finance：Dow, S&P 500, Nasdaq end holiday week with gains as AI stocks rebound", "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html"},
+            {"title": "Saxo：Nasdaq briefly hits bear market territory before paring losses（11 月 26 日）", "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---nasdaq-briefly-hits-bear-market-territory-before-paring-losses---26-november-2026-26112026"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["UUP"]
+    },
+    {
+      "key": "tech",
+      "overview": "XLK +2.80%、SMH +4.17%：AMD +4.56%、AMZN +3.96%、AVGO +3.82%、TSM +3.21%、META +3.13%、ORCL +3.13%；NVDA +0.80%（$150.49）、AAPL +0.83%、GOOGL +0.68%、MSFT +0.60%。CNBC 报道英伟达要求 GPU 买家承诺排除中国租户，以配合商务部的远程算力新规；Bloomberg 报道 Anthropic 首个完整交易周收于 83 美元发行价上方。",
+      "events": [
+        {
+          "title": "OpenAI 在加州联邦法院反诉苹果，指控其窃取商业机密并向供应商施压；苹果 7 月曾起诉 OpenAI 及前员工",
+          "tickers": ["AAPL"],
+          "importance": 2,
+          "view": "中性",
+          "facts": "OpenAI 11 月 27 日在北加州联邦法院提起反诉，指控苹果窃取商业机密、向硬件供应商施压使其疏远 OpenAI，并称苹果的雇佣做法旨在“困住”员工；OpenAI 还指出苹果要求员工将工作文件存放在个人 iCloud 和 iMessage 账户，使工作与个人数据难以区分。背景：苹果于 7 月起诉 OpenAI、io Products 及两名前员工（Tang Tan、Chang Liu），指控其挪用商业机密；苹果已申请初步禁令并获得扩大证据开示。双方均要求陪审团审理。苹果尚未公开回应反诉。BeInCrypto 称华尔街对此反应平淡，AAPL 当日 +0.83%。",
+          "impact_path": "诉讼主要围绕 OpenAI 的硬件业务（io Products，由前苹果设计团队参与）与人才流动；若 OpenAI 的指控（向供应商施压）成立，可能引发反垄断层面的关注，但更现实的影响是双方在 AI 设备领域的竞争公开化。对苹果而言，短期财务影响可忽略；中期风险在于 OpenAI 若推出自有 AI 设备，可能与 iPhone 形成竞争，并影响苹果与 OpenAI 在 Siri/Apple Intelligence 上的合作。",
+          "magnitude": "诉讼周期通常以年计，短期对收入和利润没有可测量影响；属于竞争格局层面的信号，而非估值层面的冲击。",
+          "priced_in": "AAPL 当日小涨，市场基本未定价，符合诉讼早期阶段的惯例。苹果近期作为“低 AI 风险避风港”受到资金青睐（11 月中旬创历史新高），这一定位不因诉讼改变。",
+          "guidance": "若诉讼进入证据开示后出现苹果对供应商施压的具体证据，或监管机构介入，需关注其对苹果供应链关系与反垄断风险的影响；若苹果的初步禁令获批，OpenAI 的硬件计划可能受阻，对苹果是相对利好。对普通投资者，这不是调整苹果仓位的理由，更值得关注的是 iPhone 换机周期和关税（印度 25%、中国 20% 的提议税率）。",
+          "watch": "苹果初步禁令裁决；OpenAI 硬件产品发布时间；苹果对反诉的回应；USTR 关税对 iPhone 供应链的影响。",
+          "sources": [
+            {"title": "Yahoo Finance/CNN：OpenAI countersues Apple in ongoing trade secrets fight", "url": "https://finance.yahoo.com/technology/ai/articles/openai-countersues-apple-ongoing-trade-195831333.html"},
+            {"title": "9to5Mac：OpenAI countersues Apple, alleging trade secret theft and supplier threats", "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/"},
+            {"title": "Engadget：OpenAI countersues Apple and accuses it of stealing trade secrets", "url": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["NVDA", "MSFT", "GOOGL", "AMZN", "META", "AVGO", "TSM", "AMD", "ORCL"]
+    },
+    {
+      "key": "defense",
+      "overview": "ITA +2.31%：RKLB +8.21%、PLTR +5.24%、KTOS +4.97%、AVAV +4.83%，主承包商涨约 1%–1.7%。",
+      "events": [
+        {
+          "title": "海军向 RTX 旗下普惠授予 25.3 亿美元 F135 发动机保障合同，向诺斯罗普授予 11.3 亿美元 E-130J 测试机合同修改",
+          "tickers": ["RTX", "NOC"],
+          "importance": 2,
+          "view": "利好",
+          "facts": "据五角大楼 11 月 25 日合同公告及相关报道：海军授予 RTX 旗下普惠约 25.3 亿美元合同，为 F-35 的 F135 发动机提供保障服务至 2027 年 11 月，工作地点包括康涅狄格州东哈特福德、俄克拉荷马城和挪威 Brekstad，首期拨款约 4.37 亿美元（约占合同总额 17%）。诺斯罗普获得约 11.3 亿美元合同修改，建造并交付三架 E-130J 系统演示测试机，用于替代向潜艇传达核发射指令的波音 E-6B“水星”机队（诺斯罗普于 2024 年 12 月获得 34.6 亿美元的 E-130J 集成合同，历史对比）。RTX 本周累计上涨，NOC 当日 +1.02%、RTX +1.17%。",
+          "impact_path": "F135 保障属于长期经常性售后收入，利润率高于新机生产，增强普惠军用发动机业务的收入可见度；E-130J 是核指挥通信（NC3）现代化的关键项目，属于优先级高、受预算削减影响较小的战略项目，对诺斯罗普的长期订单与技术地位有正面意义。",
+          "magnitude": "25.3 亿美元约占 RTX 年收入的 3%，且为续约性质；11.3 亿美元约占诺斯罗普年收入的 3%。均属于常规但规模较大的合同，确认既有业务的延续，而非新的增长点。",
+          "priced_in": "合同金额相对两家公司的积压订单（RTX 超 2,000 亿美元、诺斯罗普约 1,096 亿美元）不大，股价反应温和，基本合理。",
+          "guidance": "这类合同体现了在国防预算存在不确定性（3,500 亿美元和解资金落空、民主党 1 月接管国会）时，核威慑与现役机队保障仍是优先保障的领域；对 NOC、RTX 而言，可视为防御性订单的支撑。若国会在持续决议到期前通过全年拨款，主承包商的订单节奏将更清晰。",
+          "watch": "持续决议到期与 FY27 全年拨款；NDAA 最终文本；12 月初五角大楼合同公告；RTX、NOC 2027 年 1 月下旬财报与指引。",
+          "sources": [
+            {"title": "Motley Fool：RTX Unit Pratt & Whitney Wins $2.5 Billion Navy Contract", "url": "https://www.fool.com/investing/2026/11/27/rtx-unit-pratt-and-whitney-wins-usd2-5-billion-navy-contract/"},
+            {"title": "MLQ：RTX gets $2.53 billion F-35 engine deal, Northrop $1.13 billion for E-130J", "url": "https://mlq.ai/news/rtx-gets-253-billion-f-35-engine-deal-northrop-113-billion-for-e-130j/"},
+            {"title": "Interesting Engineering：US Navy orders three test aircraft to replace nuclear relay jets", "url": "https://interestingengineering.com/military/navy-orders-three-test-aircraft"}
+          ]
+        }
+      ],
+      "institutions": [],
+      "quiet": ["LMT", "GD", "BA", "LHX", "HII", "LDOS", "PLTR", "AVAV", "KTOS", "RKLB"]
+    },
+    {
+      "key": "consumer",
+      "events": [],
+      "institutions": [],
+      "quiet": ["WMT", "COST", "HD", "MCD", "KO", "PG", "NKE", "SBUX", "TGT", "TJX"]
+    },
+    {
+      "key": "financials",
+      "events": [],
+      "institutions": [],
+      "quiet": ["JPM", "BAC", "GS", "MS", "WFC", "C", "BRK-B", "BLK", "V", "MA", "SCHW", "COIN"]
+    },
+    {
+      "key": "autonomy",
+      "events": [],
+      "institutions": [],
+      "quiet": ["TSLA", "GOOGL", "NVDA", "UBER", "MBLY", "AUR", "PONY", "WRD", "TER", "SYM"]
+    }
+  ],
+  "risks": [
+    "反弹可持续性：假期周成交清淡，VIX 仍在 23 以上，若下周非农、ISM 偏强，联储鹰派预期可能压制反弹",
+    "全球同步紧缩：欧洲央行、日本央行同样倾向加息，全球流动性收紧",
+    "NVDA：涨幅明显落后于芯片同业，SEC 调查、评级观察与诉讼仍在压制估值",
+    "关税：USTR 新关税提议将在 1 月听证，供应链集中于越南、印度、中国的公司（NKE、AAPL）面临成本压力"
+  ],
+  "opportunities": [
+    "若 11 月非农显示就业放缓，市场可能交易“加息周期接近尾声”，成长股修复有望延续",
+    "国防主承包商的长期保障与核威慑项目受预算不确定性影响较小，具备防御属性",
+    "线上消费增长约 9%（Adobe），假日季若延续，电商与大众零售（AMZN、WMT）受益"
+  ],
+  "calendar": [
+    {"date": "2026-11-30", "event": "网络星期一", "tickers": ["AMZN", "WMT", "TGT"]},
+    {"date": "2026-12-01", "event": "11 月 ISM 制造业指数", "tickers": ["SPY", "TLT"]},
+    {"date": "2026-12-03", "event": "特斯拉年度股东大会", "tickers": ["TSLA"]},
+    {"date": "2026-12-04", "event": "11 月非农就业报告", "tickers": ["SPY", "TLT", "IWM"]},
+    {"date": "2026-12-09", "event": "美联储议息会议（12 月 8–9 日，含点阵图）；博通 FY26 Q4 财报", "tickers": ["TLT", "QQQ", "IWM", "AVGO"]},
+    {"date": "2026-12-10", "event": "参议院银行委员会听证：Lutnick 就英伟达对华芯片销售作证", "tickers": ["NVDA", "AMD"]},
+    {"date": "2026-12-15", "event": "欧盟就特斯拉 FSD（监督版）召开投票会议", "tickers": ["TSLA"]}
+  ],
+  "self_check": [
+    {"item": "是否逐一核查覆盖清单中每只股票？", "ok": true, "note": "60 只股票均已对照当日涨跌和新闻线索核查。"},
+    {"item": "是否覆盖当日市值较大或波动显著的公司？", "ok": true, "note": "半日交易，覆盖大盘、AAPL、RTX、NOC；RKLB（+8.2%）、AUR（+7.5%）、WRD（+7.3%）、TSLA（+5.2%）、PLTR（+5.2%）未找到公司层面新信息，判断为风险偏好回升带动的高 beta 反弹。"},
+    {"item": "机构观点是否引用权威来源？", "ok": true, "note": "当日未发现覆盖个股的可靠评级变动；JPMorgan 关于 AI 股的观点来自 MarketWatch 标题。"},
+    {"item": "是否严格限定在报告时间窗口内？", "ok": true, "note": "窗口含 11 月 26 日感恩节；海军合同为 11 月 25 日 17:00 ET 五角大楼公告，在窗口内；黑五线上销售最终数据尚未发布，仅引用 Adobe 预测与 11 月 1–22 日数据。"},
+    {"item": "是否把事实与分析判断清楚分开？", "ok": true, "note": "合同金额占收入比例为推算；Adobe 感恩节当日 71 亿美元的数据未在原始发布中核实，未写入。"}
+  ]
+}
